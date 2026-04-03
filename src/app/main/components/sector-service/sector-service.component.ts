@@ -215,9 +215,19 @@ export class SectorServiceComponent implements OnInit, OnDestroy {
 
     if (!this.sector || !this.service) return;
 
-    // Hero image
-    const imgSlug = this.service.slug === 'kaynakli-imalat' ? 'kaynak' : this.service.slug;
-    this.heroImage = `assets/images/services/${imgSlug}-slider.webp`;
+    // Hero image - sektöre özel generated görsel varsa onu, yoksa hizmet slider'ını kullan
+    const sectorImageMap: Record<string, string> = {
+      'insaat': 'assets/images/generated/sektor-insaat.webp',
+      'asansor': 'assets/images/generated/sektor-asansor.webp',
+      'enerji': 'assets/images/generated/sektor-enerji.webp',
+      'gida-makinalari': 'assets/images/generated/sektor-gida.webp'
+    };
+    if (this.sector && sectorImageMap[this.sector.slug]) {
+      this.heroImage = sectorImageMap[this.sector.slug];
+    } else {
+      const imgSlug = this.service.slug === 'kaynakli-imalat' ? 'kaynak' : this.service.slug;
+      this.heroImage = `assets/images/services/${imgSlug}-slider.webp`;
+    }
 
     // Capabilities
     this.capabilities = SERVICE_CAPABILITIES[this.service.slug] || [];
