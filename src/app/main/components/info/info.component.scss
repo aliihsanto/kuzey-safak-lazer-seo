@@ -1,0 +1,492 @@
+// =============================================
+// Info Page Component Styles
+// Design System: Conthrax Sb headings, --thm-base (#dd0329), --thm-black (#1a1a1a)
+// =============================================
+
+.info-page {
+  padding: 80px 0;
+  background: #f9fafb;
+}
+
+// =============================================
+// Category Badge
+// =============================================
+.info-category-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--thm-base);
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  i {
+    font-size: 14px;
+  }
+}
+
+// =============================================
+// Content Area
+// =============================================
+.info-content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
+
+  @media (max-width: 767px) {
+    padding: 24px 20px;
+    border-radius: 8px;
+  }
+
+  &__h1 {
+    font-family: "Conthrax Sb";
+    font-size: 1.85rem;
+    color: var(--thm-black);
+    margin-bottom: 24px;
+    line-height: 1.35;
+    position: relative;
+    padding-bottom: 16px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background: var(--thm-base);
+      border-radius: 2px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 1.4rem;
+    }
+  }
+
+  &__body {
+    p {
+      line-height: 1.85;
+      color: #555;
+      font-size: 15px;
+      margin-bottom: 16px;
+    }
+
+    strong {
+      color: var(--thm-black);
+    }
+
+    h3 {
+      font-family: "Conthrax Sb";
+      font-size: 1.1rem;
+      color: var(--thm-black);
+      margin-top: 28px;
+      margin-bottom: 14px;
+      padding-left: 14px;
+      border-left: 3px solid var(--thm-base);
+      line-height: 1.4;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 16px;
+
+      li {
+        padding: 6px 0;
+        color: #444;
+        font-size: 14px;
+        line-height: 1.7;
+
+        strong {
+          color: var(--thm-black);
+        }
+      }
+    }
+  }
+}
+
+// =============================================
+// Teklif Banner (quote pages)
+// =============================================
+.info-teklif-banner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(135deg, #fff5f5 0%, #fff 100%);
+  border: 1px solid rgba(221, 3, 41, 0.15);
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-bottom: 28px;
+
+  &__icon {
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    background: var(--thm-base);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+      color: #fff;
+      font-size: 24px;
+    }
+  }
+
+  &__text {
+    h3 {
+      font-family: "Conthrax Sb";
+      font-size: 1rem;
+      color: var(--thm-black);
+      margin-bottom: 4px;
+    }
+
+    p {
+      color: #666;
+      font-size: 13px;
+      margin: 0;
+      line-height: 1.5;
+    }
+  }
+
+  @media (max-width: 575px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+// =============================================
+// Teklif CTA Block
+// =============================================
+.info-teklif-cta {
+  margin-top: 36px;
+  padding: 32px;
+  background: var(--thm-black);
+  border-radius: 12px;
+  text-align: center;
+
+  &__title {
+    font-family: "Conthrax Sb";
+    color: #fff;
+    font-size: 1.35rem;
+    margin-bottom: 12px;
+  }
+
+  &__text {
+    color: #aab;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+
+    .thm-btn {
+      min-width: 180px;
+    }
+
+    .thm-btn--whatsapp {
+      background: #25d366;
+      border-color: #25d366;
+
+      &:hover {
+        background: #1ebe5a;
+        border-color: #1ebe5a;
+      }
+    }
+  }
+
+  &__phone {
+    color: #aab;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 0;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--thm-base);
+      }
+    }
+  }
+}
+
+// =============================================
+// FAQ Section
+// =============================================
+.info-faq {
+  margin-top: 44px;
+
+  &__title {
+    font-family: "Conthrax Sb";
+    font-size: 1.3rem;
+    color: var(--thm-black);
+    margin-bottom: 24px;
+    position: relative;
+    padding-bottom: 12px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 40px;
+      height: 3px;
+      background: var(--thm-base);
+      border-radius: 2px;
+    }
+  }
+
+  &__item {
+    margin-bottom: 16px;
+    padding: 22px 24px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid var(--thm-base);
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+      transform: translateY(-1px);
+    }
+  }
+
+  &__question {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--thm-black);
+    line-height: 1.5;
+  }
+
+  &__number {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    background: var(--thm-base);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 1px;
+  }
+
+  &__answer {
+    margin: 0;
+    margin-left: 38px;
+    color: #555;
+    line-height: 1.75;
+    font-size: 14px;
+  }
+}
+
+// =============================================
+// Related Info Pages Grid
+// =============================================
+.info-related {
+  margin-top: 44px;
+
+  &__title {
+    font-family: "Conthrax Sb";
+    font-size: 1.15rem;
+    color: var(--thm-black);
+    margin-bottom: 18px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+    border: 1px solid #e8ecf0;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #fff;
+    height: 100%;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: var(--thm-base);
+      box-shadow: 0 4px 16px rgba(221, 3, 41, 0.1);
+      transform: translateY(-2px);
+    }
+
+    &-category {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--thm-base);
+      background: rgba(221, 3, 41, 0.08);
+      padding: 3px 8px;
+      border-radius: 4px;
+      align-self: flex-start;
+    }
+
+    &-title {
+      font-size: 13px;
+      color: var(--thm-black);
+      line-height: 1.4;
+      font-weight: 600;
+    }
+  }
+}
+
+// =============================================
+// Bottom CTA (for non-teklif pages)
+// =============================================
+.info-bottom-cta {
+  margin-top: 44px;
+  padding: 32px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+  border: 1px solid #e8ecf0;
+  border-radius: 12px;
+  text-align: center;
+
+  h3 {
+    font-family: "Conthrax Sb";
+    font-size: 1.15rem;
+    color: var(--thm-black);
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__phone-link {
+    color: var(--thm-black);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.3s;
+
+    &:hover {
+      color: var(--thm-base);
+    }
+  }
+}
+
+// =============================================
+// Sidebar Overrides
+// =============================================
+.sidebar-cta {
+  background: var(--thm-black);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+  &__title {
+    font-family: "Conthrax Sb";
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+  }
+
+  &__text {
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  &__phone {
+    color: #aaa;
+    margin-top: 15px;
+    font-size: 14px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+
+      &:hover {
+        color: var(--thm-base);
+      }
+    }
+  }
+}
+
+// =============================================
+// Responsive
+// =============================================
+@media (max-width: 991px) {
+  .info-page {
+    padding: 50px 0;
+  }
+
+  .sidebar {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .info-faq {
+    &__answer {
+      margin-left: 0;
+      margin-top: 8px;
+    }
+
+    &__question {
+      flex-wrap: wrap;
+    }
+  }
+
+  .info-teklif-cta {
+    padding: 24px 20px;
+
+    &__actions {
+      flex-direction: column;
+      align-items: stretch;
+
+      .thm-btn {
+        min-width: auto;
+      }
+    }
+  }
+
+  .info-related__card {
+    padding: 12px;
+
+    &-title {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,226 @@
+<!-- Hero Section -->
+<section class="city-hero" *ngIf="city && service">
+  <div class="city-hero__bg" [style.backgroundImage]="'url(' + heroImage + ')'"></div>
+  <div class="city-hero__overlay"></div>
+  <div class="container">
+    <div class="city-hero__inner">
+      <ul class="city-hero__breadcrumb">
+        <li><a routerLink="/">Ana Sayfa</a></li>
+        <li><span>/</span></li>
+        <li><a [routerLink]="'/hizmetler/' + service.slug">{{ serviceName }}</a></li>
+        <li><span>/</span></li>
+        <li class="active">{{ city.name }}</li>
+      </ul>
+      <h1 class="city-hero__title">{{ city.name }}<br>{{ serviceName }} Hizmeti</h1>
+      <p class="city-hero__desc">
+        {{ city.name }} ve çevresindeki sanayi bölgelerine profesyonel
+        {{ serviceName.toLowerCase() }} hizmeti sunuyoruz. İkitelli OSB'den hızlı
+        ve güvenilir teslimat.
+      </p>
+      <div class="city-hero__stats">
+        <div class="city-hero__stat">
+          <span class="city-hero__stat-value">{{ city.distanceKm }} km</span>
+          <span class="city-hero__stat-label">İkitelli'den Mesafe</span>
+        </div>
+        <div class="city-hero__stat">
+          <span class="city-hero__stat-value">{{ city.industrialZones.length }}</span>
+          <span class="city-hero__stat-label">Sanayi Bölgesi</span>
+        </div>
+        <div class="city-hero__stat">
+          <span class="city-hero__stat-value">15+</span>
+          <span class="city-hero__stat-label">Yıllık Deneyim</span>
+        </div>
+      </div>
+      <a routerLink="/contact" class="city-hero__btn">
+        <span>Teklif Al</span>
+        <i class="icon-double-chevron"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<section class="city-content" *ngIf="city && service">
+  <div class="container">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-xl-4 col-lg-5 order-lg-1 order-2">
+        <div class="city-sidebar">
+
+          <!-- Services List -->
+          <div class="city-sidebar__services">
+            <h3 class="city-sidebar__heading">Hizmetlerimiz</h3>
+            <ul class="city-sidebar__list">
+              <li *ngFor="let srv of allServiceLinks"
+                  [class.active]="srv.link === '/hizmetler/' + service.slug">
+                <a [routerLink]="srv.link">
+                  {{ srv.label }}
+                  <span class="icon-caret"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Distance Info Card -->
+          <div class="city-sidebar__distance-card">
+            <div class="city-sidebar__distance-icon">
+              <i class="fas fa-route"></i>
+            </div>
+            <h4>İkitelli OSB'den {{ city.name }}</h4>
+            <div class="city-sidebar__distance-value">{{ city.distanceKm }} km</div>
+            <p>
+              İkitelli Organize Sanayi Bölgesi'ndeki tesisimizden {{ city.name }}'ye
+              düzenli sevkiyat ve hızlı teslimat imkanı sunuyoruz.
+            </p>
+          </div>
+
+          <!-- CTA -->
+          <div class="city-sidebar__cta">
+            <h3 class="city-sidebar__cta-title">Hemen Teklif Alın</h3>
+            <p class="city-sidebar__cta-text">
+              {{ city.name }} bölgesindeki projeniz için {{ serviceName.toLowerCase() }}
+              teklifi almak ister misiniz?
+            </p>
+            <a routerLink="/contact" class="thm-btn">
+              <span class="txt">İletişime Geç</span>
+            </a>
+            <p class="city-sidebar__cta-phone">
+              <i class="fa fa-phone-alt me-2"></i>
+              <a href="tel:905550008304">0555 000 83 04</a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Content Area -->
+      <div class="col-xl-8 col-lg-7 order-lg-2 order-1">
+        <div class="city-main">
+
+          <!-- Distance & Logistics Info -->
+          <div class="city-main__distance">
+            <h2 class="city-main__section-title">
+              İkitelli OSB'den {{ city.name }}'ye {{ serviceName }} Hizmeti
+            </h2>
+            <div class="city-main__distance-card">
+              <div class="city-main__distance-left">
+                <div class="city-main__distance-route">
+                  <div class="city-main__distance-point">
+                    <div class="city-main__distance-dot city-main__distance-dot--start"></div>
+                    <span>İkitelli OSB, İstanbul</span>
+                  </div>
+                  <div class="city-main__distance-line"></div>
+                  <div class="city-main__distance-point">
+                    <div class="city-main__distance-dot city-main__distance-dot--end"></div>
+                    <span>{{ city.name }}</span>
+                  </div>
+                </div>
+              </div>
+              <div class="city-main__distance-right">
+                <div class="city-main__distance-km">{{ city.distanceKm }} km</div>
+                <p>
+                  Kuzey Şafak Lazer olarak İkitelli OSB'deki tesisimizden {{ city.name }}
+                  bölgesine düzenli olarak {{ serviceName.toLowerCase() }} hizmeti
+                  sunmaktayız. {{ city.distanceKm }} km mesafedeki sanayi bölgelerine
+                  hızlı üretim ve zamanında teslimat garantisi veriyoruz.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service Image -->
+          <div class="city-main__image">
+            <img [src]="heroImage"
+                 [alt]="city.name + ' ' + serviceName + ' hizmeti'"
+                 loading="lazy" />
+            <div class="city-main__image-badge">
+              <i class="fas fa-location-dot"></i>
+              <span>{{ city.name }}</span>
+            </div>
+          </div>
+
+          <!-- Industrial Zones -->
+          <div class="city-main__zones" *ngIf="city.industrialZones.length">
+            <h2 class="city-main__section-title">
+              {{ city.name }} Hizmet Verdiğimiz Sanayi Bölgeleri
+            </h2>
+            <div class="city-main__zones-grid">
+              <div *ngFor="let zone of city.industrialZones" class="city-main__zone-item">
+                <i class="fas fa-industry"></i>
+                <span>{{ zone }}</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Capabilities -->
+          <div class="city-main__capabilities" *ngIf="capabilities.length">
+            <h2 class="city-main__section-title">
+              {{ serviceName }} Teknik Kapasitemiz
+            </h2>
+            <div class="city-main__cap-grid">
+              <div *ngFor="let cap of capabilities; let i = index" class="city-main__cap-item">
+                <div class="city-main__cap-number">{{ (i + 1) < 10 ? '0' + (i + 1) : (i + 1) }}</div>
+                <p>{{ cap }}</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nearby City Links -->
+          <div class="city-main__nearby" *ngIf="nearbyCities.length">
+            <h2 class="city-main__section-title">
+              Yakın Şehirlerde {{ serviceName }} Hizmeti
+            </h2>
+            <div class="row">
+              <div *ngFor="let nc of nearbyCities" class="col-sm-6 col-md-4 mb-3">
+                <a [routerLink]="nc.routerLink" class="city-main__city-link">
+                  <div class="city-main__city-link-top">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>{{ nc.name }}</span>
+                  </div>
+                  <div class="city-main__city-link-distance">
+                    {{ nc.distanceKm }} km
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Other Services for Same City -->
+          <div class="city-main__other-services" *ngIf="otherCityServices.length">
+            <h2 class="city-main__section-title">
+              {{ city.name }} İçin Diğer Hizmetlerimiz
+            </h2>
+            <div class="row">
+              <div *ngFor="let os of otherCityServices" class="col-sm-6 col-md-4 mb-3">
+                <a [routerLink]="os.routerLink" class="city-main__service-card">
+                  <i class="fas fa-arrow-right"></i>
+                  <span>{{ os.name }}</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom CTA -->
+          <div class="city-main__bottom-cta">
+            <div class="city-main__bottom-cta-inner">
+              <div class="city-main__bottom-cta-content">
+                <h3>{{ city.name }} Projeniz İçin Teklif Alın</h3>
+                <p>
+                  {{ city.name }} ve çevresindeki {{ serviceName.toLowerCase() }}
+                  ihtiyaçlarınız için bizimle iletişime geçin. İkitelli OSB'deki
+                  tesisimizden hızlı üretim ve teslimat garantisi sunuyoruz.
+                </p>
+              </div>
+              <a routerLink="/contact" class="thm-btn">
+                <span class="txt">İletişime Geç</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

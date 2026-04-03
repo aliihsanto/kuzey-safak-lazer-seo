@@ -1,0 +1,161 @@
+<!-- Page Header / Hero -->
+<section class="page-header">
+  <div class="page-header__bg"
+       style="background-image: url('assets/images/services/lazer-kesim-slider.webp');">
+  </div>
+  <div class="container">
+    <div class="page-header__inner">
+      <h1 *ngIf="product">{{ product.name }}</h1>
+      <ul class="thm-breadcrumb">
+        <li><a routerLink="/">Ana Sayfa</a></li>
+        <li><span class="icon-caret mx-2"></span></li>
+        <li><a routerLink="/urunler">&#220;r&#252;nler</a></li>
+        <li><span class="icon-caret mx-2"></span></li>
+        <li><a [routerLink]="'/urunler/' + product?.category">{{ categoryLabel }}</a></li>
+        <li><span class="icon-caret mx-2"></span></li>
+        <li>{{ product?.name }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<section class="product-detail" *ngIf="product">
+  <div class="container">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-xl-4 col-lg-5 order-lg-1 order-2">
+        <div class="sidebar product-sidebar">
+
+          <!-- Kategori Navigasyonu -->
+          <div class="sidebar__single sidebar__category" *ngFor="let cat of categoryNav">
+            <h3 class="sidebar__title">{{ cat.label }}</h3>
+            <ul class="sidebar__category-list">
+              <li *ngFor="let p of cat.products"
+                  [class.active]="p.slug === product.slug">
+                <a [routerLink]="'/urun/' + p.slug">
+                  {{ p.name }}
+                  <span class="icon-caret"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CTA -->
+          <div class="sidebar-cta">
+            <h3 class="sidebar-cta__title">Hemen Teklif Al&#305;n</h3>
+            <p class="sidebar-cta__text">
+              {{ product.name }} ile ilgili projeniz i&#231;in &#252;cretsiz fiyat teklifi al&#305;n.
+              Uzman ekibimiz en k&#305;sa s&#252;rede d&#246;n&#252;&#351; yapacakt&#305;r.
+            </p>
+            <a routerLink="/contact" class="thm-btn">
+              <span class="txt">&#304;leti&#351;ime Ge&#231;</span>
+            </a>
+            <p class="sidebar-cta__phone">
+              <i class="fa fa-phone-alt me-2"></i>
+              <a href="tel:905550008304">0555 000 83 04</a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="col-xl-8 col-lg-7 order-lg-2 order-1">
+        <div class="product-content">
+
+          <!-- Teknik &#214;zellikler Tablosu -->
+          <div class="product-specs">
+            <h2 class="product-section-title">Teknik &#214;zellikler</h2>
+            <div class="product-specs__table-wrapper">
+              <table class="product-specs__table">
+                <tbody>
+                  <tr *ngFor="let spec of product.specs; let odd = odd"
+                      [class.product-specs__row--alt]="odd">
+                    <td class="product-specs__label">{{ spec.label }}</td>
+                    <td class="product-specs__value">{{ spec.value }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- A&#231;&#305;klama -->
+          <div class="product-description">
+            <h2 class="product-section-title">{{ product.name }} Nedir?</h2>
+            <p class="product-description__text">{{ product.description }}</p>
+          </div>
+
+          <!-- Uygulad&#305;&#287;&#305;m&#305;z &#304;&#351;lemler -->
+          <div class="product-services" *ngIf="applicableServiceInfos.length">
+            <h2 class="product-section-title">Bu Malzemeye Uygulad&#305;&#287;&#305;m&#305;z &#304;&#351;lemler</h2>
+            <div class="row">
+              <div *ngFor="let svc of applicableServiceInfos" class="col-md-6 mb-4">
+                <a [routerLink]="'/hizmetler/' + svc.slug" class="product-service-card">
+                  <div class="product-service-card__icon">
+                    <i class="fa fa-cogs"></i>
+                  </div>
+                  <h3 class="product-service-card__title">{{ svc.name }}</h3>
+                  <p class="product-service-card__desc">{{ svc.description }}</p>
+                  <span class="product-service-card__link">
+                    Detayl&#305; Bilgi <i class="fa fa-arrow-right"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kullan&#305;m Alanlar&#305; -->
+          <div class="product-usage" *ngIf="product.usageAreas.length">
+            <h2 class="product-section-title">Kullan&#305;m Alanlar&#305;</h2>
+            <div class="product-usage__chips">
+              <span *ngFor="let area of product.usageAreas" class="product-usage__chip">
+                <i class="fa fa-check-circle"></i>
+                {{ area }}
+              </span>
+            </div>
+          </div>
+
+          <!-- Ayn&#305; Kategorideki &#220;r&#252;nler -->
+          <div class="product-related" *ngIf="relatedProducts.length">
+            <h2 class="product-section-title">Ayn&#305; Kategorideki &#220;r&#252;nler</h2>
+            <div class="row">
+              <div *ngFor="let rp of relatedProducts" class="col-6 col-md-4 mb-3">
+                <a [routerLink]="'/urun/' + rp.slug" class="product-related__card">
+                  <div class="product-related__card-body">
+                    <h4 class="product-related__card-title">{{ rp.name }}</h4>
+                    <span class="product-related__card-specs">
+                      {{ rp.specs[0]?.label }}: {{ rp.specs[0]?.value }}
+                    </span>
+                    <span class="product-related__card-link">
+                      &#304;ncele <i class="fa fa-chevron-right"></i>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA Section -->
+          <div class="product-cta">
+            <div class="product-cta__inner">
+              <div class="product-cta__content">
+                <h2 class="product-cta__title">Bu malzeme ile ilgili projeniz mi var?</h2>
+                <p class="product-cta__text">
+                  {{ product.name }} &#252;zerinde lazer kesim, b&#252;k&#252;m ve kaynak i&#351;leri i&#231;in
+                  hemen teklif al&#305;n. &#220;cretlerimiz rekabet&#231;i, teslim s&#252;relerimiz h&#305;zl&#305;d&#305;r.
+                </p>
+              </div>
+              <a routerLink="/contact" class="thm-btn product-cta__btn">
+                <span class="txt">Hemen Teklif Al&#305;n</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

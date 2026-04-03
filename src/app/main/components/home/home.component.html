@@ -1,0 +1,449 @@
+<!-- ============================================================
+     SECTION 1: HERO
+     ============================================================ -->
+<section class="ks-hero">
+  <div class="ks-hero__bg">
+    <img src="assets/images/slider/home1-bg.webp"
+         alt="Kuzey Safak Lazer - CNC Lazer Kesim Tesisi Istanbul"
+         class="ks-hero__bg-img" />
+    <div class="ks-hero__overlay"></div>
+  </div>
+
+  <div class="container ks-hero__container">
+    <div class="ks-hero__content">
+      <span class="ks-hero__badge">Ikitelli OSB &mdash; 2010'dan Beri</span>
+      <h1 class="ks-hero__title">
+        Milimetrik Hassasiyetle<br />
+        <span class="ks-hero__title--accent">Guclu Kesim</span>
+      </h1>
+      <p class="ks-hero__subtitle">
+        CNC lazer kesim, bukum, plazma ve kaynakli imalat alaninda
+        endustriyel cozum ortaginiz. Istanbul ve Marmara genelinde hizmet veriyoruz.
+      </p>
+      <div class="ks-hero__actions">
+        <a href="javascript:void(0)" (click)="scrollToQuote()" class="thm-btn ks-hero__btn-primary">
+          <span class="txt">Teklif Al</span>
+        </a>
+        <a routerLink="/hizmetler/lazer-kesim" class="ks-hero__btn-outline">
+          Hizmetlerimiz
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Stats Bar -->
+    <div class="ks-hero__stats">
+      <div class="ks-hero__stat" *ngFor="let stat of stats">
+        <span class="ks-hero__stat-value">{{ stat.value }}</span>
+        <span class="ks-hero__stat-label">{{ stat.label }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 2: SERVICES
+     ============================================================ -->
+<section class="ks-services" id="hizmetler">
+  <div class="container">
+    <div class="ks-section-header">
+      <span class="ks-section-header__tag">Hizmetlerimiz</span>
+      <h2 class="ks-section-header__title">Metal Isleme Cozumlerimiz</h2>
+      <p class="ks-section-header__desc">
+        Fiber lazer, CNC abkant, plazma kesim ve profesyonel kaynak teknolojileriyle
+        her olcekte projeye cozum uretiyoruz.
+      </p>
+    </div>
+
+    <!-- Main Services -->
+    <h3 class="ks-services__group-title">Ana Hizmetler</h3>
+    <div class="ks-services__grid">
+      <a *ngFor="let svc of mainServices"
+         [routerLink]="svc.link"
+         class="ks-service-card ks-service-card--primary">
+        <div class="ks-service-card__img-wrap">
+          <img [src]="svc.image" [alt]="svc.title + ' - Kuzey Safak Lazer'" loading="lazy" />
+        </div>
+        <div class="ks-service-card__body">
+          <h4 class="ks-service-card__title">{{ svc.title }}</h4>
+          <p class="ks-service-card__desc">{{ svc.desc }}</p>
+          <span class="ks-service-card__arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Additional Services -->
+    <h3 class="ks-services__group-title">Ozel Imalat Hizmetleri</h3>
+    <div class="ks-services__grid ks-services__grid--secondary">
+      <a *ngFor="let svc of additionalServices"
+         [routerLink]="svc.link"
+         class="ks-service-card ks-service-card--secondary">
+        <div class="ks-service-card__body">
+          <h4 class="ks-service-card__title">{{ svc.title }}</h4>
+          <p class="ks-service-card__desc">{{ svc.desc }}</p>
+          <span class="ks-service-card__arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 3: ABOUT / WHY US
+     ============================================================ -->
+<section class="ks-about">
+  <div class="container">
+    <div class="ks-about__grid">
+      <!-- Left: Text Content -->
+      <div class="ks-about__text">
+        <span class="ks-section-header__tag">Hakkimizda</span>
+        <h2 class="ks-section-header__title">Neden Kuzey Safak Lazer?</h2>
+        <p class="ks-about__desc">
+          2010 yilindan bu yana Istanbul Ikitelli Organize Sanayi Bolgesi'nde faaliyet gosteriyoruz.
+          Modern makine parkurumuz ve deneyimli kadromuzla, metal isleme sektorunde guvenilir cozum ortaginiz olmaya devam ediyoruz.
+        </p>
+
+        <ul class="ks-about__features">
+          <li>
+            <span class="ks-about__check">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </span>
+            6 metre fiber lazer kesim kapasitesi
+          </li>
+          <li>
+            <span class="ks-about__check">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </span>
+            4 metre CNC abkant pres bukum
+          </li>
+          <li>
+            <span class="ks-about__check">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </span>
+            MIG, TIG ve gazalti kaynak teknolojileri
+          </li>
+          <li>
+            <span class="ks-about__check">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </span>
+            Tasarimdan montaja anahtar teslim cozumler
+          </li>
+        </ul>
+
+        <div class="ks-about__counter">
+          <span class="ks-about__counter-number">400+</span>
+          <span class="ks-about__counter-label">Basariyla Tamamlanan Proje</span>
+        </div>
+
+        <a routerLink="/about" class="thm-btn">
+          <span class="txt">Daha Fazla Bilgi</span>
+        </a>
+      </div>
+
+      <!-- Right: Image Grid -->
+      <div class="ks-about__images">
+        <div class="ks-about__img ks-about__img--large">
+          <img src="assets/images/about/about-1.webp"
+               alt="Kuzey Safak Lazer CNC lazer kesim makinesi ile hassas metal kesim islemi"
+               loading="lazy" />
+        </div>
+        <div class="ks-about__img ks-about__img--small-top">
+          <img src="assets/images/about/about-2.webp"
+               alt="Kuzey Safak Lazer metal isleme atolyesi ve uretim alani"
+               loading="lazy" />
+        </div>
+        <div class="ks-about__img ks-about__img--small-bottom">
+          <img src="assets/images/about/about-3.webp"
+               alt="Kuzey Safak Lazer profesyonel kaynakli imalat islemleri"
+               loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 4: VIDEO
+     ============================================================ -->
+<section class="ks-video">
+  <div class="ks-video__bg"
+       style="background-image: url(assets/images/backgrounds/video-bg.webp);"></div>
+  <div class="container" id="kuzey-safak-video">
+    <div *ngIf="videoVisible" class="ks-video__player">
+      <video class="ks-video__element"
+             controls
+             playsinline
+             autoplay>
+        <source src="assets/images/kuzey-safak-lazer-video-tr.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div *ngIf="!videoVisible" class="ks-video__poster" (click)="showVideo()">
+      <div class="ks-video__play-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+             fill="white" stroke="none">
+          <polygon points="5 3 19 12 5 21 5 3"></polygon>
+        </svg>
+      </div>
+      <p class="ks-video__caption">Uretim Surecimizi Izleyin</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 5: SECTORS
+     ============================================================ -->
+<section class="ks-sectors">
+  <div class="container">
+    <div class="ks-section-header">
+      <span class="ks-section-header__tag">Sektorler</span>
+      <h2 class="ks-section-header__title">Hizmet Verdigimiz Sektorler</h2>
+      <p class="ks-section-header__desc">
+        Farkli endustriyel alanlarda ozel cozumler uretiyoruz.
+      </p>
+    </div>
+
+    <div class="ks-sectors__grid">
+      <a *ngFor="let sector of sectors"
+         [routerLink]="'/sektor/' + sector.slug"
+         class="ks-sector-card">
+        <span class="ks-sector-card__icon">
+          <i [class]="sector.icon"></i>
+        </span>
+        <span class="ks-sector-card__name">{{ sector.name }}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 6: QUOTE FORM
+     ============================================================ -->
+<section class="ks-quote" id="teklif-formu">
+  <div class="container">
+    <div class="ks-quote__wrapper">
+      <div class="ks-quote__info">
+        <span class="ks-section-header__tag ks-section-header__tag--light">Teklif Al</span>
+        <h2 class="ks-quote__heading">Projeniz Icin Hizli Teklif Alin</h2>
+        <p class="ks-quote__text">
+          Ihtiyacinizi belirtin, uzman ekibimiz en kisa surede sizinle iletisime gecsin.
+          Ucretsiz kesfif ve fiyat teklifi icin formu doldurun.
+        </p>
+        <div class="ks-quote__contact-info">
+          <div class="ks-quote__contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6
+                       19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72
+                       12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2
+                       2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <a href="tel:905550008304">0555 000 83 04</a>
+          </div>
+          <div class="ks-quote__contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <a href="mailto:info@safaklazer.com.tr">info@safaklazer.com.tr</a>
+          </div>
+          <div class="ks-quote__contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Ikitelli OSB, Basaksehir / Istanbul</span>
+          </div>
+        </div>
+      </div>
+
+      <form [formGroup]="quoteForm"
+            (ngSubmit)="onSubmitQuote()"
+            class="ks-quote__form"
+            novalidate>
+        <div class="ks-quote__form-row">
+          <div class="ks-quote__field">
+            <label for="qName">Ad Soyad *</label>
+            <input id="qName"
+                   type="text"
+                   formControlName="name"
+                   placeholder="Adiniz ve soyadiniz"
+                   [class.ks-quote__field--error]="formSubmitted && quoteForm.get('name')?.invalid" />
+          </div>
+          <div class="ks-quote__field">
+            <label for="qEmail">E-posta *</label>
+            <input id="qEmail"
+                   type="email"
+                   formControlName="email"
+                   placeholder="ornek@firma.com"
+                   [class.ks-quote__field--error]="formSubmitted && quoteForm.get('email')?.invalid" />
+          </div>
+        </div>
+
+        <div class="ks-quote__form-row">
+          <div class="ks-quote__field">
+            <label for="qPhone">Telefon *</label>
+            <input id="qPhone"
+                   type="tel"
+                   formControlName="phone"
+                   placeholder="05XX XXX XX XX"
+                   [class.ks-quote__field--error]="formSubmitted && quoteForm.get('phone')?.invalid" />
+          </div>
+          <div class="ks-quote__field">
+            <label for="qCompany">Firma Adi</label>
+            <input id="qCompany"
+                   type="text"
+                   formControlName="company"
+                   placeholder="Firma adiniz (opsiyonel)" />
+          </div>
+        </div>
+
+        <div class="ks-quote__form-row">
+          <div class="ks-quote__field">
+            <label for="qService">Hizmet Turu *</label>
+            <select id="qService"
+                    formControlName="service"
+                    [class.ks-quote__field--error]="formSubmitted && quoteForm.get('service')?.invalid">
+              <option value="" disabled>Hizmet secin</option>
+              <option *ngFor="let opt of serviceOptions" [value]="opt">{{ opt }}</option>
+            </select>
+          </div>
+          <div class="ks-quote__field">
+            <label for="qMaterial">Malzeme Turu</label>
+            <select id="qMaterial" formControlName="material">
+              <option value="">Malzeme secin (opsiyonel)</option>
+              <option *ngFor="let mat of materialOptions" [value]="mat">{{ mat }}</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="ks-quote__field ks-quote__field--full">
+          <label for="qDesc">Proje Detayi / Adet Bilgisi</label>
+          <textarea id="qDesc"
+                    formControlName="description"
+                    rows="4"
+                    placeholder="Projenizle ilgili detaylari, olculeri ve adet bilgisini yazin..."></textarea>
+        </div>
+
+        <button type="submit" class="thm-btn ks-quote__submit">
+          <span class="txt">Teklif Gonder</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 7: LOCATION / SERVICE AREAS
+     ============================================================ -->
+<section class="ks-locations">
+  <div class="container">
+    <div class="ks-section-header">
+      <span class="ks-section-header__tag">Hizmet Bolgesi</span>
+      <h2 class="ks-section-header__title">Istanbul ve Marmara Genelinde Hizmet</h2>
+      <p class="ks-section-header__desc">
+        Ikitelli OSB merkezli tesisimizden Istanbul ve cevresindeki tum illere hizmet ulastiriyoruz.
+      </p>
+    </div>
+
+    <div class="ks-locations__chips">
+      <a *ngFor="let city of cities"
+         [routerLink]="'/' + city.slug"
+         class="ks-locations__chip">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+        {{ city.name }}
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 8: CTA BANNER
+     ============================================================ -->
+<section class="ks-cta">
+  <div class="container">
+    <div class="ks-cta__inner">
+      <div class="ks-cta__text">
+        <h2 class="ks-cta__title">Projeniz Icin Teklif Alin</h2>
+        <p class="ks-cta__desc">
+          Uzman ekibimiz sizin icin en uygun cozumu sunmaya hazir. Hemen arayin veya WhatsApp'tan yazin.
+        </p>
+      </div>
+      <div class="ks-cta__buttons">
+        <a href="tel:905550008304" class="thm-btn">
+          <span class="txt">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 style="margin-right:8px;vertical-align:middle">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6
+                       19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72
+                       12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2
+                       2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            0555 000 83 04
+          </span>
+        </a>
+        <a href="https://wa.me/905550008304?text=Merhaba%2C%20teklif%20almak%20istiyorum."
+           target="_blank"
+           rel="noopener noreferrer"
+           class="ks-cta__whatsapp">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94
+                     1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653
+                     -2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099
+                     -.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008
+                     -.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065
+                     2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227
+                     1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074
+                     -.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.553 4.12 1.52 5.855L.054 23.577a.5.5 0 0 0
+                     .613.613l5.722-1.466A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12
+                     0zm0 21.82a9.82 9.82 0 0 1-5.01-1.373l-.36-.213-3.39.869.882-3.34-.234-.372A9.82
+                     9.82 0 1 1 12 21.82z"/>
+          </svg>
+          WhatsApp ile Yazin
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

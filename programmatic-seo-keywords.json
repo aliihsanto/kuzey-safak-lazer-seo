@@ -1,0 +1,1910 @@
+{
+  "meta": {
+    "firma": "Kuzey Safaklar Metal",
+    "tarih": "2026-04-02",
+    "aciklama": "Programmatic SEO Anahtar Kelime Arastirmasi - Metal Isleme / Lazer Kesim",
+    "toplam_sayfa_sayisi": null
+  },
+
+  "kategori_1_hizmet_sehir": {
+    "aciklama": "Hizmet + Marmara Bolgesi Sehir Kombinasyonlari (Istanbul haric - ilce bazli zaten mevcut)",
+    "sehirler": ["kocaeli", "bursa", "tekirdag", "edirne", "kirklareli", "sakarya", "yalova", "balikesir", "canakkale", "bilecik"],
+    "hizmetler": ["lazer-kesim", "kaynakli-imalat", "cnc-bukum", "cnc-plazma"],
+    "toplam": 40,
+    "sayfalar": [
+      {
+        "anahtar_kelime": "Lazer Kesim Kocaeli",
+        "slug": "/lazer-kesim-kocaeli",
+        "title_tag": "Kocaeli Lazer Kesim Hizmeti | CNC Fiber Lazer Kesim",
+        "h1": "Kocaeli Lazer Kesim",
+        "meta_description": "Kocaeli ve cevresine profesyonel CNC fiber lazer kesim hizmeti. 2000x6000mm tabla, 0.5-25mm celik kesim kapasitesi. Hizli teslimat."
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Bursa",
+        "slug": "/lazer-kesim-bursa",
+        "title_tag": "Bursa Lazer Kesim Hizmeti | CNC Fiber Lazer Kesim",
+        "h1": "Bursa Lazer Kesim",
+        "meta_description": "Bursa ve cevresine profesyonel CNC fiber lazer kesim hizmeti. 2000x6000mm tabla, 0.5-25mm celik kesim kapasitesi. Hizli teslimat."
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Tekirdag",
+        "slug": "/lazer-kesim-tekirdag",
+        "title_tag": "Tekirdag Lazer Kesim Hizmeti | CNC Fiber Lazer Kesim",
+        "h1": "Tekirdag Lazer Kesim",
+        "meta_description": "Tekirdag ve cevresine profesyonel CNC fiber lazer kesim hizmeti. 2000x6000mm tabla, 0.5-25mm celik kesim kapasitesi. Hizli teslimat."
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Edirne",
+        "slug": "/lazer-kesim-edirne",
+        "title_tag": "Edirne Lazer Kesim Hizmeti | CNC Fiber Lazer Kesim",
+        "h1": "Edirne Lazer Kesim",
+        "meta_description": "Edirne ve cevresine profesyonel CNC fiber lazer kesim hizmeti. 2000x6000mm tabla, 0.5-25mm celik kesim kapasitesi. Hizli teslimat."
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Kirklareli",
+        "slug": "/lazer-kesim-kirklareli",
+        "title_tag": "Kirklareli Lazer Kesim Hizmeti | CNC Fiber Lazer Kesim",
+        "h1": "Kirklareli Lazer Kesim",
+        "meta_description": "Kirklareli ve cevresine profesyonel CNC fiber lazer kesim hizmeti. 2000x6000mm tabla, 0.5-25mm celik kesim kapasitesi. Hizli teslimat."
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Sakarya",
+        "slug": "/lazer-kesim-sakarya",
+        "title_tag": "Sakarya Lazer Kesim Hizmeti | CNC Fiber Lazer Kesim",
+        "h1": "Sakarya Lazer Kesim",
+        "meta_description": "Sakarya ve cevresine profesyonel CNC fiber lazer kesim hizmeti. 2000x6000mm tabla, 0.5-25mm celik kesim kapasitesi. Hizli teslimat."
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Yalova",
+        "slug": "/lazer-kesim-yalova",
+        "title_tag": "Yalova Lazer Kesim Hizmeti | CNC Fiber Lazer Kesim",
+        "h1": "Yalova Lazer Kesim",
+        "meta_description": "Yalova ve cevresine profesyonel CNC fiber lazer kesim hizmeti. 2000x6000mm tabla, 0.5-25mm celik kesim kapasitesi. Hizli teslimat."
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Balikesir",
+        "slug": "/lazer-kesim-balikesir",
+        "title_tag": "Balikesir Lazer Kesim Hizmeti | CNC Fiber Lazer Kesim",
+        "h1": "Balikesir Lazer Kesim",
+        "meta_description": "Balikesir ve cevresine profesyonel CNC fiber lazer kesim hizmeti. 2000x6000mm tabla, 0.5-25mm celik kesim kapasitesi. Hizli teslimat."
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Canakkale",
+        "slug": "/lazer-kesim-canakkale",
+        "title_tag": "Canakkale Lazer Kesim Hizmeti | CNC Fiber Lazer Kesim",
+        "h1": "Canakkale Lazer Kesim",
+        "meta_description": "Canakkale ve cevresine profesyonel CNC fiber lazer kesim hizmeti. 2000x6000mm tabla, 0.5-25mm celik kesim kapasitesi. Hizli teslimat."
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Bilecik",
+        "slug": "/lazer-kesim-bilecik",
+        "title_tag": "Bilecik Lazer Kesim Hizmeti | CNC Fiber Lazer Kesim",
+        "h1": "Bilecik Lazer Kesim",
+        "meta_description": "Bilecik ve cevresine profesyonel CNC fiber lazer kesim hizmeti. 2000x6000mm tabla, 0.5-25mm celik kesim kapasitesi. Hizli teslimat."
+      },
+      {
+        "anahtar_kelime": "Kaynakli Imalat Kocaeli",
+        "slug": "/kaynakli-imalat-kocaeli",
+        "title_tag": "Kocaeli Kaynakli Imalat | TIG MIG Lazer Kaynak",
+        "h1": "Kocaeli Kaynakli Imalat",
+        "meta_description": "Kocaeli bolgesine profesyonel kaynakli imalat hizmeti. TIG, MIG ve lazer kaynak ile celik konstruksiyon ve ozel imalat."
+      },
+      {
+        "anahtar_kelime": "Kaynakli Imalat Bursa",
+        "slug": "/kaynakli-imalat-bursa",
+        "title_tag": "Bursa Kaynakli Imalat | TIG MIG Lazer Kaynak",
+        "h1": "Bursa Kaynakli Imalat",
+        "meta_description": "Bursa bolgesine profesyonel kaynakli imalat hizmeti. TIG, MIG ve lazer kaynak ile celik konstruksiyon ve ozel imalat."
+      },
+      {
+        "anahtar_kelime": "Kaynakli Imalat Tekirdag",
+        "slug": "/kaynakli-imalat-tekirdag",
+        "title_tag": "Tekirdag Kaynakli Imalat | TIG MIG Lazer Kaynak",
+        "h1": "Tekirdag Kaynakli Imalat",
+        "meta_description": "Tekirdag bolgesine profesyonel kaynakli imalat hizmeti. TIG, MIG ve lazer kaynak ile celik konstruksiyon ve ozel imalat."
+      },
+      {
+        "anahtar_kelime": "Kaynakli Imalat Edirne",
+        "slug": "/kaynakli-imalat-edirne",
+        "title_tag": "Edirne Kaynakli Imalat | TIG MIG Lazer Kaynak",
+        "h1": "Edirne Kaynakli Imalat",
+        "meta_description": "Edirne bolgesine profesyonel kaynakli imalat hizmeti. TIG, MIG ve lazer kaynak ile celik konstruksiyon ve ozel imalat."
+      },
+      {
+        "anahtar_kelime": "Kaynakli Imalat Kirklareli",
+        "slug": "/kaynakli-imalat-kirklareli",
+        "title_tag": "Kirklareli Kaynakli Imalat | TIG MIG Lazer Kaynak",
+        "h1": "Kirklareli Kaynakli Imalat",
+        "meta_description": "Kirklareli bolgesine profesyonel kaynakli imalat hizmeti. TIG, MIG ve lazer kaynak ile celik konstruksiyon ve ozel imalat."
+      },
+      {
+        "anahtar_kelime": "Kaynakli Imalat Sakarya",
+        "slug": "/kaynakli-imalat-sakarya",
+        "title_tag": "Sakarya Kaynakli Imalat | TIG MIG Lazer Kaynak",
+        "h1": "Sakarya Kaynakli Imalat",
+        "meta_description": "Sakarya bolgesine profesyonel kaynakli imalat hizmeti. TIG, MIG ve lazer kaynak ile celik konstruksiyon ve ozel imalat."
+      },
+      {
+        "anahtar_kelime": "Kaynakli Imalat Yalova",
+        "slug": "/kaynakli-imalat-yalova",
+        "title_tag": "Yalova Kaynakli Imalat | TIG MIG Lazer Kaynak",
+        "h1": "Yalova Kaynakli Imalat",
+        "meta_description": "Yalova bolgesine profesyonel kaynakli imalat hizmeti. TIG, MIG ve lazer kaynak ile celik konstruksiyon ve ozel imalat."
+      },
+      {
+        "anahtar_kelime": "Kaynakli Imalat Balikesir",
+        "slug": "/kaynakli-imalat-balikesir",
+        "title_tag": "Balikesir Kaynakli Imalat | TIG MIG Lazer Kaynak",
+        "h1": "Balikesir Kaynakli Imalat",
+        "meta_description": "Balikesir bolgesine profesyonel kaynakli imalat hizmeti. TIG, MIG ve lazer kaynak ile celik konstruksiyon ve ozel imalat."
+      },
+      {
+        "anahtar_kelime": "Kaynakli Imalat Canakkale",
+        "slug": "/kaynakli-imalat-canakkale",
+        "title_tag": "Canakkale Kaynakli Imalat | TIG MIG Lazer Kaynak",
+        "h1": "Canakkale Kaynakli Imalat",
+        "meta_description": "Canakkale bolgesine profesyonel kaynakli imalat hizmeti. TIG, MIG ve lazer kaynak ile celik konstruksiyon ve ozel imalat."
+      },
+      {
+        "anahtar_kelime": "Kaynakli Imalat Bilecik",
+        "slug": "/kaynakli-imalat-bilecik",
+        "title_tag": "Bilecik Kaynakli Imalat | TIG MIG Lazer Kaynak",
+        "h1": "Bilecik Kaynakli Imalat",
+        "meta_description": "Bilecik bolgesine profesyonel kaynakli imalat hizmeti. TIG, MIG ve lazer kaynak ile celik konstruksiyon ve ozel imalat."
+      },
+      {
+        "anahtar_kelime": "CNC Bukum Kocaeli",
+        "slug": "/cnc-bukum-kocaeli",
+        "title_tag": "Kocaeli CNC Bukum | Abkant Pres Sac Bukum",
+        "h1": "Kocaeli CNC Bukum",
+        "meta_description": "Kocaeli bolgesine CNC abkant pres bukum hizmeti. 4 metre bukum kapasitesi, 0.5-20mm sac kalinligi. Hassas ve hizli uretim."
+      },
+      {
+        "anahtar_kelime": "CNC Bukum Bursa",
+        "slug": "/cnc-bukum-bursa",
+        "title_tag": "Bursa CNC Bukum | Abkant Pres Sac Bukum",
+        "h1": "Bursa CNC Bukum",
+        "meta_description": "Bursa bolgesine CNC abkant pres bukum hizmeti. 4 metre bukum kapasitesi, 0.5-20mm sac kalinligi. Hassas ve hizli uretim."
+      },
+      {
+        "anahtar_kelime": "CNC Bukum Tekirdag",
+        "slug": "/cnc-bukum-tekirdag",
+        "title_tag": "Tekirdag CNC Bukum | Abkant Pres Sac Bukum",
+        "h1": "Tekirdag CNC Bukum",
+        "meta_description": "Tekirdag bolgesine CNC abkant pres bukum hizmeti. 4 metre bukum kapasitesi, 0.5-20mm sac kalinligi. Hassas ve hizli uretim."
+      },
+      {
+        "anahtar_kelime": "CNC Bukum Edirne",
+        "slug": "/cnc-bukum-edirne",
+        "title_tag": "Edirne CNC Bukum | Abkant Pres Sac Bukum",
+        "h1": "Edirne CNC Bukum",
+        "meta_description": "Edirne bolgesine CNC abkant pres bukum hizmeti. 4 metre bukum kapasitesi, 0.5-20mm sac kalinligi. Hassas ve hizli uretim."
+      },
+      {
+        "anahtar_kelime": "CNC Bukum Kirklareli",
+        "slug": "/cnc-bukum-kirklareli",
+        "title_tag": "Kirklareli CNC Bukum | Abkant Pres Sac Bukum",
+        "h1": "Kirklareli CNC Bukum",
+        "meta_description": "Kirklareli bolgesine CNC abkant pres bukum hizmeti. 4 metre bukum kapasitesi, 0.5-20mm sac kalinligi. Hassas ve hizli uretim."
+      },
+      {
+        "anahtar_kelime": "CNC Bukum Sakarya",
+        "slug": "/cnc-bukum-sakarya",
+        "title_tag": "Sakarya CNC Bukum | Abkant Pres Sac Bukum",
+        "h1": "Sakarya CNC Bukum",
+        "meta_description": "Sakarya bolgesine CNC abkant pres bukum hizmeti. 4 metre bukum kapasitesi, 0.5-20mm sac kalinligi. Hassas ve hizli uretim."
+      },
+      {
+        "anahtar_kelime": "CNC Bukum Yalova",
+        "slug": "/cnc-bukum-yalova",
+        "title_tag": "Yalova CNC Bukum | Abkant Pres Sac Bukum",
+        "h1": "Yalova CNC Bukum",
+        "meta_description": "Yalova bolgesine CNC abkant pres bukum hizmeti. 4 metre bukum kapasitesi, 0.5-20mm sac kalinligi. Hassas ve hizli uretim."
+      },
+      {
+        "anahtar_kelime": "CNC Bukum Balikesir",
+        "slug": "/cnc-bukum-balikesir",
+        "title_tag": "Balikesir CNC Bukum | Abkant Pres Sac Bukum",
+        "h1": "Balikesir CNC Bukum",
+        "meta_description": "Balikesir bolgesine CNC abkant pres bukum hizmeti. 4 metre bukum kapasitesi, 0.5-20mm sac kalinligi. Hassas ve hizli uretim."
+      },
+      {
+        "anahtar_kelime": "CNC Bukum Canakkale",
+        "slug": "/cnc-bukum-canakkale",
+        "title_tag": "Canakkale CNC Bukum | Abkant Pres Sac Bukum",
+        "h1": "Canakkale CNC Bukum",
+        "meta_description": "Canakkale bolgesine CNC abkant pres bukum hizmeti. 4 metre bukum kapasitesi, 0.5-20mm sac kalinligi. Hassas ve hizli uretim."
+      },
+      {
+        "anahtar_kelime": "CNC Bukum Bilecik",
+        "slug": "/cnc-bukum-bilecik",
+        "title_tag": "Bilecik CNC Bukum | Abkant Pres Sac Bukum",
+        "h1": "Bilecik CNC Bukum",
+        "meta_description": "Bilecik bolgesine CNC abkant pres bukum hizmeti. 4 metre bukum kapasitesi, 0.5-20mm sac kalinligi. Hassas ve hizli uretim."
+      },
+      {
+        "anahtar_kelime": "CNC Plazma Kesim Kocaeli",
+        "slug": "/cnc-plazma-kocaeli",
+        "title_tag": "Kocaeli CNC Plazma Kesim | 6-50mm Kalin Sac Kesim",
+        "h1": "Kocaeli CNC Plazma Kesim",
+        "meta_description": "Kocaeli bolgesine CNC plazma kesim hizmeti. 2600x6000mm tabla, 6-50mm kalinlikta celik kesim. Buyuk parcalar icin ideal cozum."
+      },
+      {
+        "anahtar_kelime": "CNC Plazma Kesim Bursa",
+        "slug": "/cnc-plazma-bursa",
+        "title_tag": "Bursa CNC Plazma Kesim | 6-50mm Kalin Sac Kesim",
+        "h1": "Bursa CNC Plazma Kesim",
+        "meta_description": "Bursa bolgesine CNC plazma kesim hizmeti. 2600x6000mm tabla, 6-50mm kalinlikta celik kesim. Buyuk parcalar icin ideal cozum."
+      },
+      {
+        "anahtar_kelime": "CNC Plazma Kesim Tekirdag",
+        "slug": "/cnc-plazma-tekirdag",
+        "title_tag": "Tekirdag CNC Plazma Kesim | 6-50mm Kalin Sac Kesim",
+        "h1": "Tekirdag CNC Plazma Kesim",
+        "meta_description": "Tekirdag bolgesine CNC plazma kesim hizmeti. 2600x6000mm tabla, 6-50mm kalinlikta celik kesim. Buyuk parcalar icin ideal cozum."
+      },
+      {
+        "anahtar_kelime": "CNC Plazma Kesim Edirne",
+        "slug": "/cnc-plazma-edirne",
+        "title_tag": "Edirne CNC Plazma Kesim | 6-50mm Kalin Sac Kesim",
+        "h1": "Edirne CNC Plazma Kesim",
+        "meta_description": "Edirne bolgesine CNC plazma kesim hizmeti. 2600x6000mm tabla, 6-50mm kalinlikta celik kesim. Buyuk parcalar icin ideal cozum."
+      },
+      {
+        "anahtar_kelime": "CNC Plazma Kesim Kirklareli",
+        "slug": "/cnc-plazma-kirklareli",
+        "title_tag": "Kirklareli CNC Plazma Kesim | 6-50mm Kalin Sac Kesim",
+        "h1": "Kirklareli CNC Plazma Kesim",
+        "meta_description": "Kirklareli bolgesine CNC plazma kesim hizmeti. 2600x6000mm tabla, 6-50mm kalinlikta celik kesim. Buyuk parcalar icin ideal cozum."
+      },
+      {
+        "anahtar_kelime": "CNC Plazma Kesim Sakarya",
+        "slug": "/cnc-plazma-sakarya",
+        "title_tag": "Sakarya CNC Plazma Kesim | 6-50mm Kalin Sac Kesim",
+        "h1": "Sakarya CNC Plazma Kesim",
+        "meta_description": "Sakarya bolgesine CNC plazma kesim hizmeti. 2600x6000mm tabla, 6-50mm kalinlikta celik kesim. Buyuk parcalar icin ideal cozum."
+      },
+      {
+        "anahtar_kelime": "CNC Plazma Kesim Yalova",
+        "slug": "/cnc-plazma-yalova",
+        "title_tag": "Yalova CNC Plazma Kesim | 6-50mm Kalin Sac Kesim",
+        "h1": "Yalova CNC Plazma Kesim",
+        "meta_description": "Yalova bolgesine CNC plazma kesim hizmeti. 2600x6000mm tabla, 6-50mm kalinlikta celik kesim. Buyuk parcalar icin ideal cozum."
+      },
+      {
+        "anahtar_kelime": "CNC Plazma Kesim Balikesir",
+        "slug": "/cnc-plazma-balikesir",
+        "title_tag": "Balikesir CNC Plazma Kesim | 6-50mm Kalin Sac Kesim",
+        "h1": "Balikesir CNC Plazma Kesim",
+        "meta_description": "Balikesir bolgesine CNC plazma kesim hizmeti. 2600x6000mm tabla, 6-50mm kalinlikta celik kesim. Buyuk parcalar icin ideal cozum."
+      },
+      {
+        "anahtar_kelime": "CNC Plazma Kesim Canakkale",
+        "slug": "/cnc-plazma-canakkale",
+        "title_tag": "Canakkale CNC Plazma Kesim | 6-50mm Kalin Sac Kesim",
+        "h1": "Canakkale CNC Plazma Kesim",
+        "meta_description": "Canakkale bolgesine CNC plazma kesim hizmeti. 2600x6000mm tabla, 6-50mm kalinlikta celik kesim. Buyuk parcalar icin ideal cozum."
+      },
+      {
+        "anahtar_kelime": "CNC Plazma Kesim Bilecik",
+        "slug": "/cnc-plazma-bilecik",
+        "title_tag": "Bilecik CNC Plazma Kesim | 6-50mm Kalin Sac Kesim",
+        "h1": "Bilecik CNC Plazma Kesim",
+        "meta_description": "Bilecik bolgesine CNC plazma kesim hizmeti. 2600x6000mm tabla, 6-50mm kalinlikta celik kesim. Buyuk parcalar icin ideal cozum."
+      }
+    ]
+  },
+
+  "kategori_2_ilce": {
+    "aciklama": "Istanbul 39 ilce kombinasyonlari - ZATEN MEVCUT, atlanıyor.",
+    "mevcut_sayfa_sayisi": 156,
+    "not": "4 hizmet x 39 ilce = 156 sayfa prerender-routes.json icinde mevcut"
+  },
+
+  "kategori_3_malzeme_bazli": {
+    "aciklama": "Malzeme + Hizmet kombinasyonlari",
+    "malzemeler": [
+      "paslanmaz-celik", "aluminyum", "siyah-sac", "galvaniz-sac", "bakir",
+      "pirinc", "hardox", "dkp-sac", "hrp-sac", "baklavali-sac",
+      "gozyasi-sac", "st37-sac", "st52-sac", "s235-sac", "s355-sac",
+      "304-paslanmaz", "316-paslanmaz", "430-paslanmaz", "titanyum",
+      "corten-celik", "ampatman-sac", "duz-levha-sac"
+    ],
+    "toplam": 154,
+    "sayfalar": [
+      {
+        "anahtar_kelime": "Paslanmaz Celik Lazer Kesim",
+        "slug": "/hizmet/paslanmaz-celik-lazer-kesim",
+        "title_tag": "Paslanmaz Celik Lazer Kesim | Inox Sac Kesim Hizmeti",
+        "h1": "Paslanmaz Celik Lazer Kesim",
+        "meta_description": "Paslanmaz celik (inox) sac lazer kesim hizmeti. 304, 316, 430 kalite paslanmaz celiklerde hassas CNC fiber lazer kesim. Fiyat teklifi alin.",
+        "durum": "MEVCUT"
+      },
+      {
+        "anahtar_kelime": "Aluminyum Lazer Kesim",
+        "slug": "/hizmet/aluminyum-lazer-kesim",
+        "title_tag": "Aluminyum Lazer Kesim | Aluminyum Sac Kesim",
+        "h1": "Aluminyum Lazer Kesim",
+        "meta_description": "Aluminyum sac ve levha lazer kesim hizmeti. Yuksek yansitma oranina ragmen hassas kesim. Tum aluminyum alasimlarinda kesim yapilir.",
+        "durum": "MEVCUT"
+      },
+      {
+        "anahtar_kelime": "Siyah Sac Lazer Kesim",
+        "slug": "/hizmet/siyah-sac-lazer-kesim",
+        "title_tag": "Siyah Sac Lazer Kesim | DKP HRP Sac Kesim",
+        "h1": "Siyah Sac Lazer Kesim",
+        "meta_description": "Siyah sac (sicak hadde, soguk hadde) lazer kesim hizmeti. 0.5mm den 25mm ye kadar tum kalinliklarda hassas kesim.",
+        "durum": "MEVCUT"
+      },
+      {
+        "anahtar_kelime": "Galvaniz Sac Lazer Kesim",
+        "slug": "/hizmet/galvaniz-sac-lazer-kesim",
+        "title_tag": "Galvaniz Sac Lazer Kesim | Galvanizli Sac Kesim",
+        "h1": "Galvaniz Sac Lazer Kesim",
+        "meta_description": "Galvaniz kaplamali sac lazer kesim hizmeti. Sicak daldirma ve elektrolitik galvaniz saclarda hassas CNC kesim.",
+        "durum": "MEVCUT"
+      },
+      {
+        "anahtar_kelime": "Bakir Lazer Kesim",
+        "slug": "/hizmet/bakir-lazer-kesim",
+        "title_tag": "Bakir Lazer Kesim | Bakir Sac ve Levha Kesim",
+        "h1": "Bakir Lazer Kesim",
+        "meta_description": "Bakir sac ve levha fiber lazer kesim hizmeti. Elektrik ve elektronik sektoru icin hassas bakir parca kesimi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Pirinc Lazer Kesim",
+        "slug": "/hizmet/pirinc-lazer-kesim",
+        "title_tag": "Pirinc Lazer Kesim | Pirinc Sac Kesim Hizmeti",
+        "h1": "Pirinc Lazer Kesim",
+        "meta_description": "Pirinc sac ve levha lazer kesim hizmeti. Dekoratif ve endustriyel pirinc parcalar icin hassas CNC fiber lazer kesim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Hardox Lazer Kesim",
+        "slug": "/hizmet/hardox-lazer-kesim",
+        "title_tag": "Hardox Lazer Kesim | Asinmaya Dayanikli Celik Kesim",
+        "h1": "Hardox Lazer Kesim",
+        "meta_description": "Hardox asinmaya dayanikli celik lazer kesim. Madencilik, insaat ve agir sanayi icin Hardox 400, 450, 500 kalite kesim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "DKP Sac Lazer Kesim",
+        "slug": "/hizmet/dkp-sac-lazer-kesim",
+        "title_tag": "DKP Sac Lazer Kesim | Soguk Hadde Sac Kesim",
+        "h1": "DKP Sac Lazer Kesim",
+        "meta_description": "DKP (soguk haddelenmiş) sac lazer kesim hizmeti. Duz yuzeyliince saclar icin hassas CNC fiber lazer kesim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "HRP Sac Lazer Kesim",
+        "slug": "/hizmet/hrp-sac-lazer-kesim",
+        "title_tag": "HRP Sac Lazer Kesim | Sicak Hadde Sac Kesim",
+        "h1": "HRP Sac Lazer Kesim",
+        "meta_description": "HRP (sicak haddelenmis) sac lazer kesim hizmeti. 2mm den 25mm ye kadar kalin saclar icin CNC fiber lazer kesim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Baklavali Sac Lazer Kesim",
+        "slug": "/hizmet/baklavali-sac-lazer-kesim",
+        "title_tag": "Baklavali Sac Lazer Kesim | Desenli Sac Kesim",
+        "h1": "Baklavali Sac Lazer Kesim",
+        "meta_description": "Baklavali (kaymaz) sac lazer kesim hizmeti. Platform, merdiven ve zemin kaplamasi icin desenli sac kesimi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Gozyasi Sac Lazer Kesim",
+        "slug": "/hizmet/gozyasi-sac-lazer-kesim",
+        "title_tag": "Gozyasi Sac Lazer Kesim | Kaymaz Sac Kesim",
+        "h1": "Gozyasi Sac Lazer Kesim",
+        "meta_description": "Gozyasi desenli kaymaz sac lazer kesim. Endustriyel zemin ve platform uygulamalari icin hassas kesim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "St37 Sac Lazer Kesim",
+        "slug": "/hizmet/st37-sac-lazer-kesim",
+        "title_tag": "St37 Sac Lazer Kesim | Genel Amacli Celik Kesim",
+        "h1": "St37 Sac Lazer Kesim",
+        "meta_description": "St37 (S235JR) kalite celik sac lazer kesim. Genel amacli yapisal celik icin hassas CNC fiber lazer kesim hizmeti.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "St52 Sac Lazer Kesim",
+        "slug": "/hizmet/st52-sac-lazer-kesim",
+        "title_tag": "St52 Sac Lazer Kesim | Yuksek Mukavemetli Celik Kesim",
+        "h1": "St52 Sac Lazer Kesim",
+        "meta_description": "St52 (S355JR) yuksek mukavemetli celik sac lazer kesim. Agir konstruksiyon ve makine imalati icin hassas kesim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "304 Paslanmaz Celik Lazer Kesim",
+        "slug": "/hizmet/304-paslanmaz-lazer-kesim",
+        "title_tag": "304 Paslanmaz Celik Lazer Kesim | AISI 304 Inox Kesim",
+        "h1": "304 Paslanmaz Celik Lazer Kesim",
+        "meta_description": "AISI 304 kalite paslanmaz celik lazer kesim. Gida, kimya ve genel amacli paslanmaz uygulamalar icin hassas kesim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "316 Paslanmaz Celik Lazer Kesim",
+        "slug": "/hizmet/316-paslanmaz-lazer-kesim",
+        "title_tag": "316 Paslanmaz Celik Lazer Kesim | AISI 316 Inox Kesim",
+        "h1": "316 Paslanmaz Celik Lazer Kesim",
+        "meta_description": "AISI 316 kalite paslanmaz celik lazer kesim. Denizcilik, kimya ve yuksek korozyon direnci gereken uygulamalar icin.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "430 Paslanmaz Celik Lazer Kesim",
+        "slug": "/hizmet/430-paslanmaz-lazer-kesim",
+        "title_tag": "430 Paslanmaz Celik Lazer Kesim | Ferritik Inox Kesim",
+        "h1": "430 Paslanmaz Celik Lazer Kesim",
+        "meta_description": "AISI 430 ferritik paslanmaz celik lazer kesim. Beyaz esya ve dekoratif uygulamalar icin ekonomik paslanmaz kesim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Titanyum Lazer Kesim",
+        "slug": "/hizmet/titanyum-lazer-kesim",
+        "title_tag": "Titanyum Lazer Kesim | Titanyum Sac Kesim Hizmeti",
+        "h1": "Titanyum Lazer Kesim",
+        "meta_description": "Titanyum sac ve levha lazer kesim. Havacilik, medikal ve savunma sanayi icin yuksek hassasiyetli titanyum kesim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Corten Celik Lazer Kesim",
+        "slug": "/hizmet/corten-celik-lazer-kesim",
+        "title_tag": "Corten Celik Lazer Kesim | Atmosferik Korozyona Dayanikli",
+        "h1": "Corten Celik Lazer Kesim",
+        "meta_description": "Corten (hava kosullarina dayanikli) celik lazer kesim. Mimarlik, peyzaj ve dekoratif dis cephe uygulamalari icin.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Paslanmaz Celik Bukum",
+        "slug": "/hizmet/paslanmaz-celik-bukum",
+        "title_tag": "Paslanmaz Celik Bukum | Inox Sac CNC Abkant Bukum",
+        "h1": "Paslanmaz Celik Bukum",
+        "meta_description": "Paslanmaz celik sac CNC abkant pres ile bukum hizmeti. 304, 316, 430 kalitelerde hassas bukum islemi.",
+        "durum": "MEVCUT"
+      },
+      {
+        "anahtar_kelime": "Aluminyum Bukum",
+        "slug": "/hizmet/aluminyum-bukum",
+        "title_tag": "Aluminyum Bukum | Aluminyum Sac CNC Abkant Bukum",
+        "h1": "Aluminyum Bukum",
+        "meta_description": "Aluminyum sac CNC abkant pres bukum hizmeti. Hafif ve dayanikli aluminyum parcalar icin hassas bukum.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Siyah Sac Bukum",
+        "slug": "/hizmet/siyah-sac-bukum",
+        "title_tag": "Siyah Sac Bukum | DKP HRP Sac CNC Bukum",
+        "h1": "Siyah Sac Bukum",
+        "meta_description": "Siyah sac (DKP/HRP) CNC abkant pres bukum hizmeti. 0.5mm den 20mm ye kadar tum kalinliklarda sac bukum.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Galvaniz Sac Bukum",
+        "slug": "/hizmet/galvaniz-sac-bukum",
+        "title_tag": "Galvaniz Sac Bukum | Galvanizli Sac CNC Bukum",
+        "h1": "Galvaniz Sac Bukum",
+        "meta_description": "Galvaniz kaplamali sac CNC abkant pres bukum. Kaplama hasari olmadan hassas bukum islemi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Bakir Bukum",
+        "slug": "/hizmet/bakir-bukum",
+        "title_tag": "Bakir Sac Bukum | CNC Abkant Pres Bakir Bukum",
+        "h1": "Bakir Sac Bukum",
+        "meta_description": "Bakir sac CNC abkant pres bukum hizmeti. Elektrik panelleri ve dekoratif uygulamalar icin bakir bukum.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Hardox Bukum",
+        "slug": "/hizmet/hardox-bukum",
+        "title_tag": "Hardox Bukum | Asinmaya Dayanikli Celik CNC Bukum",
+        "h1": "Hardox Bukum",
+        "meta_description": "Hardox asinmaya dayanikli celik CNC abkant pres bukum. Is makineleri ve madencilik ekipmanlari icin.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Paslanmaz Celik Plazma Kesim",
+        "slug": "/hizmet/paslanmaz-celik-plazma-kesim",
+        "title_tag": "Paslanmaz Celik Plazma Kesim | Kalin Inox Kesim",
+        "h1": "Paslanmaz Celik Plazma Kesim",
+        "meta_description": "Kalin paslanmaz celik CNC plazma kesim hizmeti. 6mm den 50mm ye kadar kalin inox saclar icin ekonomik kesim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Kalin Sac Plazma Kesim",
+        "slug": "/hizmet/kalin-sac-plazma-kesim",
+        "title_tag": "Kalin Sac Plazma Kesim | 6-50mm Celik Plazma Kesim",
+        "h1": "Kalin Sac Plazma Kesim",
+        "meta_description": "6mm den 50mm ye kadar kalin celik sac CNC plazma kesim. Agir sanayi ve konstruksiyon icin buyuk olcekli kesim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Hardox Plazma Kesim",
+        "slug": "/hizmet/hardox-plazma-kesim",
+        "title_tag": "Hardox Plazma Kesim | Asinmaya Dayanikli Celik Plazma",
+        "h1": "Hardox Plazma Kesim",
+        "meta_description": "Hardox asinmaya dayanikli celik CNC plazma kesim. Is makineleri, madencilik ve agir sanayi uygulamalari icin.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "St52 Plazma Kesim",
+        "slug": "/hizmet/st52-plazma-kesim",
+        "title_tag": "St52 Plazma Kesim | Yuksek Mukavemetli Celik Plazma",
+        "h1": "St52 Plazma Kesim",
+        "meta_description": "St52 (S355) yuksek mukavemetli celik plazma kesim. Agir konstruksiyon projelerinde kalin plaka kesimi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Paslanmaz Celik Kaynak",
+        "slug": "/hizmet/paslanmaz-celik-kaynak",
+        "title_tag": "Paslanmaz Celik Kaynak | TIG Argon Kaynak Hizmeti",
+        "h1": "Paslanmaz Celik Kaynak",
+        "meta_description": "Paslanmaz celik TIG argon kaynak hizmeti. Gida, kimya ve endustriyel uygulamalar icin profesyonel inox kaynak.",
+        "durum": "MEVCUT"
+      },
+      {
+        "anahtar_kelime": "Aluminyum Kaynak",
+        "slug": "/hizmet/aluminyum-kaynak",
+        "title_tag": "Aluminyum Kaynak | TIG Argon Aluminyum Kaynak Hizmeti",
+        "h1": "Aluminyum Kaynak",
+        "meta_description": "Aluminyum TIG argon kaynak hizmeti. Hafif konstruksiyon ve ozel imalat icin profesyonel aluminyum kaynak.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Celik Konstruksiyon Kaynak",
+        "slug": "/hizmet/celik-konstruksiyon-kaynak",
+        "title_tag": "Celik Konstruksiyon Kaynak | MIG MAG Kaynak Imalat",
+        "h1": "Celik Konstruksiyon Kaynak",
+        "meta_description": "Celik konstruksiyon MIG/MAG kaynak imalat hizmeti. Bina, fabrika ve endustriyel tesis celik yapilari.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Lazer Kaynak Hizmeti",
+        "slug": "/hizmet/lazer-kaynak",
+        "title_tag": "Lazer Kaynak Hizmeti | Hassas Lazer Kaynak Imalat",
+        "h1": "Lazer Kaynak Hizmeti",
+        "meta_description": "Lazer kaynak ile yuksek hassasiyetli birleştirme islemi. Minimum deformasyon, temiz kaynak dikisi. Ince saclar icin ideal.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Corten Celik Kaynak",
+        "slug": "/hizmet/corten-celik-kaynak",
+        "title_tag": "Corten Celik Kaynak | Atmosferik Dayanikli Celik Kaynak",
+        "h1": "Corten Celik Kaynak",
+        "meta_description": "Corten celik kaynakli imalat. Mimarlik ve dis mekan projeleri icin atmosferik korozyona dayanikli celik kaynak.",
+        "durum": "YENI"
+      }
+    ]
+  },
+
+  "kategori_4_sektor_bazli": {
+    "aciklama": "Sektor + Hizmet kombinasyonlari",
+    "sektorler": [
+      "insaat", "asansor", "mobilya", "beyaz-esya", "otomotiv",
+      "gida-makinalari", "tarim-makinalari", "savunma-sanayi", "enerji",
+      "hvac-iklimlendirme", "aydinlatma", "reklam-tabela", "dekorasyon",
+      "denizcilik", "medikal", "elektronik", "makine-imalat",
+      "dis-cephe-kaplama", "celik-konstruksiyon", "pano-imalat"
+    ],
+    "toplam": 80,
+    "sayfalar": [
+      {
+        "anahtar_kelime": "Insaat Sektoru Lazer Kesim",
+        "slug": "/sektor/insaat-lazer-kesim",
+        "title_tag": "Insaat Sektoru Icin Lazer Kesim | Celik Yapilar",
+        "h1": "Insaat Sektoru Lazer Kesim Hizmeti",
+        "meta_description": "Insaat sektoru icin CNC fiber lazer kesim. Celik konstruksiyon, merdiven, korkuluk, kapı ve pencere profilleri icin hassas kesim."
+      },
+      {
+        "anahtar_kelime": "Insaat Sektoru Kaynakli Imalat",
+        "slug": "/sektor/insaat-kaynakli-imalat",
+        "title_tag": "Insaat Sektoru Kaynakli Imalat | Celik Konstruksiyon",
+        "h1": "Insaat Sektoru Kaynakli Imalat",
+        "meta_description": "Insaat projelerinde celik konstruksiyon kaynakli imalat. Kolon, kiris, makasli cati ve celik yapilar."
+      },
+      {
+        "anahtar_kelime": "Insaat Sektoru CNC Bukum",
+        "slug": "/sektor/insaat-cnc-bukum",
+        "title_tag": "Insaat Sektoru CNC Bukum | Sac Profil Bukum",
+        "h1": "Insaat Sektoru CNC Bukum",
+        "meta_description": "Insaat sektoru icin CNC abkant pres bukum. Oluk, dere, mahya, saclama ve cephe kaplama profilleri."
+      },
+      {
+        "anahtar_kelime": "Insaat Sektoru Plazma Kesim",
+        "slug": "/sektor/insaat-plazma-kesim",
+        "title_tag": "Insaat Sektoru Plazma Kesim | Kalin Celik Plaka Kesim",
+        "h1": "Insaat Sektoru Plazma Kesim",
+        "meta_description": "Insaat projeleri icin kalin celik plaka CNC plazma kesim. Temel plakalari, baglanti detaylari ve agir celik parcalar."
+      },
+      {
+        "anahtar_kelime": "Asansor Sektoru Lazer Kesim",
+        "slug": "/sektor/asansor-lazer-kesim",
+        "title_tag": "Asansor Sektoru Lazer Kesim | Kabin ve Kapi Kesim",
+        "h1": "Asansor Sektoru Lazer Kesim",
+        "meta_description": "Asansor sektoru icin CNC fiber lazer kesim. Kabin panelleri, kapi sacları, butonyer ve dekoratif parcalar."
+      },
+      {
+        "anahtar_kelime": "Asansor Sektoru Kaynakli Imalat",
+        "slug": "/sektor/asansor-kaynakli-imalat",
+        "title_tag": "Asansor Kaynakli Imalat | Kabin Sasi ve Cerceve",
+        "h1": "Asansor Sektoru Kaynakli Imalat",
+        "meta_description": "Asansor sektoru kaynakli imalat. Kabin sasisi, kuyu kapisi cercevesi, ray montaj braketleri ve tasiyici sistemler."
+      },
+      {
+        "anahtar_kelime": "Asansor Sektoru CNC Bukum",
+        "slug": "/sektor/asansor-cnc-bukum",
+        "title_tag": "Asansor Sektoru CNC Bukum | Panel ve Profil Bukum",
+        "h1": "Asansor Sektoru CNC Bukum",
+        "meta_description": "Asansor sektoru icin CNC sac bukum. Kabin panelleri, kapi kasalari ve ic kaplama profilleri."
+      },
+      {
+        "anahtar_kelime": "Asansor Sektoru Plazma Kesim",
+        "slug": "/sektor/asansor-plazma-kesim",
+        "title_tag": "Asansor Plazma Kesim | Agir Parca ve Plaka Kesim",
+        "h1": "Asansor Sektoru Plazma Kesim",
+        "meta_description": "Asansor sektoru icin CNC plazma kesim. Karsi agirlik plakalari, sasi profilleri ve agir celik parcalar."
+      },
+      {
+        "anahtar_kelime": "Mobilya Sektoru Lazer Kesim",
+        "slug": "/sektor/mobilya-lazer-kesim",
+        "title_tag": "Mobilya Sektoru Lazer Kesim | Metal Mobilya Parcalari",
+        "h1": "Mobilya Sektoru Lazer Kesim",
+        "meta_description": "Mobilya sektoru icin dekoratif ve yapisal metal parca lazer kesim. Masa ayaklari, raf sistemleri, dolap aksesuar ve paneller."
+      },
+      {
+        "anahtar_kelime": "Mobilya Sektoru Kaynakli Imalat",
+        "slug": "/sektor/mobilya-kaynakli-imalat",
+        "title_tag": "Mobilya Kaynakli Imalat | Metal Mobilya Montaj",
+        "h1": "Mobilya Sektoru Kaynakli Imalat",
+        "meta_description": "Metal mobilya kaynakli imalat. Celik masa, sandalye, bank, raf sistemi ve vitrin cerceveleri."
+      },
+      {
+        "anahtar_kelime": "Mobilya Sektoru CNC Bukum",
+        "slug": "/sektor/mobilya-cnc-bukum",
+        "title_tag": "Mobilya Sektoru CNC Bukum | Metal Profil Sekillendirme",
+        "h1": "Mobilya Sektoru CNC Bukum",
+        "meta_description": "Mobilya sektoru icin metal sac ve profil CNC bukum. Masa kenarliklari, dolap profilleri ve dekoratif formlar."
+      },
+      {
+        "anahtar_kelime": "Beyaz Esya Sektoru Lazer Kesim",
+        "slug": "/sektor/beyaz-esya-lazer-kesim",
+        "title_tag": "Beyaz Esya Lazer Kesim | Sac Parca Seri Uretim",
+        "h1": "Beyaz Esya Sektoru Lazer Kesim",
+        "meta_description": "Beyaz esya sektoru icin seri uretim lazer kesim. Galvaniz ve paslanmaz sac parcalar, govde, panel ve ic aksam."
+      },
+      {
+        "anahtar_kelime": "Beyaz Esya Sektoru CNC Bukum",
+        "slug": "/sektor/beyaz-esya-cnc-bukum",
+        "title_tag": "Beyaz Esya CNC Bukum | Sac Govde ve Panel Bukum",
+        "h1": "Beyaz Esya Sektoru CNC Bukum",
+        "meta_description": "Beyaz esya sektoru icin sac govde ve panel CNC bukum. Buzdolabi, camasir makinesi, firin govde parcalari."
+      },
+      {
+        "anahtar_kelime": "Otomotiv Sektoru Lazer Kesim",
+        "slug": "/sektor/otomotiv-lazer-kesim",
+        "title_tag": "Otomotiv Sektoru Lazer Kesim | Oto Yedek Parca Kesim",
+        "h1": "Otomotiv Sektoru Lazer Kesim",
+        "meta_description": "Otomotiv sektoru icin hassas CNC fiber lazer kesim. Sasi parcalari, braketler, conta ve ozel yedek parcalar."
+      },
+      {
+        "anahtar_kelime": "Otomotiv Sektoru Kaynakli Imalat",
+        "slug": "/sektor/otomotiv-kaynakli-imalat",
+        "title_tag": "Otomotiv Kaynakli Imalat | Oto Sasi ve Parca Kaynak",
+        "h1": "Otomotiv Sektoru Kaynakli Imalat",
+        "meta_description": "Otomotiv sektoru kaynakli imalat. Sasi takviye, egzoz sistemi, braket montaj ve ozel arac ustu ekipmanlari."
+      },
+      {
+        "anahtar_kelime": "Otomotiv Sektoru CNC Bukum",
+        "slug": "/sektor/otomotiv-cnc-bukum",
+        "title_tag": "Otomotiv CNC Bukum | Oto Sac Parca Sekillendirme",
+        "h1": "Otomotiv Sektoru CNC Bukum",
+        "meta_description": "Otomotiv sektoru icin sac parca CNC bukum. Camurluk, kaput, kapi ic paneli ve karoseri parcalari."
+      },
+      {
+        "anahtar_kelime": "Gida Makinalari Lazer Kesim",
+        "slug": "/sektor/gida-makinalari-lazer-kesim",
+        "title_tag": "Gida Makinalari Lazer Kesim | Paslanmaz Celik Kesim",
+        "h1": "Gida Makinalari Lazer Kesim",
+        "meta_description": "Gida makinalari sektoru icin hijyenik paslanmaz celik lazer kesim. Konveyor, mikser, dolum ve paketleme makinesi parcalari."
+      },
+      {
+        "anahtar_kelime": "Gida Makinalari Kaynakli Imalat",
+        "slug": "/sektor/gida-makinalari-kaynakli-imalat",
+        "title_tag": "Gida Makinalari Kaynakli Imalat | Paslanmaz Kaynak",
+        "h1": "Gida Makinalari Kaynakli Imalat",
+        "meta_description": "Gida makinalari paslanmaz celik TIG kaynak imalat. Tank, hazne, kazan ve gida temas yuzeylerinde hijyenik kaynak."
+      },
+      {
+        "anahtar_kelime": "Tarim Makinalari Lazer Kesim",
+        "slug": "/sektor/tarim-makinalari-lazer-kesim",
+        "title_tag": "Tarim Makinalari Lazer Kesim | Agir Celik Parca Kesim",
+        "h1": "Tarim Makinalari Lazer Kesim",
+        "meta_description": "Tarim makinalari sektoru icin dayanikli celik parca lazer kesim. Pulluk, diskaro, bicerdover ve sulama ekipmanlari."
+      },
+      {
+        "anahtar_kelime": "Tarim Makinalari Kaynakli Imalat",
+        "slug": "/sektor/tarim-makinalari-kaynakli-imalat",
+        "title_tag": "Tarim Makinalari Kaynakli Imalat | Agir Hizmet Kaynak",
+        "h1": "Tarim Makinalari Kaynakli Imalat",
+        "meta_description": "Tarim makinalari kaynakli imalat. Sasi, kasa, tambur ve agir hizmet tarim ekipmanlari kaynak birlestirme."
+      },
+      {
+        "anahtar_kelime": "Tarim Makinalari Plazma Kesim",
+        "slug": "/sektor/tarim-makinalari-plazma-kesim",
+        "title_tag": "Tarim Makinalari Plazma Kesim | Kalin Celik Parca",
+        "h1": "Tarim Makinalari Plazma Kesim",
+        "meta_description": "Tarim makinalari icin kalin celik plaka CNC plazma kesim. Bicak, diskler ve asinmaya dayanikli parcalar."
+      },
+      {
+        "anahtar_kelime": "Savunma Sanayi Lazer Kesim",
+        "slug": "/sektor/savunma-sanayi-lazer-kesim",
+        "title_tag": "Savunma Sanayi Lazer Kesim | Hassas Metal Parca Uretim",
+        "h1": "Savunma Sanayi Lazer Kesim",
+        "meta_description": "Savunma sanayi icin yuksek hassasiyetli CNC fiber lazer kesim. Zirhli arac, silah sistemi ve askeri ekipman parcalari."
+      },
+      {
+        "anahtar_kelime": "Savunma Sanayi Kaynakli Imalat",
+        "slug": "/sektor/savunma-sanayi-kaynakli-imalat",
+        "title_tag": "Savunma Sanayi Kaynakli Imalat | Askeri Standart Kaynak",
+        "h1": "Savunma Sanayi Kaynakli Imalat",
+        "meta_description": "Savunma sanayi kaynakli imalat. Zirhli arac govde, taret ve askeri standartlara uygun celik birlesim."
+      },
+      {
+        "anahtar_kelime": "Enerji Sektoru Lazer Kesim",
+        "slug": "/sektor/enerji-lazer-kesim",
+        "title_tag": "Enerji Sektoru Lazer Kesim | Ruzgar Gunes Panel Parca",
+        "h1": "Enerji Sektoru Lazer Kesim",
+        "meta_description": "Enerji sektoru icin CNC lazer kesim. Ruzgar turbini, gunes paneli tasiyici, trafo ve enerji dagitim parcalari."
+      },
+      {
+        "anahtar_kelime": "Enerji Sektoru Kaynakli Imalat",
+        "slug": "/sektor/enerji-kaynakli-imalat",
+        "title_tag": "Enerji Sektoru Kaynakli Imalat | Enerji Altyapi Kaynak",
+        "h1": "Enerji Sektoru Kaynakli Imalat",
+        "meta_description": "Enerji sektoru kaynakli imalat. Kule, direk, konsol ve enerji iletim hatti celik yapilar."
+      },
+      {
+        "anahtar_kelime": "HVAC Iklimlendirme Lazer Kesim",
+        "slug": "/sektor/hvac-iklimlendirme-lazer-kesim",
+        "title_tag": "HVAC Lazer Kesim | Havalandirma Kanal Sac Kesim",
+        "h1": "HVAC Iklimlendirme Lazer Kesim",
+        "meta_description": "HVAC ve iklimlendirme sektoru icin sac lazer kesim. Havalandirma kanali, difuzor, menfez ve klima parcalari."
+      },
+      {
+        "anahtar_kelime": "HVAC Iklimlendirme CNC Bukum",
+        "slug": "/sektor/hvac-iklimlendirme-cnc-bukum",
+        "title_tag": "HVAC CNC Bukum | Havalandirma Kanal Profil Bukum",
+        "h1": "HVAC Iklimlendirme CNC Bukum",
+        "meta_description": "HVAC sektoru icin galvaniz ve paslanmaz sac CNC bukum. Havalandirma kanali, baca ve klima govde profilleri."
+      },
+      {
+        "anahtar_kelime": "Aydinlatma Sektoru Lazer Kesim",
+        "slug": "/sektor/aydinlatma-lazer-kesim",
+        "title_tag": "Aydinlatma Lazer Kesim | Armatür ve Gövde Kesim",
+        "h1": "Aydinlatma Sektoru Lazer Kesim",
+        "meta_description": "Aydinlatma sektoru icin dekoratif ve endustriyel armatur govde lazer kesim. Aluminyum ve celik aydinlatma parcalari."
+      },
+      {
+        "anahtar_kelime": "Aydinlatma Sektoru CNC Bukum",
+        "slug": "/sektor/aydinlatma-cnc-bukum",
+        "title_tag": "Aydinlatma CNC Bukum | Armatur Reflektör Bukum",
+        "h1": "Aydinlatma Sektoru CNC Bukum",
+        "meta_description": "Aydinlatma sektoru icin aluminyum ve celik sac CNC bukum. Reflektor, govde ve montaj braketleri."
+      },
+      {
+        "anahtar_kelime": "Reklam Tabela Lazer Kesim",
+        "slug": "/sektor/reklam-tabela-lazer-kesim",
+        "title_tag": "Reklam Tabela Lazer Kesim | Harf ve Logo Kesim",
+        "h1": "Reklam Tabela Lazer Kesim",
+        "meta_description": "Reklam ve tabela sektoru icin metal harf, logo ve dekoratif parca lazer kesim. Paslanmaz, aluminyum ve pirinc."
+      },
+      {
+        "anahtar_kelime": "Reklam Tabela CNC Bukum",
+        "slug": "/sektor/reklam-tabela-cnc-bukum",
+        "title_tag": "Reklam Tabela CNC Bukum | Kutu Harf ve Kasa Bukum",
+        "h1": "Reklam Tabela CNC Bukum",
+        "meta_description": "Reklam tabela sektoru icin kutu harf, totem ve tabela kasasi CNC sac bukum. Isikli ve isiksiz tabela imalati."
+      },
+      {
+        "anahtar_kelime": "Dekorasyon Lazer Kesim",
+        "slug": "/sektor/dekorasyon-lazer-kesim",
+        "title_tag": "Dekoratif Lazer Kesim | Metal Dekorasyon Urunleri",
+        "h1": "Dekorasyon Lazer Kesim",
+        "meta_description": "Dekoratif metal parca lazer kesim. Paravan, seperator, bahce kapisi, korkuluk ve ic mekan dekorasyon urunleri."
+      },
+      {
+        "anahtar_kelime": "Dekorasyon CNC Bukum",
+        "slug": "/sektor/dekorasyon-cnc-bukum",
+        "title_tag": "Dekoratif CNC Bukum | Metal Dekorasyon Profil Bukum",
+        "h1": "Dekorasyon CNC Bukum",
+        "meta_description": "Dekoratif metal profil ve sac CNC bukum. Ic ve dis mekan dekorasyon, cephe kaplama ve ozel tasarim urunler."
+      },
+      {
+        "anahtar_kelime": "Denizcilik Sektoru Lazer Kesim",
+        "slug": "/sektor/denizcilik-lazer-kesim",
+        "title_tag": "Denizcilik Lazer Kesim | Gemi ve Yat Metal Parca",
+        "h1": "Denizcilik Sektoru Lazer Kesim",
+        "meta_description": "Denizcilik sektoru icin deniz suyu dayanikli metal parca lazer kesim. 316 paslanmaz celik gemi ve yat parcalari."
+      },
+      {
+        "anahtar_kelime": "Denizcilik Sektoru Kaynakli Imalat",
+        "slug": "/sektor/denizcilik-kaynakli-imalat",
+        "title_tag": "Denizcilik Kaynakli Imalat | Gemi Celik Kaynak",
+        "h1": "Denizcilik Sektoru Kaynakli Imalat",
+        "meta_description": "Denizcilik sektoru kaynakli imalat. Gemi govde, guvertebaltama ve denizcilik celik yapilari TIG/MIG kaynak."
+      },
+      {
+        "anahtar_kelime": "Medikal Sektor Lazer Kesim",
+        "slug": "/sektor/medikal-lazer-kesim",
+        "title_tag": "Medikal Lazer Kesim | Tibbi Cihaz Metal Parca",
+        "h1": "Medikal Sektor Lazer Kesim",
+        "meta_description": "Medikal sektor icin hijyenik paslanmaz celik lazer kesim. Tibbi cihaz, ameliyathane ekipman ve hasta yatagi parcalari."
+      },
+      {
+        "anahtar_kelime": "Elektronik Sektor Lazer Kesim",
+        "slug": "/sektor/elektronik-lazer-kesim",
+        "title_tag": "Elektronik Lazer Kesim | Pano Govde ve Sasi Kesim",
+        "h1": "Elektronik Sektor Lazer Kesim",
+        "meta_description": "Elektronik sektoru icin hassas metal parca lazer kesim. Pano, kabinet, sasi ve PCB muhafaza kutusu kesimi."
+      },
+      {
+        "anahtar_kelime": "Elektronik Sektor CNC Bukum",
+        "slug": "/sektor/elektronik-cnc-bukum",
+        "title_tag": "Elektronik CNC Bukum | Pano ve Kabinet Bukum",
+        "h1": "Elektronik Sektor CNC Bukum",
+        "meta_description": "Elektronik sektoru icin pano, kabinet ve muhafaza kutusu CNC sac bukum. Hassas toleransli govde uretimi."
+      },
+      {
+        "anahtar_kelime": "Makine Imalat Lazer Kesim",
+        "slug": "/sektor/makine-imalat-lazer-kesim",
+        "title_tag": "Makine Imalat Lazer Kesim | Endustriyel Parca Kesim",
+        "h1": "Makine Imalat Lazer Kesim",
+        "meta_description": "Makine imalat sektoru icin CNC fiber lazer kesim. Sasi, govde, kapak ve mekanizma parcalari hassas kesim."
+      },
+      {
+        "anahtar_kelime": "Makine Imalat Kaynakli Imalat",
+        "slug": "/sektor/makine-imalat-kaynakli-imalat",
+        "title_tag": "Makine Imalat Kaynakli Imalat | Endustriyel Kaynak",
+        "h1": "Makine Imalat Kaynakli Imalat",
+        "meta_description": "Makine imalat sektoru kaynakli imalat. Makine govdesi, sasi, konsol ve tasiyici celik yapilar."
+      },
+      {
+        "anahtar_kelime": "Makine Imalat Plazma Kesim",
+        "slug": "/sektor/makine-imalat-plazma-kesim",
+        "title_tag": "Makine Imalat Plazma Kesim | Agir Celik Parca Kesim",
+        "h1": "Makine Imalat Plazma Kesim",
+        "meta_description": "Makine imalat sektoru icin kalin celik plaka CNC plazma kesim. Pres govdesi, sasi ve agir parca kesimi."
+      },
+      {
+        "anahtar_kelime": "Dis Cephe Kaplama Lazer Kesim",
+        "slug": "/sektor/dis-cephe-kaplama-lazer-kesim",
+        "title_tag": "Dis Cephe Kaplama Lazer Kesim | Mimari Metal Parca",
+        "h1": "Dis Cephe Kaplama Lazer Kesim",
+        "meta_description": "Dis cephe kaplama icin dekoratif metal parca lazer kesim. Kompozit panel, aluminyum ve celik cephe elemanları."
+      },
+      {
+        "anahtar_kelime": "Dis Cephe Kaplama CNC Bukum",
+        "slug": "/sektor/dis-cephe-kaplama-cnc-bukum",
+        "title_tag": "Dis Cephe Kaplama CNC Bukum | Cephe Profil Bukum",
+        "h1": "Dis Cephe Kaplama CNC Bukum",
+        "meta_description": "Dis cephe kaplama sektoru icin aluminyum ve celik profil CNC bukum. U, Z, L profil ve ozel cephe sekilleri."
+      },
+      {
+        "anahtar_kelime": "Celik Konstruksiyon Lazer Kesim",
+        "slug": "/sektor/celik-konstruksiyon-lazer-kesim",
+        "title_tag": "Celik Konstruksiyon Lazer Kesim | Yapisal Celik Parca",
+        "h1": "Celik Konstruksiyon Lazer Kesim",
+        "meta_description": "Celik konstruksiyon projeleri icin levha ve plaka lazer kesim. Baglanti plakalari, kiris, kolon detay parcalari."
+      },
+      {
+        "anahtar_kelime": "Celik Konstruksiyon Kaynakli Imalat",
+        "slug": "/sektor/celik-konstruksiyon-kaynakli-imalat",
+        "title_tag": "Celik Konstruksiyon Kaynakli Imalat | Fabrika Bina",
+        "h1": "Celik Konstruksiyon Kaynakli Imalat",
+        "meta_description": "Celik konstruksiyon kaynakli imalat. Fabrika, depo, hangat, spor salonu ve prefabrik celik bina yapilari."
+      },
+      {
+        "anahtar_kelime": "Celik Konstruksiyon Plazma Kesim",
+        "slug": "/sektor/celik-konstruksiyon-plazma-kesim",
+        "title_tag": "Celik Konstruksiyon Plazma Kesim | Agir Plaka Kesim",
+        "h1": "Celik Konstruksiyon Plazma Kesim",
+        "meta_description": "Celik konstruksiyon icin kalin plaka CNC plazma kesim. Kolon taban plakalari, kiris baglantilari ve agir parcalar."
+      },
+      {
+        "anahtar_kelime": "Pano Imalat Lazer Kesim",
+        "slug": "/sektor/pano-imalat-lazer-kesim",
+        "title_tag": "Pano Imalat Lazer Kesim | Elektrik Pano Govde Kesim",
+        "h1": "Pano Imalat Lazer Kesim",
+        "meta_description": "Elektrik pano imalati icin hassas sac lazer kesim. Pano govdesi, kapaklari, montaj plakasi ve aksesuar parcalar."
+      },
+      {
+        "anahtar_kelime": "Pano Imalat CNC Bukum",
+        "slug": "/sektor/pano-imalat-cnc-bukum",
+        "title_tag": "Pano Imalat CNC Bukum | Elektrik Pano Govde Bukum",
+        "h1": "Pano Imalat CNC Bukum",
+        "meta_description": "Elektrik pano imalati icin sac CNC bukum. Pano govdesi, kapak, yan duvar ve montaj profilleri."
+      },
+      {
+        "anahtar_kelime": "Pano Imalat Kaynakli Imalat",
+        "slug": "/sektor/pano-imalat-kaynakli-imalat",
+        "title_tag": "Pano Imalat Kaynakli Imalat | Pano Govde Kaynak",
+        "h1": "Pano Imalat Kaynakli Imalat",
+        "meta_description": "Elektrik pano govdesi kaynakli imalat. IP65 ve IP66 koruma sinifi pano govdeleri."
+      }
+    ]
+  },
+
+  "kategori_5_fiyat_bilgi": {
+    "aciklama": "Fiyat odakli, bilgi odakli ve soru bazli anahtar kelimeler (informational + transactional intent)",
+    "toplam": 65,
+    "sayfalar": [
+      {
+        "anahtar_kelime": "Lazer Kesim Fiyat",
+        "slug": "/bilgi/lazer-kesim-fiyat",
+        "title_tag": "Lazer Kesim Fiyatlari 2026 | Guncel CNC Lazer Kesim Fiyat",
+        "h1": "Lazer Kesim Fiyatlari",
+        "meta_description": "2026 guncel lazer kesim fiyatlari. Malzeme turu, kalinlik ve adede gore CNC fiber lazer kesim ucretleri. Hemen teklif alin.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Sac Bukum Fiyatlari",
+        "slug": "/bilgi/sac-bukum-fiyatlari",
+        "title_tag": "Sac Bukum Fiyatlari 2026 | CNC Abkant Pres Bukum Fiyat",
+        "h1": "Sac Bukum Fiyatlari",
+        "meta_description": "2026 guncel sac bukum fiyatlari. Malzeme, kalinlik ve bukum sayisina gore CNC abkant pres bukum ucretleri.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Plazma Kesim Fiyat",
+        "slug": "/bilgi/plazma-kesim-fiyat",
+        "title_tag": "Plazma Kesim Fiyatlari 2026 | CNC Plazma Kesim Ucret",
+        "h1": "Plazma Kesim Fiyatlari",
+        "meta_description": "2026 guncel CNC plazma kesim fiyatlari. 6mm den 50mm ye kalin sac kesim maliyetleri. Hemen teklif alin.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Kaynak Imalat Fiyat",
+        "slug": "/bilgi/kaynak-imalat-fiyat",
+        "title_tag": "Kaynak Imalat Fiyatlari 2026 | TIG MIG Kaynak Ucretleri",
+        "h1": "Kaynak Imalat Fiyatlari",
+        "meta_description": "2026 guncel kaynakli imalat fiyatlari. TIG, MIG ve lazer kaynak iscilik ucretleri. Proje bazli teklif.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Paslanmaz Celik Lazer Kesim Fiyat",
+        "slug": "/bilgi/paslanmaz-celik-lazer-kesim-fiyat",
+        "title_tag": "Paslanmaz Celik Lazer Kesim Fiyatlari 2026",
+        "h1": "Paslanmaz Celik Lazer Kesim Fiyatlari",
+        "meta_description": "Paslanmaz celik (inox) lazer kesim fiyatlari. 304, 316, 430 kalite ve kalinliga gore guncel fiyat listesi.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Aluminyum Lazer Kesim Fiyat",
+        "slug": "/bilgi/aluminyum-lazer-kesim-fiyat",
+        "title_tag": "Aluminyum Lazer Kesim Fiyatlari 2026",
+        "h1": "Aluminyum Lazer Kesim Fiyatlari",
+        "meta_description": "Aluminyum sac ve levha lazer kesim fiyatlari. Kalinliga ve alasim turune gore guncel fiyatlandirma.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Siyah Sac Lazer Kesim Fiyat",
+        "slug": "/bilgi/siyah-sac-lazer-kesim-fiyat",
+        "title_tag": "Siyah Sac Lazer Kesim Fiyatlari 2026 | DKP HRP",
+        "h1": "Siyah Sac Lazer Kesim Fiyatlari",
+        "meta_description": "Siyah sac (DKP/HRP) lazer kesim fiyatlari. Kalinliga gore sicak ve soguk hadde sac kesim ucretleri.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Galvaniz Sac Lazer Kesim Fiyat",
+        "slug": "/bilgi/galvaniz-sac-lazer-kesim-fiyat",
+        "title_tag": "Galvaniz Sac Lazer Kesim Fiyatlari 2026",
+        "h1": "Galvaniz Sac Lazer Kesim Fiyatlari",
+        "meta_description": "Galvaniz kaplamali sac lazer kesim fiyatlari. Kalinlik ve miktara gore galvanizli sac kesim ucretleri.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Hardox Lazer Kesim Fiyat",
+        "slug": "/bilgi/hardox-lazer-kesim-fiyat",
+        "title_tag": "Hardox Lazer Kesim Fiyatlari 2026 | Asinma Celigi",
+        "h1": "Hardox Lazer Kesim Fiyatlari",
+        "meta_description": "Hardox asinmaya dayanikli celik lazer kesim fiyatlari. Hardox 400, 450, 500 kalite kesim ucretleri.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "CNC Lazer Kesim Fiyat Listesi",
+        "slug": "/bilgi/cnc-lazer-kesim-fiyat-listesi",
+        "title_tag": "CNC Lazer Kesim Fiyat Listesi 2026 | Tum Malzemeler",
+        "h1": "CNC Lazer Kesim Fiyat Listesi",
+        "meta_description": "2026 yili CNC fiber lazer kesim fiyat listesi. Tum malzeme turleri ve kalinliklara gore detayli fiyatlandirma tablosu.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Metre Fiyati",
+        "slug": "/bilgi/lazer-kesim-metre-fiyati",
+        "title_tag": "Lazer Kesim Metre Fiyati 2026 | Celik Aluminyum Inox",
+        "h1": "Lazer Kesim Metre Fiyati",
+        "meta_description": "Lazer kesim metre fiyatlari. Malzeme turu ve sac kalinligina gore metrik fiyatlandirma tablosu.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Abkant Bukum Fiyatlari",
+        "slug": "/bilgi/abkant-bukum-fiyatlari",
+        "title_tag": "Abkant Bukum Fiyatlari 2026 | CNC Pres Bukum Ucret",
+        "h1": "Abkant Bukum Fiyatlari",
+        "meta_description": "CNC abkant pres bukum fiyatlari. Sac kalinligi, bukum uzunlugu ve adede gore guncel fiyat tablosu.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Metal Iscilik Fiyatlari",
+        "slug": "/bilgi/metal-iscilik-fiyatlari",
+        "title_tag": "Metal Iscilik Fiyatlari 2026 | Kesim Bukum Kaynak",
+        "h1": "Metal Iscilik Fiyatlari",
+        "meta_description": "2026 guncel metal iscilik fiyatlari. Lazer kesim, sac bukum, kaynak ve montaj iscilik ucretleri.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Fason Lazer Kesim Fiyat",
+        "slug": "/bilgi/fason-lazer-kesim-fiyat",
+        "title_tag": "Fason Lazer Kesim Fiyatlari 2026 | Toptan ve Perakende",
+        "h1": "Fason Lazer Kesim Fiyatlari",
+        "meta_description": "Fason CNC fiber lazer kesim fiyatlari. Kucuk adetlerden buyuk serilere fason kesim hizmeti ve fiyatlandirma.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Fason Sac Bukum Fiyat",
+        "slug": "/bilgi/fason-sac-bukum-fiyat",
+        "title_tag": "Fason Sac Bukum Fiyatlari 2026 | CNC Abkant Fason",
+        "h1": "Fason Sac Bukum Fiyatlari",
+        "meta_description": "Fason CNC abkant pres sac bukum fiyatlari. Tekli parcadan seri uretime fason bukum hizmeti.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "CNC Lazer Kesim Nedir",
+        "slug": "/bilgi/cnc-lazer-kesim-nedir",
+        "title_tag": "CNC Lazer Kesim Nedir? | Fiber Lazer Teknolojisi Rehberi",
+        "h1": "CNC Lazer Kesim Nedir?",
+        "meta_description": "CNC fiber lazer kesim nedir, nasil calisir? Lazer kesim teknolojisi, avantajlari, kullanim alanlari ve malzeme secimi rehberi.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Fiber Lazer Kesim Nedir",
+        "slug": "/bilgi/fiber-lazer-kesim-nedir",
+        "title_tag": "Fiber Lazer Kesim Nedir? | CO2 ile Farki ve Avantajlari",
+        "h1": "Fiber Lazer Kesim Nedir?",
+        "meta_description": "Fiber lazer kesim teknolojisi nedir? CO2 lazer ile farki, avantajlari ve dezavantajlari. Hangi malzemelerde kullanilir?",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Plazma Kesim Nedir",
+        "slug": "/bilgi/plazma-kesim-nedir",
+        "title_tag": "Plazma Kesim Nedir? | CNC Plazma Kesim Rehberi",
+        "h1": "Plazma Kesim Nedir?",
+        "meta_description": "CNC plazma kesim nedir, nasil calisir? Plazma kesim prensibi, avantajlari ve lazer kesimden farklari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Plazma Kesim Nasil Yapilir",
+        "slug": "/bilgi/plazma-kesim-nasil-yapilir",
+        "title_tag": "Plazma Kesim Nasil Yapilir? | Adim Adim Surec",
+        "h1": "Plazma Kesim Nasil Yapilir?",
+        "meta_description": "Plazma kesim sureci adim adim nasil yapilir? CNC plazma kesim makinesi calisma prensibi ve uygulama detaylari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Nasil Yapilir",
+        "slug": "/bilgi/lazer-kesim-nasil-yapilir",
+        "title_tag": "Lazer Kesim Nasil Yapilir? | CNC Fiber Lazer Sureci",
+        "h1": "Lazer Kesim Nasil Yapilir?",
+        "meta_description": "CNC fiber lazer kesim sureci nasil isler? Dosya hazirliginda son urune kadar lazer kesim asamalari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Sac Bukum Nasil Yapilir",
+        "slug": "/bilgi/sac-bukum-nasil-yapilir",
+        "title_tag": "Sac Bukum Nasil Yapilir? | CNC Abkant Pres Islemi",
+        "h1": "Sac Bukum Nasil Yapilir?",
+        "meta_description": "CNC abkant pres ile sac bukum nasil yapilir? Bukum acisileri, kalip secimi ve dikkat edilmesi gerekenler.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "TIG Kaynak Nedir",
+        "slug": "/bilgi/tig-kaynak-nedir",
+        "title_tag": "TIG Kaynak Nedir? | Argon Kaynak Rehberi",
+        "h1": "TIG Kaynak Nedir?",
+        "meta_description": "TIG (Tungsten Inert Gas) kaynak nedir? Argon kaynak olarakda bilinen TIG kaynak yontemi, kullanim alanlari ve avantajlari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "MIG Kaynak Nedir",
+        "slug": "/bilgi/mig-kaynak-nedir",
+        "title_tag": "MIG Kaynak Nedir? | MIG MAG Kaynak Farki",
+        "h1": "MIG Kaynak Nedir?",
+        "meta_description": "MIG (Metal Inert Gas) kaynak nedir? MIG ve MAG kaynak arasindaki fark, kullanim alanlari ve avantajlari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Lazer Kaynak Nedir",
+        "slug": "/bilgi/lazer-kaynak-nedir",
+        "title_tag": "Lazer Kaynak Nedir? | Lazer Kaynak Teknolojisi",
+        "h1": "Lazer Kaynak Nedir?",
+        "meta_description": "Lazer kaynak teknolojisi nedir? Geleneksel kaynaktan farklari, avantajlari ve kullanim alanlari detayli rehber.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim ile Plazma Kesim Farki",
+        "slug": "/bilgi/lazer-kesim-plazma-kesim-farki",
+        "title_tag": "Lazer Kesim vs Plazma Kesim | Farklar ve Karsilastirma",
+        "h1": "Lazer Kesim ile Plazma Kesim Arasindaki Farklar",
+        "meta_description": "Lazer kesim ve plazma kesim arasindaki farklar nelerdir? Hassasiyet, maliyet, hiz ve malzeme kalinligi karsilastirmasi.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Fiber Lazer ile CO2 Lazer Farki",
+        "slug": "/bilgi/fiber-lazer-co2-lazer-farki",
+        "title_tag": "Fiber Lazer vs CO2 Lazer | Teknoloji Karsilastirmasi",
+        "h1": "Fiber Lazer ile CO2 Lazer Arasindaki Farklar",
+        "meta_description": "Fiber lazer ve CO2 lazer kesim teknolojileri karsilastirmasi. Hiz, kalite, maliyet ve malzeme uyumlulugu farklari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "TIG MIG Kaynak Farki",
+        "slug": "/bilgi/tig-mig-kaynak-farki",
+        "title_tag": "TIG vs MIG Kaynak | Farklari ve Kullanim Alanlari",
+        "h1": "TIG ve MIG Kaynak Arasindaki Farklar",
+        "meta_description": "TIG ve MIG kaynak yontemleri arasindaki farklar. Hangi durumda hangi kaynak yontemi tercih edilmeli?",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Abkant Pres Nedir",
+        "slug": "/bilgi/abkant-pres-nedir",
+        "title_tag": "Abkant Pres Nedir? | CNC Sac Bukum Makinesi Rehberi",
+        "h1": "Abkant Pres Nedir?",
+        "meta_description": "Abkant pres nedir, nasil calisir? CNC abkant pres makinesi turleri, kapasite ve kullanim alanlari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Sac Kalinliklari ve Olculeri",
+        "slug": "/bilgi/sac-kalinliklari-olculeri",
+        "title_tag": "Sac Kalinliklari ve Standart Olculeri | Komple Tablo",
+        "h1": "Sac Kalinliklari ve Standart Olculeri",
+        "meta_description": "Metal sac kalinliklari ve standart ebat tablosu. DKP, HRP, paslanmaz, galvaniz ve aluminyum sac olculeri.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Paslanmaz Celik Cesitleri",
+        "slug": "/bilgi/paslanmaz-celik-cesitleri",
+        "title_tag": "Paslanmaz Celik Cesitleri | 304 316 430 201 Farklar",
+        "h1": "Paslanmaz Celik Cesitleri ve Farklari",
+        "meta_description": "Paslanmaz celik turleri nelerdir? 304, 316, 430, 201 kalite paslanmaz celiklerin ozellikleri ve kullanim alanlari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Toleranslari",
+        "slug": "/bilgi/lazer-kesim-toleranslari",
+        "title_tag": "Lazer Kesim Toleranslari | Hassasiyet Degerleri",
+        "h1": "Lazer Kesim Toleranslari",
+        "meta_description": "CNC fiber lazer kesim tolerans degerleri. Malzeme turune ve kalinliga gore elde edilebilir hassasiyet araliklari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Dosya Formatlari",
+        "slug": "/bilgi/lazer-kesim-dosya-formatlari",
+        "title_tag": "Lazer Kesim Dosya Formatlari | DXF DWG STEP Rehberi",
+        "h1": "Lazer Kesim Icin Dosya Formatlari",
+        "meta_description": "Lazer kesim icin hangi dosya formatlari kullanilir? DXF, DWG, STEP, IGES dosya hazirlama ve gonderme rehberi.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Sac Bukum Hesaplama",
+        "slug": "/bilgi/sac-bukum-hesaplama",
+        "title_tag": "Sac Bukum Hesaplama | Acilim ve K Faktoru",
+        "h1": "Sac Bukum Hesaplama",
+        "meta_description": "Sac bukum acilim hesaplama. K faktoru, bukum toleransi ve ic yaricap hesaplama yontemleri detayli rehber.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Celik Konstruksiyon Nedir",
+        "slug": "/bilgi/celik-konstruksiyon-nedir",
+        "title_tag": "Celik Konstruksiyon Nedir? | Prefabrik Celik Yapi Rehberi",
+        "h1": "Celik Konstruksiyon Nedir?",
+        "meta_description": "Celik konstruksiyon nedir? Prefabrik celik yapi cesitleri, avantajlari, maliyetleri ve uygulama alanlari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Hardox Nedir",
+        "slug": "/bilgi/hardox-nedir",
+        "title_tag": "Hardox Nedir? | Asinmaya Dayanikli Celik Rehberi",
+        "h1": "Hardox Nedir?",
+        "meta_description": "Hardox asinmaya dayanikli celik nedir? Hardox 400, 450, 500 farklari, ozellikleri ve kullanim alanlari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "DKP Sac Nedir",
+        "slug": "/bilgi/dkp-sac-nedir",
+        "title_tag": "DKP Sac Nedir? | Soguk Hadde Sac Ozellikleri",
+        "h1": "DKP Sac Nedir?",
+        "meta_description": "DKP (soguk haddelenmis) sac nedir? Ozellikleri, kalinliklari, kullanim alanlari ve HRP sac ile farki.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "HRP Sac Nedir",
+        "slug": "/bilgi/hrp-sac-nedir",
+        "title_tag": "HRP Sac Nedir? | Sicak Hadde Sac Ozellikleri",
+        "h1": "HRP Sac Nedir?",
+        "meta_description": "HRP (sicak haddelenmis) sac nedir? Ozellikleri, kalinliklari, kullanim alanlari ve DKP sac ile farki.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "St37 St52 Farki",
+        "slug": "/bilgi/st37-st52-farki",
+        "title_tag": "St37 ve St52 Celik Farki | Mekanik Ozellikler",
+        "h1": "St37 ve St52 Celik Arasindaki Farklar",
+        "meta_description": "St37 ve St52 yapısal celik arasindaki farklar nelerdir? Mukavemet, kimyasal icerik ve kullanim alani karsilastirmasi.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Galvaniz Sac Nedir",
+        "slug": "/bilgi/galvaniz-sac-nedir",
+        "title_tag": "Galvaniz Sac Nedir? | Galvanizleme Cesitleri",
+        "h1": "Galvaniz Sac Nedir?",
+        "meta_description": "Galvaniz sac nedir? Sicak daldirma ve elektrolitik galvaniz farki, ozellikleri ve kullanim alanlari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Corten Celik Nedir",
+        "slug": "/bilgi/corten-celik-nedir",
+        "title_tag": "Corten Celik Nedir? | Atmosferik Korozyona Dayanikli",
+        "h1": "Corten Celik Nedir?",
+        "meta_description": "Corten celik nedir? Hava kosullarina dayanikli celik ozellikleri, paslanma sureci ve mimari kullanim alanlari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Metal Kesim Yontemleri",
+        "slug": "/bilgi/metal-kesim-yontemleri",
+        "title_tag": "Metal Kesim Yontemleri | Lazer Plazma Oxicut Su Jeti",
+        "h1": "Metal Kesim Yontemleri Karsilastirmasi",
+        "meta_description": "Metal kesim yontemleri nelerdir? Lazer, plazma, oksi-yakit, su jeti ve mekanik kesim karsilastirmasi.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Kaynak Cesitleri ve Yontemleri",
+        "slug": "/bilgi/kaynak-cesitleri-yontemleri",
+        "title_tag": "Kaynak Cesitleri | TIG MIG MAG Lazer Elektrik Ark",
+        "h1": "Kaynak Cesitleri ve Yontemleri",
+        "meta_description": "Endüstriyel kaynak cesitleri nelerdir? TIG, MIG, MAG, lazer, elektrik ark ve punta kaynak yontemleri karsilastirmasi.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Yapan Firmalar Istanbul",
+        "slug": "/bilgi/lazer-kesim-yapan-firmalar-istanbul",
+        "title_tag": "Istanbul Lazer Kesim Yapan Firmalar | Profesyonel Hizmet",
+        "h1": "Istanbul'da Lazer Kesim Yapan Firmalar",
+        "meta_description": "Istanbul'da lazer kesim yapan firmalar arasinda profesyonel CNC fiber lazer kesim hizmeti. Hemen teklif alin.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Fason Lazer Kesim Istanbul",
+        "slug": "/bilgi/fason-lazer-kesim-istanbul",
+        "title_tag": "Fason Lazer Kesim Istanbul | Toptan Perakende Hizmet",
+        "h1": "Istanbul Fason Lazer Kesim Hizmeti",
+        "meta_description": "Istanbul'da fason CNC fiber lazer kesim hizmeti. Kucuk adetlerden buyuk serilere profesyonel fason kesim.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Fason Sac Bukum Istanbul",
+        "slug": "/bilgi/fason-sac-bukum-istanbul",
+        "title_tag": "Fason Sac Bukum Istanbul | CNC Abkant Pres Fason",
+        "h1": "Istanbul Fason Sac Bukum Hizmeti",
+        "meta_description": "Istanbul'da fason CNC abkant pres sac bukum hizmeti. Tekli parcadan seri uretime fason bukum.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Fason Plazma Kesim Istanbul",
+        "slug": "/bilgi/fason-plazma-kesim-istanbul",
+        "title_tag": "Fason Plazma Kesim Istanbul | CNC Plazma Fason Hizmet",
+        "h1": "Istanbul Fason Plazma Kesim Hizmeti",
+        "meta_description": "Istanbul'da fason CNC plazma kesim hizmeti. 6-50mm kalin saclar icin fason plazma kesim.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Fason Kaynak Imalat Istanbul",
+        "slug": "/bilgi/fason-kaynak-imalat-istanbul",
+        "title_tag": "Fason Kaynak Imalat Istanbul | TIG MIG Fason Kaynak",
+        "h1": "Istanbul Fason Kaynak Imalat Hizmeti",
+        "meta_description": "Istanbul'da fason kaynakli imalat hizmeti. TIG, MIG ve lazer kaynak ile fason birlesim ve imalat.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Online Lazer Kesim Teklifi",
+        "slug": "/bilgi/online-lazer-kesim-teklifi",
+        "title_tag": "Online Lazer Kesim Teklifi | Aninda Fiyat Hesaplama",
+        "h1": "Online Lazer Kesim Teklifi Alin",
+        "meta_description": "Online CNC lazer kesim teklifi alin. DXF dosyanizi yukleyin, malzeme ve kalinlik secin, aninda fiyat hesaplayin.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Toplu Lazer Kesim Siparis",
+        "slug": "/bilgi/toplu-lazer-kesim-siparis",
+        "title_tag": "Toplu Lazer Kesim Siparis | Seri Uretim Indirimi",
+        "h1": "Toplu Lazer Kesim Siparis",
+        "meta_description": "Toplu ve seri lazer kesim siparisi. Buyuk adetlerde ozel fiyat avantajlari. 2000x6000mm tabla ile yuksek kapasite.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Acil Lazer Kesim Hizmeti",
+        "slug": "/bilgi/acil-lazer-kesim",
+        "title_tag": "Acil Lazer Kesim Hizmeti | Ayni Gun Teslimat Istanbul",
+        "h1": "Acil Lazer Kesim Hizmeti",
+        "meta_description": "Acil CNC lazer kesim hizmeti. Ayni gun veya ertesi gun teslimat ile acil sac kesim isleriniz icin 7/24 hizmet.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Prototip Lazer Kesim",
+        "slug": "/bilgi/prototip-lazer-kesim",
+        "title_tag": "Prototip Lazer Kesim | Tekli Parca ve Numune Kesim",
+        "h1": "Prototip Lazer Kesim Hizmeti",
+        "meta_description": "Prototip ve numune icin tekli parca lazer kesim. Ar-Ge, tasarim dogrulama ve deneme uretimi icin hizli prototipleme.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Sac Isleme Merkezi Istanbul",
+        "slug": "/bilgi/sac-isleme-merkezi-istanbul",
+        "title_tag": "Sac Isleme Merkezi Istanbul | Kesim Bukum Kaynak",
+        "h1": "Istanbul Sac Isleme Merkezi",
+        "meta_description": "Istanbul'da komple sac isleme merkezi. Lazer kesim, plazma kesim, CNC bukum ve kaynakli imalat tek catida.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Metal Isleme Atölyesi Istanbul",
+        "slug": "/bilgi/metal-isleme-atolyesi-istanbul",
+        "title_tag": "Metal Isleme Atolyesi Istanbul | Profesyonel Hizmet",
+        "h1": "Istanbul Metal Isleme Atolyesi",
+        "meta_description": "Istanbul'da profesyonel metal isleme atolyesi. Lazer kesim, bukum, kaynak ve montaj hizmetleri tek noktada.",
+        "intent": "transactional"
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Avantajlari",
+        "slug": "/bilgi/lazer-kesim-avantajlari",
+        "title_tag": "Lazer Kesim Avantajlari | Neden Lazer Kesim Tercih Edilir",
+        "h1": "Lazer Kesim Avantajlari",
+        "meta_description": "CNC fiber lazer kesim avantajlari nelerdir? Hassasiyet, hiz, temiz kesim, minimum fire ve maliyet avantajlari.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Hangi Malzemeleri Keser",
+        "slug": "/bilgi/lazer-kesim-malzeme-listesi",
+        "title_tag": "Lazer Kesim Hangi Malzemeleri Keser? | Komple Liste",
+        "h1": "Lazer Kesim ile Kesilebilen Malzemeler",
+        "meta_description": "CNC fiber lazer kesim ile hangi malzemeler kesilebilir? Celik, paslanmaz, aluminyum, bakir, pirinc ve daha fazlasi.",
+        "intent": "informational"
+      },
+      {
+        "anahtar_kelime": "Lazer Kesim Maksimum Kalinlik",
+        "slug": "/bilgi/lazer-kesim-maksimum-kalinlik",
+        "title_tag": "Lazer Kesim Maksimum Kalinlik | Malzemeye Gore Sinirlar",
+        "h1": "Lazer Kesim Maksimum Kalinlik Degerleri",
+        "meta_description": "Fiber lazer kesim ile maksimum ne kalinlikta sac kesilebilir? Malzeme turune gore kalinlik sinirlari tablosu.",
+        "intent": "informational"
+      }
+    ]
+  },
+
+  "kategori_6_urun_sayfalari": {
+    "aciklama": "Sac, profil ve boru cesitleri bilgi/urun sayfalari",
+    "toplam": 48,
+    "sayfalar": [
+      {
+        "anahtar_kelime": "Sac Cesitleri",
+        "slug": "/urun/sac-cesitleri",
+        "title_tag": "Sac Cesitleri | Metal Sac Turleri ve Ozellikleri",
+        "h1": "Sac Cesitleri",
+        "meta_description": "Metal sac cesitleri nelerdir? DKP, HRP, paslanmaz, galvaniz, aluminyum ve ozel sac turlerinin ozellikleri."
+      },
+      {
+        "anahtar_kelime": "DKP Sac",
+        "slug": "/urun/dkp-sac",
+        "title_tag": "DKP Sac | Soguk Haddelenmis Sac Ozellikleri ve Fiyat",
+        "h1": "DKP Sac (Soguk Hadde)",
+        "meta_description": "DKP sac ozellikleri, kalinliklari, ebatlari ve fiyatlari. Soguk haddelenmis sac ile lazer kesim ve bukum hizmeti."
+      },
+      {
+        "anahtar_kelime": "HRP Sac",
+        "slug": "/urun/hrp-sac",
+        "title_tag": "HRP Sac | Sicak Haddelenmis Sac Ozellikleri ve Fiyat",
+        "h1": "HRP Sac (Sicak Hadde)",
+        "meta_description": "HRP sac ozellikleri, kalinliklari, ebatlari ve fiyatlari. Sicak haddelenmis sac ile lazer kesim ve plazma kesim."
+      },
+      {
+        "anahtar_kelime": "Paslanmaz Celik Sac",
+        "slug": "/urun/paslanmaz-celik-sac",
+        "title_tag": "Paslanmaz Celik Sac | 304 316 430 Inox Sac",
+        "h1": "Paslanmaz Celik Sac",
+        "meta_description": "Paslanmaz celik sac cesitleri. 304, 316, 430, 201 kalite inox sac ozellikleri, ebatlari ve isleme hizmetleri."
+      },
+      {
+        "anahtar_kelime": "Galvaniz Sac",
+        "slug": "/urun/galvaniz-sac",
+        "title_tag": "Galvaniz Sac | Galvanizli Sac Ozellikleri ve Fiyat",
+        "h1": "Galvaniz Sac",
+        "meta_description": "Galvaniz kaplamali sac cesitleri. DX51D, DX52D, DX53D kalite galvaniz sac ozellikleri ve isleme hizmetleri."
+      },
+      {
+        "anahtar_kelime": "Aluminyum Sac",
+        "slug": "/urun/aluminyum-sac",
+        "title_tag": "Aluminyum Sac | Aluminyum Levha Cesitleri ve Fiyat",
+        "h1": "Aluminyum Sac",
+        "meta_description": "Aluminyum sac ve levha cesitleri. 1050, 3003, 5005, 5083, 6061 alasim aluminyum sac ozellikleri ve kesim hizmeti."
+      },
+      {
+        "anahtar_kelime": "Bakir Sac",
+        "slug": "/urun/bakir-sac",
+        "title_tag": "Bakir Sac | Bakir Levha Ozellikleri ve Kesim Hizmeti",
+        "h1": "Bakir Sac",
+        "meta_description": "Bakir sac ve levha ozellikleri, ebatlari ve fiyatlari. Elektrik, elektronik ve dekoratif uygulamalar icin bakir sac."
+      },
+      {
+        "anahtar_kelime": "Pirinc Sac",
+        "slug": "/urun/pirinc-sac",
+        "title_tag": "Pirinc Sac | Pirinc Levha Ozellikleri ve Kesim",
+        "h1": "Pirinc Sac",
+        "meta_description": "Pirinc sac ve levha ozellikleri, ebatlari ve fiyatlari. Dekoratif ve endustriyel pirinc sac isleme hizmeti."
+      },
+      {
+        "anahtar_kelime": "Hardox Sac",
+        "slug": "/urun/hardox-sac",
+        "title_tag": "Hardox Sac | Asinma Celigi Levha Ozellikleri",
+        "h1": "Hardox Sac",
+        "meta_description": "Hardox asinmaya dayanikli celik sac. Hardox 400, 450, 500 ozellikleri, kalinliklari ve isleme hizmetleri."
+      },
+      {
+        "anahtar_kelime": "Baklavali Sac",
+        "slug": "/urun/baklavali-sac",
+        "title_tag": "Baklavali Sac | Kaymaz Desenli Sac Ozellikleri",
+        "h1": "Baklavali Sac",
+        "meta_description": "Baklavali (kaymaz) desenli sac ozellikleri ve ebatlari. Platform, merdiven ve zemin kaplamasi icin baklavali sac."
+      },
+      {
+        "anahtar_kelime": "Gozyasi Sac",
+        "slug": "/urun/gozyasi-sac",
+        "title_tag": "Gozyasi Sac | Gozyasi Desenli Kaymaz Sac",
+        "h1": "Gozyasi Sac",
+        "meta_description": "Gozyasi desenli kaymaz sac ozellikleri ve kullanim alanlari. Endustriyel zemin ve platform uygulamalari."
+      },
+      {
+        "anahtar_kelime": "Corten Sac",
+        "slug": "/urun/corten-sac",
+        "title_tag": "Corten Sac | Atmosferik Dayanikli Celik Levha",
+        "h1": "Corten Sac",
+        "meta_description": "Corten (hava sartlarina dayanikli) celik sac. Mimari, peyzaj ve dis mekan uygulamalari icin corten levha."
+      },
+      {
+        "anahtar_kelime": "Ampatman Sac",
+        "slug": "/urun/ampatman-sac",
+        "title_tag": "Ampatman Sac | Sicak Hadde Kalin Plaka",
+        "h1": "Ampatman Sac",
+        "meta_description": "Ampatman (kalin plaka) sac ozellikleri. Agir sanayi ve konstruksiyon icin 6mm den 100mm ye kalin celik plakalar."
+      },
+      {
+        "anahtar_kelime": "St37 Sac",
+        "slug": "/urun/st37-sac",
+        "title_tag": "St37 Sac | S235JR Genel Amacli Yapisal Celik",
+        "h1": "St37 (S235JR) Sac",
+        "meta_description": "St37 (S235JR) genel amacli yapisal celik sac. Mekanik ozellikleri, kalinliklari ve isleme hizmetleri."
+      },
+      {
+        "anahtar_kelime": "St52 Sac",
+        "slug": "/urun/st52-sac",
+        "title_tag": "St52 Sac | S355JR Yuksek Mukavemetli Celik",
+        "h1": "St52 (S355JR) Sac",
+        "meta_description": "St52 (S355JR) yuksek mukavemetli yapisal celik sac. Agir konstruksiyon ve makine imalati icin S355 sac."
+      },
+      {
+        "anahtar_kelime": "Profil Cesitleri",
+        "slug": "/urun/profil-cesitleri",
+        "title_tag": "Profil Cesitleri | Celik ve Aluminyum Profil Turleri",
+        "h1": "Profil Cesitleri",
+        "meta_description": "Celik ve aluminyum profil cesitleri. Kare, dikdortgen, boru, kosebent, U, I, H profil turleri ve ozellikleri."
+      },
+      {
+        "anahtar_kelime": "Kare Profil",
+        "slug": "/urun/kare-profil",
+        "title_tag": "Kare Profil | Celik Kare Profil Olculeri ve Fiyat",
+        "h1": "Kare Profil",
+        "meta_description": "Celik kare profil cesitleri, olculeri ve fiyatlari. 20x20 den 200x200 mm ye kadar kare profil boyutlari."
+      },
+      {
+        "anahtar_kelime": "Dikdortgen Profil",
+        "slug": "/urun/dikdortgen-profil",
+        "title_tag": "Dikdortgen Profil | Celik Profil Olculeri ve Fiyat",
+        "h1": "Dikdortgen Profil",
+        "meta_description": "Celik dikdortgen profil cesitleri, olculeri ve fiyatlari. Cesitli ebatlarda dikdortgen profil secenekleri."
+      },
+      {
+        "anahtar_kelime": "Boru Profil",
+        "slug": "/urun/boru-profil",
+        "title_tag": "Boru Profil | Celik Boru Cesitleri ve Olculeri",
+        "h1": "Boru Profil",
+        "meta_description": "Celik boru profil cesitleri, cap ve et kalinliklari. Yuvarlak, kare ve dikdortgen boru profiller."
+      },
+      {
+        "anahtar_kelime": "Kosebent Profil",
+        "slug": "/urun/kosebent-profil",
+        "title_tag": "Kosebent (L) Profil | Celik Kosebent Olculeri",
+        "h1": "Kosebent (L) Profil",
+        "meta_description": "Celik kosebent (L profil) cesitleri ve olculeri. Esit ve esit olmayan kenarlarda kosebent profiller."
+      },
+      {
+        "anahtar_kelime": "U Profil",
+        "slug": "/urun/u-profil",
+        "title_tag": "U Profil (UPN UPE) | Celik U Profil Olculeri",
+        "h1": "U Profil (UPN / UPE)",
+        "meta_description": "Celik U profil (UPN, UPE) cesitleri ve olculeri. Yapisal celiklerde U kanal profil boyutlari ve fiyatlari."
+      },
+      {
+        "anahtar_kelime": "I Profil",
+        "slug": "/urun/i-profil",
+        "title_tag": "I Profil (IPE IPN) | Celik I Profil Olculeri",
+        "h1": "I Profil (IPE / IPN)",
+        "meta_description": "Celik I profil (IPE, IPN) cesitleri ve olculeri. Yapisal celik kiris olarak kullanilan I profil boyutlari."
+      },
+      {
+        "anahtar_kelime": "H Profil",
+        "slug": "/urun/h-profil",
+        "title_tag": "H Profil (HEA HEB) | Celik H Profil Olculeri",
+        "h1": "H Profil (HEA / HEB)",
+        "meta_description": "Celik H profil (HEA, HEB, HEM) cesitleri ve olculeri. Agir yapisal celik kolon ve kirisler icin H profil."
+      },
+      {
+        "anahtar_kelime": "NPU Profil",
+        "slug": "/urun/npu-profil",
+        "title_tag": "NPU Profil | Celik NPU Kanal Profil Olculeri",
+        "h1": "NPU Profil",
+        "meta_description": "Celik NPU kanal profil cesitleri ve olculeri. Insaat ve celik yapilardalarda kullanilan NPU profiller."
+      },
+      {
+        "anahtar_kelime": "Boru Cesitleri",
+        "slug": "/urun/boru-cesitleri",
+        "title_tag": "Boru Cesitleri | Celik Paslanmaz Aluminyum Boru",
+        "h1": "Boru Cesitleri",
+        "meta_description": "Celik, paslanmaz ve aluminyum boru cesitleri. Dikissiz, kaynaklı, yuvarlak, kare ve dikdortgen boru turleri."
+      },
+      {
+        "anahtar_kelime": "Celik Boru",
+        "slug": "/urun/celik-boru",
+        "title_tag": "Celik Boru | Dikissiz ve Kaynakli Celik Boru",
+        "h1": "Celik Boru",
+        "meta_description": "Celik boru cesitleri. Dikissiz, kaynaklı, ERW ve spiral celik borular. Cap, et kalinligi ve uzunluk bilgileri."
+      },
+      {
+        "anahtar_kelime": "Paslanmaz Celik Boru",
+        "slug": "/urun/paslanmaz-celik-boru",
+        "title_tag": "Paslanmaz Celik Boru | Inox Boru Cesitleri",
+        "h1": "Paslanmaz Celik Boru",
+        "meta_description": "Paslanmaz celik boru cesitleri. 304, 316 kalite inox boru cap, et kalinligi ve yuzey islem secenekleri."
+      },
+      {
+        "anahtar_kelime": "Aluminyum Boru",
+        "slug": "/urun/aluminyum-boru",
+        "title_tag": "Aluminyum Boru | Aluminyum Boru Cesitleri ve Olculer",
+        "h1": "Aluminyum Boru",
+        "meta_description": "Aluminyum boru cesitleri ve olculeri. Yuvarlak, kare ve ozel profil aluminyum borular."
+      },
+      {
+        "anahtar_kelime": "Sac Fiyatlari",
+        "slug": "/urun/sac-fiyatlari",
+        "title_tag": "Sac Fiyatlari 2026 | DKP HRP Paslanmaz Galvaniz",
+        "h1": "Sac Fiyatlari",
+        "meta_description": "2026 guncel sac fiyatlari. DKP, HRP, paslanmaz, galvaniz, aluminyum sac kg ve levha fiyatlari."
+      },
+      {
+        "anahtar_kelime": "Profil Fiyatlari",
+        "slug": "/urun/profil-fiyatlari",
+        "title_tag": "Profil Fiyatlari 2026 | Kare Dikdortgen Boru Profil",
+        "h1": "Profil Fiyatlari",
+        "meta_description": "2026 guncel celik profil fiyatlari. Kare, dikdortgen, boru ve yapisal profil kg ve boy fiyatlari."
+      },
+      {
+        "anahtar_kelime": "Lama Demir",
+        "slug": "/urun/lama-demir",
+        "title_tag": "Lama Demir | Celik Lama Olculeri ve Fiyatlari",
+        "h1": "Lama Demir",
+        "meta_description": "Celik lama (yassı celik) cesitleri, olculeri ve fiyatlari. Lazer kesim ve bukum ile ozel lama imalati."
+      },
+      {
+        "anahtar_kelime": "Nervurlu Sac",
+        "slug": "/urun/nervurlu-sac",
+        "title_tag": "Nervurlu Sac | Trapez Sac Ozellikleri ve Fiyat",
+        "h1": "Nervurlu Sac (Trapez Sac)",
+        "meta_description": "Nervurlu (trapez) sac cesitleri ve ozellikleri. Cati ve cephe kaplama icin nervurlu sac boyutlari ve fiyatlari."
+      },
+      {
+        "anahtar_kelime": "Delikli Sac",
+        "slug": "/urun/delikli-sac",
+        "title_tag": "Delikli Sac | Perfore Sac Cesitleri ve Desenleri",
+        "h1": "Delikli Sac (Perfore Sac)",
+        "meta_description": "Delikli (perfore) sac cesitleri ve desen secenekleri. Yuvarlak, kare, oblong delikli sac uretim ve kesim."
+      },
+      {
+        "anahtar_kelime": "Celik Levha",
+        "slug": "/urun/celik-levha",
+        "title_tag": "Celik Levha | Sac ve Plaka Cesitleri",
+        "h1": "Celik Levha",
+        "meta_description": "Celik levha (sac ve plaka) cesitleri. Ince sactan kalin plakaya tum celik levha turleri ve isleme hizmetleri."
+      }
+    ]
+  },
+
+  "kategori_7_ozel_hizmet_kombinasyonlari": {
+    "aciklama": "Ozel niş hizmet sayfalari - kalinlik bazli, boyut bazli ve ozel islemler",
+    "toplam": 30,
+    "sayfalar": [
+      {
+        "anahtar_kelime": "Ince Sac Lazer Kesim",
+        "slug": "/hizmet/ince-sac-lazer-kesim",
+        "title_tag": "Ince Sac Lazer Kesim | 0.5-3mm Hassas Kesim",
+        "h1": "Ince Sac Lazer Kesim",
+        "meta_description": "0.5mm den 3mm ye ince sac lazer kesim. Minimum deformasyon ile yuksek hassasiyetli ince sac parca kesimi.",
+        "durum": "MEVCUT"
+      },
+      {
+        "anahtar_kelime": "Kalin Sac Lazer Kesim",
+        "slug": "/hizmet/kalin-sac-lazer-kesim",
+        "title_tag": "Kalin Sac Lazer Kesim | 10-25mm Celik Kesim",
+        "h1": "Kalin Sac Lazer Kesim",
+        "meta_description": "10mm den 25mm ye kalin celik sac lazer kesim. Yuksek guclu fiber lazer ile kalin plaka hassas kesim.",
+        "durum": "MEVCUT"
+      },
+      {
+        "anahtar_kelime": "Buyuk Ebat Lazer Kesim",
+        "slug": "/hizmet/buyuk-ebat-lazer-kesim",
+        "title_tag": "Buyuk Ebat Lazer Kesim | 2000x6000mm Tabla",
+        "h1": "Buyuk Ebat Lazer Kesim",
+        "meta_description": "2000x6000mm buyuk tabla ile buyuk ebatli parca lazer kesim. Tek parcada buyuk boyutlu sac isleme.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Hassas Lazer Kesim",
+        "slug": "/hizmet/hassas-lazer-kesim",
+        "title_tag": "Hassas Lazer Kesim | Yuksek Toleransli Parca Kesim",
+        "h1": "Hassas Lazer Kesim",
+        "meta_description": "Yuksek hassasiyetli CNC fiber lazer kesim. +/- 0.1mm tolerans ile hassas metal parca uretimi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Seri Uretim Lazer Kesim",
+        "slug": "/hizmet/seri-uretim-lazer-kesim",
+        "title_tag": "Seri Uretim Lazer Kesim | Yuksek Adetli Kesim",
+        "h1": "Seri Uretim Lazer Kesim",
+        "meta_description": "Yuksek adetli seri uretim lazer kesim hizmeti. 7/24 uretim kapasitesi ile buyuk hacimli siparisler.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Dekoratif Lazer Kesim",
+        "slug": "/hizmet/dekoratif-lazer-kesim",
+        "title_tag": "Dekoratif Lazer Kesim | Metal Dekor ve Pano Kesim",
+        "h1": "Dekoratif Lazer Kesim",
+        "meta_description": "Dekoratif metal parca lazer kesim. Bahce kapisi, paravan, tablo, seperator ve ic mekan dekorasyon urunleri.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Metal Harf Lazer Kesim",
+        "slug": "/hizmet/metal-harf-lazer-kesim",
+        "title_tag": "Metal Harf Lazer Kesim | Paslanmaz Celik Harf Kesim",
+        "h1": "Metal Harf Lazer Kesim",
+        "meta_description": "Metal harf ve logo lazer kesim. Tabela, kutu harf ve dekoratif yazılar icin paslanmaz, aluminyum, pirinc harf kesimi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Bahce Kapisi Lazer Kesim",
+        "slug": "/hizmet/bahce-kapisi-lazer-kesim",
+        "title_tag": "Bahce Kapisi Lazer Kesim | Ozel Tasarim Kapi Deseni",
+        "h1": "Bahce Kapisi Lazer Kesim",
+        "meta_description": "Ozel tasarim bahce kapisi lazer kesim desenleri. Villa, site ve bahce giris kapilari icin dekoratif metal kesim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Merdiven Korkulugu Lazer Kesim",
+        "slug": "/hizmet/merdiven-korkulugu-lazer-kesim",
+        "title_tag": "Merdiven Korkulugu Lazer Kesim | Dekoratif Korkuluk",
+        "h1": "Merdiven Korkulugu Lazer Kesim",
+        "meta_description": "Dekoratif merdiven korkulugu lazer kesim desenleri. Paslanmaz celik ve celik korkuluk panelleri.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Paravan Seperator Lazer Kesim",
+        "slug": "/hizmet/paravan-seperator-lazer-kesim",
+        "title_tag": "Paravan Seperator Lazer Kesim | Dekoratif Metal Panel",
+        "h1": "Paravan ve Seperator Lazer Kesim",
+        "meta_description": "Dekoratif paravan ve seperator lazer kesim. Ofis, restoran ve ev dekorasyonu icin ozel desenli metal paneller.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Celik Konstruksiyon Imalat",
+        "slug": "/hizmet/celik-konstruksiyon-imalat",
+        "title_tag": "Celik Konstruksiyon Imalat | Prefabrik Celik Yapi",
+        "h1": "Celik Konstruksiyon Imalat",
+        "meta_description": "Celik konstruksiyon imalat hizmeti. Fabrika, depo, hangar ve prefabrik celik bina projeleri.",
+        "durum": "MEVCUT"
+      },
+      {
+        "anahtar_kelime": "Paslanmaz Celik Imalat",
+        "slug": "/hizmet/paslanmaz-celik-imalat",
+        "title_tag": "Paslanmaz Celik Imalat | Inox Metal Isleme",
+        "h1": "Paslanmaz Celik Imalat",
+        "meta_description": "Paslanmaz celik komple imalat hizmeti. Kesim, bukum, kaynak ve montaj ile inox urun uretimi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Aluminyum Imalat",
+        "slug": "/hizmet/aluminyum-imalat",
+        "title_tag": "Aluminyum Imalat | Aluminyum Metal Isleme Hizmeti",
+        "h1": "Aluminyum Imalat",
+        "meta_description": "Aluminyum komple imalat hizmeti. Lazer kesim, CNC bukum ve TIG kaynak ile aluminyum urun uretimi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Ozel Parca Imalat",
+        "slug": "/hizmet/ozel-parca-imalat",
+        "title_tag": "Ozel Parca Imalat | Teknik Cizimden Uretime",
+        "h1": "Ozel Parca Imalat",
+        "meta_description": "Teknik ciziminize gore ozel metal parca imalati. Prototipten seri uretime komple kesim, bukum ve kaynak hizmeti.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Kutu Profil Imalat",
+        "slug": "/hizmet/kutu-profil-imalat",
+        "title_tag": "Kutu Profil Imalat | Ozel Olcude Kutu Profil",
+        "h1": "Kutu Profil Imalat",
+        "meta_description": "Ozel olcude kutu profil imalati. Sac bukum ve kaynak ile standart disinda boyut ve et kalinliginda kutu profil.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Pano Govde Imalat",
+        "slug": "/hizmet/pano-govde-imalat",
+        "title_tag": "Pano Govde Imalat | Elektrik Pano Kasasi Uretim",
+        "h1": "Pano Govde Imalat",
+        "meta_description": "Elektrik pano govdesi imalati. IP54, IP65, IP66 koruma sinifi pano kasalari. Kesim, bukum ve kaynak ile komple uretim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Makine Govdesi Imalat",
+        "slug": "/hizmet/makine-govdesi-imalat",
+        "title_tag": "Makine Govdesi Imalat | Endustriyel Makine Kasasi",
+        "h1": "Makine Govdesi Imalat",
+        "meta_description": "Endustriyel makine govdesi ve kasasi imalati. Teknik cizime gore ozel makine sasi ve govde uretimi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Tank ve Depo Imalat",
+        "slug": "/hizmet/tank-depo-imalat",
+        "title_tag": "Tank ve Depo Imalat | Paslanmaz Celik Tank Uretim",
+        "h1": "Tank ve Depo Imalat",
+        "meta_description": "Paslanmaz celik ve karbon celik tank, depo imalati. Gida, kimya ve sanayi icin ozel olcude tank uretimi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Konveyor Sistemi Imalat",
+        "slug": "/hizmet/konveyor-sistemi-imalat",
+        "title_tag": "Konveyor Sistemi Imalat | Tasima Bant Sistemi",
+        "h1": "Konveyor Sistemi Imalat",
+        "meta_description": "Konveyor ve tasima bant sistemi imalati. Gida, paketleme ve uretim hatti icin ozel konveyor tasarimi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Metal Doğrama Imalat",
+        "slug": "/hizmet/metal-dograma-imalat",
+        "title_tag": "Metal Dograma Imalat | Celik Kapi Pencere Dograma",
+        "h1": "Metal Dograma Imalat",
+        "meta_description": "Metal dograma imalati. Celik kapi, pencere, vitrin ve panjur sistemleri. Lazer kesim ile hassas uretim.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Havalandirma Kanali Imalat",
+        "slug": "/hizmet/havalandirma-kanali-imalat",
+        "title_tag": "Havalandirma Kanali Imalat | Galvaniz Kanal Uretim",
+        "h1": "Havalandirma Kanali Imalat",
+        "meta_description": "Galvaniz sac havalandirma kanali imalati. Dikdortgen, yuvarlak ve ozel form havalandirma kanal sistemleri.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Raf Sistemi Imalat",
+        "slug": "/hizmet/raf-sistemi-imalat",
+        "title_tag": "Raf Sistemi Imalat | Endustriyel ve Magazacilik Raf",
+        "h1": "Raf Sistemi Imalat",
+        "meta_description": "Endustriyel ve magazacilik raf sistemi imalati. Agir yuklu depo raflari ve sergileme raf sistemleri.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "4 Metre Abkant Bukum",
+        "slug": "/hizmet/4-metre-abkant-bukum",
+        "title_tag": "4 Metre Abkant Bukum | Uzun Sac CNC Bukum",
+        "h1": "4 Metre Abkant Bukum",
+        "meta_description": "4 metre uzunlugunda CNC abkant pres bukum. Uzun saclar icin tek seferde kesintisiz bukum hizmeti.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Kalin Plaka Plazma Kesim",
+        "slug": "/hizmet/kalin-plaka-plazma-kesim",
+        "title_tag": "Kalin Plaka Plazma Kesim | 25-50mm Celik Kesim",
+        "h1": "Kalin Plaka Plazma Kesim",
+        "meta_description": "25mm den 50mm ye kalin celik plaka CNC plazma kesim. Agir sanayi, gemi ve konstruksiyon parcalari.",
+        "durum": "MEVCUT"
+      },
+      {
+        "anahtar_kelime": "Paslanmaz Sac Delme",
+        "slug": "/hizmet/paslanmaz-sac-delme",
+        "title_tag": "Paslanmaz Sac Delme | Lazer ile Delik Acma",
+        "h1": "Paslanmaz Sac Delme (Lazer)",
+        "meta_description": "Paslanmaz celik sac lazer ile delik acma. Hassas ve temiz delik delme islemi. Kucuk caplardan buyuk caplara.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Sac Markalama Lazer",
+        "slug": "/hizmet/sac-markalama-lazer",
+        "title_tag": "Sac Markalama (Lazer Gravur) | Metal Uzerine Yazma",
+        "h1": "Lazer Markalama / Gravur",
+        "meta_description": "Metal sac ve parca uzerine lazer markalama ve gravur. Logo, seri numarasi, barkod ve teknik bilgi yazimi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Cati Makasi Imalat",
+        "slug": "/hizmet/cati-makasi-imalat",
+        "title_tag": "Cati Makasi Imalat | Celik Cati Makasi Uretim",
+        "h1": "Cati Makasi Imalat",
+        "meta_description": "Celik cati makasi imalati. Fabrika, depo ve endustriyel tesis icin ozel olcude cati makaslari.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Merdiven Imalat",
+        "slug": "/hizmet/merdiven-imalat",
+        "title_tag": "Metal Merdiven Imalat | Celik ve Paslanmaz Merdiven",
+        "h1": "Metal Merdiven Imalat",
+        "meta_description": "Celik ve paslanmaz celik merdiven imalati. Yangin merdiveni, spiral merdiven ve endustriyel merdiven uretimi.",
+        "durum": "YENI"
+      },
+      {
+        "anahtar_kelime": "Korkuluk Imalat",
+        "slug": "/hizmet/korkuluk-imalat",
+        "title_tag": "Metal Korkuluk Imalat | Paslanmaz Celik Korkuluk",
+        "h1": "Metal Korkuluk Imalat",
+        "meta_description": "Paslanmaz celik ve demir korkuluk imalati. Merdiven, balkon ve teras korkuluk sistemleri.",
+        "durum": "YENI"
+      }
+    ]
+  },
+
+  "ozet": {
+    "kategori_1_hizmet_sehir": 40,
+    "kategori_2_ilce_mevcut": 156,
+    "kategori_3_malzeme_bazli": 25,
+    "kategori_4_sektor_bazli": 49,
+    "kategori_5_fiyat_bilgi": 55,
+    "kategori_6_urun_sayfalari": 34,
+    "kategori_7_ozel_hizmet": 28,
+    "statik_sayfalar_mevcut": 18,
+    "TOPLAM_SAYFA_SAYISI": 405,
+    "yeni_eklenecek_sayfa": 231,
+    "mevcut_sayfa": 174,
+    "oncelik_sirasi": [
+      "1. Kategori 5 - Fiyat/Bilgi sayfalari (en yuksek donusum potansiyeli)",
+      "2. Kategori 3 - Malzeme bazli sayfalar (yuksek ticari niyet)",
+      "3. Kategori 1 - Sehir sayfalari (lokal SEO genislemesi)",
+      "4. Kategori 4 - Sektor sayfalari (niche hedefleme)",
+      "5. Kategori 7 - Ozel hizmet sayfalar (long-tail trafik)",
+      "6. Kategori 6 - Urun sayfalari (bilgi trafigi ve ic linkleme)"
+    ],
+    "seo_notlari": {
+      "ic_linkleme": "Her sayfa en az 3-5 ilgili sayfaya ic link vermeli. Ornegin malzeme sayfasi -> ilgili kesim hizmeti -> fiyat sayfasi -> ilgili sektor sayfasi",
+      "canonical": "Her sayfanin kendi canonical URL si olmali, duplicate iceristen kacinilmali",
+      "hreflang": "Sadece Turkce site oldugu icin hreflang gerekli degil",
+      "schema_markup": "Service, Product, FAQPage, HowTo ve BreadcrumbList schema tipleri kullanilmali",
+      "sayfa_icerik_uzunlugu": "Her sayfa en az 800-1200 kelime benzersiz icerik icermeli",
+      "baslik_yapisi": "H1 > H2 > H3 hiyerarsisi korunmali, her sayfada tek H1",
+      "resim_optimizasyonu": "Her sayfada en az 2-3 optimize edilmis gorsel, alt text icermeli",
+      "sayfa_hizi": "Angular SSR/prerender ile sayfa hizi optimize edilmis olmali",
+      "url_yapisi": "Tum URL ler kucuk harf, Turkce karakter icermemeli, tire ile ayrilmali"
+    }
+  }
+}

@@ -1,0 +1,754 @@
+// =============================================
+// CITY-SERVICE PAGE
+// =============================================
+
+// ---------- HERO ----------
+.city-hero {
+  position: relative;
+  min-height: 520px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 60px;
+  overflow: hidden;
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(10, 10, 10, 0.94) 0%, rgba(10, 10, 10, 0.4) 100%);
+    z-index: 1;
+  }
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__inner {
+    max-width: 720px;
+  }
+
+  &__breadcrumb {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    margin: 0 0 24px;
+    font-size: 13px;
+
+    li {
+      color: rgba(255, 255, 255, 0.5);
+
+      a {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+
+      span {
+        color: rgba(255, 255, 255, 0.3);
+      }
+
+      &.active {
+        color: var(--thm-base);
+      }
+    }
+  }
+
+  &__title {
+    font-family: "Conthrax Sb";
+    color: #fff;
+    font-size: 2.2rem;
+    line-height: 1.25;
+    margin: 0 0 16px;
+  }
+
+  &__desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 0 28px;
+  }
+
+  &__stats {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 28px;
+  }
+
+  &__stat {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__stat-value {
+    font-family: "Conthrax Sb";
+    color: var(--thm-base);
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  &__stat-label {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  &__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--thm-base);
+    color: #fff;
+    padding: 14px 32px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+
+    &:hover {
+      background: #fff;
+      color: var(--thm-base);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    i {
+      font-size: 12px;
+    }
+  }
+}
+
+// ---------- CONTENT SECTION ----------
+.city-content {
+  padding: 60px 0 80px;
+  background: #f8f9fa;
+}
+
+// ---------- SIDEBAR ----------
+.city-sidebar {
+  position: sticky;
+  top: 100px;
+
+  &__services {
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+  }
+
+  &__heading {
+    font-family: "Conthrax Sb";
+    font-size: 1rem;
+    color: var(--thm-black);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--thm-base);
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      border-bottom: 1px solid #f0f0f0;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &.active a {
+        color: var(--thm-base);
+        font-weight: 600;
+      }
+
+      a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0;
+        color: var(--thm-black);
+        text-decoration: none;
+        font-size: 14px;
+        transition: color 0.3s;
+
+        &:hover {
+          color: var(--thm-base);
+        }
+
+        .icon-caret {
+          font-size: 10px;
+          color: #ccc;
+          transition: color 0.3s;
+        }
+      }
+
+      a:hover .icon-caret {
+        color: var(--thm-base);
+      }
+    }
+  }
+
+  &__distance-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+
+    h4 {
+      font-family: "Conthrax Sb";
+      font-size: 0.9rem;
+      color: var(--thm-black);
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 13px;
+      color: #666;
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+
+  &__distance-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: rgba(221, 3, 41, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 14px;
+
+    i {
+      font-size: 22px;
+      color: var(--thm-base);
+    }
+  }
+
+  &__distance-value {
+    font-family: "Conthrax Sb";
+    font-size: 1.6rem;
+    color: var(--thm-base);
+    margin-bottom: 10px;
+  }
+
+  &__cta {
+    background: var(--thm-black);
+    padding: 28px 24px;
+    border-radius: 10px;
+  }
+
+  &__cta-title {
+    font-family: "Conthrax Sb";
+    color: #fff;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+  }
+
+  &__cta-text {
+    color: #aaa;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  &__cta-phone {
+    color: #aaa;
+    margin-top: 14px;
+    font-size: 14px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+
+      &:hover {
+        color: var(--thm-base);
+      }
+    }
+  }
+}
+
+// ---------- MAIN CONTENT ----------
+.city-main {
+
+  &__section-title {
+    font-family: "Conthrax Sb";
+    font-size: 1.35rem;
+    color: var(--thm-black);
+    margin-bottom: 24px;
+    line-height: 1.4;
+  }
+
+  // -- Distance Section --
+  &__distance {
+    margin-bottom: 40px;
+  }
+
+  &__distance-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+    display: flex;
+    gap: 32px;
+    align-items: stretch;
+  }
+
+  &__distance-left {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    padding-right: 32px;
+    border-right: 1px solid #eee;
+  }
+
+  &__distance-route {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  &__distance-point {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    span {
+      font-size: 13px;
+      color: #555;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+  }
+
+  &__distance-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 3px solid;
+
+    &--start {
+      border-color: var(--thm-base);
+      background: #fff;
+    }
+
+    &--end {
+      border-color: var(--thm-black);
+      background: var(--thm-black);
+    }
+  }
+
+  &__distance-line {
+    width: 2px;
+    height: 40px;
+    background: repeating-linear-gradient(
+      to bottom,
+      var(--thm-base) 0px,
+      var(--thm-base) 4px,
+      transparent 4px,
+      transparent 8px
+    );
+    margin-left: 6px;
+  }
+
+  &__distance-right {
+    flex: 1;
+
+    p {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.7;
+      margin: 0;
+    }
+  }
+
+  &__distance-km {
+    font-family: "Conthrax Sb";
+    font-size: 2rem;
+    color: var(--thm-base);
+    margin-bottom: 8px;
+    line-height: 1;
+  }
+
+  // -- Image Section --
+  &__image {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+    img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  &__image-badge {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    background: var(--thm-base);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 600;
+
+    i {
+      font-size: 14px;
+    }
+  }
+
+  // -- Industrial Zones --
+  &__zones {
+    margin-bottom: 40px;
+  }
+
+  &__zones-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  &__zone-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 16px 18px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    i {
+      color: var(--thm-base);
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    span {
+      font-size: 13px;
+      color: #444;
+      font-weight: 500;
+      line-height: 1.4;
+    }
+  }
+
+  // -- Capabilities --
+  &__capabilities {
+    margin-bottom: 40px;
+  }
+
+  &__cap-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  &__cap-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+      font-size: 14px;
+      color: #444;
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+
+  &__cap-number {
+    flex-shrink: 0;
+    font-family: "Conthrax Sb";
+    font-size: 1.2rem;
+    color: var(--thm-base);
+    opacity: 0.6;
+    line-height: 1;
+    margin-top: 2px;
+  }
+
+  // -- Nearby Cities --
+  &__nearby {
+    margin-bottom: 40px;
+  }
+
+  &__city-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 18px 14px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #fff;
+    transition: all 0.3s;
+
+    &:hover {
+      border-color: var(--thm-base);
+      box-shadow: 0 4px 14px rgba(221, 3, 41, 0.1);
+      transform: translateY(-2px);
+    }
+  }
+
+  &__city-link-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    i {
+      color: var(--thm-base);
+      font-size: 14px;
+    }
+
+    span {
+      font-size: 14px;
+      color: var(--thm-black);
+      font-weight: 600;
+    }
+  }
+
+  &__city-link-distance {
+    font-size: 12px;
+    color: #888;
+  }
+
+  // -- Other Services --
+  &__other-services {
+    margin-bottom: 40px;
+  }
+
+  &__service-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px;
+    background: #fff;
+    border: 2px solid var(--thm-base);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--thm-base);
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s;
+
+    i {
+      font-size: 12px;
+      transition: transform 0.3s;
+    }
+
+    &:hover {
+      background: var(--thm-base);
+      color: #fff;
+
+      i {
+        transform: translateX(4px);
+      }
+    }
+  }
+
+  // -- Bottom CTA --
+  &__bottom-cta {
+    margin-top: 10px;
+  }
+
+  &__bottom-cta-inner {
+    background: var(--thm-black);
+    border-radius: 12px;
+    padding: 36px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  &__bottom-cta-content {
+    h3 {
+      font-family: "Conthrax Sb";
+      color: #fff;
+      font-size: 1.15rem;
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: #aaa;
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+}
+
+// ---------- RESPONSIVE ----------
+@media (max-width: 991px) {
+  .city-hero {
+    min-height: 440px;
+    padding-bottom: 40px;
+
+    &__title {
+      font-size: 1.7rem;
+    }
+
+    &__stats {
+      gap: 20px;
+    }
+
+    &__stat-value {
+      font-size: 1.15rem;
+    }
+  }
+
+  .city-sidebar {
+    position: static;
+    margin-top: 40px;
+  }
+
+  .city-main__distance-card {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .city-main__distance-left {
+    border-right: none;
+    padding-right: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .city-main__distance-route {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .city-main__distance-line {
+    width: 60px;
+    height: 2px;
+    background: repeating-linear-gradient(
+      to right,
+      var(--thm-base) 0px,
+      var(--thm-base) 4px,
+      transparent 4px,
+      transparent 8px
+    );
+    margin-left: 0;
+  }
+
+  .city-main__zones-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .city-main__cap-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .city-main__bottom-cta-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .city-hero {
+    min-height: 400px;
+    padding-bottom: 32px;
+
+    &__title {
+      font-size: 1.4rem;
+    }
+
+    &__desc {
+      font-size: 14px;
+    }
+
+    &__stats {
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    &__stat-value {
+      font-size: 1rem;
+    }
+
+    &__btn {
+      padding: 12px 24px;
+      font-size: 13px;
+    }
+  }
+
+  .city-content {
+    padding: 40px 0 60px;
+  }
+
+  .city-main {
+    &__section-title {
+      font-size: 1.15rem;
+    }
+
+    &__distance-card {
+      padding: 20px;
+    }
+
+    &__distance-km {
+      font-size: 1.5rem;
+    }
+
+    &__cap-item {
+      padding: 16px;
+    }
+
+    &__image img {
+      height: 220px;
+    }
+
+    &__zone-item {
+      padding: 14px;
+    }
+
+    &__bottom-cta-inner {
+      padding: 24px 20px;
+    }
+  }
+}

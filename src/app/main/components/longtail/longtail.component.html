@@ -1,0 +1,109 @@
+<!-- Page Header -->
+<section class="page-header">
+  <div class="page-header__bg"
+       [style.backgroundImage]="'url(assets/images/services/' + (page?.serviceSlug === 'kaynakli-imalat' ? 'kaynak' : page?.serviceSlug) + '-slider.webp)'">
+  </div>
+  <div class="container">
+    <div class="page-header__inner">
+      <h2>{{ page?.h1 }}</h2>
+      <ul class="thm-breadcrumb">
+        <li><a routerLink="/">Ana Sayfa</a></li>
+        <li><span class="icon-caret mx-2"></span></li>
+        <li><a [routerLink]="'/hizmetler/' + page?.serviceSlug">Hizmetlerimiz</a></li>
+        <li><span class="icon-caret mx-2"></span></li>
+        <li>{{ page?.h1 }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<section class="blog-details">
+  <div class="container">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-xl-4 col-lg-5">
+        <div class="longtail-sidebar">
+
+          <!-- Hizmetler Nav -->
+          <div class="longtail-sidebar__nav">
+            <h3 class="longtail-sidebar__heading">Ana Hizmetler</h3>
+            <a *ngFor="let srv of allServiceLinks"
+               [routerLink]="srv.link"
+               class="longtail-sidebar__nav-item"
+               routerLinkActive="active">
+              <span>{{ srv.label | translate }}</span>
+              <i class="icon-right-arrow-1"></i>
+            </a>
+          </div>
+
+          <!-- İlgili Sayfalar -->
+          <div *ngIf="relatedPages.length" class="longtail-sidebar__nav">
+            <h3 class="longtail-sidebar__heading">İlgili Hizmetler</h3>
+            <a *ngFor="let rp of relatedPages"
+               [routerLink]="'/hizmet/' + rp.slug"
+               class="longtail-sidebar__nav-item">
+              <span>{{ rp.h1 }}</span>
+              <i class="icon-right-arrow-1"></i>
+            </a>
+          </div>
+
+          <!-- CTA -->
+          <div class="longtail-sidebar__cta">
+            <div class="longtail-sidebar__cta-accent"></div>
+            <h3>Projenizi Konuşalım</h3>
+            <p>Teknik çiziminizi gönderin, aynı gün fiyat teklifi oluşturalım.</p>
+            <a routerLink="/contact" class="longtail-sidebar__cta-btn">İletişime Geç</a>
+            <div class="longtail-sidebar__cta-phone">
+              <i class="fas fa-phone-alt"></i>
+              <a href="tel:905550008304">0555 000 83 04</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="col-xl-8 col-lg-7">
+        <div *ngIf="page" class="services-details__content longtail">
+
+          <!-- Top Image -->
+          <div class="services-details__content-img1">
+            <img [src]="'assets/images/services/' + (page.serviceSlug === 'kaynakli-imalat' ? 'kaynak' : page.serviceSlug) + '-top.webp'"
+                 [alt]="page.h1" />
+          </div>
+
+          <h1 class="longtail__h1">{{ page.h1 }}</h1>
+
+          <!-- Ana Icerik -->
+          <div class="longtail__content services-details__content-text-box1"
+               [innerHTML]="page.content"></div>
+
+          <!-- FAQ -->
+          <div *ngIf="page.faq.length" class="longtail__faq">
+            <h2 class="longtail__faq-title">Sıkça Sorulan Sorular</h2>
+            <div *ngFor="let item of page.faq" class="longtail__faq-item">
+              <h3 class="longtail__faq-question">{{ item.q }}</h3>
+              <p class="longtail__faq-answer">{{ item.a }}</p>
+            </div>
+          </div>
+
+          <!-- Ilgili Sayfalar Grid -->
+          <div *ngIf="relatedPages.length" class="longtail__related">
+            <h3>İlgili Hizmetler</h3>
+            <div class="row">
+              <div *ngFor="let rp of relatedPages" class="col-6 col-md-4 mb-3">
+                <a [routerLink]="'/hizmet/' + rp.slug" class="longtail__related-link">
+                  {{ rp.h1 }}
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://safaklazer.com.tr/sitemap-main.xml</loc>
+    <lastmod>2026-04-03T00:00:00Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://safaklazer.com.tr/sitemap-hizmet.xml</loc>
+    <lastmod>2026-04-03T00:00:00Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://safaklazer.com.tr/sitemap-urun.xml</loc>
+    <lastmod>2026-04-03T00:00:00Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://safaklazer.com.tr/sitemap-sektor.xml</loc>
+    <lastmod>2026-04-03T00:00:00Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://safaklazer.com.tr/sitemap-istanbul.xml</loc>
+    <lastmod>2026-04-03T00:00:00Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://safaklazer.com.tr/sitemap-marmara-sehir.xml</loc>
+    <lastmod>2026-04-03T00:00:00Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://safaklazer.com.tr/sitemap-marmara-ilce.xml</loc>
+    <lastmod>2026-04-03T00:00:00Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://safaklazer.com.tr/sitemap-sektor-bolge.xml</loc>
+    <lastmod>2026-04-03T00:00:00Z</lastmod>
+  </sitemap>
+</sitemapindex>

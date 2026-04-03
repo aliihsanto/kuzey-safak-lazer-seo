@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Conthrax Sb";
+  src: url("assets/fonts/ConthraxSb-Regular.eot");
+  src:
+    url("assets/fonts/ConthraxSb-Regular.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/ConthraxSb-Regular.woff2") format("woff2"),
+    url("assets/fonts/ConthraxSb-Regular.woff") format("woff"),
+    url("assets/fonts/ConthraxSb-Regular.svg#ConthraxSb-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("assets/fonts/Archivo-Black.eot");
+  src:
+    url("assets/fonts/Archivo-Black.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Archivo-Black.woff2") format("woff2"),
+    url("assets/fonts/Archivo-Black.woff") format("woff"),
+    url("assets/fonts/Archivo-Black.svg#Archivo-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("assets/fonts/Archivo-ExtraBold.eot");
+  src:
+    url("assets/fonts/Archivo-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Archivo-ExtraBold.woff2") format("woff2"),
+    url("assets/fonts/Archivo-ExtraBold.woff") format("woff"),
+    url("assets/fonts/Archivo-ExtraBold.svg#Archivo-ExtraBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("assets/fonts/Archivo-Bold.eot");
+  src:
+    url("assets/fonts/Archivo-Bold.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Archivo-Bold.woff2") format("woff2"),
+    url("assets/fonts/Archivo-Bold.woff") format("woff"),
+    url("assets/fonts/Archivo-Bold.svg#Archivo-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("assets/fonts/Archivo-ExtraLight.eot");
+  src:
+    url("assets/fonts/Archivo-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Archivo-ExtraLight.woff2") format("woff2"),
+    url("assets/fonts/Archivo-ExtraLight.woff") format("woff"),
+    url("assets/fonts/Archivo-ExtraLight.svg#Archivo-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("assets/fonts/Archivo-Light.eot");
+  src:
+    url("assets/fonts/Archivo-Light.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Archivo-Light.woff2") format("woff2"),
+    url("assets/fonts/Archivo-Light.woff") format("woff"),
+    url("assets/fonts/Archivo-Light.svg#Archivo-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("assets/fonts/Archivo-Medium.eot");
+  src:
+    url("assets/fonts/Archivo-Medium.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Archivo-Medium.woff2") format("woff2"),
+    url("assets/fonts/Archivo-Medium.woff") format("woff"),
+    url("assets/fonts/Archivo-Medium.svg#Archivo-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("assets/fonts/Archivo-Regular.eot");
+  src:
+    url("assets/fonts/Archivo-Regular.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Archivo-Regular.woff2") format("woff2"),
+    url("assets/fonts/Archivo-Regular.woff") format("woff"),
+    url("assets/fonts/Archivo-Regular.svg#Archivo-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("assets/fonts/Archivo-SemiBold.eot");
+  src:
+    url("assets/fonts/Archivo-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Archivo-SemiBold.woff2") format("woff2"),
+    url("assets/fonts/Archivo-SemiBold.woff") format("woff"),
+    url("assets/fonts/Archivo-SemiBold.svg#Archivo-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("assets/fonts/Archivo-Thin.eot");
+  src:
+    url("assets/fonts/Archivo-Thin.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Archivo-Thin.woff2") format("woff2"),
+    url("assets/fonts/Archivo-Thin.woff") format("woff"),
+    url("assets/fonts/Archivo-Thin.svg#Archivo-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+.page-header__inner h2 {
+  font-family: "Conthrax Sb";
+  font-size: 3rem;
+}
+
+.page-header__inner .thm-breadcrumb li {
+  font-weight: 500;
+
+  a {
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header-logo img {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .main-header-two__bottom {
+    padding: 16px !important;
+  }
+
+  .cta-one__content .text-box {
+    margin-left: 0 !important;
+  }
+}

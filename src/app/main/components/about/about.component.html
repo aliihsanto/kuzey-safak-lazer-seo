@@ -1,0 +1,145 @@
+<section class="page-header">
+  <div class="page-header__bg"
+       style="background-image: url('assets/images/about/about-bg.webp');">
+  </div>
+  <div class="container">
+    <div class="page-header__inner">
+      <h1>{{ 'about.title' | translate }}</h1>
+      <ul class="thm-breadcrumb">
+        <li><a routerLink="/">{{ 'home' | translate }}</a></li>
+        <li><span class="icon-caret mx-2"></span></li>
+        <li>{{ 'about.title' | translate }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="about-two">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6">
+        <div class="about-two__content">
+          <div class="sec-title-two">
+            <div class="sub-title">
+              <h3>{{ 'about.title' | translate }}</h3>
+            </div>
+            <h2>Kuzey<br /> Şafak</h2>
+          </div>
+          <div class="text-box1">
+            <p innerHTML="{{ 'about.desc' | translate }}"></p>
+          </div>
+
+          <ul class="about-two__content-list">
+            <li>
+              <div class="inner">
+                <div class="icon-box">
+                  <span class="icon-check-1"></span>
+                </div>
+                <div class="text-box">
+                  <p>{{ 'about.item1' | translate }}</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="inner">
+                <div class="icon-box">
+                  <span class="icon-check-1"></span>
+                </div>
+                <div class="text-box">
+                  <p>{{ 'about.item2' | translate }}</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="inner">
+                <div class="icon-box">
+                  <span class="icon-check-1"></span>
+                </div>
+                <div class="text-box">
+                  <p>{{ 'about.item3' | translate }}</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <!-- <div class="about-two__progress">
+            <div class="about-two__progress-single">
+              <h4 class="about-two__progress-single-title">Business Consulting</h4>
+              <div class="bar">
+                <div class="bar-inner count-bar counted"
+                     data-percent="88%"
+                     style="width: 88%;">
+                  <div class="count-text">88%</div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <div class="about-two__right">
+          <div class="row filter-layout masonary-layout"
+               style="position: relative; height: 680.156px;">
+            <div class="col-xl-6 col-lg-6 col-md-6 wow animated fadeInUp animated"
+                 data-wow-delay="0.1s"
+                 style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; position: absolute; left: 0px; top: 0px;">
+              <div class="about-two__right-single">
+                <div class="img-box">
+                  <img src="assets/images/about/about-1.webp" alt="Kuzey Şafak Lazer - CNC lazer kesim atölyesi" />
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 wow animated fadeInUp animated"
+                 data-wow-delay="0.3s"
+                 style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp; position: absolute; left: 330px; top: 0px;">
+              <div class="about-two__right-single mb30">
+                <div class="about-two__right-single">
+                  <div class="img-box">
+                    <img src="assets/images/about/about-2.webp" alt="Kuzey Şafak Lazer - Metal kaynak işlemi" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 wow animated fadeInUp animated"
+                 data-wow-delay="0.1s"
+                 style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; position: absolute; left: 0px; top: 325px;">
+              <div class="about-two__right-single">
+                <div class="counter-box">
+                  <h2> <span class="odometer odometer-auto-theme"
+                          data-count="400">
+                      <div class="odometer-inside"><span class="odometer-digit"><span
+                                class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span
+                                  class="odometer-ribbon"><span class="odometer-ribbon-inner"><span
+                                      class="odometer-value">4</span></span></span></span></span><span
+                              class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
+                                class="odometer-digit-inner"><span class="odometer-ribbon"><span
+                                    class="odometer-ribbon-inner"><span
+                                      class="odometer-value">0</span></span></span></span></span><span
+                              class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
+                                class="odometer-digit-inner"><span class="odometer-ribbon"><span
+                                    class="odometer-ribbon-inner"><span
+                                      class="odometer-value">0</span></span></span></span></span></div>
+                    </span><span class="plus">+</span> <br>
+                    {{ 'about.project' | translate }}
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 wow animated fadeInUp animated"
+                 data-wow-delay="0.3s"
+                 style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp; position: absolute; left: 330px; top: 355px;">
+              <div class="about-two__right-single">
+                <div class="img-box">
+                  <img src="assets/images/about/about-3.webp" alt="Kuzey Şafak Lazer - CNC büküm makinesi" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

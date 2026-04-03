@@ -1,0 +1,67 @@
+{
+  "slogan": "Geleceğin Teknolojisiyle Bugünü Şekillendirin!",
+  "sloganAlt": "Geleceğin<br />Teknolojisiyle<br />Bugünü<br />Şekillendirin!",
+  "reachUs": "Bize Ulaş",
+  "getQuote": "Teklif Al",
+  "home": "Ana Sayfa",
+  "about": {
+    "title": "Hakkımızda",
+    "desc": "Kuzey Şafak Lazer olarak, ağır sanayi, inşaat sektörü ve endüstriyel mutfak ekipmanları imalatına yönelik üstün metal işleme çözümleri sunmada öncü bir markayız. Makine, yapı, asansör, ısıtma-soğutma, mobilya ve beyaz eşya gibi kritik alanlarda, sektörün en güvenilir iş ortağı olmayı sürdürüyoruz.<br /><br /> Sac Servis Merkezimizde, yapısal çelik ve sac ihtiyaçlarınızı karşılıyor; CNC lazer kesim, büküm, plazma, makas kesme ve kaynak işlemleriyle taleplerinize titizlikle yanıt veriyoruz. 2010 yılından bu yana kalite ve sürekli gelişim ilkesiyle hareket ediyor, müşteri memnuniyetini en üst seviyede tutuyoruz.<br /><br /> Geniş makine parkımız ve tecrübeli ekibimizle projelerinizi zamanında ve kusursuz bir şekilde hayata geçiriyoruz. Kuzey Şafak Lazer ile projelerinizi güvenle gerçekleştirin.",
+    "item1": "Ağır sanayi ve inşaat sektöründe metal işleme çözümleri sunuyoruz.",
+    "item2": "Sac Servis Merkezimizde lazer kesim, büküm ve kaynak işlemleri gerçekleştiriyoruz.",
+    "item3": "Tecrübeli ekibimizle projelerinizi zamanında ve hatasız tamamlıyoruz.",
+    "project": "Proje"
+  },
+  "services": {
+    "title": "Hizmetlerimiz"
+  },
+  "contact": {
+    "title": "İletişim",
+    "callUs": "Bizi Arayın",
+    "address": "Adresimiz",
+    "email": "E-posta"
+  },
+  "service1": {
+    "title": "Lazer Kesim",
+    "titleBr": "Lazer<br /> Kesim",
+    "desc": "2000x6000 mm CNC lazer kesim hizmetimizle geniş yüzeylerde üstün hassasiyet ve kalite sunuyoruz.",
+    "contentTitle": "İkitelli OSB'de Bir İlk 6 Metre Fiber Lazer Kesim",
+    "contentDesc": "<p> İkitelli Organize Sanayi Bölgesinde bir ilk olarak 2000mmx6000mm Fiber lazer kesim hizmetini Kuzey Şafak olarak siz değerli müşterilerimize sunmaktayız. Lazerler birçok amaç için kullanılmaktadır. Kullanım amaçlarının en başında olan <b>lazer kesim</b>, plakaları kesmek gelmektedir. Yumuşak çelik, paslanmaz çelik, alüminyum plaka üzerinde lazer yardımı ile kesme işlemi son derece doğrudur. <b>Lazer kesim</b> ile mükemmel kesim kalitesi sağlamaktadır. Çok küçük bir kenar genişliği ve küçük ısı etkisine sahiptir. Çok karmaşık şekilleri ve küçük plakaları kesmeyi mümkün kılmaktadır. <br><br> Lazer ışını, tek bir dalga boyunda bir ışık veyahut çok yüksek yoğunluklu bir ışıktır. Tipik olan bir lazerde bu dalga boyu ışık spektrumunun yani kızıl- kırmızı kısmında bulunmaktadır. Bu sebeple insan gözü için görünmezdir. Işın kısmını oluşturan lazer, makinenin ışın yolu boyunca ilerlediğinden ışının çapı 1/ 4 inç olmaktadır. Işın plakaya odaklanmadan evvel çeşitli aynalar veya Işın bükücüler tarafınca farklı yönlerde döndürülebilmektedir. Odaklanmış lazer ışını, tablaya çarpmadan hemen evvel bir bölmenin deliğinden geçmektedir. Bu bölme deliğinden akan da oksijen ve azot gibi sıkıştırılmış gazlar bulunmaktadır. <br><br> Lazer ışınının odaklanması özel bir mercek veyahut eğimli bir ayna ile yapılabilmektedir. Bu lazer kesme kafasında gerçekleşir. Işın, odak noktasının şekli ve o noktada bulunan enerjinin yoğunluğu harika şekilde yuvarlak ve tutarlı olacaktır. Geniş ışını tam noktaya odaklayarak o noktadaki ısı yoğunluğunu en iyi şekilde yükseltilir. <br><br> Yüksek güç yoğunluğu, hızlı ısıtma, eritme ve malzemenin kısmen veya tamamen buharlaşmasına sebebiyet vermektedir. Yumuşak çeliği keserken lazer ışınının sahip olduğu ısısı sıradan bir oksijen yakıtı yakma işlemini başlatmaya yeterlidir. Oluşan bu yüksek kesiciliğe sahip ışın, metali kolaylık ile kesebilmektedir. Paslanmaz çelik veya alüminyum kesilmeye devam ederken lazer ışını materyali basitçe eritilir. Eritilmiş metali kırpmak için yüksek basınçlı azot kullanılır. <br><br> <b>Lazer kesim</b> bir lazer kesici üzerinde lazer kesme başlığı kesilmesi istenilen metal parça üzerinde hareket etmektedir. Hal böyle olunca kolaylık ile kesilebilir. Kapasitif bir yükseklik kontrol sistemi, bölme ucu ile kesilen plaka arasında mesafeyi korumaktadır. Bu mesafenin önemi kesim kalitesi açısından önemlidir. Nedeni ise odak noktası iyi ayarlanmadığı taktirde kesimden verim alınamamasıdır. Kesim kalitesi, odak noktasını plakanın yüzeyinin hemen üzerinde, yüzeyde veyahut yüzeyin hemen altından kaldırarak arttırabilir. Bunun yanı sıra azaltabilir. </p>"
+  },
+  "service2": {
+    "title": "Kaynaklı İmalat",
+    "titleBr": "Kaynaklı<br /> İmalat",
+    "desc": "Kaynak imalatında sektörün en yüksek kalite ve dayanıklılık standartlarını sunuyoruz.",
+    "contentTitle": "Kaynaklı İmalat",
+    "contentDesc": "<p>Kuzey Şafak Lazer olarak, çeşitli metal ürünlerin kaynaklı imalatında deneyimli bir ekip ile hizmet veriyoruz. İleri teknoloji lazer kaynak makinelerimizle, küçük ölçekli parça montajından büyük projelere kadar her türlü kaynaklı imalat talepleriniz doğrultusunda hız ve detayda mükemmel dengeyi yakalayarak projelerinizi bir üst seviyeye taşıyoruz. Müşterilerimizin isteklerine özel projeler ve imalat çözümleri sunarak, dayanıklı ve estetik ürünler üretiyoruz. Kaynak imalatında sektörün en yüksek kalite ve dayanıklılık standartlarını sunuyoruz.</p>"
+  },
+  "service3": {
+    "title": "CNC Büküm",
+    "titleBr": "CNC<br /> Büküm",
+    "desc": "4 metre abkant büküm kapasitemizle büyük ölçekli projelerde üstün performans sağlıyoruz.",
+    "contentTitle": "CNC Büküm Hizmeti",
+    "contentDesc": "<p> Çeşitli ölçülerde sac büküm hizmeti verilen Kuzey Şafak tesislerinde; CNC kontrolü sistemler sayesinde, en ince parçaların bile istenen sonuca ulaşmak esastır. <br><br>Sac büküm işlemi sırasında sacın deformasyonu en aza indirilir, kaliteli ve verimli hizmet üretilir. Teknolojik gelişmeler, en zor sac büküm işlerini bile hatasız ve en hızlı biçimde gerçekleştirme olanağı sunmaktadır. Sac büküm hizmeti sunulan iş alanları da; arasında makine ve yedek parça imalatından kabin imalatına; pano imalatından mutfak gereçleri üretimine kadar genişlemektedir. <br><br> <b>CNC Bükme</b>, malzemelerin bilgisayar kontrolü ile bükülmesine verilen isimdir. Hafif sanayiden, seri üretimli fabrikalara kadar neredeyse her alanda düz yüzeyli metaller kullanılmaktadır. Tabii ki modern çağda metallerin elle biçimlendirilmesi söz konusu olacak olan bir durum değildir. CNC makineleri ile harika ölçeklerde kesimler yapılabildiği gibi, bükme işlemini de iyi bir şekilde yapabilmektedir. Bakır sacdan 20 mm çeliğe kadar hemen hemen her metalin bükme işlemini yapabilmektedir. <br><br> Hafif ve orta düzeyde olan sanayi firmaları, İstanbul ve İkitelli bölgesinde faaliyet göstermektedirler. Farklı kapasite ve boyutlarda işlem yapabilmekte olan çok fazla sayıda firma bulunmaktadır. Fason imalat yapmaktadırlar. Makinenin edinmesi, bakımı ve işletme maliyet sebepleri ile bir üretim tesisinin parçası olmak yerine müessesenin esas unsurlarından olması daha doğru olan bir husustur. Ve hatta yalnızca <b>CNC Bükme</b> yapan firmaları dahi bulmak mümkündür. <br><br> <b>CNC Bükme fiyatları</b> elbette ki miktara bağlı olarak değişim göstermektedir. Fakat bunun yanı sıra materyalin kesiti ve boyutları önemli birer <b>CNC Bükme</b> fiyatlandırma etkeni olmaktadır. Tabii ki bükme yapılarak elde edilen şekil, makinenin konfigürasyonlarını değiştirmektedir. Programlama standartlarını belirleyeceğinden bu hususta <b>CNC Bükme</b> fiyat tanımlamasında doğrudan doğruya etkili olacaktır. <br><br> Günümüze baktığımızda sanayi üretiminde bütünü ile makineli üretim aşılmıştır. Bilgisayarlı üretim teknikleri kullanılmaya başlanmıştır. Fason üretiminden seri üretime kadar sektörün neredeyse her noktasında bilgisayarlı ürünler kullanılmaktadır. Üretim standartları mükemmel biçimde şekillenmektedir. Artık neredeyse el ile üretim yapılmamaktadır. En önemlisi de bilgisayar çağından evvel üretimi bir hayli zor olan metal materyaller, günümüzde bayağı derece uygun fiyatlar ile hızlı biçimde ortaya çıkarılabilmektedir. <br><br> <b>CNC Bükme</b> kolaylıklarından ve fiyatlarının aslında o kadar da yüksek olmamasından bahsetmiş olduk. İnsanlar için büyük avantajlar sunmaktadır. Bu sayede kullanım alanları da her geçen gün artış kaydetmektedir. Üretimler de kullanım alanlarının artışına paralellik göstererek artmaktadır. </p>"
+  },
+  "service4": {
+    "title": "CNC Plazma",
+    "titleBr": "CNC<br /> Plazma",
+    "desc": "2600x6000 mm plazma kesimle büyük ve etkili çözümler sunuyoruz.",
+    "contentTitle": "CNC Plazma Hizmeti",
+    "contentDesc": "<p>Kuzey Şafak Lazer olarak, CNC plazma kesim alanında da profesyonel hizmetler sunuyoruz. Gelişmiş CNC Plazma makinelerimiz ile her türlü metal levhayı yüksek hassasiyetle kesiyor ve özel projelerinizde ihtiyaçlarınıza uygun çözümler üretiyoruz. Karmaşık ve detaylı kesim gerektiren işlerinizde, projenize en uygun şekilde hizmet veriyor, zamanında ve kaliteli teslimat garantisi sunuyoruz. 2600x6000 mm plazma kesim hizmetimizle büyük ve etkili çözümler sunuyoruz.</p>"
+  },
+  "freze": "Freze Torna",
+  "sliderTitle": "Lazer Kesim",
+  "sliderDesc": "Milimetrik<br />Hassasiyetle<br />Güçlü Kesim",
+  "details": "Detaylı İncele",
+  "kuzeySafak": "Kuzey<br />Şafak",
+  "ourWork": "Çalışmalarımız",
+  "provider": "Kaliteli Hizmet Sağlayıcısı",
+  "needService": "Hizmetlerimize mi<br />ihtiyacınız var?",
+  "footer": {
+    "desc": "Kuzey Şafak Lazer olarak, ağır sanayi, inşaat sektörü ve endüstriyel mutfak ekipmanları imalatına yönelik üstün metal işleme çözümleri sunmada öncü bir markayız. Makine, yapı, asansör, ısıtma-soğutma, mobilya ve beyaz eşya gibi kritik alanlarda, sektörün en güvenilir iş ortağı olmayı sürdürüyoruz.",
+    "links": "Bağlantılar",
+    "warning": "Yasal Uyarılar",
+    "privacy": "Veri Gizliliği"
+  },
+  "video": "/assets/images/kuzey-safak-lazer-video-tr.mp4"
+}

@@ -1,0 +1,192 @@
+<!-- Hero Section -->
+<section class="sector-hero" *ngIf="sector && service">
+  <div class="sector-hero__bg" [style.backgroundImage]="'url(' + heroImage + ')'"></div>
+  <div class="sector-hero__overlay"></div>
+  <div class="container">
+    <div class="sector-hero__inner">
+      <ul class="sector-hero__breadcrumb">
+        <li><a routerLink="/">Ana Sayfa</a></li>
+        <li><span>/</span></li>
+        <li><a [routerLink]="'/hizmetler/' + service.slug">{{ serviceName }}</a></li>
+        <li><span>/</span></li>
+        <li class="active">{{ sector.name }}</li>
+      </ul>
+      <div class="sector-hero__icon">
+        <i [class]="sector.icon"></i>
+      </div>
+      <h1 class="sector-hero__title">{{ sector.name }} Sektörü<br>{{ serviceName }} Hizmeti</h1>
+      <p class="sector-hero__desc">
+        {{ sector.name }} sektöründe uzman {{ serviceName.toLowerCase() }}
+        hizmetiyle projelerinize endüstriyel kalite ve hassasiyet katıyoruz.
+      </p>
+      <a routerLink="/contact" class="sector-hero__btn">
+        <span>Teklif Al</span>
+        <i class="icon-double-chevron"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<section class="sector-content" *ngIf="sector && service">
+  <div class="container">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-xl-4 col-lg-5 order-lg-1 order-2">
+        <div class="sector-sidebar">
+
+          <!-- Services List -->
+          <div class="sector-sidebar__services">
+            <h3 class="sector-sidebar__heading">Hizmetlerimiz</h3>
+            <ul class="sector-sidebar__list">
+              <li *ngFor="let srv of allServiceLinks"
+                  [class.active]="srv.link === '/hizmetler/' + service.slug">
+                <a [routerLink]="srv.link">
+                  {{ srv.label }}
+                  <span class="icon-caret"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Sector Quick Info -->
+          <div class="sector-sidebar__info-card">
+            <div class="sector-sidebar__info-icon">
+              <i [class]="sector.icon"></i>
+            </div>
+            <h4>{{ sector.name }} Sektörü</h4>
+            <p>{{ sector.applicableServices.length }} farklı hizmetimizle {{ sector.name.toLowerCase() }} sektörüne özel metal işleme çözümleri sunuyoruz.</p>
+          </div>
+
+          <!-- CTA -->
+          <div class="sector-sidebar__cta">
+            <h3 class="sector-sidebar__cta-title">Hemen Teklif Alın</h3>
+            <p class="sector-sidebar__cta-text">
+              {{ sector.name }} sektöründeki projeniz için {{ serviceName.toLowerCase() }}
+              teklifi almak ister misiniz?
+            </p>
+            <a routerLink="/contact" class="thm-btn">
+              <span class="txt">İletişime Geç</span>
+            </a>
+            <p class="sector-sidebar__cta-phone">
+              <i class="fa fa-phone-alt me-2"></i>
+              <a href="tel:905550008304">0555 000 83 04</a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Content Area -->
+      <div class="col-xl-8 col-lg-7 order-lg-2 order-1">
+        <div class="sector-main">
+
+          <!-- Why Sector Needs Service -->
+          <div class="sector-main__why">
+            <h2 class="sector-main__section-title">
+              {{ sector.name }} Sektörü Neden {{ serviceName }} Hizmetine İhtiyaç Duyar?
+            </h2>
+            <div class="sector-main__why-card">
+              <div class="sector-main__why-icon">
+                <i [class]="sector.icon"></i>
+              </div>
+              <div class="sector-main__why-body">
+                <p>{{ sector.description }}</p>
+                <p>
+                  Kuzey Şafak Lazer olarak, {{ sector.name.toLowerCase() }} sektörünün kendine
+                  özgü gereksinimlerini yakından tanıyor ve {{ serviceName.toLowerCase() }}
+                  hizmetimizi bu ihtiyaçlara göre optimize ediyoruz. Yılların getirdiği sektörel
+                  deneyimimiz, projelerinizi zamanında ve kusursuz teslim etmemizi sağlar.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service Image -->
+          <div class="sector-main__image">
+            <img [src]="heroImage"
+                 [alt]="sector.name + ' sektörü ' + serviceName + ' hizmeti'"
+                 loading="lazy" />
+            <div class="sector-main__image-badge">
+              <i [class]="sector.icon"></i>
+              <span>{{ sector.name }}</span>
+            </div>
+          </div>
+
+          <!-- Capabilities -->
+          <div class="sector-main__capabilities" *ngIf="capabilities.length">
+            <h2 class="sector-main__section-title">
+              {{ serviceName }} Teknik Kapasitemiz
+            </h2>
+            <div class="sector-main__cap-grid">
+              <div *ngFor="let cap of capabilities; let i = index" class="sector-main__cap-item">
+                <div class="sector-main__cap-number">{{ (i + 1) < 10 ? '0' + (i + 1) : (i + 1) }}</div>
+                <p>{{ cap }}</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Keywords Section -->
+          <div class="sector-main__keywords" *ngIf="sector.keywords.length">
+            <h3 class="sector-main__subsection-title">
+              {{ sector.name }} Sektöründe Hizmet Verdiğimiz Alanlar
+            </h3>
+            <div class="sector-main__keyword-tags">
+              <span *ngFor="let kw of sector.keywords" class="sector-main__tag">{{ kw }}</span>
+            </div>
+          </div>
+
+          <!-- Other Services for Same Sector -->
+          <div class="sector-main__other-services" *ngIf="otherSectorServices.length">
+            <h2 class="sector-main__section-title">
+              {{ sector.name }} Sektörü İçin Diğer Hizmetlerimiz
+            </h2>
+            <div class="row">
+              <div *ngFor="let os of otherSectorServices" class="col-sm-6 col-md-4 mb-3">
+                <a [routerLink]="os.routerLink" class="sector-main__service-card">
+                  <i class="fas fa-arrow-right"></i>
+                  <span>{{ os.name }}</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Other Sectors for Same Service -->
+          <div class="sector-main__other-sectors" *ngIf="otherServiceSectors.length">
+            <h2 class="sector-main__section-title">
+              {{ serviceName }} Hizmeti Verdiğimiz Diğer Sektörler
+            </h2>
+            <div class="row">
+              <div *ngFor="let sec of otherServiceSectors" class="col-6 col-md-4 col-lg-4 mb-3">
+                <a [routerLink]="sec.routerLink" class="sector-main__sector-link">
+                  <i class="fas fa-industry"></i>
+                  <span>{{ sec.name }}</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom CTA -->
+          <div class="sector-main__bottom-cta">
+            <div class="sector-main__bottom-cta-inner">
+              <div class="sector-main__bottom-cta-content">
+                <h3>{{ sector.name }} Projeniz İçin Teklif Alın</h3>
+                <p>
+                  {{ sector.name }} sektörüne yönelik {{ serviceName.toLowerCase() }}
+                  ihtiyaçlarınız için bizimle iletişime geçin. Uzman ekibimiz projenize
+                  özel çözümler sunmak için hazır.
+                </p>
+              </div>
+              <a routerLink="/contact" class="thm-btn">
+                <span class="txt">İletişime Geç</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

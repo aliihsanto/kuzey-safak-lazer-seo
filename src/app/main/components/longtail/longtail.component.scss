@@ -1,0 +1,223 @@
+.longtail {
+  &__h1 {
+    font-family: "Conthrax Sb";
+    font-size: 1.75rem;
+    color: var(--thm-black);
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+
+  &__content {
+    p {
+      line-height: 1.8;
+      color: #555;
+      font-size: 15px;
+    }
+
+    strong {
+      color: var(--thm-black);
+    }
+
+    h3 {
+      font-family: "Conthrax Sb";
+      font-size: 1.1rem;
+      color: var(--thm-black);
+      margin-top: 25px;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      padding-left: 20px;
+
+      li {
+        padding: 4px 0;
+        color: #444;
+        font-size: 14px;
+
+        strong {
+          color: var(--thm-black);
+        }
+      }
+    }
+  }
+
+  &__faq {
+    margin-top: 40px;
+
+    &-title {
+      font-family: "Conthrax Sb";
+      font-size: 1.25rem;
+      color: var(--thm-black);
+      margin-bottom: 20px;
+    }
+
+    &-item {
+      margin-bottom: 16px;
+      padding: 20px 24px;
+      background: #f8f9fa;
+      border-radius: 8px;
+      border-left: 4px solid var(--thm-base);
+      transition: box-shadow 0.3s ease;
+
+      &:hover {
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+      }
+    }
+
+    &-question {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--thm-black);
+      line-height: 1.5;
+    }
+
+    &-answer {
+      margin: 0;
+      color: #555;
+      line-height: 1.7;
+      font-size: 14px;
+    }
+  }
+
+  &__related {
+    margin-top: 40px;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 8px;
+
+    h3 {
+      font-family: "Conthrax Sb";
+      font-size: 1.1rem;
+      color: var(--thm-black);
+      margin-bottom: 15px;
+    }
+  }
+
+  &__related-link {
+    display: block;
+    padding: 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    color: var(--thm-black);
+    background: #fff;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: var(--thm-base);
+      color: var(--thm-base);
+      box-shadow: 0 2px 8px rgba(221, 3, 41, 0.1);
+    }
+  }
+}
+
+.longtail-sidebar {
+  position: sticky;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__heading {
+    font-family: "Conthrax Sb";
+    font-size: 0.85rem;
+    color: var(--thm-black);
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  &__nav {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 14px;
+      margin-bottom: 4px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #555;
+      font-size: 13.5px;
+      font-weight: 500;
+      transition: all 0.2s;
+
+      i { font-size: 10px; color: #ccc; transition: all 0.2s; }
+
+      &:hover, &.active {
+        background: var(--thm-base);
+        color: #fff;
+        i { color: #fff; }
+      }
+
+      &:last-child { margin-bottom: 0; }
+    }
+  }
+
+  &__cta {
+    background: var(--thm-black);
+    border-radius: 12px;
+    padding: 28px 24px;
+    position: relative;
+    overflow: hidden;
+
+    &-accent {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: var(--thm-base);
+    }
+
+    h3 {
+      font-family: "Conthrax Sb";
+      color: #fff;
+      font-size: 1rem;
+      margin: 0 0 10px;
+    }
+
+    p {
+      color: rgba(255,255,255,0.55);
+      font-size: 13px;
+      line-height: 1.6;
+      margin: 0 0 18px;
+    }
+
+    &-btn {
+      display: block;
+      text-align: center;
+      padding: 12px;
+      background: var(--thm-base);
+      color: #fff;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: none;
+      transition: all 0.25s;
+
+      &:hover { background: #fff; color: var(--thm-base); }
+    }
+
+    &-phone {
+      margin-top: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255,255,255,0.4);
+      font-size: 13px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        &:hover { color: var(--thm-base); }
+      }
+    }
+  }
+}

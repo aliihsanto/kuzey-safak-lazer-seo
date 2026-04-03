@@ -1,0 +1,158 @@
+<!-- Hero -->
+<section class="page-header">
+  <div class="page-header__bg"
+       style="background-image: url('assets/images/about/about-main.webp');"></div>
+  <div class="container">
+    <div class="page-header__inner">
+      <h1>{{ 'contact.title' | translate }}</h1>
+      <ul class="thm-breadcrumb">
+        <li><a routerLink="/">{{ 'home' | translate }}</a></li>
+        <li><span class="icon-caret mx-2"></span></li>
+        <li>{{ 'contact.title' | translate }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Info Cards -->
+<section class="ct-info">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-4 col-lg-4">
+        <div class="ct-info__card">
+          <div class="ct-info__icon"><span class="icon-phone-call-3"></span></div>
+          <h5>{{ 'contact.callUs' | translate }}</h5>
+          <p><a href="tel:905550008304">0555 000 83 04</a></p>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4">
+        <div class="ct-info__card">
+          <div class="ct-info__icon"><span class="icon-pin"></span></div>
+          <h5>{{ 'contact.address' | translate }}</h5>
+          <p>İkitelli OSB, Metal-İş Sanayi Sitesi 8. Blok No:22-24-26 Başakşehir / İstanbul</p>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4">
+        <div class="ct-info__card">
+          <div class="ct-info__icon"><span class="icon-email"></span></div>
+          <h5>{{ 'contact.email' | translate }}</h5>
+          <p><a href="mailto:info@safaklazer.com.tr">info&#64;safaklazer.com.tr</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Form + Info Section -->
+<section class="ct-form-section">
+  <div class="container">
+    <div class="row">
+
+      <!-- Form -->
+      <div class="col-xl-7 col-lg-7">
+        <div class="ct-form">
+          <h2 class="ct-form__title">Bize Ulaşın</h2>
+          <p class="ct-form__desc">Projeniz hakkında bilgi verin, size en kısa sürede dönüş yapalım.</p>
+
+          <div *ngIf="formSubmitted" class="ct-form__success">
+            <i class="fas fa-check-circle"></i>
+            <span>Mesajınız iletildi! En kısa sürede size dönüş yapacağız.</span>
+          </div>
+
+          <form *ngIf="!formSubmitted" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="ct-form__group">
+                  <label>Ad Soyad *</label>
+                  <input type="text" formControlName="name" placeholder="Adınız Soyadınız">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="ct-form__group">
+                  <label>E-posta *</label>
+                  <input type="email" formControlName="email" placeholder="ornek@firma.com">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="ct-form__group">
+                  <label>Telefon *</label>
+                  <input type="tel" formControlName="phone" placeholder="05XX XXX XX XX">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="ct-form__group">
+                  <label>Firma</label>
+                  <input type="text" formControlName="company" placeholder="Firma Adı (opsiyonel)">
+                </div>
+              </div>
+            </div>
+            <div class="ct-form__group">
+              <label>Hizmet</label>
+              <select formControlName="service">
+                <option value="">Hizmet Seçin</option>
+                <option *ngFor="let opt of serviceOptions" [value]="opt">{{ opt }}</option>
+              </select>
+            </div>
+            <div class="ct-form__group">
+              <label>Mesajınız *</label>
+              <textarea formControlName="message" rows="5"
+                        placeholder="Projeniz hakkında detay verin (malzeme, boyut, adet vb.)"></textarea>
+            </div>
+            <button type="submit" class="thm-btn ct-form__submit" [disabled]="contactForm.invalid">
+              <span class="txt">Gönder</span>
+              <i class="icon-double-chevron"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Sidebar Info -->
+      <div class="col-xl-5 col-lg-5">
+        <div class="ct-sidebar">
+
+          <div class="ct-sidebar__card">
+            <h3>Çalışma Saatleri</h3>
+            <ul>
+              <li><span>Pazartesi - Cuma</span><strong>08:00 - 18:00</strong></li>
+              <li><span>Cumartesi</span><strong>08:00 - 14:00</strong></li>
+              <li class="closed"><span>Pazar</span><strong>Kapalı</strong></li>
+            </ul>
+          </div>
+
+          <div class="ct-sidebar__card ct-sidebar__card--dark">
+            <h3>Hızlı İletişim</h3>
+            <p>Acil projeleriniz için doğrudan arayabilir veya WhatsApp üzerinden ulaşabilirsiniz.</p>
+            <a href="tel:905550008304" class="ct-sidebar__phone">
+              <i class="fa fa-phone-alt"></i> 0555 000 83 04
+            </a>
+            <a href="https://wa.me/905550008304?text=Merhaba%2C%20teklif%20almak%20istiyorum." target="_blank" rel="noopener noreferrer"
+               class="ct-sidebar__whatsapp">
+              <i class="fab fa-whatsapp"></i> WhatsApp ile Yazın
+            </a>
+          </div>
+
+          <div class="ct-sidebar__card">
+            <h3>Dosya Gönderimi</h3>
+            <p>Teknik çizimlerinizi (DXF, DWG, PDF, STEP) e-posta ile gönderebilirsiniz:</p>
+            <a href="mailto:info@safaklazer.com.tr" class="ct-sidebar__email">
+              <i class="fa fa-envelope"></i> info&#64;safaklazer.com.tr
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Map -->
+<div class="ct-map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3008.0962360696494!2d28.800185000000003!3d41.066889!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa590b79a3895%3A0x9de7d49cadaedca1!2zxZ5hZmFrIERlbWlyIMOHZWxpaw!5e0!3m2!1str!2str!4v1726760064396!5m2!1str!2str"
+          class="ct-map__iframe"
+          allowfullscreen
+          loading="lazy"
+          title="Kuzey Şafak Lazer Konum"></iframe>
+</div>

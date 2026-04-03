@@ -1,0 +1,169 @@
+<!-- Page Header -->
+<section class="page-header">
+  <div class="page-header__bg"
+       style="background-image: url('assets/images/services/lazer-kesim-slider.webp')">
+  </div>
+  <div class="container">
+    <div class="page-header__inner">
+      <h2>{{ page?.h1 }}</h2>
+      <ul class="thm-breadcrumb">
+        <li><a routerLink="/">Ana Sayfa</a></li>
+        <li><span class="icon-caret mx-2"></span></li>
+        <li><a routerLink="/bilgi">{{ getCategoryLabel() }}</a></li>
+        <li><span class="icon-caret mx-2"></span></li>
+        <li>{{ page?.h1 }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<section class="info-page" *ngIf="page">
+  <div class="container">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-xl-4 col-lg-5">
+        <div class="sidebar">
+
+          <!-- Category Badge -->
+          <div class="info-category-badge">
+            <i class="fa {{ getCategoryIcon() }}"></i>
+            <span>{{ getCategoryLabel() }}</span>
+          </div>
+
+          <!-- Hizmetlerimiz -->
+          <div class="sidebar__single sidebar__category">
+            <h3 class="sidebar__title">Hizmetlerimiz</h3>
+            <ul class="sidebar__category-list">
+              <li *ngFor="let srv of allServiceLinks"
+                  routerLinkActive="active">
+                <a [routerLink]="srv.link">{{ srv.label | translate }} <span class="icon-caret"></span></a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Related Services -->
+          <div *ngIf="relatedServiceLinks.length" class="sidebar__single sidebar__category">
+            <h3 class="sidebar__title">İlgili Hizmetler</h3>
+            <ul class="sidebar__category-list">
+              <li *ngFor="let rs of relatedServiceLinks">
+                <a [routerLink]="rs.link">{{ rs.label | translate }} <span class="icon-caret"></span></a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Related Info Pages -->
+          <div *ngIf="relatedInfoPages.length" class="sidebar__single sidebar__category">
+            <h3 class="sidebar__title">İlgili Yazılar</h3>
+            <ul class="sidebar__category-list">
+              <li *ngFor="let rp of relatedInfoPages">
+                <a [routerLink]="'/bilgi/' + rp.slug">{{ rp.h1 }} <span class="icon-caret"></span></a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CTA Sidebar -->
+          <div class="sidebar-cta">
+            <h3 class="sidebar-cta__title" *ngIf="isTeklifPage()">Hemen Teklif Alın</h3>
+            <h3 class="sidebar-cta__title" *ngIf="!isTeklifPage()">Projenizi Değerlendirelim</h3>
+            <p class="sidebar-cta__text">Teknik çiziminizi gönderin, aynı gün fiyat teklifi oluşturalım.</p>
+            <a routerLink="/contact" class="thm-btn">
+              <span class="txt">İletişime Geç</span>
+            </a>
+            <p class="sidebar-cta__phone">
+              <i class="fa fa-phone-alt me-2"></i>
+              <a href="tel:905550008304">0555 000 83 04</a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Content Area -->
+      <div class="col-xl-8 col-lg-7">
+        <div class="info-content">
+
+          <!-- H1 Title -->
+          <h1 class="info-content__h1">{{ page.h1 }}</h1>
+
+          <!-- Teklif CTA Banner (only for teklif pages) -->
+          <div *ngIf="isTeklifPage()" class="info-teklif-banner">
+            <div class="info-teklif-banner__icon">
+              <i class="fa fa-file-invoice-dollar"></i>
+            </div>
+            <div class="info-teklif-banner__text">
+              <h3>Projenize Özel Fiyat Teklifi</h3>
+              <p>Sabit fiyat listesi yerine projenizin teknik detaylarına göre en doğru ve rekabetçi teklifi sunuyoruz.</p>
+            </div>
+          </div>
+
+          <!-- Main Content -->
+          <div class="info-content__body" [innerHTML]="page.content"></div>
+
+          <!-- Contact CTA for Teklif Pages -->
+          <div *ngIf="isTeklifPage()" class="info-teklif-cta">
+            <h3 class="info-teklif-cta__title">Hemen Teklif Alın</h3>
+            <p class="info-teklif-cta__text">
+              Teknik çiziminizi veya proje detaylarınızı aşağıdaki kanallardan bize iletin. Ekibimiz en kısa sürede projenizi değerlendirecek ve size özel teklif hazırlayacaktır.
+            </p>
+            <div class="info-teklif-cta__actions">
+              <a routerLink="/contact" class="thm-btn">
+                <span class="txt">İletişim Formu</span>
+              </a>
+              <a href="https://wa.me/905550008304" target="_blank" rel="noopener" class="thm-btn thm-btn--whatsapp">
+                <i class="fab fa-whatsapp me-2"></i>
+                <span class="txt">WhatsApp ile Gönder</span>
+              </a>
+            </div>
+            <p class="info-teklif-cta__phone">
+              <i class="fa fa-phone-alt me-2"></i>
+              Telefonla: <a href="tel:905550008304"><strong>0555 000 83 04</strong></a>
+            </p>
+          </div>
+
+          <!-- FAQ Section -->
+          <div *ngIf="page.faq.length" class="info-faq">
+            <h2 class="info-faq__title">Sıkça Sorulan Sorular</h2>
+            <div *ngFor="let item of page.faq; let i = index" class="info-faq__item">
+              <h3 class="info-faq__question">
+                <span class="info-faq__number">{{ i + 1 }}</span>
+                {{ item.q }}
+              </h3>
+              <p class="info-faq__answer">{{ item.a }}</p>
+            </div>
+          </div>
+
+          <!-- Related Info Pages Grid -->
+          <div *ngIf="relatedInfoPages.length" class="info-related">
+            <h3 class="info-related__title">İlgili Yazılar</h3>
+            <div class="row">
+              <div *ngFor="let rp of relatedInfoPages" class="col-6 col-md-4 mb-3">
+                <a [routerLink]="'/bilgi/' + rp.slug" class="info-related__card">
+                  <span class="info-related__card-category">{{ rp.category === 'bilgi' ? 'Bilgi' : (rp.category === 'teklif' ? 'Teklif' : 'Fason') }}</span>
+                  <span class="info-related__card-title">{{ rp.h1 }}</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom CTA for non-teklif pages -->
+          <div *ngIf="!isTeklifPage()" class="info-bottom-cta">
+            <h3>Bu Konuda Projeniz mi Var?</h3>
+            <p>İkitelli OSB'deki tesisimizde lazer kesim, CNC büküm, plazma kesim ve kaynaklı imalat hizmetleri sunuyoruz. Projenizin detaylarını paylaşın, size özel çözüm üretelim.</p>
+            <div class="info-bottom-cta__actions">
+              <a routerLink="/contact" class="thm-btn">
+                <span class="txt">İletişime Geç</span>
+              </a>
+              <a href="tel:905550008304" class="info-bottom-cta__phone-link">
+                <i class="fa fa-phone-alt me-2"></i> 0555 000 83 04
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

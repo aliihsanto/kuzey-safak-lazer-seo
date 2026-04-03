@@ -1,0 +1,149 @@
+<!-- HERO -->
+<section class="srv-hero">
+  <div class="srv-hero__bg"
+       [style.backgroundImage]="'url(' + service?.sliderImg + ')'"></div>
+  <div class="srv-hero__overlay"></div>
+  <div class="container">
+    <div class="srv-hero__inner">
+      <ul class="srv-hero__breadcrumb">
+        <li><a routerLink="/">Ana Sayfa</a></li>
+        <li><span>/</span></li>
+        <li>{{ 'services.title' | translate }}</li>
+        <li><span>/</span></li>
+        <li class="active">{{ (service?.label || '') | translate }}</li>
+      </ul>
+      <h1 class="srv-hero__title">{{ (service?.contentTitle || '') | translate }}</h1>
+      <p class="srv-hero__desc">{{ heroDesc }}</p>
+      <a routerLink="/contact" class="srv-hero__btn">
+        <span>Teklif Al</span>
+        <i class="icon-double-chevron"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<section class="srv-stats" *ngIf="stats.length">
+  <div class="container">
+    <div class="srv-stats__grid">
+      <div *ngFor="let stat of stats" class="srv-stats__item">
+        <span class="srv-stats__value">{{ stat.value }}</span>
+        <span class="srv-stats__label">{{ stat.label }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTENT -->
+<section class="srv-content">
+  <div class="container">
+    <div class="row">
+
+      <!-- Main -->
+      <div class="col-lg-8" *ngIf="service">
+
+        <div class="srv-content__img">
+          <img [src]="service.topImg" [alt]="(service.contentTitle | translate)" />
+        </div>
+
+        <div class="srv-content__text"
+             [innerHTML]="service.contentDesc | translate"></div>
+
+        <!-- Spec Image -->
+        <div class="srv-content__spec">
+          <img [src]="service.bottomImg" [alt]="(service.label | translate) + ' detay'" />
+          <div class="srv-content__spec-badge">
+            <img [src]="service.iconImg" [alt]="(service.label | translate)" />
+          </div>
+        </div>
+
+        <!-- Longtail Links -->
+        <div *ngIf="relatedLongtails.length" class="srv-longtails">
+          <h2 class="srv-section-title">Detaylı Hizmet Sayfaları</h2>
+          <div class="srv-longtails__grid">
+            <a *ngFor="let lt of relatedLongtails"
+               [routerLink]="'/hizmet/' + lt.slug"
+               class="srv-longtails__card">
+              <span class="srv-longtails__card-icon"><i class="icon-right-arrow-1"></i></span>
+              <span class="srv-longtails__card-text">{{ lt.h1 }}</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Districts -->
+        <div *ngIf="districtLinks.length" class="srv-districts">
+          <div class="srv-districts__header">
+            <span class="srv-districts__pin"><i class="icon-pin"></i></span>
+            <div>
+              <h2 class="srv-section-title" style="margin-bottom: 0;">İstanbul Genelinde Hizmet Veriyoruz</h2>
+              <p class="srv-districts__sub">39 ilçeye hızlı teslimat</p>
+            </div>
+          </div>
+
+          <h3 class="srv-districts__side">Avrupa Yakası</h3>
+          <div class="srv-districts__grid">
+            <ng-container *ngFor="let dl of districtLinks">
+              <a *ngIf="dl.side === 'avrupa'"
+                 [routerLink]="dl.link"
+                 class="srv-districts__chip">{{ dl.name }}</a>
+            </ng-container>
+          </div>
+
+          <h3 class="srv-districts__side">Anadolu Yakası</h3>
+          <div class="srv-districts__grid">
+            <ng-container *ngFor="let dl of districtLinks">
+              <a *ngIf="dl.side === 'anadolu'"
+                 [routerLink]="dl.link"
+                 class="srv-districts__chip">{{ dl.name }}</a>
+            </ng-container>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-lg-4">
+        <div class="srv-sidebar">
+
+          <!-- Other Services -->
+          <div class="srv-sidebar__nav">
+            <h3 class="srv-sidebar__heading">Hizmetlerimiz</h3>
+            <a *ngFor="let cat of categories"
+               [routerLink]="cat.link"
+               class="srv-sidebar__nav-item"
+               [class.active]="cat.slug === currentSlug">
+              <span class="srv-sidebar__nav-text">{{ cat.label | translate }}</span>
+              <i class="icon-right-arrow-1"></i>
+            </a>
+          </div>
+
+          <!-- CTA -->
+          <div class="srv-sidebar__cta">
+            <div class="srv-sidebar__cta-line"></div>
+            <h3>Projenizi Konuşalım</h3>
+            <p>Teknik çiziminizi gönderin, aynı gün fiyat teklifi oluşturalım.</p>
+            <a routerLink="/contact" class="srv-sidebar__cta-btn">
+              <span>İletişime Geç</span>
+            </a>
+            <div class="srv-sidebar__cta-phone">
+              <i class="fa fa-phone-alt"></i>
+              <a href="tel:905550008304">0555 000 83 04</a>
+            </div>
+          </div>
+
+          <!-- Hours -->
+          <div class="srv-sidebar__info">
+            <h3 class="srv-sidebar__heading">Çalışma Saatleri</h3>
+            <ul>
+              <li><span>Pazartesi - Cuma</span><span>08:00 - 18:00</span></li>
+              <li><span>Cumartesi</span><span>08:00 - 14:00</span></li>
+              <li class="closed"><span>Pazar</span><span>Kapalı</span></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

@@ -1,0 +1,191 @@
+.district-service {
+  &__h1 {
+    font-family: "Conthrax Sb";
+    font-size: 1.75rem;
+    color: var(--thm-black);
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+
+  &__content {
+    p {
+      line-height: 1.8;
+      color: #555;
+      font-size: 15px;
+    }
+
+    strong {
+      color: var(--thm-black);
+    }
+  }
+
+  &__why-us {
+    margin-top: 35px;
+
+    h2 {
+      font-family: "Conthrax Sb";
+      font-size: 1.25rem;
+      color: var(--thm-black);
+      margin-bottom: 20px;
+    }
+
+    &-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    &-item {
+      display: flex;
+      align-items: flex-start;
+      padding: 12px 0;
+      border-bottom: 1px solid #eee;
+
+      i {
+        color: var(--thm-base);
+        margin-right: 12px;
+        margin-top: 3px;
+        font-size: 14px;
+      }
+
+      span {
+        color: #333;
+        font-size: 15px;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  &__capacity {
+    margin-top: 35px;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid var(--thm-base);
+
+    h3 {
+      font-family: "Conthrax Sb";
+      font-size: 1.1rem;
+      color: var(--thm-black);
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        padding: 6px 0;
+        font-size: 14px;
+        color: #444;
+
+        strong {
+          color: var(--thm-black);
+        }
+      }
+    }
+  }
+
+  &__nearby {
+    margin-top: 35px;
+
+    h3 {
+      font-family: "Conthrax Sb";
+      font-size: 1.1rem;
+      color: var(--thm-black);
+      margin-bottom: 15px;
+    }
+  }
+
+  &__district-link {
+    display: block;
+    padding: 10px 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    color: var(--thm-black);
+    transition: all 0.3s ease;
+    background: #fff;
+
+    &:hover {
+      border-color: var(--thm-base);
+      color: var(--thm-base);
+      box-shadow: 0 2px 8px rgba(221, 3, 41, 0.1);
+    }
+
+    i {
+      color: var(--thm-base);
+      font-size: 11px;
+      margin-right: 4px;
+    }
+  }
+
+  &__other-services {
+    margin-top: 35px;
+
+    h3 {
+      font-family: "Conthrax Sb";
+      font-size: 1.1rem;
+      color: var(--thm-black);
+      margin-bottom: 15px;
+    }
+  }
+
+  &__service-link {
+    display: block;
+    padding: 14px 12px;
+    border: 2px solid var(--thm-base);
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--thm-base);
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: var(--thm-base);
+      color: #fff;
+    }
+  }
+}
+
+.sidebar-cta {
+  background: var(--thm-black);
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+
+  &__title {
+    font-family: "Conthrax Sb";
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+  }
+
+  &__text {
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  &__phone {
+    color: #aaa;
+    margin-top: 15px;
+    font-size: 14px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+
+      &:hover {
+        color: var(--thm-base);
+      }
+    }
+  }
+}

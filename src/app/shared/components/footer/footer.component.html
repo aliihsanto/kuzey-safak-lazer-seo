@@ -1,0 +1,160 @@
+<!-- CTA -->
+<section *ngIf="!isContactPage" class="cta-one">
+  <div class="cta-one__bg"
+       style="background-image: url(assets/images/footer/services.webp);"></div>
+  <div class="container">
+    <div class="row">
+      <div class="cta-one__inner">
+        <div class="cta-one__content">
+          <div class="text-box">
+            <p>{{ 'provider' | translate }}</p>
+            <h2 [innerHTML]="'needService' | translate"></h2>
+          </div>
+          <div class="btn-box">
+            <a class="thm-btn" routerLink="/contact">
+              <span class="txt me-2">{{ 'reachUs' | translate }}</span>
+              <i class="icon-double-chevron"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-one">
+  <div class="footer-one__bg"
+       style="background-image: url(assets/images/backgrounds/footer-v1-bg.webp);"></div>
+  <div class="footer-one__pattern"
+       style="background-image: url(assets/images/pattern/thm-pattern.webp);"></div>
+
+  <div class="footer">
+    <div class="container">
+
+      <!-- Üst Kısım: Firma Bilgisi + İletişim -->
+      <div class="row">
+
+        <!-- Firma -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.1s">
+          <div class="footer-widget__single">
+            <div class="footer-widget__single-about">
+              <div class="logo-box footer-logo">
+                <a routerLink="/"><img src="assets/images/resources/kuzey-safak-logo-white.webp" alt="Kuzey Şafak Lazer" /></a>
+              </div>
+              <div class="text-box">
+                <p class="pe-3">{{ 'footer.desc' | translate }}</p>
+              </div>
+              <ul class="social-link" style="margin-top: 16px;">
+                <li><a href="https://www.instagram.com/lazersafak/" target="_blank" rel="noopener noreferrer"><span class="fab fa-instagram"></span></a></li>
+                <li><a href="https://www.youtube.com/channel/UC0rsusAXgbRlCG9jugZ2KRQ" target="_blank" rel="noopener noreferrer"><span class="fab fa-youtube"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hizmetler -->
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s">
+          <div class="footer-widget__single">
+            <div class="title"><h2>Hizmetler</h2></div>
+            <ul class="footer-widget__single-list">
+              <li *ngFor="let item of hizmetLinks"><a [routerLink]="item.link">{{ item.label }}</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Sektörler -->
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 wow animated fadeInUp" data-wow-delay="0.3s">
+          <div class="footer-widget__single">
+            <div class="title"><h2>Sektörler</h2></div>
+            <ul class="footer-widget__single-list">
+              <li *ngFor="let item of sektorLinks"><a [routerLink]="item.link">{{ item.label }}</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- İletişim -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.4s">
+          <div class="footer-widget__single">
+            <div class="title"><h2>{{ 'contact.title' | translate }}</h2></div>
+            <div class="footer-widget__single-contact">
+              <p class="text">İkitelli OSB, Metal-İş Sanayi Sitesi 8. Blok No:22-24-26 Başakşehir / İstanbul</p>
+              <p class="number d-flex align-items-center">
+                <span class="icon-phone-call-2 d-block me-2"></span>
+                <a href="tel:905550008304">+90 555 000 83 04</a>
+              </p>
+              <p class="email d-flex align-items-center">
+                <span class="icon-email d-block me-2"></span>
+                <a href="mailto:info@safaklazer.com.tr">info&#64;safaklazer.com.tr</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Alt Kısım: Ürünler + Bölgeler + Bilgi -->
+      <div class="row footer-links-bottom">
+
+        <!-- Ürünler -->
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+          <div class="footer-widget__single">
+            <div class="title"><h3>Ürünler</h3></div>
+            <ul class="footer-widget__single-list">
+              <li *ngFor="let item of urunLinks"><a [routerLink]="item.link">{{ item.label }}</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Hizmet Bölgeleri -->
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+          <div class="footer-widget__single">
+            <div class="title"><h3>Hizmet Bölgeleri</h3></div>
+            <ul class="footer-widget__single-list">
+              <li *ngFor="let item of bolgeLinks"><a [routerLink]="item.link">{{ item.label }}</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bilgi -->
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+          <div class="footer-widget__single">
+            <div class="title"><h3>Bilgi Merkezi</h3></div>
+            <ul class="footer-widget__single-list">
+              <li *ngFor="let item of bilgiLinks"><a [routerLink]="item.link">{{ item.label }}</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Kurumsal -->
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+          <div class="footer-widget__single">
+            <div class="title"><h3>Kurumsal</h3></div>
+            <ul class="footer-widget__single-list">
+              <li><a routerLink="/">Ana Sayfa</a></li>
+              <li><a routerLink="/about">Hakkımızda</a></li>
+              <li><a routerLink="/contact">İletişim</a></li>
+              <li><a routerLink="/hizmetler/lazer-kesim">Hizmetlerimiz</a></li>
+              <li><a routerLink="/urun/dkp-sac">Ürünler</a></li>
+              <li><a routerLink="/sektor/insaat-lazer-kesim">Sektörler</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-one__bottom">
+    <div class="container">
+      <div class="bottom-inner">
+        <div class="copyright">
+          <p>Kuzey Şafak Lazer © 2024 - Tüm Hakları Saklıdır.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>

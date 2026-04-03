@@ -1,0 +1,212 @@
+<div class="mobile-nav__wrapper"
+     [class.expanded]="menuVisible">
+  <div class="mobile-nav__overlay mobile-nav__toggler"
+       (click)="closeMenu()"></div>
+  <div class="mobile-nav__content">
+    <span class="mobile-nav__close mobile-nav__toggler"
+          (click)="closeMenu()">
+      <i class="icon-plus"></i>
+    </span>
+    <div class="logo-box">
+      <a routerLink="/">
+        <img src="assets/images/resources/kuzey-safak-logo-white.webp"
+             alt="Kuzey Şafak Lazer"
+             class="mobile-logo">
+      </a>
+    </div>
+    <div class="mobile-nav__container">
+      <ul class="main-menu__list">
+        <li>
+          <a routerLink="/" (click)="closeMenu()">{{ 'home' | translate }} <span class="line"></span></a>
+        </li>
+        <li *ngFor="let item of menu"
+            [class.dropdown]="item.children && item.children.length">
+          <a [routerLink]="item.link" (click)="closeMenu()">{{ item.label | translate }} <span class="line"></span>
+            <button *ngIf="item.children && item.children.length"><i class="fa fa-angle-down"></i></button>
+          </a>
+          <ul *ngIf="item.children && item.children.length">
+            <li *ngFor="let child of item.children">
+              <a [routerLink]="child.link" (click)="closeMenu()">{{ child.label }}</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- Dil butonu kaldırıldı -->
+    <ul class="mobile-nav__contact list-unstyled">
+      <li>
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:info@safaklazer.com.tr">info&#64;safaklazer.com.tr</a>
+      </li>
+      <li>
+        <i class="fa fa-map-marker-alt"></i>
+        <a routerLink="/contact">
+          İkitelli OSB / İstanbul
+        </a>
+      </li>
+      <li>
+        <i class="fa fa-phone-alt"></i>
+        <a href="tel:905550008304">
+          +90 555 000 83 04
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-nav__social">
+      <a href="https://www.instagram.com/lazersafak/"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="fab fa-instagram"></a>
+      <a href="https://www.youtube.com/channel/UC0rsusAXgbRlCG9jugZ2KRQ"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="fab fa-youtube"></a>
+    </div>
+
+  </div>
+</div>
+
+<header class="main-header main-header-two">
+
+  <div class="main-header-two__top">
+    <div class="auto-container">
+      <div class="main-header-two__top-inner">
+
+        <div class="main-header-two__top-left">
+          <ul class="main-header-two__contact-info">
+            <li>
+              <div class="inner">
+                <div class="icon-box">
+                  <span class="icon-confirmation"></span>
+                </div>
+                <div class="text-box">
+                  <p>{{ 'slogan' | translate }}</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="inner">
+                <div class="icon-box">
+                  <span class="icon-email"></span>
+                </div>
+                <div class="text-box">
+                  <p><a href="mailto:info@safaklazer.com.tr">info&#64;safaklazer.com.tr</a></p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="inner">
+                <div class="icon-box">
+                  <span class="icon-pin"></span>
+                </div>
+                <div class="text-box">
+                  <p>İkitelli OSB / Metal-İş Sanayi Sitesi / İstanbul</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="inner">
+                <div class="icon-box">
+                  <span class="icon-phone-call-2"></span>
+                </div>
+                <div class="text-box">
+                  <p><a href="tel:905550008304">
+                      +90 555 000 83 04
+                    </a></p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="main-header-two__top-right">
+          <!-- <div class="number">
+            <p>
+              <span class="icon-phone-call-2"></span>
+              <a href="tel:905550008304">
+                +90 555 000 83 04
+              </a>
+            </p>
+          </div> -->
+
+          <div class="btn-box">
+            <a routerLink="/contact">{{ 'reachUs' | translate }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-header-two__bottom">
+    <div class="main-header-two__bottom-inner">
+      <nav class="main-menu main-menu-one">
+        <div class="main-menu__wrapper clearfix">
+          <div class="auto-container">
+            <div class="main-menu__wrapper-inner">
+
+              <div class="main-header-two__bottom-left">
+                <div class="logo-box-one header-logo">
+                  <a routerLink="/">
+                    <img src="assets/images/resources/kuzey-safak-logo.webp"
+                         alt="Kuzey Şafak Lazer">
+                  </a>
+                </div>
+              </div>
+
+              <div class="main-header-two__bottom-middle">
+                <div class="main-menu-box">
+                  <a class="mobile-nav__toggler"
+                     (click)="openMenu()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+
+                  <ul class="main-menu__list">
+                    <li>
+                      <a routerLink="/">{{ 'home' | translate }}</a>
+                    </li>
+                    <li *ngFor="let item of menu"
+                        routerLinkActive="current"
+                        [class.dropdown]="item.children && item.children.length">
+                      <a [routerLink]="item.link">{{ item.label | translate }} <span class="line"></span></a>
+                      <ul *ngIf="item.children && item.children.length">
+                        <li *ngFor="let child of item.children"><a [routerLink]="child.link">{{ child.label }}</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="main-header-two__bottom-right">
+                <!-- <div class="header-search-box">
+                  <a href="#"
+                     class="main-menu__search search-toggler icon-magnifying-glass">
+                  </a>
+                </div> -->
+                <div class="main-header-one__bottom-right-btn">
+                  <a routerLink="/contact">{{ 'getQuote' | translate }}</a>
+                </div>
+                <ul class="header-social-links-style2">
+                  <li class="me-2"><a href="https://www.instagram.com/lazersafak/"
+                       target="_blank" rel="noopener noreferrer"><span class="fab fa-instagram"></span></a></li>
+                  <li><a href="https://www.youtube.com/channel/UC0rsusAXgbRlCG9jugZ2KRQ"
+                       target="_blank" rel="noopener noreferrer"><span class="fab fa-youtube"></span></a></li>
+                </ul>
+                <!-- Dil butonu kaldırıldı -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+</header>
+
+<div class="stricky-header stricky-header--two stricked-menu main-menu">
+  <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+</div><!-- /.stricky-header -->

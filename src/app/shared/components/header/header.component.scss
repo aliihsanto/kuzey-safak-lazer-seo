@@ -1,0 +1,85 @@
+.header-logo {
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 54px;
+    width: auto;
+    margin-left: 0;
+    margin-top: 0;
+    object-fit: contain;
+  }
+}
+
+.main-header-two__bottom .main-menu .main-menu__list > li > a {
+  font-size: 0.9rem;
+  padding: 0 14px;
+}
+
+.main-header-two__bottom-middle {
+  margin-left: 40px;
+}
+
+.main-header-two__top-right .btn-box a {
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+}
+
+.main-header-two__contact-info li {
+  margin-right: 24px;
+}
+
+.main-header-two__contact-info li .inner .text-box {
+  margin-left: 8px;
+
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: none;
+  }
+}
+
+.mobile-logo {
+  height: 60px;
+}
+
+.lang-btn {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  margin-right: 24px;
+  margin-top: -6px;
+  cursor: pointer;
+
+  &.mobile-lang {
+    position: absolute;
+    bottom: 64px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  span {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 2px 6px;
+    text-align: center;
+    border-radius: 4px;
+  }
+}
+
+.header-social-links-style2 {
+  margin: 0 40px;
+}

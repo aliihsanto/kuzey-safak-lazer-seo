@@ -1,0 +1,102 @@
+.footer-logo {
+  img {
+    height: 64px;
+    width: auto;
+  }
+}
+
+.footer-widget__single-about .text-box p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  font-weight: 200;
+}
+
+.footer {
+  padding-bottom: 40px;
+}
+
+.footer-one {
+  padding-top: 80px;
+}
+
+.footer-widget__single {
+  .title {
+    h2 {
+      font-size: 1.1rem;
+    }
+
+    h3 {
+      font-size: 0.95rem;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+
+.footer-widget__single-contact {
+  font-size: 0.9rem;
+
+  .social-link {
+    border-top: 0;
+  }
+}
+
+.footer-widget__single-list li {
+  margin-bottom: 6px;
+
+  a {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+// Alt link bölümü
+.footer-links-bottom {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cta-one__bg::before {
+  display: none;
+}
+
+.cta-one__content .text-box {
+  margin-left: 20%;
+
+  h2 {
+    font-family: "Conthrax Sb";
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+}
+
+.cta-one {
+  padding: 40px 0;
+}
+
+.cta-one__bg {
+  top: 0;
+}
+
+.footer-one__bottom .bottom-inner .copyright {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 1200px) {
+  .cta-one__content .text-box {
+    margin-left: 0 !important;
+  }
+}

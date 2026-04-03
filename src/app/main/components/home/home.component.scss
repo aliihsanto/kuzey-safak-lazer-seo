@@ -1,0 +1,1128 @@
+/* ==========================================================================
+   KUZEY SAFAK LAZER - HOMEPAGE STYLES
+   Design System:
+   - Headings: "Conthrax Sb"
+   - Body: "Archivo" (via --thm-font)
+   - Primary: var(--thm-base) = #dd0329
+   - Dark: var(--thm-black) = #1a1a1a
+   ========================================================================== */
+
+// -------------------------------------------------------
+// Shared Section Header
+// -------------------------------------------------------
+.ks-section-header {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 56px;
+
+  &__tag {
+    display: inline-block;
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--thm-base);
+    background: rgba(var(--thm-base-rgb), 0.08);
+    padding: 6px 18px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+
+    &--light {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.15);
+    }
+  }
+
+  &__title {
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    color: var(--thm-black);
+    margin: 0 0 16px;
+  }
+
+  &__desc {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #555;
+    margin: 0;
+  }
+}
+
+// -------------------------------------------------------
+// SECTION 1: HERO
+// -------------------------------------------------------
+.ks-hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+
+  &__bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      160deg,
+      rgba(0, 0, 0, 0.82) 0%,
+      rgba(0, 0, 0, 0.55) 50%,
+      rgba(0, 0, 0, 0.72) 100%
+    );
+  }
+
+  &__container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 120px;
+    padding-bottom: 40px;
+  }
+
+  &__content {
+    max-width: 720px;
+  }
+
+  &__badge {
+    display: inline-block;
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--thm-base);
+    border: 1px solid rgba(var(--thm-base-rgb), 0.4);
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin-bottom: 28px;
+    animation: fadeInUp 0.8s ease both;
+  }
+
+  &__title {
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.15;
+    color: #fff;
+    margin: 0 0 24px;
+    animation: fadeInUp 0.8s ease 0.15s both;
+
+    &--accent {
+      color: var(--thm-base);
+    }
+  }
+
+  &__subtitle {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 560px;
+    margin: 0 0 40px;
+    animation: fadeInUp 0.8s ease 0.3s both;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    animation: fadeInUp 0.8s ease 0.45s both;
+  }
+
+  &__btn-primary {
+    cursor: pointer;
+  }
+
+  &__btn-outline {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 0.95rem;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: 0 36px;
+    line-height: 61px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+    &:hover {
+      border-color: #fff;
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+    }
+
+    svg {
+      transition: transform 0.3s ease;
+    }
+
+    &:hover svg {
+      transform: translateX(4px);
+    }
+  }
+
+  // Stats Bar
+  &__stats {
+    display: flex;
+    gap: 0;
+    margin-top: auto;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    overflow: hidden;
+    animation: fadeInUp 0.8s ease 0.6s both;
+  }
+
+  &__stat {
+    flex: 1;
+    text-align: center;
+    padding: 28px 16px;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  &__stat-value {
+    display: block;
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 1.75rem;
+    color: var(--thm-base);
+    margin-bottom: 4px;
+  }
+
+  &__stat-label {
+    display: block;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.65);
+    letter-spacing: 0.3px;
+  }
+}
+
+// -------------------------------------------------------
+// SECTION 2: SERVICES
+// -------------------------------------------------------
+.ks-services {
+  padding: 100px 0;
+  background: #f8f8f8;
+
+  &__group-title {
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--thm-base);
+    margin: 0 0 28px;
+    padding-left: 4px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-bottom: 56px;
+
+    &--secondary {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+.ks-service-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.35s ease;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  &__img-wrap {
+    height: 200px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+  }
+
+  &:hover &__img-wrap img {
+    transform: scale(1.06);
+  }
+
+  &__body {
+    padding: 24px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.3;
+    color: var(--thm-black);
+    margin: 0 0 10px;
+  }
+
+  &__desc {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: #666;
+    margin: 0 0 16px;
+    flex: 1;
+  }
+
+  &__arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(var(--thm-base-rgb), 0.08);
+    color: var(--thm-base);
+    transition: all 0.3s ease;
+
+    svg {
+      transition: transform 0.3s ease;
+    }
+  }
+
+  &:hover &__arrow {
+    background: var(--thm-base);
+    color: #fff;
+
+    svg {
+      transform: translateX(3px);
+    }
+  }
+
+  // Secondary card style (no image)
+  &--secondary {
+    border-left: 3px solid transparent;
+    transition: all 0.35s ease;
+
+    .ks-service-card__body {
+      padding: 28px;
+    }
+
+    &:hover {
+      border-left-color: var(--thm-base);
+    }
+  }
+}
+
+// -------------------------------------------------------
+// SECTION 3: ABOUT
+// -------------------------------------------------------
+.ks-about {
+  padding: 100px 0;
+  background: #fff;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+  }
+
+  &__text {
+    .ks-section-header__tag {
+      margin-bottom: 12px;
+    }
+
+    .ks-section-header__title {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__desc {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #555;
+    margin: 0 0 32px;
+  }
+
+  &__features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 36px;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 10px 0;
+      font-size: 1rem;
+      color: #333;
+    }
+  }
+
+  &__check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(var(--thm-base-rgb), 0.1);
+    color: var(--thm-base);
+    flex-shrink: 0;
+  }
+
+  &__counter {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 36px;
+    padding: 24px;
+    background: var(--thm-black);
+    border-radius: 10px;
+  }
+
+  &__counter-number {
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 2.5rem;
+    color: var(--thm-base);
+    line-height: 1;
+  }
+
+  &__counter-label {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.4;
+  }
+
+  // Image grid
+  &__images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 16px;
+    height: 520px;
+  }
+
+  &__img {
+    border-radius: 12px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.05);
+    }
+
+    &--large {
+      grid-row: 1 / 3;
+    }
+
+    &--small-top,
+    &--small-bottom {
+      // auto sized
+    }
+  }
+}
+
+// -------------------------------------------------------
+// SECTION 4: VIDEO
+// -------------------------------------------------------
+.ks-video {
+  position: relative;
+  padding: 100px 0;
+  overflow: hidden;
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.3);
+  }
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__player {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  }
+
+  &__element {
+    width: 100%;
+    display: block;
+  }
+
+  &__poster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    cursor: pointer;
+  }
+
+  &__play-btn {
+    width: 96px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--thm-base);
+    transition: all 0.3s ease;
+    position: relative;
+    margin-bottom: 20px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: -12px;
+      border-radius: 50%;
+      border: 2px solid rgba(var(--thm-base-rgb), 0.4);
+      animation: pulse-ring 2s ease-out infinite;
+    }
+  }
+
+  &__poster:hover &__play-btn {
+    transform: scale(1.08);
+    box-shadow: 0 8px 32px rgba(var(--thm-base-rgb), 0.4);
+  }
+
+  &__caption {
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+}
+
+// -------------------------------------------------------
+// SECTION 5: SECTORS
+// -------------------------------------------------------
+.ks-sectors {
+  padding: 100px 0;
+  background: #f8f8f8;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+  }
+}
+
+.ks-sector-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 32px 16px;
+  background: #fff;
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--thm-black);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+    color: var(--thm-base);
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    background: rgba(var(--thm-base-rgb), 0.07);
+    color: var(--thm-base);
+    font-size: 1.35rem;
+    transition: all 0.3s ease;
+  }
+
+  &:hover &__icon {
+    background: var(--thm-base);
+    color: #fff;
+  }
+
+  &__name {
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+    line-height: 1.3;
+  }
+}
+
+// -------------------------------------------------------
+// SECTION 6: QUOTE FORM
+// -------------------------------------------------------
+.ks-quote {
+  padding: 100px 0;
+  background: var(--thm-black);
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 56px;
+    align-items: start;
+  }
+
+  &__heading {
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 2rem;
+    line-height: 1.25;
+    color: #fff;
+    margin: 0 0 20px;
+  }
+
+  &__text {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 0 36px;
+  }
+
+  &__contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  &__contact-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+
+    svg {
+      color: var(--thm-base);
+      flex-shrink: 0;
+    }
+
+    a {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      transition: color 0.2s;
+
+      &:hover {
+        color: var(--thm-base);
+      }
+    }
+  }
+
+  // Form styles
+  &__form {
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  }
+
+  &__form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+
+    &--full {
+      margin-bottom: 24px;
+    }
+
+    label {
+      font-family: "Conthrax Sb", sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #555;
+      margin-bottom: 8px;
+    }
+
+    input,
+    select,
+    textarea {
+      font-family: var(--thm-font);
+      font-size: 0.95rem;
+      padding: 14px 16px;
+      border: 2px solid #e8e8e8;
+      border-radius: 8px;
+      background: #fafafa;
+      color: var(--thm-black);
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+      outline: none;
+      width: 100%;
+      box-sizing: border-box;
+
+      &::placeholder {
+        color: #aaa;
+      }
+
+      &:focus {
+        border-color: var(--thm-base);
+        box-shadow: 0 0 0 3px rgba(var(--thm-base-rgb), 0.1);
+        background: #fff;
+      }
+    }
+
+    select {
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 16px center;
+      padding-right: 40px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    &--error input,
+    &--error select {
+      border-color: var(--thm-base) !important;
+      background: rgba(var(--thm-base-rgb), 0.03);
+    }
+  }
+
+  &__submit {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+// -------------------------------------------------------
+// SECTION 7: LOCATIONS
+// -------------------------------------------------------
+.ks-locations {
+  padding: 80px 0;
+  background: #fff;
+
+  &__chips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  &__chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: #f4f4f4;
+    border: 1px solid #e8e8e8;
+    border-radius: 50px;
+    font-size: 0.92rem;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    svg {
+      color: var(--thm-base);
+    }
+
+    &:hover {
+      background: var(--thm-base);
+      border-color: var(--thm-base);
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(var(--thm-base-rgb), 0.25);
+
+      svg {
+        color: #fff;
+      }
+    }
+  }
+}
+
+// -------------------------------------------------------
+// SECTION 8: CTA
+// -------------------------------------------------------
+.ks-cta {
+  padding: 80px 0;
+  background: linear-gradient(135deg, var(--thm-base) 0%, #a5021e 100%);
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  &__title {
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 0 10px;
+  }
+
+  &__desc {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 16px;
+    flex-shrink: 0;
+    align-items: center;
+  }
+
+  .thm-btn {
+    background: #fff;
+    color: var(--thm-base);
+
+    &::before,
+    &::after {
+      background-color: var(--thm-black);
+    }
+
+    &:hover {
+      color: #fff;
+    }
+
+    .txt {
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+
+  &__whatsapp {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 32px;
+    line-height: 65px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    font-family: var(--thm-font);
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: #fff;
+      color: #fff;
+    }
+  }
+}
+
+// -------------------------------------------------------
+// ANIMATIONS
+// -------------------------------------------------------
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
+// -------------------------------------------------------
+// RESPONSIVE
+// -------------------------------------------------------
+@media (max-width: 1199px) {
+  .ks-hero__title {
+    font-size: 2.8rem;
+  }
+
+  .ks-services__grid {
+    grid-template-columns: repeat(2, 1fr);
+
+    &--secondary {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .ks-sectors__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .ks-quote__wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .ks-cta__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ks-cta__buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 991px) {
+  .ks-hero__title {
+    font-size: 2.25rem;
+  }
+
+  .ks-hero__stats {
+    flex-wrap: wrap;
+  }
+
+  .ks-hero__stat {
+    flex: 1 1 50%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+    &:nth-child(odd) {
+      border-right: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    &:nth-child(n + 3) {
+      border-bottom: none;
+    }
+  }
+
+  .ks-about__grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .ks-about__images {
+    height: 400px;
+  }
+
+  .ks-about__text {
+    .ks-section-header__title {
+      text-align: center;
+    }
+
+    .ks-section-header__tag {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .ks-about__desc {
+    text-align: center;
+  }
+
+  .ks-about__counter {
+    justify-content: center;
+  }
+
+  .ks-sectors__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .ks-section-header__title {
+    font-size: 1.85rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .ks-hero {
+    min-height: auto;
+    padding: 0;
+  }
+
+  .ks-hero__container {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 24px;
+  }
+
+  .ks-hero__title {
+    font-size: 1.85rem;
+  }
+
+  .ks-hero__subtitle {
+    font-size: 1rem;
+  }
+
+  .ks-hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+  }
+
+  .ks-hero__btn-outline {
+    justify-content: center;
+    line-height: 52px;
+    padding: 0 24px;
+  }
+
+  .ks-hero__btn-primary {
+    text-align: center;
+  }
+
+  .ks-hero__stat {
+    padding: 20px 12px;
+  }
+
+  .ks-hero__stat-value {
+    font-size: 1.35rem;
+  }
+
+  .ks-hero__stat-label {
+    font-size: 0.75rem;
+  }
+
+  .ks-services,
+  .ks-about,
+  .ks-video,
+  .ks-sectors,
+  .ks-quote,
+  .ks-locations,
+  .ks-cta {
+    padding: 64px 0;
+  }
+
+  .ks-services__grid {
+    grid-template-columns: 1fr;
+
+    &--secondary {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .ks-sectors__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .ks-sector-card {
+    padding: 24px 12px;
+  }
+
+  .ks-quote__form {
+    padding: 24px;
+  }
+
+  .ks-quote__form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .ks-quote__heading {
+    font-size: 1.5rem;
+  }
+
+  .ks-about__images {
+    height: 320px;
+  }
+
+  .ks-section-header {
+    margin-bottom: 40px;
+  }
+
+  .ks-section-header__title {
+    font-size: 1.55rem;
+  }
+
+  .ks-cta__title {
+    font-size: 1.5rem;
+  }
+
+  .ks-cta__buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ks-cta__whatsapp {
+    justify-content: center;
+    line-height: 56px;
+    padding: 0 24px;
+  }
+
+  .ks-locations__chips {
+    gap: 10px;
+  }
+
+  .ks-locations__chip {
+    padding: 10px 18px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .ks-hero__title {
+    font-size: 1.5rem;
+  }
+
+  .ks-hero__stats {
+    flex-direction: column;
+  }
+
+  .ks-hero__stat {
+    flex: none;
+    border-right: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .ks-sectors__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

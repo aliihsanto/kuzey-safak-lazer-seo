@@ -1,0 +1,471 @@
+// =============================================
+// SERVICE DETAIL PAGE - FULL REDESIGN
+// =============================================
+
+// ---------- HERO ----------
+.srv-hero {
+  position: relative;
+  min-height: 480px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 60px;
+  overflow: hidden;
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(10, 10, 10, 0.92) 0%, rgba(10, 10, 10, 0.4) 100%);
+    z-index: 1;
+  }
+
+  .container { position: relative; z-index: 2; }
+
+  &__inner {
+    max-width: 680px;
+  }
+
+  &__breadcrumb {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    margin: 0 0 20px;
+    font-size: 13px;
+
+    li {
+      color: rgba(255,255,255,0.5);
+      a { color: rgba(255,255,255,0.7); text-decoration: none; &:hover { color: #fff; } }
+      span { color: rgba(255,255,255,0.3); }
+      &.active { color: var(--thm-base); }
+    }
+  }
+
+  &__title {
+    font-family: "Conthrax Sb";
+    color: #fff;
+    font-size: 2.2rem;
+    line-height: 1.2;
+    margin: 0 0 16px;
+  }
+
+  &__desc {
+    color: rgba(255,255,255,0.7);
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 0 28px;
+  }
+
+  &__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--thm-base);
+    color: #fff;
+    padding: 14px 32px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+
+    &:hover {
+      background: #fff;
+      color: var(--thm-base);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
+
+    i { font-size: 12px; }
+  }
+}
+
+// ---------- STATS BAR ----------
+.srv-stats {
+  background: var(--thm-black);
+  padding: 0;
+  margin-top: -1px;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__item {
+    padding: 28px 20px;
+    text-align: center;
+    border-right: 1px solid rgba(255,255,255,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    &:last-child { border-right: none; }
+  }
+
+  &__value {
+    font-family: "Conthrax Sb";
+    color: var(--thm-base);
+    font-size: 1.6rem;
+  }
+
+  &__label {
+    color: rgba(255,255,255,0.55);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+// ---------- CONTENT ----------
+.srv-content {
+  padding: 60px 0 80px;
+
+  &__img {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 32px;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  &__text {
+    font-size: 15px;
+    line-height: 1.85;
+    color: #555;
+
+    p { margin-bottom: 16px; }
+    b, strong { color: var(--thm-black); }
+  }
+
+  &__spec {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 40px 0;
+
+    img { width: 100%; display: block; }
+
+    &-badge {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid #fff;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+
+      img { width: 100%; height: 100%; object-fit: cover; }
+    }
+  }
+}
+
+// ---------- SECTION TITLE ----------
+.srv-section-title {
+  font-family: "Conthrax Sb";
+  font-size: 1.15rem;
+  color: var(--thm-black);
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 16px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    bottom: 2px;
+    width: 4px;
+    background: var(--thm-base);
+    border-radius: 2px;
+  }
+}
+
+// ---------- LONGTAIL CARDS ----------
+.srv-longtails {
+  margin-bottom: 50px;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 18px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--thm-black);
+    transition: all 0.25s;
+
+    &:hover {
+      border-color: var(--thm-base);
+      box-shadow: 0 4px 16px rgba(221, 3, 41, 0.08);
+      transform: translateY(-2px);
+
+      .srv-longtails__card-icon {
+        background: var(--thm-base);
+        color: #fff;
+      }
+    }
+
+    &-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: var(--thm-base);
+      flex-shrink: 0;
+      transition: all 0.25s;
+    }
+
+    &-text {
+      font-size: 13.5px;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+  }
+}
+
+// ---------- DISTRICTS ----------
+.srv-districts {
+  background: #f7f8fa;
+  border-radius: 12px;
+  padding: 30px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+
+  &__pin {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: var(--thm-base);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    i { color: #fff; font-size: 18px; }
+  }
+
+  &__sub {
+    color: #999;
+    font-size: 13px;
+    margin: 4px 0 0;
+  }
+
+  &__side {
+    font-family: "Conthrax Sb";
+    font-size: 0.7rem;
+    color: var(--thm-base);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  &__chip {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    font-size: 12.5px;
+    color: var(--thm-black);
+    text-decoration: none;
+    transition: all 0.2s;
+    white-space: nowrap;
+
+    &:hover {
+      background: var(--thm-base);
+      border-color: var(--thm-base);
+      color: #fff;
+    }
+  }
+}
+
+// ---------- SIDEBAR ----------
+.srv-sidebar {
+  position: sticky;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  &__heading {
+    font-family: "Conthrax Sb";
+    font-size: 0.9rem;
+    color: var(--thm-black);
+    margin-bottom: 14px;
+  }
+
+  &__nav {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 16px;
+      margin-bottom: 6px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #555;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.2s;
+
+      i { font-size: 10px; color: #ccc; transition: all 0.2s; }
+
+      &:hover, &.active {
+        background: var(--thm-base);
+        color: #fff;
+        i { color: #fff; }
+      }
+
+      &.active {
+        font-weight: 700;
+      }
+
+      &:last-child { margin-bottom: 0; }
+    }
+  }
+
+  &__cta {
+    background: var(--thm-black);
+    border-radius: 12px;
+    padding: 30px 24px;
+    position: relative;
+    overflow: hidden;
+
+    &-line {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: var(--thm-base);
+    }
+
+    h3 {
+      font-family: "Conthrax Sb";
+      color: #fff;
+      font-size: 1rem;
+      margin: 0 0 10px;
+    }
+
+    p {
+      color: rgba(255,255,255,0.55);
+      font-size: 13.5px;
+      line-height: 1.6;
+      margin: 0 0 20px;
+    }
+
+    &-btn {
+      display: block;
+      text-align: center;
+      padding: 12px 20px;
+      background: var(--thm-base);
+      color: #fff;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: none;
+      transition: all 0.25s;
+
+      &:hover {
+        background: #fff;
+        color: var(--thm-base);
+      }
+    }
+
+    &-phone {
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255,255,255,0.4);
+      font-size: 13px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 15px;
+
+        &:hover { color: var(--thm-base); }
+      }
+    }
+  }
+
+  &__info {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #f0f0f0;
+        font-size: 13.5px;
+        color: #555;
+
+        span:last-child { font-weight: 600; color: var(--thm-black); }
+
+        &:last-child { border-bottom: none; }
+        &.closed span:last-child { color: var(--thm-base); }
+      }
+    }
+  }
+}
