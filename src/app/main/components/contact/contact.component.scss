@@ -3,33 +3,32 @@
    ============================================= */
 .contact-hero {
   position: relative;
-  min-height: 420px;
+  min-height: 380px;
   display: flex;
   align-items: center;
-  padding: 120px 0 100px;
-  overflow: visible;
+  justify-content: center;
+  padding: 140px 0 80px;
+  overflow: hidden;
 
   &__bg {
     position: absolute;
     inset: 0;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: center 40%;
   }
 
   &__overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(26, 26, 26, 0.88) 0%, rgba(26, 26, 26, 0.75) 100%);
+    background: linear-gradient(135deg, rgba(26,26,26,0.92) 0%, rgba(221,3,41,0.15) 50%, rgba(26,26,26,0.88) 100%);
   }
 
-  .container {
-    position: relative;
-    z-index: 2;
-  }
+  .container { position: relative; z-index: 2; }
 
   &__content {
     text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
 
     .thm-breadcrumb {
       display: flex;
@@ -37,102 +36,95 @@
       list-style: none;
       padding: 0;
       margin: 0 0 20px;
-
       li {
-        color: rgba(255, 255, 255, 0.7);
-        font-size: 14px;
-        font-weight: 500;
-
-        a {
-          color: rgba(255, 255, 255, 0.7);
-          text-decoration: none;
-          transition: color 0.25s;
-
-          &:hover {
-            color: var(--thm-base);
-          }
-        }
+        color: rgba(255,255,255,0.5);
+        font-size: 13px;
+        a { color: rgba(255,255,255,0.6); text-decoration: none; &:hover { color: #fff; } }
       }
     }
 
     h1 {
       font-family: "Conthrax Sb";
-      font-size: 3.2rem;
+      font-size: 3rem;
       color: #fff;
       margin: 0 0 12px;
-      letter-spacing: 1px;
     }
   }
 
   &__subtitle {
-    font-size: 1.15rem;
-    color: rgba(255, 255, 255, 0.65);
+    font-size: 1.05rem;
+    color: rgba(255,255,255,0.55);
     margin: 0;
-    font-weight: 400;
   }
+}
 
-  /* Stat Cards */
-  &__cards-wrap {
-    position: relative;
-    z-index: 3;
-    margin-top: 50px;
-  }
+/* =============================================
+   INFO CARDS
+   ============================================= */
+.contact-cards {
+  margin-top: -40px;
+  position: relative;
+  z-index: 3;
+  padding-bottom: 40px;
 
-  &__card {
-    background: #fff;
-    border-radius: 14px;
-    padding: 28px 24px;
+  &__row {
     display: flex;
-    align-items: center;
-    gap: 18px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-bottom: 20px;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 
-    &:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.16);
+    @media (max-width: 767px) {
+      flex-direction: column;
+      gap: 12px;
     }
   }
 
-  &__card-icon {
-    width: 52px;
-    height: 52px;
-    min-width: 52px;
+  &__item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #fff;
+    border-radius: 14px;
+    padding: 22px 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.14);
+    }
+
+    h4 {
+      font-family: "Conthrax Sb";
+      font-size: 0.7rem;
+      color: #aaa;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin: 0 0 3px;
+    }
+
+    span, a {
+      color: var(--thm-black);
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+
+  &__icon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
     border-radius: 12px;
-    background: rgba(221, 3, 41, 0.08);
+    background: var(--thm-base);
     display: flex;
     align-items: center;
     justify-content: center;
 
-    i {
-      color: var(--thm-base);
-      font-size: 20px;
-    }
-  }
-
-  &__card-body {
-    h4 {
-      font-family: "Conthrax Sb";
-      font-size: 0.8rem;
-      color: #999;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin: 0 0 4px;
-    }
-
-    a,
-    span {
-      color: var(--thm-black);
-      font-size: 14px;
-      font-weight: 600;
-      text-decoration: none;
-      transition: color 0.25s;
-    }
-
-    a:hover {
-      color: var(--thm-base);
-    }
+    i { color: #fff; font-size: 18px; }
   }
 }
 

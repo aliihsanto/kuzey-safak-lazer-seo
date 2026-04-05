@@ -1,54 +1,44 @@
 <!-- Section 1: Hero -->
 <section class="contact-hero">
   <div class="contact-hero__bg"
-       style="background-image: url('assets/images/generated/fabrika-panorama.webp');"></div>
+       style="background-image: url('assets/images/generated/lazer-kesim-hero.webp');"></div>
   <div class="contact-hero__overlay"></div>
   <div class="container">
     <div class="contact-hero__content">
       <ul class="thm-breadcrumb">
-        <li><a routerLink="/">{{ 'home' | translate }}</a></li>
+        <li><a routerLink="/">Ana Sayfa</a></li>
         <li><span class="icon-caret mx-2"></span></li>
-        <li>{{ 'contact.title' | translate }}</li>
+        <li>İletişim</li>
       </ul>
       <h1>İletişim</h1>
       <p class="contact-hero__subtitle">Projeniz hakkında konuşalım</p>
     </div>
   </div>
+</section>
 
-  <!-- Stat Cards overlapping hero bottom -->
-  <div class="container contact-hero__cards-wrap">
-    <div class="row">
-      <div class="col-lg-4 col-md-4">
-        <div class="contact-hero__card">
-          <div class="contact-hero__card-icon">
-            <i class="fa fa-phone-alt"></i>
-          </div>
-          <div class="contact-hero__card-body">
-            <h4>Telefon</h4>
-            <a href="tel:905550008304">0555 000 83 04</a>
-          </div>
+<!-- Info Cards - hero altında ortalı -->
+<section class="contact-cards">
+  <div class="container">
+    <div class="contact-cards__row">
+      <a href="tel:905550008304" class="contact-cards__item">
+        <div class="contact-cards__icon"><i class="fa fa-phone-alt"></i></div>
+        <div>
+          <h4>Telefon</h4>
+          <span>0555 000 83 04</span>
         </div>
-      </div>
-      <div class="col-lg-4 col-md-4">
-        <div class="contact-hero__card">
-          <div class="contact-hero__card-icon">
-            <i class="fa fa-envelope"></i>
-          </div>
-          <div class="contact-hero__card-body">
-            <h4>E-posta</h4>
-            <a href="mailto:info@safaklazer.com.tr">info&#64;safaklazer.com.tr</a>
-          </div>
+      </a>
+      <a href="mailto:info@safaklazer.com.tr" class="contact-cards__item">
+        <div class="contact-cards__icon"><i class="fa fa-envelope"></i></div>
+        <div>
+          <h4>E-posta</h4>
+          <span>info&#64;safaklazer.com.tr</span>
         </div>
-      </div>
-      <div class="col-lg-4 col-md-4">
-        <div class="contact-hero__card">
-          <div class="contact-hero__card-icon">
-            <i class="fa fa-map-marker-alt"></i>
-          </div>
-          <div class="contact-hero__card-body">
-            <h4>Konum</h4>
-            <span>İkitelli OSB, Başakşehir / İstanbul</span>
-          </div>
+      </a>
+      <div class="contact-cards__item">
+        <div class="contact-cards__icon"><i class="fa fa-map-marker-alt"></i></div>
+        <div>
+          <h4>Konum</h4>
+          <span>İkitelli OSB, Başakşehir / İstanbul</span>
         </div>
       </div>
     </div>
