@@ -48,69 +48,69 @@ export class HomeComponent implements OnInit {
   mainServices: ServiceItem[] = [
     {
       title: 'CNC Lazer Kesim',
-      desc: '6 metre kapasiteli fiber lazer ile yüksek hassasiyette metal kesim.',
+      desc: '2000x6000mm fiber lazer ile milimetrik hassasiyette metal kesim.',
       icon: 'icon-laser',
       link: '/hizmetler/lazer-kesim',
-      image: 'assets/images/feature/cns-laser.webp'
+      image: 'assets/images/generated/lazer-kesim-hero.webp'
     },
     {
       title: 'Kaynaklı İmalat',
-      desc: 'MIG, TIG ve gazaltı kaynak yöntemleriyle profesyonel birleştirme.',
+      desc: 'TIG, MIG ve lazer kaynak ile profesyonel metal birleştirme.',
       icon: 'icon-welding',
       link: '/hizmetler/kaynakli-imalat',
-      image: 'assets/images/feature/kaynak.webp'
+      image: 'assets/images/generated/kaynakli-imalat-hero.webp'
     },
     {
       title: 'CNC Büküm',
-      desc: '4 metre kapasiteli CNC abkant pres ile hassas metal büküm.',
+      desc: '4 metre abkant pres ile hassas sac büküm işlemleri.',
       icon: 'icon-bending',
       link: '/hizmetler/cnc-bukum',
-      image: 'assets/images/feature/metal-bukum.webp'
+      image: 'assets/images/generated/cnc-bukum-hero.webp'
     },
     {
       title: 'CNC Plazma Kesim',
-      desc: 'Kalın metal levhalar icin yuksek performanslı plazma kesim.',
+      desc: '2600x6000mm plazma ile 50mm kalınlığa kadar güçlü kesim.',
       icon: 'icon-plasma',
       link: '/hizmetler/cnc-plazma',
-      image: 'assets/images/feature/cnc-plazma.webp'
+      image: 'assets/images/generated/cnc-plazma-hero.webp'
     }
   ];
 
   additionalServices: ServiceItem[] = [
     {
       title: 'Dekoratif Lazer Kesim',
-      desc: 'Dekoratif panel, paravan ve cephe giydirme uygulamaları.',
+      desc: 'Metal panel, paravan, kapı ve cephe giydirme uygulamaları.',
       icon: 'icon-decorative',
       link: '/hizmet/dekoratif-lazer-kesim',
-      image: 'assets/images/feature/cns-laser.webp'
+      image: 'assets/images/generated/metal-parcalar.webp'
     },
     {
-      title: 'Paslanmaz Celik Imalat',
-      desc: 'Paslanmaz celik kesim, bukum ve montaj hizmetleri.',
+      title: 'Paslanmaz Çelik İmalat',
+      desc: 'Paslanmaz çelik kesim, büküm ve montaj hizmetleri.',
       icon: 'icon-stainless',
       link: '/hizmet/paslanmaz-celik-imalat',
-      image: 'assets/images/feature/kaynak.webp'
+      image: 'assets/images/generated/paslanmaz-celik.webp'
     },
     {
-      title: 'Pano Govde Imalati',
-      desc: 'Elektrik pano govdeleri ve sac metal muhafazalar.',
+      title: 'Pano Gövde İmalatı',
+      desc: 'Elektrik pano gövdeleri ve sac metal muhafazalar.',
       icon: 'icon-panel',
       link: '/hizmet/pano-govde-imalat',
-      image: 'assets/images/feature/metal-bukum.webp'
+      image: 'assets/images/generated/kalite-kontrol.webp'
     },
     {
-      title: 'Tank ve Depo Imalati',
-      desc: 'Endustriyel tank, silo ve depolama sistemleri.',
+      title: 'Tank ve Depo İmalatı',
+      desc: 'Endüstriyel tank, silo ve depolama sistemleri.',
       icon: 'icon-tank',
       link: '/hizmet/tank-depo-imalat',
-      image: 'assets/images/feature/cnc-plazma.webp'
+      image: 'assets/images/generated/fabrika-panorama.webp'
     },
     {
-      title: 'Merdiven Imalati',
-      desc: 'Celik ve paslanmaz celik merdiven sistemleri.',
+      title: 'Merdiven İmalatı',
+      desc: 'Çelik ve paslanmaz çelik merdiven sistemleri.',
       icon: 'icon-stairs',
       link: '/hizmet/merdiven-imalat',
-      image: 'assets/images/feature/kaynak.webp'
+      image: 'assets/images/generated/sektor-insaat.webp'
     },
     {
       title: 'Korkuluk Imalati',

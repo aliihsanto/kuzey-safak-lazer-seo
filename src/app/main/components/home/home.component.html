@@ -84,11 +84,14 @@
     </div>
 
     <!-- Additional Services -->
-    <h3 class="ks-services__group-title">Ozel Imalat Hizmetleri</h3>
-    <div class="ks-services__grid ks-services__grid--secondary">
+    <h3 class="ks-services__group-title">Özel İmalat Hizmetleri</h3>
+    <div class="ks-services__grid">
       <a *ngFor="let svc of additionalServices"
          [routerLink]="svc.link"
-         class="ks-service-card ks-service-card--secondary">
+         class="ks-service-card ks-service-card--primary">
+        <div class="ks-service-card__img-wrap">
+          <img [src]="svc.image" [alt]="svc.title + ' - Kuzey Şafak Lazer'" loading="lazy" />
+        </div>
         <div class="ks-service-card__body">
           <h4 class="ks-service-card__title">{{ svc.title }}</h4>
           <p class="ks-service-card__desc">{{ svc.desc }}</p>
