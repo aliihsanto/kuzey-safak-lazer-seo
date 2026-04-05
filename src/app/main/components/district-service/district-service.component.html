@@ -15,7 +15,7 @@
         <li class="active">{{ district.name }}</li>
       </ul>
       <h1>{{ district.name }} {{ template.serviceName }} Hizmeti</h1>
-      <p class="ds-hero__desc">{{ district.name }} bölgesine profesyonel {{ template.serviceNameShort }} hizmeti. İkitelli OSB'den hızlı teslimat.</p>
+      <p class="ds-hero__desc">{{ district.name }} ve çevresindeki sanayi kuruluşlarına profesyonel {{ template.serviceNameShort }} hizmeti sunuyoruz.</p>
       <div class="ds-hero__actions">
         <a routerLink="/contact" class="ds-hero__btn ds-hero__btn--primary">Teklif Al</a>
         <a href="tel:905550008304" class="ds-hero__btn ds-hero__btn--outline">
@@ -26,77 +26,130 @@
   </div>
 </section>
 
-<!-- İçerik -->
-<section class="ds-content" *ngIf="district && template">
+<!-- Stats Bar -->
+<section class="ds-stats" *ngIf="template">
   <div class="container">
-
-    <!-- Ana içerik -->
-    <div class="ds-content__text" [innerHTML]="content"></div>
-
-    <!-- Neden Biz + Kapasite yan yana -->
-    <div class="row" style="margin-top: 50px;">
-      <div class="col-lg-6">
-        <div class="ds-why">
-          <h2><i class="fas fa-check-circle"></i> Neden Kuzey Şafak Lazer?</h2>
-          <ul>
-            <li *ngFor="let item of whyUsItems">
-              <span class="ds-why__check"><i class="fas fa-check"></i></span>
-              {{ item }}
-            </li>
-          </ul>
-        </div>
+    <div class="ds-stats__grid">
+      <div class="ds-stats__item">
+        <span class="ds-stats__value">15+</span>
+        <span class="ds-stats__label">Yıllık Deneyim</span>
       </div>
-      <div class="col-lg-6">
-        <div class="ds-capacity">
-          <h2><i class="fas fa-cogs"></i> Teknik Kapasite</h2>
-          <div class="ds-capacity__inner" [innerHTML]="template.capacity"></div>
-        </div>
+      <div class="ds-stats__item">
+        <span class="ds-stats__value">400+</span>
+        <span class="ds-stats__label">Tamamlanan Proje</span>
+      </div>
+      <div class="ds-stats__item">
+        <span class="ds-stats__value">6m</span>
+        <span class="ds-stats__label">Maks. Kesim Uzunluğu</span>
+      </div>
+      <div class="ds-stats__item">
+        <span class="ds-stats__value">7/24</span>
+        <span class="ds-stats__label">Teknik Destek</span>
       </div>
     </div>
+  </div>
+</section>
 
-    <!-- CTA Banner -->
-    <div class="ds-cta">
-      <div class="ds-cta__content">
-        <h3>{{ district.name }} bölgesinde projeniz mi var?</h3>
-        <p>Teknik çiziminizi gönderin, aynı gün fiyat teklifi oluşturalım.</p>
+<div class="ds-main" *ngIf="district && template">
+  <div class="container">
+    <div class="row">
+
+      <!-- Sol: Ana İçerik -->
+      <div class="col-lg-8">
+
+        <!-- Bölüm 1: Hizmet Açıklaması -->
+        <article class="ds-article">
+          <h2 class="ds-article__title">{{ district.name }} {{ template.serviceName }} Hizmeti Hakkında</h2>
+          <div class="ds-article__body" [innerHTML]="content"></div>
+        </article>
+
+        <!-- Bölüm 2: Neden Biz -->
+        <section class="ds-section ds-section--white">
+          <h2 class="ds-section__title"><i class="fas fa-check-circle"></i> {{ district.name }} Bölgesinde Neden Kuzey Şafak Lazer?</h2>
+          <div class="ds-checklist">
+            <div *ngFor="let item of whyUsItems" class="ds-checklist__item">
+              <span class="ds-checklist__icon"><i class="fas fa-check"></i></span>
+              <span>{{ item }}</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Bölüm 3: Teknik Kapasite -->
+        <section class="ds-section ds-section--dark">
+          <h2 class="ds-section__title ds-section__title--light"><i class="fas fa-cogs"></i> Teknik Kapasite ve Makine Parkuru</h2>
+          <div class="ds-specs" [innerHTML]="template.capacity"></div>
+        </section>
+
+        <!-- Bölüm 4: SSS -->
+        <section class="ds-section" *ngIf="faqItems.length">
+          <h2 class="ds-section__title"><i class="fas fa-question-circle"></i> Sıkça Sorulan Sorular</h2>
+          <div class="ds-faq">
+            <div *ngFor="let item of faqItems" class="ds-faq__item">
+              <h3 class="ds-faq__q">{{ item.q }}</h3>
+              <p class="ds-faq__a">{{ item.a }}</p>
+            </div>
+          </div>
+        </section>
+
       </div>
-      <div class="ds-cta__actions">
-        <a routerLink="/contact" class="ds-cta__btn">İletişime Geç</a>
-        <a href="https://wa.me/905550008304" target="_blank" rel="noopener noreferrer" class="ds-cta__wa">
-          <i class="fab fa-whatsapp"></i> WhatsApp
+
+      <!-- Sağ: Sidebar -->
+      <div class="col-lg-4">
+        <div class="ds-sidebar">
+
+          <!-- Diğer Hizmetler -->
+          <div class="ds-sidebar__card">
+            <h3 class="ds-sidebar__heading">{{ district.name }} Hizmetlerimiz</h3>
+            <a *ngFor="let srv of allServiceLinks"
+               [routerLink]="srv.link"
+               class="ds-sidebar__link"
+               routerLinkActive="active">
+              <span>{{ srv.label | translate }}</span>
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+
+          <!-- CTA -->
+          <div class="ds-sidebar__cta">
+            <div class="ds-sidebar__cta-accent"></div>
+            <h3>Projenizi Konuşalım</h3>
+            <p>Teknik çiziminizi gönderin, aynı gün teklif oluşturalım.</p>
+            <a routerLink="/contact" class="ds-sidebar__cta-btn">İletişime Geç</a>
+            <div class="ds-sidebar__cta-phone">
+              <i class="fas fa-phone-alt"></i>
+              <a href="tel:905550008304">0555 000 83 04</a>
+            </div>
+          </div>
+
+          <!-- Yakın Bölgeler -->
+          <div class="ds-sidebar__card" *ngIf="nearbyDistricts.length">
+            <h3 class="ds-sidebar__heading">Yakın Bölgeler</h3>
+            <div class="ds-sidebar__chips">
+              <a *ngFor="let nd of nearbyDistricts"
+                 [routerLink]="'/' + template.serviceSlug + '/' + nd.slug"
+                 class="ds-sidebar__chip">
+                <i class="fas fa-map-marker-alt"></i> {{ nd.name }}
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Alt: Diğer Hizmetler Banner -->
+    <div class="ds-other" *ngIf="otherServices.length">
+      <h2 class="ds-section__title">{{ district.name }} İçin Diğer Hizmetlerimiz</h2>
+      <div class="ds-other__grid">
+        <a *ngFor="let os of otherServices"
+           [routerLink]="'/' + os.serviceSlug + '/' + district.slug"
+           class="ds-other__card">
+          <span class="ds-other__name">{{ os.serviceName }}</span>
+          <span class="ds-other__arrow"><i class="fas fa-arrow-right"></i></span>
         </a>
       </div>
     </div>
 
-    <!-- Diğer Hizmetler + Yakın Bölgeler -->
-    <div class="row" style="margin-top: 50px;">
-
-      <!-- Bu ilçedeki diğer hizmetler -->
-      <div class="col-lg-6" *ngIf="otherServices.length">
-        <h3 class="ds-section-title">{{ district.name }} İçin Diğer Hizmetlerimiz</h3>
-        <div class="ds-service-grid">
-          <a *ngFor="let os of otherServices"
-             [routerLink]="'/' + os.serviceSlug + '/' + district.slug"
-             class="ds-service-card">
-            <span>{{ os.serviceName }}</span>
-            <i class="fas fa-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- Yakın bölgeler -->
-      <div class="col-lg-6" *ngIf="nearbyDistricts.length">
-        <h3 class="ds-section-title">Yakın Bölgelerde {{ template.serviceName }}</h3>
-        <div class="ds-district-chips">
-          <a *ngFor="let nd of nearbyDistricts"
-             [routerLink]="'/' + template.serviceSlug + '/' + nd.slug"
-             class="ds-chip">
-            <i class="fas fa-map-marker-alt"></i> {{ nd.name }}
-          </a>
-        </div>
-      </div>
-
-    </div>
-
   </div>
-</section>
+</div>

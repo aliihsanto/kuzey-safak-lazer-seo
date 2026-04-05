@@ -9,7 +9,8 @@ import { CITY_MAP } from 'src/app/shared/data/cities';
 import {
   ServiceTemplate, SERVICE_TEMPLATE_MAP,
   generateDistrictContent, generateDistrictMeta,
-  getDistrictSuffix, getDistrictDistance
+  getDistrictSuffix, getDistrictDistance,
+  getServiceFaq
 } from 'src/app/shared/data/district-content';
 import { SERVICES } from 'src/app/shared/mock.data';
 
@@ -27,6 +28,7 @@ export class DistrictServiceComponent implements OnInit, OnDestroy {
   nearbyDistricts: District[] = [];
   otherServices: ServiceTemplate[] = [];
   allServiceLinks: { label: string; link: string }[] = [];
+  faqItems: { q: string; a: string }[] = [];
   cityName = '';
   citySlug = '';
 
@@ -124,6 +126,9 @@ export class DistrictServiceComponent implements OnInit, OnDestroy {
       label: s.label,
       link: '/' + s.slug + '/' + districtSlug
     }));
+
+    // FAQ
+    this.faqItems = getServiceFaq(serviceSlug);
 
     // SEO
     const meta = generateDistrictMeta(this.district, this.template);

@@ -195,29 +195,42 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'DKP Sac Nedir?',
     metaDesc: 'DKP sac nedir, HRP sac ile farkı nedir? Soğuk haddelenmiş çelik sac özellikleri, kullanım alanları ve lazer kesim bilgileri.',
     category: 'bilgi',
-    content: `<p><strong>DKP sac</strong> (Derin Kesme Profil / Soğuk Haddelenmiş Sac), sıcak haddelenmiş sacın asitle temizlendikten sonra oda sıcaklığında hadde silindirlerinden geçirilerek inceltilmesi ile elde edilen çelik sacdır. İngilizce karşılığı CRC (Cold Rolled Coil) veya CR (Cold Rolled) olarak bilinir.</p>
+    content: `<p><strong>DKP sac</strong> (Derin Kesme Profil / Soğuk Haddelenmiş Sac), sıcak haddelenmiş çelik sacın (HRP) asit banyosunda tufal tabakasından arındırıldıktan sonra, oda sıcaklığında yüksek basınçlı hadde silindirlerinden geçirilerek inceltilmesi ve yüzey kalitesinin iyileştirilmesi ile elde edilen çelik sac türüdür. Uluslararası terminolojide CRC (Cold Rolled Coil) veya CR (Cold Rolled) olarak anılır. DKP sac, sac metal imalat sektörünün en temel ham maddelerinden biridir ve özellikle yüzey kalitesi, boyutsal hassasiyet ve şekillendirilebilirliğin kritik olduğu uygulamalarda tercih edilir.</p>
 
-<h3>DKP Sac Özellikleri</h3>
+<h3>DKP Sac Üretim Süreci</h3>
+<p>DKP sac üretimi, sıcak haddelenmiş sacın (HRP) işlenmesiyle başlar. İlk aşamada HRP sac, dekapaj hattında seyreltik hidroklorik asit veya sülfürik asit banyosundan geçirilerek yüzeydeki demir oksit (tufal) tabakası temizlenir. Temizlenen sac, soğuk haddeleme hattında oda sıcaklığında birbirini takip eden hadde silindirlerinden geçirilerek istenen kalınlığa indirilir. Bu işlem sırasında malzeme %40-90 oranında inceltilebilir. Soğuk haddeleme, malzemenin mekanik özelliklerini değiştirir (soğuk sertleşme); bu nedenle son aşamada tavlama fırınında ısıl işlem uygulanarak malzemenin sünekliği ve şekillendirilebilirliği geri kazandırılır. Temper haddeleme (skin pass) ile son yüzey kalitesi ve mekanik özellikler ayarlanır.</p>
+
+<h3>DKP Sac Teknik Özellikleri</h3>
 <ul>
-<li><strong>Yüzey Kalitesi:</strong> Parlak, düzgün ve pürüzsüz yüzey. Boyama ve kaplama için ideal altyapı sağlar.</li>
-<li><strong>Kalınlık Toleransı:</strong> HRP saca göre çok daha dar kalınlık toleransları (±0.02mm).</li>
-<li><strong>Şekillendirilebilirlik:</strong> Derin çekme, büküm ve damgalama işlemlerinde üstün performans.</li>
-<li><strong>Kalınlık Aralığı:</strong> Genellikle 0.3mm ile 3mm arasında üretilir.</li>
+<li><strong>Yüzey Kalitesi:</strong> Parlak, düzgün ve pürüzsüz yüzey. Boyama, toz boya, galvaniz kaplama ve diğer yüzey işlemleri için ideal altyapı sağlar. HRP saca göre çok üstün yüzey estetiği sunar.</li>
+<li><strong>Kalınlık Toleransı:</strong> Soğuk haddeleme sayesinde çok dar kalınlık toleransları (±0.02-0.04mm) elde edilir. Bu, hassas imalat projelerinde kritik bir avantajdır.</li>
+<li><strong>Şekillendirilebilirlik:</strong> Derin çekme (deep drawing), büküm, damgalama ve haddeleme gibi soğuk şekillendirme işlemlerinde mükemmel performans gösterir. DC01-DC06 kalitelerinde artan derin çekilebilirlik sunar.</li>
+<li><strong>Kalınlık Aralığı:</strong> Standart olarak 0.3mm ile 3mm arasında üretilir. En yaygın kullanılan kalınlıklar 0.5mm, 0.8mm, 1mm, 1.2mm, 1.5mm ve 2mm'dir.</li>
+<li><strong>Standartlar:</strong> EN 10130 (DC01, DC03, DC04, DC05, DC06) standardında üretilir. DC01 genel kullanım, DC04-DC06 derin çekme uygulamaları içindir.</li>
 </ul>
 
 <h3>DKP ile HRP Sac Farkı</h3>
-<p>HRP (sıcak haddelenmiş) sac, yüksek sıcaklıkta haddelenir ve mat, tufal kaplamalı bir yüzeye sahiptir. DKP sac ise soğuk haddeleme sonrası parlak, düzgün yüzeye sahiptir. DKP sac daha ince kalınlıklarda üretilebilir ve boyutsal hassasiyeti çok daha yüksektir.</p>
+<p>HRP (sıcak haddelenmiş) sac, 900-1200°C sıcaklıkta haddelenir ve mat, pürüzlü ve tufal kaplamalı bir yüzeye sahiptir. Kalınlık toleransı geniştir (±0.1-0.3mm). DKP sac ise oda sıcaklığında haddelenerek parlak, düzgün yüzeye ve çok dar kalınlık toleransına (±0.02mm) sahiptir. DKP sac daha ince kalınlıklarda üretilebilir (0.3mm'ye kadar), daha iyi yüzey kalitesi sunar ve şekillendirme esnasında daha öngörülebilir davranır. Ancak HRP sac, 3mm üzeri kalınlıklarda daha ekonomiktir ve yapısal uygulamalarda yeterli performansı sağlar.</p>
 
-<h3>DKP Sac Kullanım Alanları</h3>
-<p>DKP saclar; otomotiv karoseri parçaları, beyaz eşya gövdeleri, elektrik panoları, mobilya aksesuarları, aydınlatma armatürleri, elektronik cihaz kasaları ve hassas sac metal imalatında yaygın olarak kullanılır.</p>
+<h3>Avantajları ve Dezavantajları</h3>
+<p><strong>Avantajları:</strong> Üstün yüzey kalitesi sayesinde boyama ve kaplama sonrası estetik görünüm elde edilir. Dar kalınlık toleransları hassas parça üretimini kolaylaştırır. Mükemmel şekillendirilebilirlik karmaşık büküm ve derin çekme operasyonlarında avantaj sağlar. Tutarlı mekanik özellikler seri üretimde güvenilir sonuçlar verir.</p>
+<p><strong>Dezavantajları:</strong> HRP saca göre birim fiyatı daha yüksektir. Korozyona karşı koruma sağlamaz; mutlaka boyama, galvaniz kaplama veya başka bir yüzey işlemi gerektirir. Kalınlık aralığı sınırlıdır (genellikle 3mm'ye kadar); daha kalın ihtiyaçlarda HRP sac kullanılmalıdır.</p>
 
-<h3>DKP Sac Lazer Kesim</h3>
-<p>Kuzey Şafak Lazer olarak DKP sacları fiber lazer ile mikron düzeyinde hassasiyetle kesiyoruz. DKP'nin düzgün yüzey kalitesi, lazer kesim sonrası ek yüzey işlemi gerektirmeden doğrudan boyama veya kaplama işlemine geçilmesine olanak tanır.</p>`,
+<h3>Kullanım Alanları ve Sektörler</h3>
+<p>DKP saclar, yüzey kalitesi ve hassas boyutların önemli olduğu geniş bir sektörel yelpazede kullanılmaktadır. Otomotiv sanayinde karoseri dış panel ve iç parçaları; beyaz eşya sektöründe bulaşık makinesi, çamaşır makinesi ve buzdolabı gövdeleri; elektrik-elektronik sektöründe pano, kumanda dolabı ve cihaz kasaları; mobilya sektöründe metal aksesuarlar ve çekmece rayları; aydınlatma sektöründe armatür gövde ve reflektörleri; reklam ve tabela sektöründe dekoratif metal paneller DKP sacın yoğun kullanıldığı alanlardır.</p>
+
+<h3>Malzeme Uyumluluğu</h3>
+<p>DKP sac, tüm standart sac metal işleme yöntemleriyle uyumludur. Fiber lazer kesim ile mikron hassasiyetinde kesilebilir, CNC abkant preste kolayca bükülebilir, MIG ve TIG kaynak yöntemleriyle birleştirilebilir. Derin çekme kalıplarında sorunsuz şekillendirilebilir. Toz boya, ıslak boya, elektrostatik boyama, galvaniz kaplama, nikelaj ve kromlama gibi tüm yüzey işlemlerine uygundur.</p>
+
+<h3>Kuzey Şafak Lazer'de DKP Sac İşleme Hizmeti</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde DKP sacları fiber lazer ile mikron düzeyinde hassasiyetle kesiyoruz. DKP'nin düzgün yüzey kalitesi, lazer kesim sonrası ek yüzey işlemi gerektirmeden doğrudan boyama veya kaplama işlemine geçilmesine olanak tanır. CNC abkant presimizle DKP sacların hassas bükümünü, kaynaklı imalat hizmetimizle montaj ve birleştirme işlemlerini aynı tesis içinde gerçekleştiriyoruz. Projenizi baştan sona tek çatı altında tamamlıyoruz.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-bukum'],
     faq: [
-      { q: 'DKP sac ile galvaniz sac arasındaki fark nedir?', a: 'DKP sac kaplanmamış soğuk haddelenmiş çeliktir, korozyona açıktır ve boyama gerektirir. Galvaniz sac ise DKP veya HRP sacın çinko kaplanmış halidir ve korozyon direnci yüksektir.' },
-      { q: 'DKP sac en kalın kaç mm olur?', a: 'DKP sac genellikle 0.3mm ile 3mm aralığında üretilir. Daha kalın ihtiyaçlarda HRP (sıcak haddelenmiş) sac kullanılır.' },
-      { q: 'DKP sac lazer kesim fiyatı nasıl hesaplanır?', a: 'DKP sac lazer kesim fiyatı; sac kalınlığı, kesim uzunluğu, parça adedi ve geometri karmaşıklığına göre projeye özel belirlenir. Detaylı teklif için teknik çiziminizi gönderebilirsiniz.' }
+      { q: 'DKP sac ile galvaniz sac arasındaki fark nedir?', a: 'DKP sac kaplanmamış soğuk haddelenmiş çeliktir, korozyona karşı korunmasızdır ve mutlaka boyama veya kaplama gerektirir. Galvaniz sac ise DKP veya HRP sacın çinko ile kaplanmış halidir ve boyasız bile korozyon direnci sunar.' },
+      { q: 'DKP sac en kalın kaç mm olur?', a: 'DKP sac standart olarak 0.3mm ile 3mm aralığında üretilir. Daha kalın ihtiyaçlarda HRP (sıcak haddelenmiş) sac kullanılır. En yaygın DKP kalınlıkları 0.5mm, 0.8mm, 1mm, 1.5mm ve 2mm\'dir.' },
+      { q: 'DKP sac lazer kesim için uygun mudur?', a: 'DKP sac, düzgün yüzeyi ve dar kalınlık toleransları sayesinde lazer kesim için ideal malzemelerden biridir. Fiber lazer ile çapaksız, oksidasyonsuz kesim yapılabilir ve kesim sonrası yüzey kalitesi korunur.' },
+      { q: 'DC01 ile DC04 arasındaki fark nedir?', a: 'DC01 genel amaçlı DKP sac olup standart büküm ve basit şekillendirme işlemleri için uygundur. DC04 derin çekme kalitesindedir ve karmaşık 3D formların elde edildiği uygulamalarda tercih edilir. Uzama değeri ve Lankford katsayısı DC04\'te daha yüksektir.' },
+      { q: 'DKP sac boyama öncesi ne yapılmalıdır?', a: 'DKP sac yüzeyi boyama öncesi yağ ve kirden arındırılmalıdır. Fosfatlama veya kumartma gibi yüzey hazırlık işlemleri boya tutunmasını ve korozyon direncini artırır. Toz boya uygulamalarında fosfatlama özellikle önerilir.' }
     ]
   },
 
@@ -227,27 +240,37 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Galvaniz Sac Nedir?',
     metaDesc: 'Galvaniz sac nedir, çeşitleri nelerdir, nerelerde kullanılır? Sıcak daldırma ve elektrolitik galvaniz farkları. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>Galvaniz sac</strong>, çelik sacın korozyona (paslanmaya) karşı korunması amacıyla çinko (Zn) ile kaplanması sonucu elde edilen bir malzemedir. Çinko kaplama, çelik yüzeyinde koruyucu bir bariyer oluşturarak sacın ömrünü 5-10 kat artırır.</p>
+    content: `<p><strong>Galvaniz sac</strong>, çelik sacın korozyona (paslanmaya) karşı korunması amacıyla çinko (Zn) metalinin ince bir tabaka halinde kaplanması sonucu elde edilen, endüstriyel imalatın en yaygın kullanılan malzemelerinden biridir. Galvanizleme işlemi, 1742 yılında Fransız kimyager Paul Jacques Malouin tarafından keşfedilmiş ve 1836'da Sorel tarafından patentlenmiştir. "Galvaniz" ismi, İtalyan fizikçi Luigi Galvani'den gelmektedir. Günümüzde dünya çelik üretiminin yaklaşık %6'sı galvaniz kaplanmış olarak tüketilmektedir. Çinko kaplamanın çelik yüzeyinde oluşturduğu fiziksel bariyer ve elektrokimyasal (katodik) koruma mekanizması, sacın kullanım ömrünü 5-10 kat artırır.</p>
 
-<h3>Galvaniz Kaplama Yöntemleri</h3>
+<h3>Galvaniz Kaplama Yöntemleri ve Üretim Süreci</h3>
 <ul>
-<li><strong>Sıcak Daldırma Galvaniz (HDG):</strong> Sac, erimiş çinko banyosuna daldırılır. Kalın ve dayanıklı kaplama oluşur. Dış mekan ve ağır korozyon koşullarında tercih edilir.</li>
-<li><strong>Elektrolitik Galvaniz (EG):</strong> Çinko kaplaması elektroliz yöntemiyle uygulanır. Daha ince, düzgün ve estetik yüzey sağlar. İç mekan ve boyama gerektiren uygulamalarda tercih edilir.</li>
+<li><strong>Sıcak Daldırma Galvaniz (HDG - Hot Dip Galvanized):</strong> Çelik sac, 450°C sıcaklıktaki erimiş çinko banyosuna daldırılır. Çelik ve çinko arasında metalürjik bağ oluşur ve kalın, dayanıklı bir kaplama meydana gelir (genellikle Z100-Z275, yani 100-275 g/m²). Dış mekan, ağır korozyon koşulları ve yapısal uygulamalarda tercih edilir. En yaygın galvaniz türüdür.</li>
+<li><strong>Elektrolitik Galvaniz (EG - Electrogalvanized):</strong> Çinko kaplaması, elektroliz yöntemiyle oda sıcaklığına yakın koşullarda uygulanır. Daha ince (Z20-Z50), düzgün ve estetik bir yüzey sağlar. İç mekan uygulamalarında, boyama gerektiren otomotiv panellerinde ve hassas yüzey kalitesi istenen parçalarda tercih edilir.</li>
+<li><strong>Galvanneal (GA):</strong> Sıcak daldırma galvaniz sonrası ek bir ısıl işlem uygulanarak çinko-demir alaşım katmanı oluşturulur. Boya tutunması sıcak daldırma galvanize göre çok daha iyidir. Otomotiv sanayinde yaygın kullanılır.</li>
 </ul>
 
 <h3>Galvaniz Sac Teknik Özellikleri</h3>
-<p>Galvaniz saclar DX51D, DX52D, DX53D ve DX56D gibi çelik kalitelerinde üretilir. Kaplama kalınlığı Z100 (100 g/m²) ile Z275 (275 g/m²) arasında değişir. Kaplama kalınlığı arttıkça korozyon direnci artar. Standart kalınlık aralığı 0.3mm-3mm'dir.</p>
+<p>Galvaniz saclar EN 10346 standardına göre DX51D, DX52D, DX53D ve DX56D gibi çelik kalitelerinde üretilir. DX51D genel amaçlı, DX53D ve DX56D derin çekme uygulamaları içindir. Kaplama kalınlığı Z100 (her iki yüzde toplam 100 g/m²) ile Z275 (toplam 275 g/m²) arasında değişir ve kaplama miktarı arttıkça korozyon direnci doğrusal olarak yükselir. Standart sac kalınlığı 0.3mm ile 3mm arasındadır. Çekme dayanımı çelik kalitesine göre 270-500 MPa aralığında değişir. Yüzey kaplama türüne göre normal spangle (çiçekli), minimum spangle (mat) veya skin-pass (düzgün) olarak sınıflandırılır.</p>
 
-<h3>Galvaniz Sac Nerelerde Kullanılır?</h3>
-<p>Havalandırma kanalları, çatı kaplama, yağmur oluğu, elektrik panoları, otomotiv parçaları, tarım makineleri ve genel sac metal imalatında en çok tercih edilen malzemelerden biridir. Dış mekan kullanımında boyasız bile uzun ömür sunar.</p>
+<h3>Avantajları ve Dezavantajları</h3>
+<p><strong>Avantajları:</strong> Galvaniz sacın en büyük avantajı, korozyon direncidir. Çinko kaplaması fiziksel bariyer görevi görmesinin yanı sıra, kaplama hasar görse bile çinkonun katodik koruma mekanizmasıyla çeliğin paslanmasını yavaşlatır. Dış mekan kullanımında boyasız bile 15-25 yıl ömür sağlayabilir (ortam koşullarına bağlı). DKP saca göre ek koruma işlemi gerektirmez. İyi bükülebilirlik ve kaynak edilebilirlik sunar.</p>
+<p><strong>Dezavantajları:</strong> DKP saca göre birim fiyatı daha yüksektir. Kaynak sırasında çinko buharı açığa çıkar, bu durum gözenekli kaynak dikişine neden olabilir ve iyi havalandırma gerektirir. Kalın kaplama türlerinde (Z275) yüzey pürüzlülüğü artabilir ve boyama öncesi uygun yüzey hazırlığı önem kazanır. Sıcak daldırma galvaniz yüzeyinde "spangle" (çinko kristalleri) görülebilir; bu durum bazı estetik uygulamalarda istenmeyen bir görünüm oluşturabilir.</p>
 
-<h3>Galvaniz Sac Lazer Kesim</h3>
-<p>Kuzey Şafak Lazer olarak galvaniz sacları fiber lazer ile çapaksız ve oksidasyonsuz kesiyoruz. Lazer kesim, galvaniz kaplamanın bütünlüğünü bozmadan kesim yapabilir. Azot gazı ile yapılan kesimlerde kenar bölgesinde çinko kaplamanın minimum zarar görmesi sağlanır.</p>`,
+<h3>Kullanım Alanları ve Sektörler</h3>
+<p>Galvaniz sac, korozyon direncinin önemli olduğu geniş bir sektörel yelpazede kullanılmaktadır. Havalandırma (HVAC) sektöründe kanal, menfez ve bağlantı parçaları; inşaat sektöründe çatı kaplama, trapez sac, yağmur oluğu ve alçıpan profilleri; elektrik sektöründe pano, kumanda dolabı ve kablo kanalları; otomotiv sanayinde şasi ve karoseri bileşenleri; tarım makinelerinde gövde ve koruma parçaları; beyaz eşya sektöründe arka panel ve iç yapısal elemanlar; genel sac metal imalatta dış mekan kullanımına uygun her türlü parça galvaniz sactan üretilmektedir.</p>
+
+<h3>Malzeme Uyumluluğu ve İşlenebilirlik</h3>
+<p>Galvaniz sac, tüm standart sac metal işleme yöntemleriyle uyumludur. Fiber lazer kesim ile çinko kaplama minimum hasar görecek şekilde hassas kesim yapılabilir. CNC abkant preste büküm işleminde çinko kaplamanın çatlaması minimum düzeydedir (doğru kalıp seçimi ile). MIG/MAG ve TIG kaynak yöntemleriyle birleştirilebilir; ancak çinko buharı nedeniyle özel kaynak parametreleri ve iyi havalandırma gereklidir. Punta kaynak, perçinleme ve vidalı birleştirme yöntemleri de uygulanabilir.</p>
+
+<h3>Kuzey Şafak Lazer'de Galvaniz Sac İşleme</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde galvaniz sacları fiber lazer ile çapaksız ve oksidasyonsuz kesiyoruz. Azot gazı ile yapılan kesimlerde kenar bölgesinde çinko kaplamanın minimum zarar görmesi sağlanır ve kesim kenarı parlak kalır. CNC abkant presimizle galvaniz sacların hassas bükümünü, kaynaklı imalat hizmetimizle montaj ve birleştirme işlemlerini aynı tesis içinde gerçekleştiriyoruz. Havalandırma, elektrik panosu, çatı aksesuarı ve genel sac metal imalat projelerinizde galvaniz sac işleme çözümleri sunuyoruz.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-bukum'],
     faq: [
-      { q: 'Galvaniz sac paslanır mı?', a: 'Galvaniz sacın çinko kaplaması bozulmadığı sürece paslanmaz. Ancak kesim, kaynak veya mekanik hasar görmüş bölgelerde çinko katodik koruma sağlayarak paslanmayı yavaşlatır.' },
-      { q: 'Galvaniz sac lazer ile kesilince kaplama bozulur mu?', a: 'Lazer kesim dar bir ısı etki alanı oluşturur. Kesim kenarından 0.1-0.3mm mesafede çinko kaplama etkilenebilir ancak bu alan çinkonun katodik koruma etkisiyle halen korunur.' },
-      { q: 'Galvaniz sac kaynağı yapılabilir mi?', a: 'Evet, ancak kaynak sırasında çinko buharı açığa çıkar. Uygun kaynak parametreleri ve iyi havalandırma ile galvaniz sac başarıyla kaynaklanabilir.' }
+      { q: 'Galvaniz sac paslanır mı?', a: 'Galvaniz sacın çinko kaplaması bozulmadığı sürece çelik yüzey paslanmaz. Kesim, kaynak veya mekanik hasar görmüş bölgelerde bile çinkonun katodik koruma mekanizması paslanmayı önemli ölçüde yavaşlatır. Kaplama kalınlığına ve ortam koşullarına bağlı olarak 15-25 yıl koruma sağlayabilir.' },
+      { q: 'Galvaniz sac lazer ile kesilince kaplama bozulur mu?', a: 'Lazer kesim çok dar bir ısı etki alanı (0.1-0.3mm) oluşturur. Kesim kenarının hemen yanındaki dar bölgede çinko kaplama kısmen etkilenebilir ancak çinkonun katodik koruma etkisi bu bölgeyi de korur. Azot gazı ile yapılan kesimlerde kaplama hasarı minimuma iner.' },
+      { q: 'Galvaniz sac kaynağı yapılabilir mi?', a: 'Evet, galvaniz sac MIG/MAG ve TIG kaynak yöntemleriyle birleştirilebilir. Ancak kaynak sırasında çinko buharı açığa çıkar ve gözenekli dikiş oluşma riski vardır. Uygun kaynak parametreleri, düşük hız ve iyi havalandırma ile kaliteli kaynak yapılabilir.' },
+      { q: 'DX51D ile DX53D arasındaki fark nedir?', a: 'DX51D genel amaçlı galvaniz sac olup standart büküm ve basit şekillendirme işlemleri için uygundur. DX53D derin çekme kalitesindedir ve daha karmaşık formlama operasyonlarında tercih edilir. Akma dayanımı DX53D\'de daha düşük, uzama değeri daha yüksektir.' },
+      { q: 'Z100 ile Z275 galvaniz arasındaki fark nedir?', a: 'Z100 her iki yüzde toplam 100 g/m² çinko kaplama anlamına gelir (yüzey başına yaklaşık 7μm). Z275 ise toplam 275 g/m² kaplama sunar (yüzey başına yaklaşık 20μm). Kaplama kalınlığı arttıkça korozyon direnci artar ancak maliyet de yükselir. İç mekan için Z100, dış mekan ve ağır korozyon ortamı için Z275 tercih edilir.' }
     ]
   },
 
@@ -257,30 +280,46 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'St37 Çelik Nedir?',
     metaDesc: 'St37 çelik nedir, S235JR ile farkı nedir, nerelerde kullanılır? St37 çelik sac özellikleri ve lazer kesim bilgileri. Kuzey Şafak Lazer.',
     category: 'bilgi',
-    content: `<p><strong>St37</strong> (DIN standardı) veya güncel Avrupa standardıyla <strong>S235JR</strong>, genel amaçlı yapısal karbon çeliktir. Sanayide en yaygın kullanılan çelik kalitesidir. "St" yapısal çelik (Stahl) anlamına gelir, "37" ise minimum çekme dayanımını (370 N/mm²) ifade eder.</p>
+    content: `<p><strong>St37</strong> (DIN 17100 standardı) veya güncel Avrupa standardındaki karşılığıyla <strong>S235JR</strong> (EN 10025-2), dünya genelinde en yaygın kullanılan genel amaçlı yapısal karbon çeliğidir. Endüstriyel imalatın adeta temel yapı taşı olan bu çelik kalitesi, ekonomik fiyatı, kolay işlenebilirliği ve mükemmel kaynak edilebilirliği sayesinde sac metal, profil, boru ve yapısal çelik uygulamalarının vazgeçilmez malzemesidir. "St" harfleri Almanca "Stahl" (çelik) kelimesinin kısaltmasıdır ve "37" rakamı minimum çekme dayanımını (370 N/mm²) ifade eder.</p>
 
-<h3>St37 Çelik Mekanik Özellikleri</h3>
+<h3>St37 ve S235JR Standart İlişkisi</h3>
+<p>St37 tanımı, 1980 öncesi yürürlükte olan eski DIN 17100 standardına aittir. Avrupa Birliği'nin standart harmonizasyonu kapsamında EN 10025-2 standardı ile güncellenmiş ve S235JR olarak yeniden adlandırılmıştır. Her iki tanım da pratikte aynı malzemeyi ifade eder. Yeni isimlendirme sisteminde "S" yapısal (Structural) çeliği, "235" minimum akma dayanımını (235 MPa, 16mm altı kalınlıklarda) ve "JR" darbe testi koşulunu (oda sıcaklığında, 20°C'de minimum 27 Joule Charpy darbe enerjisi) belirtir. ASTM standardındaki yaklaşık karşılığı A36'dır.</p>
+
+<h3>St37 Çelik Mekanik ve Kimyasal Özellikleri</h3>
 <ul>
-<li><strong>Çekme Dayanımı:</strong> 360-510 N/mm²</li>
-<li><strong>Akma Dayanımı:</strong> Min. 235 N/mm² (16mm altı kalınlıklarda)</li>
-<li><strong>Uzama:</strong> %26 (uzunlamasına)</li>
-<li><strong>Karbon İçeriği:</strong> Maks. %0.17</li>
+<li><strong>Çekme Dayanımı:</strong> 360-510 N/mm² (MPa)</li>
+<li><strong>Akma Dayanımı:</strong> Min. 235 N/mm² (16mm altı kalınlıklarda), min. 225 N/mm² (16-40mm), min. 215 N/mm² (40-63mm)</li>
+<li><strong>Uzama (A5):</strong> Min. %26 (uzunlamasına, 3mm üzeri kalınlık)</li>
+<li><strong>Karbon İçeriği:</strong> Maks. %0.17 (ladle analizi)</li>
+<li><strong>Manganez İçeriği:</strong> Maks. %1.40</li>
+<li><strong>Fosfor İçeriği:</strong> Maks. %0.045</li>
+<li><strong>Kükürt İçeriği:</strong> Maks. %0.045</li>
 <li><strong>Yoğunluk:</strong> 7.85 g/cm³</li>
+<li><strong>Karbon Eşdeğeri (CEV):</strong> Maks. 0.35 (mükemmel kaynak edilebilirlik)</li>
 </ul>
 
-<h3>St37 ve S235JR İlişkisi</h3>
-<p>St37 eski DIN 17100 standardına aittir. Günümüzde EN 10025-2 standardıyla S235JR olarak anılır. Pratikte aynı malzemeyi ifade eder. "S" yapısal (Structural), "235" akma dayanımı (MPa), "JR" ise darbe testi koşulunu (oda sıcaklığında 27J) belirtir.</p>
+<h3>Avantajları ve Dezavantajları</h3>
+<p><strong>Avantajları:</strong> St37 çeliğin en önemli avantajı, ekonomik fiyatı ile geniş kullanım alanı sunmasıdır. Düşük karbon içeriği sayesinde mükemmel kaynak edilebilirlik sunar; ön ısıtma gerektirmez. Tüm termal kesim yöntemleriyle (lazer, plazma, oksi-yakıt) sorunsuz kesilir. CNC abkant preste kolayca bükülebilir. Sıcak ve soğuk şekillendirme işlemlerine uygundur. Global olarak en kolay temin edilebilen çelik kalitesidir ve geniş bir kalınlık aralığında (0.5mm-200mm) bulunur.</p>
+<p><strong>Dezavantajları:</strong> Korozyona karşı doğal direnci yoktur; dış mekan kullanımında mutlaka boyama, galvaniz kaplama veya başka koruyucu işlem gerektirir. Yüksek mukavemet gerektiren yapısal uygulamalarda yetersiz kalabilir (bu durumda St52/S355JR tercih edilir). Yüksek sıcaklık uygulamalarında (350°C üzeri) mekanik özellikleri önemli ölçüde düşer.</p>
 
-<h3>Nerelerde Kullanılır?</h3>
-<p>St37 çelik; çelik konstrüksiyon, makine imalatı, genel sac metal işleri, kaynaklı imalat, boru ve profil üretimi, tarım makineleri, taşıyıcı platformlar ve depo rafı sistemlerinde yaygın olarak kullanılır. İyi kaynaklanabilirliği ve ekonomik fiyatı ile endüstrinin temel malzemesidir.</p>
+<h3>Kullanım Alanları ve Sektörler</h3>
+<p>St37 çelik, sanayi üretiminin hemen her alanında kullanılmaktadır. Çelik konstrüksiyon ve yapısal çelik imalatında kolon, kiriş ve bağlantı plakası; makine imalatında şasi, gövde, yatak ve taşıyıcı eleman; genel sac metal işlerinde kutu, kabin, kapak ve panel imalatı; boru ve profil üretiminde dikişli boru, kutu profil ve özel profil; tarım makinelerinde şasi, karter ve koruma sacları; depo ve raf sistemlerinde taşıyıcı kol, bağlantı elemanı ve taban plakası; platform, merdiven ve korkuluk imalatında ana yapısal malzeme olarak St37 çelik tercih edilmektedir. Otomotiv yan sanayi, mobilya, aydınlatma ve enerji sektörleri de yoğun St37 kullanıcılarıdır.</p>
 
-<h3>St37 Sac Lazer ve Plazma Kesim</h3>
-<p>Kuzey Şafak Lazer olarak St37 sacları fiber lazer (0.5-25mm) ve CNC plazma (6-50mm) ile kesiyoruz. St37 çelik, tüm termal kesim yöntemleriyle sorunsuz işlenebilir. Lazer kesim sonrası büküm, kaynak ve boyama işlemlerine kolayca geçilebilir.</p>`,
+<h3>Malzeme Uyumluluğu ve İşlenebilirlik</h3>
+<p>St37 çelik, sac metal imalatında kullanılan tüm işleme yöntemleriyle tam uyumludur. Fiber lazer ile 0.5-25mm, CNC plazma ile 6-50mm kalınlık aralığında yüksek kalitede kesilebilir. CNC abkant preste dar açılardan geniş açılara kadar sorunsuz bükülebilir. MIG/MAG, TIG ve elektrot kaynak yöntemlerinin tamamıyla ön ısıtma gerektirmeden birleştirilebilir. Delme, tornalama, frezeleme gibi talaşlı imalat işlemlerinde iyi işlenebilirlik gösterir. Toz boya, ıslak boya, sıcak daldırma galvaniz, elektrolitik kaplama ve fosfatlama gibi tüm yüzey işlemlerine uygundur.</p>
+
+<h3>St37 ile St52 (S355JR) Karşılaştırması</h3>
+<p>St37 ve St52 arasındaki temel fark mukavemet değerlerindedir. St52 (S355JR), 355 MPa akma dayanımı ile St37'nin 235 MPa değerine göre yaklaşık %50 daha yüksek mukavemet sunar. Bu sayede St52 ile aynı taşıma kapasitesi daha ince kesitlerle sağlanabilir ve yapı ağırlığı azaltılır. Ancak St52, St37'ye göre daha pahalıdır ve kaynak edilebilirliği bir miktar daha dikkatli parametre seçimi gerektirebilir. Standart yapısal uygulamalarda St37 yeterli ve ekonomik iken, yüksek mukavemet gerektiren köprü, kule ve ağır makine imalatında St52 tercih edilir.</p>
+
+<h3>Kuzey Şafak Lazer'de St37 Sac İşleme</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde St37 sacları fiber lazer (0.5-25mm) ve CNC plazma (6-50mm) ile yüksek hassasiyette kesiyoruz. CNC abkant presimizle büküm, kaynaklı imalat hizmetimizle birleştirme ve montaj işlemlerini aynı çatı altında gerçekleştiriyoruz. St37, işlediğimiz en yüksek hacimli malzeme olup, her kalınlıkta stok bulundurmakta veya hızla tedarik edebilmekteyiz.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-plazma', 'kaynakli-imalat'],
     faq: [
-      { q: 'St37 ile St52 arasındaki fark nedir?', a: 'St37 (S235JR) 235 MPa akma dayanımına sahipken, St52 (S355JR) 355 MPa akma dayanımına sahiptir. St52, daha yüksek mukavemet gerektiren yapısal uygulamalarda tercih edilir.' },
-      { q: 'St37 sac kaynak edilebilir mi?', a: 'Evet, St37 çelik mükemmel kaynak edilebilirliğe sahiptir. MIG/MAG, TIG ve elektrot kaynak yöntemlerinin tamamıyla sorunsuz birleştirilir.' },
-      { q: 'St37 sac kalınlıkları nelerdir?', a: 'Piyasada St37 saclar 0.5mm ile 200mm arasında bulunur. Lazer kesim için 0.5-25mm, plazma kesim için 6-50mm kalınlık aralığında hizmet veriyoruz.' }
+      { q: 'St37 ile St52 arasındaki fark nedir?', a: 'St37 (S235JR) 235 MPa akma dayanımına sahipken, St52 (S355JR) 355 MPa akma dayanımına sahiptir. St52, daha yüksek mukavemet gerektiren yapısal uygulamalarda tercih edilir ancak maliyeti St37\'ye göre daha yüksektir.' },
+      { q: 'St37 sac kaynak edilebilir mi?', a: 'Evet, St37 çelik düşük karbon eşdeğeri (CEV maks. 0.35) sayesinde mükemmel kaynak edilebilirliğe sahiptir. MIG/MAG, TIG ve elektrot kaynak yöntemlerinin tamamıyla ön ısıtma gerektirmeden sorunsuz birleştirilir.' },
+      { q: 'St37 sac kalınlıkları nelerdir?', a: 'Piyasada St37 saclar 0.5mm ile 200mm arasında üretilmektedir. Kuzey Şafak Lazer olarak fiber lazer kesim için 0.5-25mm, CNC plazma kesim için 6-50mm kalınlık aralığında hizmet veriyoruz.' },
+      { q: 'St37 sac dış mekanda kullanılabilir mi?', a: 'St37 çeliğin doğal korozyon direnci yoktur. Dış mekan kullanımında mutlaka boyama, galvaniz kaplama veya başka bir korozyon koruma işlemi uygulanmalıdır. Aksi halde kısa sürede paslanma başlar.' },
+      { q: 'St37 sacın ASTM karşılığı nedir?', a: 'St37 (S235JR) çeliğin ASTM standardındaki yaklaşık karşılığı A36\'dır. Mekanik özellikler çok benzer olmakla birlikte kimyasal bileşim limitlerinde küçük farklılıklar bulunabilir.' }
     ]
   },
 
@@ -290,26 +329,39 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Kaynak Nedir? Temel Kaynak Yöntemleri',
     metaDesc: 'Kaynak nedir, kaynak çeşitleri nelerdir? MIG, TIG, elektrot kaynak farkları. Endüstriyel kaynaklı imalat rehberi. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>Kaynak</strong> (welding), iki veya daha fazla metal parçanın ısı, basınç veya her ikisinin kombinasyonu kullanılarak kalıcı olarak birleştirilmesi işlemidir. Metal imalat sektörünün en temel birleştirme yöntemidir ve doğru uygulandığında ana malzeme kadar güçlü bağlantılar oluşturur.</p>
+    content: `<p><strong>Kaynak</strong> (welding), iki veya daha fazla metal parçanın ısı, basınç veya her ikisinin kombinasyonu kullanılarak, atom düzeyinde metalürjik bağ oluşturacak şekilde kalıcı olarak birleştirilmesi işlemidir. Metal imalat sektörünün en temel ve en kritik birleştirme yöntemi olan kaynak, doğru uygulandığında ana malzeme kadar güçlü, hatta bazı durumlarda daha güçlü bağlantılar oluşturur. Kaynağın tarihi, 1800'lerin başında Humphry Davy'nin elektrik arkını keşfetmesine dayanır. Modern kaynak teknolojisi ise 20. yüzyılın başlarında örtülü elektrot kaynağının geliştirilmesiyle endüstriyel ölçekte kullanılmaya başlamıştır.</p>
+
+<h3>Kaynak Nasıl Çalışır? (Teknik Prensip)</h3>
+<p>Kaynak işleminin temel prensibi, birleştirilecek metal parçaların birleştirme bölgesinde lokal olarak ergitilmesi (eritme kaynağı) veya basınç altında plastik deformasyon yoluyla atom difüzyonu sağlanmasıdır (basınç kaynağı). Eritme kaynağında, bir enerji kaynağı (elektrik arkı, lazer, elektron ışını veya gaz alevi) kullanılarak birleştirme bölgesindeki ana metal ve dolgu malzemesi birlikte eritilir. Soğuma sırasında erimiş metal katılaşarak metalürjik bağ oluşturur. Koruyucu gaz veya örtü malzemesi, kaynak banyosunu atmosferik gazlardan (oksijen, azot, hidrojen) koruyarak kaynak kalitesini sağlar.</p>
 
 <h3>Yaygın Kaynak Yöntemleri</h3>
 <ul>
-<li><strong>MIG/MAG Kaynak (GMAW):</strong> Koruyucu gaz altında eritken tel elektrot ile yapılır. Yüksek hızlı, verimli ve öğrenmesi kolay. Seri üretimde en çok tercih edilen yöntem.</li>
-<li><strong>TIG Kaynak (GTAW):</strong> Tungsten elektrot ile koruyucu gaz (argon) altında yapılır. Yüksek kaliteli, temiz ve estetik kaynak dikişi oluşturur. Paslanmaz çelik ve alüminyumda tercih edilir.</li>
-<li><strong>Elektrot Kaynak (SMAW):</strong> Örtülü elektrot ile yapılır. Saha koşullarında ve kalın malzemelerde kullanılır. Ekipman basitliği avantajdır.</li>
-<li><strong>Punta Kaynak (Spot Welding):</strong> İnce sacların nokta birleştirmesinde kullanılır. Otomotiv ve beyaz eşya sektöründe yaygın.</li>
+<li><strong>MIG/MAG Kaynak (GMAW):</strong> Metal Inert Gas / Metal Active Gas kaynak yöntemidir. Sürekli beslenen eritken tel elektrot, koruyucu gaz altında ark oluşturarak kaynak yapar. MIG'de argon veya argon-helyum karışımı, MAG'da argon-CO2 karışımı veya saf CO2 kullanılır. Yüksek hız, yüksek verimlilik ve kolay öğrenilebilirlik avantajlarıyla seri üretimde en çok tercih edilen yöntemdir. Yarı otomatik ve tam robotik uygulamalarda yaygındır.</li>
+<li><strong>TIG Kaynak (GTAW):</strong> Tungsten Inert Gas kaynak yöntemidir. Eritmeyen tungsten elektrot ile ark oluşturulur, dolgu teli elle ayrı beslenir. Koruyucu gaz olarak yüksek saflıkta argon veya argon-helyum karışımı kullanılır. En yüksek kaliteli, en temiz ve en estetik kaynak dikişini oluşturur. Paslanmaz çelik, alüminyum, titanyum ve bakır alaşımlarında tercih edilir. Gıda sanayi, petrokimya ve havacılık gibi kritik sektörlerde standart yöntemdir.</li>
+<li><strong>Elektrot Kaynak (SMAW):</strong> Örtülü (flux kaplı) elektrot ile yapılan en eski ve en yaygın bilinen ark kaynak yöntemidir. Elektrot örtüsü, kaynak sırasında eriyerek koruyucu gaz ve cüruf oluşturur. Saha koşullarında, açık havada ve kalın malzemelerde kullanılır. Ekipman basitliği ve taşınabilirliği en büyük avantajıdır. Çelik konstrüksiyon, boru hattı ve bakım-onarım işlerinde yaygındır.</li>
+<li><strong>Punta Kaynak (Spot Welding):</strong> Direnç kaynağı yöntemlerinden biridir. İki metal sac, bakır elektrotlar arasında sıkıştırılarak yüksek elektrik akımı geçirilir. Temas noktasında oluşan ısı, metalleri lokal olarak eritir ve nokta birleştirme sağlar. Otomotiv karoseri, beyaz eşya gövdesi ve elektrik panosu imalatında yoğun kullanılır.</li>
+<li><strong>Tozaltı Kaynak (SAW):</strong> Kaynak banyosu granüler toz örtü ile korunur. Yüksek akım ve yüksek yığma hızı ile kalın malzemelerde derin nüfuziyet sağlar. Gemi inşa, basınçlı kaplar ve büyük çaplı boru üretiminde otomatik olarak uygulanır.</li>
 </ul>
 
-<h3>Kaynak Kalitesini Etkileyen Faktörler</h3>
-<p>Kaynak kalitesi; doğru kaynak parametreleri (akım, voltaj, hız), uygun kaynak dolgu malzemesi, temiz birleştirme yüzeyleri, uygun kaynak pozisyonu ve operatör tecrübesine bağlıdır. Kuzey Şafak Lazer olarak deneyimli kaynakçı kadromuzla endüstriyel standartlarda kaynaklı imalat yapıyoruz.</p>
+<h3>Avantajları ve Dezavantajları</h3>
+<p><strong>Avantajları:</strong> Kaynak, ana malzeme dayanımına eşit veya yakın kalıcı birleştirmeler oluşturur. Sızdırmazlık gerektirir uygulamalarda (tank, boru, basınçlı kap) vazgeçilmezdir. Tasarım esnekliği yüksektir; karmaşık geometriler birleştirilebilir. Otomasyon ve robotik uygulamalara uygundur. Cıvata, perçin gibi mekanik birleştirme elemanlarına göre daha hafif bağlantılar oluşturur.</p>
+<p><strong>Dezavantajları:</strong> Kaynak ısı girdisi, birleştirme bölgesinde kalıntı gerilme, çarpılma ve ısı etki alanında (HAZ) mikroyapı değişikliğine neden olabilir. Kalite, operatör becerisine ve doğru parametre seçimine güçlü biçimde bağlıdır. Sökülemeyen birleştirmedir; tamir veya değişiklik zordur. Bazı malzeme kombinasyonlarında (farklı metaller arası) özel dikkat ve dolgu malzemesi gerektirir.</p>
 
-<h3>Endüstriyel Kaynaklı İmalat</h3>
-<p>Kaynaklı imalat; makine şasileri, çelik konstrüksiyon, tank ve silo üretimi, taşıma ekipmanları, platform ve merdiven imalatı gibi birçok alanda kritik öneme sahiptir. Doğru kaynak yöntemi seçimi, projenin malzeme türü, kalınlığı, dayanım gereksinimi ve estetik beklentisine göre belirlenir.</p>`,
+<h3>Kaynak Kalitesini Etkileyen Faktörler</h3>
+<p>Kaynak dikişinin mekanik dayanımı, görünümü ve ömrü birçok faktöre bağlıdır. Doğru kaynak parametreleri (akım, voltaj, ilerleme hızı), uygun dolgu malzemesi seçimi (ana malzemeyle uyumlu tel/elektrot), temiz birleştirme yüzeyleri (yağ, pas, tufal olmadan), uygun kaynak pozisyonu (düz, yatay, dikey, tavan), uygun birleştirme tasarımı (alın, köşe, bindirme, T-birleştirme) ve operatör tecrübesi kaynak kalitesinin ana belirleyicileridir. Kritik uygulamalarda NDT (tahribatsız muayene) testleri ile kaynak kalitesi doğrulanır.</p>
+
+<h3>Kullanım Alanları ve Sektörler</h3>
+<p>Kaynaklı imalat, metal kullanılan hemen her sektörde hayati öneme sahiptir. Makine imalatında şasi, gövde ve alt yapı birleştirmeleri; çelik konstrüksiyonda kolon-kiriş bağlantıları; basınçlı kap ve tank imalatında gövde ve kapak kaynakları; boru hattı inşaatında alın ve fittings kaynakları; gemi inşada tekne gövde sacları; otomotiv sanayinde karoseri ve şasi birleştirmeleri; enerji sektöründe rüzgar türbini, güneş paneli yapısı ve doğalgaz tesisatı kaynaklı imalatın yoğun olarak kullanıldığı alanlardır.</p>
+
+<h3>Kuzey Şafak Lazer'de Kaynaklı İmalat Hizmeti</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde deneyimli kaynakçı kadromuzla MIG/MAG ve TIG kaynak yöntemleriyle endüstriyel standartlarda kaynaklı imalat yapıyoruz. Çelik, paslanmaz çelik ve alüminyum malzemelerde birleştirme, montaj ve komple kaynaklı imalat hizmeti sunuyoruz. Aynı tesis bünyesindeki fiber lazer kesim ve CNC büküm makinelerimizle entegre çalışarak projenizi kesimden kaynağa kadar tek çatı altında tamamlıyoruz.</p>`,
     relatedServices: ['kaynakli-imalat'],
     faq: [
-      { q: 'En güçlü kaynak yöntemi hangisidir?', a: 'Tüm ark kaynak yöntemleri (MIG, TIG, elektrot) doğru uygulandığında ana malzeme dayanımına yakın bağlantılar oluşturur. En güçlü yöntem, uygulamaya en uygun olan yöntemdir.' },
-      { q: 'Paslanmaz çelik hangi yöntemle kaynaklanır?', a: 'Paslanmaz çelik en kaliteli sonuçlar için TIG kaynak ile birleştirilir. Seri üretimde MIG kaynak da başarıyla kullanılabilir. Önemli olan uygun dolgu malzemesi ve koruyucu gaz seçimidir.' },
-      { q: 'Kaynaklı imalat süresi ne kadar sürer?', a: 'Süre projenin karmaşıklığına, parça sayısına ve kaynak tipine bağlıdır. Basit birleştirmeler saatler içinde tamamlanırken, büyük konstrüksiyonlar günler sürebilir. Projenize özel süre bilgisi için bizimle iletişime geçin.' }
+      { q: 'En güçlü kaynak yöntemi hangisidir?', a: 'Tüm ark kaynak yöntemleri (MIG, TIG, elektrot) doğru uygulandığında ana malzeme dayanımına eşit veya yakın bağlantılar oluşturur. En güçlü yöntem, uygulamaya ve malzemeye en uygun olan yöntemdir. Kritik uygulamalarda kaynak prosedürü (WPS) hazırlanarak kalite güvence altına alınır.' },
+      { q: 'Paslanmaz çelik hangi yöntemle kaynaklanır?', a: 'Paslanmaz çelik en kaliteli sonuçlar için TIG kaynak ile birleştirilir. Seri üretimde ve görünmeyen birleştirmelerde MIG kaynak da başarıyla kullanılır. Önemli olan uygun dolgu malzemesi (örn: 308L, 316L tel) ve yüksek saflıkta argon koruyucu gaz seçimidir.' },
+      { q: 'Kaynaklı imalat süresi ne kadar sürer?', a: 'Süre projenin karmaşıklığına, toplam kaynak dikişi uzunluğuna, parça sayısına ve kalite gereksinimlerine bağlıdır. Basit birleştirmeler saatler içinde, karmaşık konstrüksiyon projeleri günler veya haftalar içinde tamamlanır. Projenize özel süre bilgisi teklif aşamasında verilir.' },
+      { q: 'Alüminyum kaynak yapıyor musunuz?', a: 'Evet, AC TIG kaynak yöntemiyle alüminyum birleştirme yapıyoruz. AC akım, alüminyumun yüzeyindeki oksit tabakasını temizleyerek kaliteli kaynak yapılmasını sağlar. Alüminyum profil, levha ve sac malzemelerde hizmet veriyoruz.' },
+      { q: 'Kaynak sonrası hangi testler yapılabilir?', a: 'Standart sürecimizde görsel muayene ve boyutsal kontrol uygulanır. Kritik uygulamalarda penetrant testi (PT), radyografik test (RT), ultrasonik test (UT) ve basınç testi gibi NDT yöntemleri organize edilebilir.' }
     ]
   },
 
@@ -322,29 +374,41 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Sac Metal İmalat Süreci Nasıl İşler?',
     metaDesc: 'Sac metal imalat süreci adım adım: tasarım, kesim, büküm, kaynak, boyama. Endüstriyel sac metal işleme rehberi. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>Sac metal imalat</strong>, düz metal sacların kesilmesi, bükülmesi, kaynaklanması ve yüzey işlemi uygulanarak nihai ürün haline getirilmesi sürecidir. Tasarımdan bitmiş ürüne kadar uzanan bu süreç, birden fazla aşamadan oluşur.</p>
+    content: `<p><strong>Sac metal imalat</strong>, düz metal sacların çeşitli endüstriyel işlemlerden geçirilerek kesme, bükme, kaynak, montaj ve yüzey işlemi aşamalarıyla nihai ürün haline dönüştürülmesi sürecidir. Bu süreç, bir parçanın konsept tasarımından bitmiş ürün olarak sevk edilmesine kadar uzanan, birbiriyle bağlantılı birçok aşamadan oluşur. Sac metal imalat, endüstriyel üretimin en temel disiplinlerinden biridir ve otomotivden beyaz eşyaya, havacılıktan elektronik kasalara kadar son derece geniş bir yelpazede uygulanmaktadır.</p>
 
-<h3>1. Tasarım ve Teknik Çizim</h3>
-<p>Süreç, 2D veya 3D CAD yazılımında (SolidWorks, AutoCAD, Inventor) parça tasarımı ile başlar. Açınım (flat pattern) çıkarılarak kesim dosyası hazırlanır. Büküm toleransları, kaynak erişimi ve malzeme özellikleri tasarım aşamasında dikkate alınır.</p>
+<h3>Sac Metal İmalat Neden Önemlidir?</h3>
+<p>Sac metal imalat, diğer üretim yöntemlerine göre birçok avantaj sunar. Kalıp yatırımı gerektirmeden (lazer kesim ve büküm ile) prototipten seri üretime geçiş mümkündür. Hafif ancak mukavim parçalar üretilebilir. Karmaşık 3D geometriler, düz sacdan büküm ve kaynak ile elde edilebilir. Geniş malzeme seçeneği (çelik, paslanmaz, alüminyum, galvaniz, bakır) ve kalınlık aralığı (0.5mm-50mm) esneklik sağlar. CNC otomasyon ile yüksek hassasiyet ve tekrarlanabilirlik garanti edilir.</p>
 
-<h3>2. Malzeme Kesimi</h3>
-<p>Tasarım onayı sonrası saclar kesim işlemine alınır. Lazer kesim (ince-orta kalınlık) veya plazma kesim (kalın malzeme) ile CNC kontrollü hassas kesim yapılır. Kesim yöntemi malzeme türü, kalınlığı ve tolerans gereksinimine göre belirlenir.</p>
+<h3>1. Tasarım ve Teknik Çizim Aşaması</h3>
+<p>Sac metal imalat süreci, 2D veya 3D CAD yazılımlarında (SolidWorks, AutoCAD, Inventor, Fusion 360, Solid Edge) parça tasarımıyla başlar. Tasarım aşamasında büküm yarıçapları, büküm payları (bend allowance), K-faktörü, minimum kenar mesafeleri ve delik-büküm mesafeleri gibi üretilebilirlik kriterleri (DFM - Design for Manufacturing) dikkate alınır. 3D modelden açınım (flat pattern) çıkarılarak lazer kesim dosyası (DXF/DWG) hazırlanır. Büküm çizgileri, kaynak sembolleri ve toleranslar teknik resimde belirtilir. Doğru bir tasarım, üretim sürecinde hata ve israfı minimuma indirir.</p>
 
-<h3>3. Büküm / Şekillendirme</h3>
-<p>Kesilen parçalar CNC abkant preste programlanan açılara göre bükülür. Büküm sırası (bending sequence) parça geometrisine göre optimize edilir. Karmaşık parçalarda çoklu büküm adımları uygulanır.</p>
+<h3>2. Malzeme Seçimi ve Tedarik</h3>
+<p>Projenin fonksiyonel gereksinimlerine göre uygun malzeme türü ve kalınlığı belirlenir. Taşıma kapasitesi, korozyon direnci, estetik beklenti, bükülebilirlik ve maliyet, malzeme seçiminin ana parametreleridir. Genel amaçlı uygulamalarda St37 çelik sac; korozyon direnci gerektiğinde paslanmaz çelik (304, 316L) veya galvaniz sac; hafiflik önemli ise alüminyum; dış mekan uygulamalarında galvaniz veya boyalı sac tercih edilir. Malzeme, standart tabaka boyutlarında (1000x2000mm, 1250x2500mm, 1500x3000mm) tedarik edilir ve kesim öncesi nesting optimizasyonu ile fire oranı minimize edilir.</p>
 
-<h3>4. Kaynak ve Montaj</h3>
-<p>Bükülmüş parçalar birbirine veya diğer bileşenlere MIG/MAG veya TIG kaynak ile birleştirilir. Fikstür kullanılarak boyutsal doğruluk sağlanır. Kaynak sonrası gerekirse taşlama ve düzeltme yapılır.</p>
+<h3>3. Malzeme Kesimi (Lazer / Plazma)</h3>
+<p>Tasarım onayı ve malzeme tedariki sonrası saclar kesim işlemine alınır. İnce ve orta kalınlıklarda (0.5-25mm) fiber lazer kesim, kalın saclarda (15-50mm) CNC plazma kesim uygulanır. CNC kontrollü kesim makineleri, DXF dosyasındaki kontürleri mikron hassasiyetinde takip eder. Nesting yazılımı, parçaları sac üzerine en verimli şekilde yerleştirerek malzeme kullanımını optimize eder. Lazer kesimde ±0.1mm, plazma kesimde ±0.5mm toleranslar sağlanır.</p>
 
-<h3>5. Yüzey İşlemi</h3>
-<p>Son aşamada parçalar kumlama, fosfatlama, toz boya, ıslak boya veya galvaniz kaplama gibi yüzey işlemlerinden geçer. Amaç hem koruma (korozyon direnci) hem de estetik sağlamaktır.</p>
+<h3>4. Büküm ve Şekillendirme</h3>
+<p>Kesilen düz parçalar, CNC abkant preste programlanan açı ve boyutlara göre bükülür. Büküm sırası (bending sequence) parça geometrisine göre optimize edilir; yanlış sıralama sonraki bükümlerin yapılmasını engelleyebilir. CNC kontrol, her büküm adımında arka dayama mesafesini ve ram strokunu otomatik ayarlar. Karmaşık parçalarda 6-10 büküm adımı uygulanabilir. Kutu profiller, U kanallar, Z profiller ve özel geometriler çok adımlı büküm ile elde edilir. Geri yaylanma kompansasyonu CNC tarafından otomatik hesaplanır.</p>
 
-<p>Kuzey Şafak Lazer olarak İkitelli OSB'deki tesisimizde kesimden kaynağa kadar tüm sac metal imalat süreçlerini tek çatı altında gerçekleştiriyoruz.</p>`,
+<h3>5. Kaynak ve Montaj</h3>
+<p>Bükülmüş parçalar, birbirine veya diğer bileşenlere MIG/MAG veya TIG kaynak yöntemiyle birleştirilir. Kaynak öncesi parçalar fikstür (sabitleme aparatı) ile pozisyonlandırılarak boyutsal doğruluk sağlanır. Kaynak yöntemi seçimi malzeme türü, kalınlık, estetik ve dayanım gereksinimlerine göre yapılır. Karbon çelikte genellikle MIG/MAG, paslanmaz çelik ve alüminyumda TIG kaynak tercih edilir. Kaynak sonrası gerektiğinde taşlama, düzeltme ve kaynak dikişi temizleme işlemleri uygulanır.</p>
+
+<h3>6. Yüzey İşlemi ve Kaplama</h3>
+<p>Son aşamada parçalar, kullanım koşullarına göre uygun yüzey işleminden geçer. Kumlama veya raspalama ile yüzey hazırlanır. Fosfatlama, boya tutunmasını artırır. Toz boya (powder coating) en yaygın endüstriyel boyama yöntemidir ve yüksek korozyon direnci ile mekanik dayanıklılık sunar. Islak boya özel renk ve efektlerde kullanılır. Sıcak daldırma galvaniz, dış mekan uygulamalarında uzun ömürlü korozyon koruması sağlar. Paslanmaz çelik parçalarda elektropolisaj veya pasivasyon uygulanabilir.</p>
+
+<h3>7. Kalite Kontrol ve Sevkiyat</h3>
+<p>Bitmiş ürünler boyutsal kontrol, görsel muayene ve fonksiyonel test aşamalarından geçer. Kritik ölçüler kumpas, mikrometre ve gerektiğinde CMM (koordinat ölçüm makinesi) ile doğrulanır. Uygun ambalajlama sonrası ürünler sevkiyata hazır hale getirilir.</p>
+
+<h3>Kuzey Şafak Lazer'de Sac Metal İmalat</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde fiber lazer kesim, CNC plazma kesim, CNC abkant büküm ve kaynaklı imalat süreçlerinin tamamını tek çatı altında gerçekleştiriyoruz. Tasarım danışmanlığından son ürün teslimatına kadar projenizin her aşamasında yanınızdayız. Tek parça prototipten binlerce adetlik seri üretime kadar her ölçekte, tutarlı kalite ve rekabetçi teslim süreleri sunuyoruz.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-bukum', 'kaynakli-imalat', 'cnc-plazma'],
     faq: [
-      { q: 'Sac metal imalat için teknik çizim şart mı?', a: 'Evet, hassas imalat için teknik çizim (DXF, DWG veya STEP formatı) gereklidir. Teknik çiziminiz yoksa, eskiz veya numune parçadan çizim oluşturulabilir.' },
-      { q: 'Sac metal imalat süresi ne kadardır?', a: 'Basit parçalarda 1-2 iş günü, karmaşık kaynaklı imalatlarda 5-10 iş günü sürebilir. Proje detaylarına göre kesin süre bilgisi teklif aşamasında verilir.' },
-      { q: 'Minimum sipariş adedi var mı?', a: 'Kuzey Şafak Lazer olarak tek parçadan seri üretime kadar her adette hizmet veriyoruz. Minimum sipariş limiti uygulamıyoruz.' }
+      { q: 'Sac metal imalat için teknik çizim şart mı?', a: 'Hassas imalat için teknik çizim (DXF, DWG veya STEP formatı) gereklidir. Teknik çiziminiz yoksa, eskiz, el çizimi veya numune parçadan teknik ekibimiz çizim oluşturabilir. Üretilebilirlik (DFM) danışmanlığı da sağlıyoruz.' },
+      { q: 'Sac metal imalat süresi ne kadardır?', a: 'Basit kesim+büküm parçalarında 1-2 iş günü, orta karmaşıklıktaki kaynaklı imalatlarda 3-5 iş günü, büyük ve karmaşık projelerde 5-10 iş günü standart sürelerimizdir. Acil siparişlerde hızlandırılmış üretim mümkündür.' },
+      { q: 'Minimum sipariş adedi var mı?', a: 'Kuzey Şafak Lazer olarak tek parça prototipten binlerce adetlik seri üretime kadar her miktarda hizmet veriyoruz. Minimum sipariş limiti uygulamıyoruz.' },
+      { q: 'Hangi malzemelerle çalışıyorsunuz?', a: 'Çelik (St37, St52), paslanmaz çelik (304, 316L, 430), alüminyum, galvaniz sac, DKP sac, bakır, pirinç ve Hardox aşınma çeliklerinde sac metal imalat hizmeti veriyoruz. 0.5mm ile 50mm arası kalınlıklarda çalışıyoruz.' },
+      { q: 'Boyama ve kaplama hizmeti de sunuyor musunuz?', a: 'Boyama ve kaplama hizmetini anlaşmalı tedarikçilerimiz aracılığıyla organize ediyoruz. Toz boya, ıslak boya, sıcak daldırma galvaniz ve elektropolisaj seçenekleri mevcuttur. Boyalı veya kaplamalı bitmiş ürün olarak teslim edebiliyoruz.' }
     ]
   },
 
@@ -354,30 +418,51 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Lazer Kesim Dosyası Nasıl Hazırlanır?',
     metaDesc: 'Lazer kesim için DXF dosyası nasıl hazırlanır? AutoCAD ve SolidWorks ile kesim dosyası hazırlama rehberi. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>Lazer kesim dosyası</strong>, CNC lazer kesim makinesinin okuduğu ve kesim yollarını takip ettiği dijital çizim dosyasıdır. En yaygın format DXF (Drawing Exchange Format) olmakla birlikte DWG, STEP, IGES ve AI formatları da kullanılabilir.</p>
+    content: `<p><strong>Lazer kesim dosyası</strong>, CNC lazer kesim makinesinin kesim yollarını (tool path) takip etmesi için gerekli olan dijital çizim dosyasıdır. Doğru hazırlanmış bir kesim dosyası, üretim sürecinin hızını, kalitesini ve maliyetini doğrudan etkiler. Hatalı dosyalar; yanlış boyut, açık konturlar, çift çizgiler veya uygunsuz geometriler nedeniyle kesim hatalarına, malzeme israfına ve zaman kaybına yol açabilir. Bu rehberde, lazer kesim dosyası hazırlarken dikkat edilmesi gereken tüm teknik detayları adım adım açıklıyoruz.</p>
 
-<h3>DXF Dosyası Hazırlarken Dikkat Edilecekler</h3>
+<h3>Kabul Edilen Dosya Formatları</h3>
+<p>Lazer kesim için en yaygın ve tercih edilen format DXF (Drawing Exchange Format) olmakla birlikte, farklı yazılımlardan gelen dosyalarla da çalışılabilir. Kabul edilen formatlar:</p>
 <ul>
-<li><strong>Ölçek 1:1 olmalı:</strong> Çizim gerçek boyutlarda (mm cinsinden) hazırlanmalıdır.</li>
-<li><strong>Kapalı konturlar:</strong> Tüm kesim hatları kapalı polyline olmalı. Açık uçlu çizgiler kesim hatasına neden olur.</li>
-<li><strong>Çift çizgi yok:</strong> Üst üste binen çizgiler temizlenmelidir.</li>
-<li><strong>Minimum detay boyutu:</strong> Delik çapı en az malzeme kalınlığı kadar olmalıdır (örn: 2mm sacda min. 2mm delik).</li>
-<li><strong>Spline yerine polyline:</strong> Eğriler mümkünse polyline arc segmentleri ile çizilmelidir.</li>
+<li><strong>DXF (.dxf):</strong> En yaygın ve en uyumlu format. AutoCAD, SolidWorks, Inventor ve diğer CAD yazılımlarından dışa aktarılabilir. R12 veya R14 versiyonu en geniş uyumluluğu sağlar.</li>
+<li><strong>DWG (.dwg):</strong> AutoCAD'in doğal formatı. DXF ile aynı bilgiyi taşır ancak bazı eski makinelerde uyumluluk sorunu yaşanabilir.</li>
+<li><strong>STEP (.step, .stp):</strong> 3D model formatı. Sac metal parçalarda açınım çıkarılarak kesim dosyası oluşturulur. En evrensel 3D mühendislik formatıdır.</li>
+<li><strong>IGES (.igs, .iges):</strong> Eski ama hala yaygın kullanılan 3D model formatı. STEP'e benzer şekilde işlenir.</li>
+<li><strong>AI (.ai):</strong> Adobe Illustrator formatı. Dekoratif ve sanatsal kesim işlerinde sıklıkla karşılaşılır.</li>
+<li><strong>PDF (.pdf):</strong> Ölçekli teknik çizimlerden vektör bilgisi çıkarılabilir. Ölçek bilgisinin doğru olması kritik önem taşır.</li>
 </ul>
 
-<h3>AutoCAD ile DXF Hazırlama</h3>
-<p>AutoCAD'de parçanızı 1:1 ölçekte çizin. Tüm çizgileri tek bir layer'da toplayın. "Save As" ile DXF R12 veya R14 formatında kaydedin. Ölçü çizgileri ve yazıları silmeyi unutmayın; sadece kesim konturları kalmalıdır.</p>
+<h3>DXF Dosyası Hazırlarken Temel Kurallar</h3>
+<ul>
+<li><strong>Ölçek 1:1 olmalı:</strong> Çizim gerçek boyutlarda, milimetre (mm) biriminde hazırlanmalıdır. Ölçek hatası, parçanın yanlış boyutta kesilmesine neden olur. Dosyayı göndermeden önce bir referans ölçüyü kontrol edin.</li>
+<li><strong>Kapalı konturlar:</strong> Tüm kesim hatları kapalı polyline veya kapalı geometri olmalıdır. Açık uçlu çizgiler (0.01mm bile olsa) CNC programında hata oluşturur ve kesim başlatılamaz. AutoCAD'de "PEDIT" > "Join" komutu ile çizgileri birleştirebilirsiniz.</li>
+<li><strong>Çift çizgi temizliği:</strong> Üst üste binen (duplicate) çizgiler temizlenmelidir. Çift çizgi, makinenin aynı yolu iki kez kesmesine neden olur; bu durum kenar kalitesini bozar ve süreyi artırır. AutoCAD'de "OVERKILL" komutu bu sorunu çözer.</li>
+<li><strong>Minimum delik çapı:</strong> Lazer kesimde delik çapı en az malzeme kalınlığına eşit olmalıdır. Örneğin 2mm sacta minimum 2mm çapında delik açılabilir. Daha küçük deliklerde kalite düşer ve ısı birikimi artar.</li>
+<li><strong>Minimum parçalar arası mesafe:</strong> Nesting sırasında parçalar arasında en az malzeme kalınlığı kadar (minimum 2mm) boşluk bırakılmalıdır. Yetersiz mesafe ısı birikimine ve deformasyona neden olabilir.</li>
+<li><strong>Spline yerine polyline arc:</strong> Serbest eğriler (spline) mümkünse polyline arc segmentlerine dönüştürülmelidir. Spline'lar bazı CAM yazılımlarında doğru yorumlanamayabilir. "FLATTEN" veya "SPLINEDIT" > "Convert to polyline" komutları kullanılabilir.</li>
+<li><strong>Gereksiz elemanların temizlenmesi:</strong> Ölçü çizgileri (dimension), yazılar (text), tarama (hatch), blok referansları ve layer bilgileri kesim dosyasında bulunmamalıdır. Sadece kesim konturları kalmalıdır.</li>
+</ul>
 
-<h3>SolidWorks ile DXF Hazırlama</h3>
-<p>SolidWorks'te 3D modelinizin sac metal (sheet metal) özelliğinden "Flatten" yaparak açınım alın. "Save As DXF/DWG" seçeneği ile kaydedin. Büküm çizgilerini ayrı layer'a atarak kesimcinin büküm referanslarını görmesini sağlayabilirsiniz.</p>
+<h3>AutoCAD ile DXF Dosyası Hazırlama</h3>
+<p>AutoCAD, lazer kesim dosyası hazırlamak için en yaygın kullanılan yazılımdır. Parçanızı 1:1 ölçekte milimetre biriminde çizin. Tüm kesim çizgilerini tek bir layer'a (örn: "KESIM") toplayın. "PEDIT" komutu ile çizgileri kapalı polyline haline getirin. "OVERKILL" ile çift çizgileri temizleyin. Ölçü çizgileri, yazılar ve taramaları silin. "Save As" > "DXF" seçeneğiyle AutoCAD R12 veya R14 DXF formatında kaydedin. Kaydetmeden önce "ZOOM" > "Extents" yaparak çizimin koordinat merkezine yakın olduğundan emin olun.</p>
+
+<h3>SolidWorks ile DXF Dosyası Hazırlama</h3>
+<p>SolidWorks'te 3D modelinizi sac metal (Sheet Metal) özellikleriyle tasarlayın. Flatten (düzleştirme) komutu ile açınım alın. "File" > "Save As" > "DXF/DWG" seçeneğiyle kaydedin. Dışa aktarma seçeneklerinde "Geometry" ve isterseniz "Bend lines" layer'larını seçin. Büküm çizgilerini ayrı bir layer'da tutmak, üretim ekibinin büküm referanslarını görmesini sağlar. SolidWorks'ün otomatik K-faktörü ve büküm payı hesaplamaları, doğru açınım boyutu için kritik öneme sahiptir.</p>
+
+<h3>Inventor, Fusion 360 ve Diğer Yazılımlar</h3>
+<p>Autodesk Inventor'da sac metal parçanızın Flat Pattern görünümünden DXF dışa aktarma yapabilirsiniz. Fusion 360'ta "Create Flat Pattern" sonrası "Export DXF" kullanılır. Solid Edge, CATIA ve Creo gibi yazılımlarda da benzer sac metal açınım ve DXF dışa aktarma özellikleri mevcuttur. Tüm yazılımlarda temel kural aynıdır: 1:1 ölçek, kapalı konturlar ve temiz geometri.</p>
+
+<h3>Sık Yapılan Hatalar</h3>
+<p>Lazer kesim dosyalarında en sık karşılaşılan hatalar: açık konturlar (kapatılmamış çizgiler), çift çizgiler, yanlış ölçek (inç yerine mm veya tersi), gereksiz elemanlar (ölçü, yazı, tarama), spline eğrilerin yorumlanma sorunu, referans noktasının çizimden çok uzak olması ve birden fazla parçanın aynı dosyada düzensiz yerleştirilmesidir. Bu hataların çoğu, dosya gönderilmeden önce basit bir kontrol ile tespit edilebilir.</p>
 
 <h3>Dosyanız Yoksa Ne Yapabilirsiniz?</h3>
-<p>Elimizde teknik çizim olması ideal olmakla birlikte, bir eskiz, numune parça veya el çizimi ile de çalışabiliriz. Kuzey Şafak Lazer teknik ekibi, ilettiğiniz referanslara göre DXF dosyasını sizin adınıza hazırlayabilir.</p>`,
+<p>Teknik çizim dosyanızın olmaması engel değildir. Kuzey Şafak Lazer teknik ekibi olarak, size birkaç alternatif sunuyoruz: Ölçülü el çizimi veya eskiz gönderebilirsiniz, biz bunu DXF'e dönüştürürüz. Mevcut bir parçanızın numunesini getirebilirsiniz, ölçülendirip çizimini oluşturabiliriz. JPG veya PNG formatında bir görsel bile olsa, vektörel çizime dönüştürebiliriz. WhatsApp (0555 000 83 04) veya e-posta ile iletişime geçerek dosyanızı bize ulaştırabilirsiniz.</p>`,
     relatedServices: ['lazer-kesim'],
     faq: [
-      { q: 'Hangi dosya formatlarını kabul ediyorsunuz?', a: 'DXF, DWG, STEP, IGES, AI (Adobe Illustrator), PDF ve hatta JPG/PNG görselden bile çizim çıkarabiliriz. En ideal format ölçekli DXF dosyasıdır.' },
-      { q: 'DXF dosyam yoksa ne yapmalıyım?', a: 'Bize numune parça, eskiz veya ölçülü el çizimi göndermeniz yeterlidir. Teknik ekibimiz dosyanızı oluşturarak kesime hazır hale getirir.' },
-      { q: '3D model gönderebilir miyim?', a: 'Evet, STEP veya IGES formatında 3D model gönderebilirsiniz. Sac metal parçalar için açınım çıkararak kesim dosyasını hazırlarız.' }
+      { q: 'Hangi dosya formatlarını kabul ediyorsunuz?', a: 'DXF, DWG, STEP, IGES, AI (Adobe Illustrator), PDF ve hatta JPG/PNG görselden bile çizim çıkarabiliriz. En ideal ve en hızlı işlenen format, 1:1 ölçekli DXF dosyasıdır.' },
+      { q: 'DXF dosyam yoksa ne yapmalıyım?', a: 'Bize numune parça, ölçülü eskiz veya el çizimi göndermeniz yeterlidir. Teknik ekibimiz dosyanızı oluşturarak kesime hazır hale getirir. WhatsApp üzerinden fotoğraf göndermek bile yeterli olabilir.' },
+      { q: '3D model gönderebilir miyim?', a: 'Evet, STEP veya IGES formatında 3D model gönderebilirsiniz. Sac metal parçalar için açınım (flat pattern) çıkararak kesim dosyasını hazırlarız. SolidWorks, Inventor veya Fusion 360 doğal formatlarını da kabul ediyoruz.' },
+      { q: 'DXF dosyamda açık kontur hatası ne anlama gelir?', a: 'Açık kontur, kesim hattının tam olarak kapanmamış olduğu anlamına gelir. Lazer makinesi kapalı bir yol takip edemez ve parça doğru kesilemez. AutoCAD\'de PEDIT > Join komutu ile çizgileri birleştirerek bu sorunu çözebilirsiniz.' },
+      { q: 'Dosya hazırlama ücreti var mı?', a: 'Basit çizim düzenlemeleri ve dosya dönüşümleri standart hizmetimize dahildir. Sıfırdan karmaşık çizim oluşturma işlemlerinde projeye özel değerlendirme yapılır.' }
     ]
   },
 
@@ -390,34 +475,51 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Lazer Kesim ile Plazma Kesim Arasındaki Farklar',
     metaDesc: 'Lazer kesim mi plazma kesim mi? Hassasiyet, maliyet, kalınlık kapasitesi ve kenar kalitesi karşılaştırması. Projenize en uygun yöntemi seçin.',
     category: 'bilgi',
-    content: `<p><strong>Lazer kesim</strong> ve <strong>plazma kesim</strong>, endüstride en yaygın kullanılan iki CNC termal kesim yöntemidir. Her ikisi de metal sacları CNC kontrollü olarak keser, ancak çalışma prensipleri, hassasiyetleri ve uygulama alanları farklıdır.</p>
+    content: `<p><strong>Lazer kesim</strong> ve <strong>plazma kesim</strong>, endüstriyel metal işleme sektöründe en yaygın kullanılan iki CNC kontrollü termal kesim yöntemidir. Her ikisi de bilgisayar programı ile kontrol edilen kesim kafası aracılığıyla metal sacları istenilen geometride keser, ancak çalışma prensipleri, hassasiyet değerleri, kalınlık kapasiteleri ve maliyet yapıları birbirinden önemli ölçüde farklıdır. Doğru yöntem seçimi, projenizin kalitesini, maliyetini ve teslimat süresini doğrudan etkiler. Bu karşılaştırma rehberinde, her iki yöntemin teknik detaylarını inceleyerek projenize en uygun çözümü belirlemenize yardımcı oluyoruz.</p>
 
-<h3>Kesim Prensibi Farkı</h3>
-<p>Lazer kesim, odaklanmış bir lazer ışını ile malzemeyi eritir/buharlaştırır. Plazma kesim ise elektrik arkı ile iyonize edilmiş gaz (plazma) kullanarak metali keser. Lazer'in odak noktası 0.1mm'den küçükken, plazma arkının genişliği 1-2mm'dir.</p>
+<h3>Çalışma Prensibi Farkı</h3>
+<p><strong>Lazer kesim:</strong> Fiber veya CO2 lazer rezonatöründe üretilen koherant ışık demeti, odaklama lensi aracılığıyla 0.1mm'den küçük bir noktaya yoğunlaştırılır. Bu noktada enerji yoğunluğu 10^6 W/cm²'yi aşar ve malzeme lokal olarak eritilir, buharlaştırılır veya oksitlenir. Yardımcı gaz (azot veya oksijen) erimiş malzemeyi kesim bölgesinden uzaklaştırır.</p>
+<p><strong>Plazma kesim:</strong> Elektrik arkı ile iyonize edilen basınçlı gaz (hava, oksijen veya azot), 20.000-30.000°C sıcaklığa ulaşan plazma jeti oluşturur. Bu süper ısıtılmış iyonize gaz akışı metali eritir ve yüksek kinetik enerji ile erimiş malzemeyi uzaklaştırır. Plazma jeti 1-2mm genişliğindedir.</p>
 
-<h3>Hassasiyet Karşılaştırması</h3>
-<ul>
-<li><strong>Lazer kesim toleransı:</strong> ±0.1mm</li>
-<li><strong>Plazma kesim toleransı:</strong> ±0.5-1mm</li>
-<li><strong>Lazer kerf genişliği:</strong> 0.1-0.3mm</li>
-<li><strong>Plazma kerf genişliği:</strong> 1.5-3mm</li>
-</ul>
+<h3>Detaylı Karşılaştırma Tablosu</h3>
+<table>
+<tr><th>Kriter</th><th>Lazer Kesim</th><th>Plazma Kesim</th></tr>
+<tr><td>Tolerans</td><td>±0.1mm</td><td>±0.5-1mm</td></tr>
+<tr><td>Kerf genişliği</td><td>0.1-0.3mm</td><td>1.5-3mm</td></tr>
+<tr><td>Çelik kalınlık kapasitesi</td><td>0.5-25mm</td><td>6-50mm+</td></tr>
+<tr><td>İnce sacta hız (1-6mm)</td><td>Çok yüksek</td><td>Orta</td></tr>
+<tr><td>Kalın sacta hız (20mm+)</td><td>Düşük</td><td>Yüksek</td></tr>
+<tr><td>Kenar kalitesi</td><td>Pürüzsüz, dik</td><td>Pürüzlü olabilir</td></tr>
+<tr><td>Çapak oluşumu</td><td>Minimum</td><td>Alt kenarda dross</td></tr>
+<tr><td>Isı etki alanı (HAZ)</td><td>Dar (0.1-0.3mm)</td><td>Geniş (1-3mm)</td></tr>
+<tr><td>Detay kabiliyeti</td><td>Çok yüksek</td><td>Sınırlı</td></tr>
+<tr><td>Enerji verimliliği</td><td>%30-40</td><td>%50-60</td></tr>
+<tr><td>Pah (bevel) kesim</td><td>Sınırlı</td><td>Mümkün</td></tr>
+<tr><td>İletken olmayan malzeme</td><td>CO2 lazer ile evet</td><td>Hayır</td></tr>
+</table>
 
-<h3>Kalınlık Kapasitesi</h3>
-<p>Fiber lazer ile çelikte 25mm'ye kadar ekonomik kesim yapılabilir. Plazma ile 50mm ve üzeri kalınlıklarda verimli kesim mümkündür. 10mm altı kalınlıklarda lazer açık ara öndedir; 20mm üzerinde plazma maliyet avantajı sağlar.</p>
+<h3>Hassasiyet ve Kenar Kalitesi</h3>
+<p>Lazer kesim, ±0.1mm tolerans ve 0.1-0.3mm kerf genişliği ile çok daha yüksek hassasiyet sunar. Kesim kenarı pürüzsüz, dik ve çapaksızdır; genellikle ek işlem (taşlama) gerektirmez. Plazma kesimde tolerans ±0.5-1mm, kerf genişliği 1.5-3mm'dir. Kenar yüzeyi lazer kadar pürüzsüz değildir ve alt kenarda çapak (dross) oluşabilir. Hassas parçalar, birbirine geçmeli montaj elemanları ve estetik uygulamalar için lazer kesim tercih edilir.</p>
 
-<h3>Kenar Kalitesi</h3>
-<p>Lazer kesimde kenar yüzeyi pürüzsüz ve dikeydir, çapak minimumdur. Plazma kesimde kenar daha pürüzlü olabilir ve alt kenarda çapak (dross) oluşabilir. Lazer kesim sonrası genellikle ek bir talaşlı imalat gerekmezken, plazma kesim sonrası taşlama gerekebilir.</p>
+<h3>Kalınlık Kapasitesi ve Hız Karşılaştırması</h3>
+<p>Fiber lazer, çelikte 0.5mm ile 25mm arasında verimli kesim yapar. 1-6mm aralığında lazer kesim çok yüksek hızlara ulaşır ve plazma ile kıyaslanamayacak kadar hızlıdır. CNC plazma ise 6mm ile 50mm+ aralığında güçlüdür. 15mm üzeri kalınlıklarda plazma kesim hız avantajı sağlamaya başlar. 20mm üzerinde plazma, lazerden 2-3 kat daha hızlı kesim yapabilir. 10-15mm arası kalınlıklar ise her iki yöntemin de verimli çalıştığı, tercih parametresinin hassasiyet ve maliyet dengesine göre belirlendiği geçiş bölgesidir.</p>
 
 <h3>Maliyet Karşılaştırması</h3>
-<p>İnce saclarda (0.5-10mm) lazer kesim hem daha hızlı hem de birim maliyette daha ekonomiktir. Kalın saclarda (20mm+) plazma kesim çok daha uygun maliyetlidir. Orta kalınlıklarda (10-20mm) proje gereksinimlerine göre en uygun yöntem belirlenir.</p>
+<p>Maliyet karşılaştırması kalınlığa göre önemli farklılıklar gösterir. İnce saclarda (0.5-10mm) lazer kesim hem daha hızlı hem de birim kesim maliyetinde daha ekonomiktir. Kalın saclarda (20mm+) plazma kesim, lazer kesime göre belirgin maliyet avantajı sunar; çünkü kesim hızı daha yüksek ve sarf malzeme maliyeti daha düşüktür. Orta kalınlıklarda (10-20mm) maliyet karşılaştırması parça geometrisi, hassasiyet gereksinimi ve toplam adede göre değişir. İlk yatırım açısından bakıldığında, plazma kesim makineleri lazer kesim makinelerine göre önemli ölçüde düşük maliyetlidir.</p>
 
-<p>Kuzey Şafak Lazer olarak hem fiber lazer kesim hem de CNC plazma kesim hizmeti sunuyoruz. Projenizin teknik gereksinimlerine göre en uygun yöntemi birlikte belirleyelim.</p>`,
+<h3>Hangi Durumda Hangi Yöntem Tercih Edilmeli?</h3>
+<p><strong>Lazer kesimi tercih edin:</strong> İnce ve orta kalınlıklarda (0.5-15mm), hassas tolerans gerektiğinde, karmaşık geometri ve küçük detaylarda, temiz kenar kalitesi istendiğinde, birbirine geçmeli montaj parçalarında ve estetik görünümün önemli olduğu uygulamalarda.</p>
+<p><strong>Plazma kesimi tercih edin:</strong> Kalın saclarda (15mm+), ±0.5mm toleransın yeterli olduğu yapısal parçalarda, çelik konstrüksiyon elemanlarında, flanş ve bağlantı plakalarında, pah (bevel) kesim gerektiğinde ve maliyet optimizasyonunun öncelikli olduğu kalın kesim projelerinde.</p>
+
+<h3>Kuzey Şafak Lazer'de Her İki Yöntem Tek Çatıda</h3>
+<p>Kuzey Şafak Lazer olarak İstanbul İkitelli OSB'deki tesisimizde hem fiber lazer kesim hem de CNC plazma kesim hizmeti sunuyoruz. Projenizde ince ve kalın parçaların bir arada bulunması durumunda, her parça için en uygun yöntemi seçerek toplam maliyeti optimize ediyor ve projenizi eksiksiz teslim ediyoruz. Teknik çiziminizi gönderin, en uygun kesim yöntemini ve projenize özel teklifi birlikte belirleyelim.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-plazma'],
     faq: [
-      { q: 'İnce saclar için lazer mı plazma mı kullanmalıyım?', a: '10mm altı kalınlıklarda lazer kesim her zaman daha iyi sonuç verir. Daha yüksek hassasiyet, temiz kenar ve minimum çapak sağlar.' },
-      { q: 'Plazma kesim ne zaman lazere tercih edilir?', a: '20mm üzeri kalın çelik saclarda plazma kesim maliyet ve hız avantajı sağlar. Yapısal çelik, konstrüksiyon ve ağır sanayi parçalarında plazma tercih edilir.' },
-      { q: 'Her iki yöntemi bir projede birlikte kullanabilir miyiz?', a: 'Evet, karma projelerde kalın parçalar plazma, hassas parçalar lazer ile kesilebilir. Bu yaklaşım maliyet optimizasyonu sağlar.' }
+      { q: 'İnce saclar için lazer mı plazma mı kullanmalıyım?', a: '10mm altı kalınlıklarda lazer kesim her zaman daha iyi sonuç verir. Daha yüksek hassasiyet (±0.1mm), temiz kenar kalitesi, minimum çapak ve daha yüksek kesim hızı sağlar. Maliyet açısından da lazer avantajlıdır.' },
+      { q: 'Plazma kesim ne zaman lazere tercih edilir?', a: '15-20mm üzeri kalın çelik saclarda plazma kesim maliyet ve hız avantajı sağlar. Çelik konstrüksiyon, ağır makine parçaları ve yapısal elemanlar gibi hassasiyet gereksiniminin ±0.5mm ile karşılandığı uygulamalarda plazma tercih edilir.' },
+      { q: 'Her iki yöntemi bir projede birlikte kullanabilir miyiz?', a: 'Evet, aynı projede kalın parçaları CNC plazma ile, ince ve hassas parçaları fiber lazer ile keserek maliyet optimizasyonu sağlıyoruz. Kuzey Şafak Lazer\'de her iki makine aynı tesiste bulunmaktadır.' },
+      { q: '10-15mm kalınlıkta hangi yöntemi tercih etmeliyim?', a: 'Bu kalınlık aralığı geçiş bölgesidir. Hassasiyet ve kenar kalitesi kritikse lazer, maliyet öncelikliyse plazma tercih edilir. Parça geometrisi ve tolerans gereksinimlerine göre projenize özel değerlendirme yapıyoruz.' },
+      { q: 'Plazma kesim sonrası ek işlem gerekir mi?', a: 'Plazma kesim sonrası kenar kalitesine bağlı olarak taşlama veya çapak temizleme gerekebilir. Lazer kesimde ise genellikle ek işlem gerekmez. Uygulamanın tolerans ve estetik gereksinimine göre değerlendirilir.' }
     ]
   },
 
@@ -427,31 +529,54 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'TIG Kaynak ile MIG Kaynak Arasındaki Farklar',
     metaDesc: 'TIG kaynak mı MIG kaynak mı? Her iki yöntemin avantajları, dezavantajları ve kullanım alanları karşılaştırması. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>TIG kaynak</strong> (Tungsten Inert Gas / GTAW) ve <strong>MIG kaynak</strong> (Metal Inert Gas / GMAW), endüstriyel imalatta en çok kullanılan iki koruyucu gaz altı kaynak yöntemidir. Her ikisi de yüksek kaliteli birleştirmeler sağlar ancak farklı avantajlara sahiptir.</p>
+    content: `<p><strong>TIG kaynak</strong> (Tungsten Inert Gas / GTAW) ve <strong>MIG kaynak</strong> (Metal Inert Gas / GMAW), endüstriyel metal imalatında en yaygın kullanılan iki koruyucu gaz altı ark kaynak yöntemidir. Her ikisi de elektrik arkı ile metal eritme prensibine dayanır ve yüksek kaliteli kalıcı birleştirmeler oluşturur. Ancak çalışma prensipleri, üretim hızları, operatör beceri gereksinimleri ve uygulama alanları önemli farklılıklar gösterir. Doğru kaynak yöntemi seçimi, projenizin kalitesini, maliyetini ve üretim süresini doğrudan etkiler. Bu rehberde, her iki yöntemin avantaj ve dezavantajlarını teknik detaylarıyla karşılaştırıyoruz.</p>
 
 <h3>Çalışma Prensibi Farkı</h3>
-<p>TIG kaynak: Eritmeyen tungsten elektrot ile ark oluşturulur, dolgu malzemesi elle ayrı beslenir. Argon veya helyum koruyucu gaz kullanılır.</p>
-<p>MIG kaynak: Eritken tel elektrot hem ark kaynağı hem de dolgu malzemesi görevi görür. Tel otomatik olarak beslenir. Argon+CO2 veya saf CO2 karışım gazı kullanılır.</p>
+<p><strong>TIG Kaynak (GTAW):</strong> Tungsten Inert Gas kaynağında, eritmeyen (tükenmeyen) tungsten elektrot ile iş parçası arasında elektrik arkı oluşturulur. Kaynak banyosu, yüksek saflıkta argon veya argon-helyum karışımı ile atmosferik gazlardan korunur. Dolgu malzemesi (kaynak teli) gerektiğinde operatör tarafından diğer elle ayrı olarak kaynak banyosuna beslenir. Kaynak akımı, ayak pedalı ile anlık olarak kontrol edilebilir. DC (doğru akım) çelik ve paslanmaz çelikte, AC (alternatif akım) alüminyum ve magnezyumda kullanılır. AC akım, alüminyum yüzeyindeki oksit tabakasını temizleme (cleaning action) özelliğine sahiptir.</p>
+<p><strong>MIG Kaynak (GMAW):</strong> Metal Inert Gas (veya Metal Active Gas = MAG) kaynağında, sürekli beslenen eritken tel elektrot hem ark kaynağı hem de dolgu malzemesi görevi görür. Tel, makinenin motor sürücüsü tarafından sabit hızda kaynak banyosuna otomatik beslenir. Koruyucu gaz olarak saf argon (MIG), argon+CO2 karışımı veya saf CO2 (MAG) kullanılır. MIG terimi genellikle paslanmaz çelik ve alüminyumda argon gazı ile, MAG terimi karbon çelikte CO2 içeren gaz karışımları ile kullanılır. Operatör tek elle torcu yönlendirirken, tel besleme otomatik olarak gerçekleşir.</p>
 
-<h3>Avantaj ve Dezavantaj Karşılaştırması</h3>
-<ul>
-<li><strong>Hız:</strong> MIG kaynak, otomatik tel beslemesi sayesinde TIG'e göre 3-5 kat daha hızlıdır.</li>
-<li><strong>Kalite:</strong> TIG kaynak daha temiz, gözeneksiz ve estetik kaynak dikişi oluşturur.</li>
-<li><strong>Beceri gereksinimi:</strong> TIG kaynak çift el koordinasyonu gerektirir ve daha yüksek operatör becerisi ister.</li>
-<li><strong>Malzeme kalınlığı:</strong> TIG 0.5mm gibi çok ince malzemelerde üstündür. MIG 1mm üzeri kalınlıklarda verimlidir.</li>
-<li><strong>Maliyet:</strong> MIG kaynak seri üretimde işçilik maliyetini önemli ölçüde düşürür.</li>
-</ul>
+<h3>Detaylı Karşılaştırma Tablosu</h3>
+<table>
+<tr><th>Kriter</th><th>TIG Kaynak (GTAW)</th><th>MIG Kaynak (GMAW)</th></tr>
+<tr><td>Kaynak hızı</td><td>Yavaş (50-150 mm/dk)</td><td>Hızlı (200-800 mm/dk)</td></tr>
+<tr><td>Kaynak dikişi estetiği</td><td>Mükemmel, temiz</td><td>İyi, sıçrantı olabilir</td></tr>
+<tr><td>Gözeneklilik riski</td><td>Çok düşük</td><td>Düşük-orta</td></tr>
+<tr><td>Operatör becerisi</td><td>Yüksek (çift el)</td><td>Orta (tek el)</td></tr>
+<tr><td>İnce malzeme (<1mm)</td><td>Mükemmel</td><td>Zor</td></tr>
+<tr><td>Kalın malzeme (>6mm)</td><td>Yavaş, çok paso</td><td>Verimli</td></tr>
+<tr><td>Isı girdisi kontrolü</td><td>Çok hassas (pedal)</td><td>Orta</td></tr>
+<tr><td>Seri üretim uygunluğu</td><td>Düşük</td><td>Çok yüksek</td></tr>
+<tr><td>Robotik otomasyon</td><td>Uygun (orbital TIG)</td><td>Çok yaygın</td></tr>
+<tr><td>Koruyucu gaz</td><td>Argon, Ar+He</td><td>Ar+CO2, CO2, Argon</td></tr>
+<tr><td>Çelik</td><td>İyi</td><td>Mükemmel (MAG)</td></tr>
+<tr><td>Paslanmaz çelik</td><td>Mükemmel</td><td>İyi</td></tr>
+<tr><td>Alüminyum</td><td>Mükemmel (AC)</td><td>İyi (pulslu)</td></tr>
+<tr><td>İşçilik maliyeti</td><td>Yüksek</td><td>Düşük</td></tr>
+</table>
 
-<h3>Malzemeye Göre Tercih</h3>
-<p><strong>Paslanmaz çelik:</strong> Estetik önemli ise TIG, seri üretimde MIG tercih edilir. <strong>Alüminyum:</strong> İnce alüminyumda TIG vazgeçilmezdir; kalın alüminyumda pulslu MIG kullanılabilir. <strong>Karbon çelik:</strong> Genel imalatta MIG/MAG en ekonomik seçimdir.</p>
+<h3>Avantajlar ve Dezavantajlar</h3>
+<p><strong>TIG kaynağın avantajları:</strong> En yüksek kaliteli ve en estetik kaynak dikişini oluşturur. Gözeneklilik riski minimum düzeydedir. Isı girdisi pedal kontrolü ile çok hassas ayarlanabilir, bu sayede ince malzemelerde deformasyon minimuma iner. 0.5mm gibi çok ince saclarda bile kaliteli birleştirme yapılabilir. Sıçrantısız ve cürufsuz temiz kaynak sağlar. Paslanmaz çelik, alüminyum, titanyum ve bakır alaşımlarında üstün sonuçlar verir.</p>
+<p><strong>TIG kaynağın dezavantajları:</strong> MIG'e göre 3-5 kat daha yavaştır. Yüksek operatör becerisi ve deneyim gerektirir (çift el koordinasyonu). Seri üretimde işçilik maliyeti yüksektir. Kalın malzemelerde çok pasolu kaynak gerektirir ve süre uzar. Dış ortamda rüzgara karşı hassastır.</p>
+<p><strong>MIG/MAG kaynağın avantajları:</strong> Otomatik tel beslemesi sayesinde yüksek kaynak hızı ve üretkenlik sağlar. Öğrenme eğrisi TIG'e göre kısadır. Seri üretimde birim işçilik maliyetini önemli ölçüde düşürür. 1mm üzeri tüm kalınlıklarda verimlidir. Robotik otomasyon için idealdir. Geniş dolgu malzemesi (tel) çeşitliliği mevcuttur.</p>
+<p><strong>MIG/MAG kaynağın dezavantajları:</strong> Estetik olarak TIG kadar temiz dikiş oluşturamaz. Sıçrantı (spatter) oluşabilir ve temizlik gerektirebilir. Çok ince malzemelerde (1mm altı) yanma riski vardır. Koruyucu gaz tüketimi TIG'e göre genellikle daha yüksektir.</p>
+
+<h3>Malzemeye Göre Yöntem Tercih Rehberi</h3>
+<p><strong>Karbon çelik (St37, St52):</strong> Genel imalat, konstrüksiyon ve seri üretimde MIG/MAG kaynak en ekonomik ve verimli seçimdir. TIG, sadece çok ince karbon çelikte veya özel estetik gereksinimlerinde tercih edilir.</p>
+<p><strong>Paslanmaz çelik (304, 316L):</strong> Gıda sanayi, kimya sanayi ve estetik uygulamalarda TIG kaynak standarttır. Seri üretimde ve görünmeyen birleştirmelerde MIG kaynak da başarıyla uygulanır. Kök paso TIG, dolgu pasoları MIG ile yapılan kombine yaklaşım da yaygındır.</p>
+<p><strong>Alüminyum:</strong> İnce alüminyum parçalarda (3mm altı) AC TIG kaynak vazgeçilmezdir. Kalın alüminyumda (6mm+) pulslu MIG kaynak verimli bir alternatif sunar. Alüminyum kaynağı her iki yöntemde de özel dikkat ve deneyim gerektirir.</p>
+
+<h3>Maliyet Karşılaştırması</h3>
+<p>TIG kaynak, düşük yığma hızı ve yüksek operatör becerisi nedeniyle MIG'e göre 2-4 kat daha yüksek işçilik maliyeti oluşturur. Ancak TIG ile elde edilen üstün kalite, bazı uygulamalarda kaynak sonrası taşlama ve düzeltme ihtiyacını ortadan kaldırarak toplam maliyeti dengeleyebilir. Seri üretimde MIG/MAG kaynak tartışmasız en ekonomik seçimdir. Düşük adetli, yüksek kaliteli işlerde TIG'in maliyet dezavantajı kabul edilebilir düzeydedir.</p>
 
 <h3>Kuzey Şafak Lazer'de Kaynak Hizmetleri</h3>
-<p>Tesisimizde hem TIG hem MIG kaynak kapasitesine sahibiz. Projenizin malzeme türü, kalınlığı, estetik ve dayanım gereksinimlerine göre en uygun kaynak yöntemini belirliyor ve uyguluyor.</p>`,
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde hem TIG hem MIG/MAG kaynak kapasitesine sahibiz. Deneyimli kaynakçı kadromuz, projenizin malzeme türü, kalınlığı, estetik ve dayanım gereksinimlerine göre en uygun kaynak yöntemini belirliyor ve endüstriyel standartlarda uyguluyoruz. Lazer kesim ve CNC büküm hizmetlerimizle entegre çalışarak projenizi baştan sona tek çatı altında tamamlıyoruz.</p>`,
     relatedServices: ['kaynakli-imalat'],
     faq: [
-      { q: 'Paslanmaz çelik için hangi kaynak yöntemi daha iyi?', a: 'Estetik ve korozyon direnci önemli ise TIG kaynak tercih edilir. Seri üretimde ve görünmeyen birleştirmelerde MIG/MAG kaynak da başarıyla kullanılır.' },
-      { q: 'MIG kaynak dikişi TIG kadar dayanıklı mıdır?', a: 'Evet, her iki yöntem de doğru uygulandığında benzer mekanik dayanım sağlar. Fark daha çok estetik, gözeneklilik ve ısı girdisinde ortaya çıkar.' },
-      { q: 'Alüminyum kaynak yapıyor musunuz?', a: 'Evet, TIG kaynak ile alüminyum birleştirme yapıyoruz. AC (alternatif akım) TIG kaynak, alüminyumun oksit tabakasını temizleyerek kaliteli birleştirme sağlar.' }
+      { q: 'Paslanmaz çelik için hangi kaynak yöntemi daha iyi?', a: 'Estetik, korozyon direnci ve sızdırmazlık gerektiren uygulamalarda TIG kaynak tercih edilir. Seri üretimde ve görünmeyen birleştirmelerde MIG kaynak da başarıyla uygulanır. Gıda sanayi uygulamalarında TIG kaynak genellikle zorunludur.' },
+      { q: 'MIG kaynak dikişi TIG kadar dayanıklı mıdır?', a: 'Evet, her iki yöntem de doğru parametre ve dolgu malzemesi ile uygulandığında ana malzeme dayanımına eşit veya yakın mekanik dayanım sağlar. Fark daha çok estetik, gözeneklilik oranı ve ısı girdisi kontrolünde ortaya çıkar.' },
+      { q: 'Alüminyum kaynak yapıyor musunuz?', a: 'Evet, AC TIG kaynak yöntemiyle alüminyum birleştirme yapıyoruz. AC akım, alüminyumun yüzeyindeki oksit tabakasını temizleyerek kaliteli kaynak yapılmasını sağlar. Alüminyum profil, levha ve sac malzemelerde hizmet veriyoruz.' },
+      { q: 'Hangi kaynak yöntemi daha hızlıdır?', a: 'MIG/MAG kaynak, otomatik tel beslemesi sayesinde TIG\'e göre 3-5 kat daha yüksek kaynak hızına sahiptir. Seri üretimde ve kalın malzemelerde MIG/MAG önemli zaman ve maliyet tasarrufu sağlar.' },
+      { q: 'İnce sac kaynak yapabiliyor musunuz?', a: 'Evet, TIG kaynak ile 0.5mm kalınlıktan itibaren ince sac kaynağı yapabiliyoruz. Pedal kontrollü akım ayarı ile ince malzemelerde deformasyon ve yanma riski minimuma indirilir.' }
     ]
   },
 
