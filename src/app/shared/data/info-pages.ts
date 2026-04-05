@@ -586,33 +586,56 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Fiber Lazer ile CO2 Lazer Arasındaki Farklar',
     metaDesc: 'Fiber lazer mi CO2 lazer mi? Verimlilik, kesim hızı, bakım maliyeti ve malzeme uyumluluğu karşılaştırması. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>Fiber lazer</strong> ve <strong>CO2 lazer</strong>, metal işleme sektöründe kullanılan iki farklı lazer teknolojisidir. Son yıllarda fiber lazer, metal kesimde CO2 lazerin yerini hızla almaktadır. Bu sayfada her iki teknolojinin karşılaştırmasını bulabilirsiniz.</p>
+    content: `<p><strong>Fiber lazer</strong> ve <strong>CO2 lazer</strong>, endüstriyel malzeme kesiminde kullanılan iki farklı lazer teknolojisidir. Son on yılda fiber lazer teknolojisi, metal kesim alanında CO2 lazerin yerini büyük ölçüde almıştır ve bu dönüşüm halen devam etmektedir. Her iki teknoloji de lazer ışını üretir ancak üretim mekanizması, dalga boyu, enerji verimliliği, bakım maliyeti ve malzeme uyumluluğu açısından temel farklılıklar taşır. Bu kapsamlı karşılaştırma rehberinde, her iki lazer teknolojisinin teknik özelliklerini inceleyerek metal kesim projeleriniz için en doğru seçimi yapmanıza yardımcı oluyoruz.</p>
 
-<h3>Teknoloji Farkı</h3>
-<p>CO2 lazer, karbon dioksit gazı karışımı içinde elektrik deşarjı ile lazer ışını üretir (10.6μm dalga boyu). Fiber lazer ise nadir toprak elementi (genellikle ytterbium) katkılı optik fiber içinde lazer ışını üretir (1.07μm dalga boyu).</p>
+<h3>Teknoloji ve Çalışma Prensibi Farkı</h3>
+<p><strong>CO2 Lazer:</strong> Karbondioksit (CO2), azot (N2) ve helyum (He) gaz karışımı içinde elektrik deşarjı (RF veya DC excitation) ile lazer ışını üretir. Dalga boyu 10.6μm (kızılötesi) olup, lazer ışını aynalar ve lens sistemi ile kesim kafasına iletilir. CO2 lazer teknolojisi 1964'te icat edilmiş ve 1970'lerden itibaren endüstriyel kesimde kullanılmaya başlanmıştır. Olgun ve iyi bilinen bir teknolojidir.</p>
+<p><strong>Fiber Lazer:</strong> Ytterbium (Yb) gibi nadir toprak elementi katkılı optik fiber içinde diyot pompalama ile lazer ışını üretir. Dalga boyu 1.07μm (yakın kızılötesi) olup, lazer ışını optik fiber kablo ile kesim kafasına iletilir; ayna veya lens sistemi gerekmez. Fiber lazer teknolojisi 2000'li yılların başında ticarileşmiş ve 2010 sonrasında metal kesim pazarının dominant teknolojisi haline gelmiştir.</p>
+
+<h3>Detaylı Karşılaştırma Tablosu</h3>
+<table>
+<tr><th>Kriter</th><th>Fiber Lazer</th><th>CO2 Lazer</th></tr>
+<tr><td>Dalga boyu</td><td>1.07μm</td><td>10.6μm</td></tr>
+<tr><td>Elektrik-lazer verimi</td><td>%30-40</td><td>%8-12</td></tr>
+<tr><td>Metal kesim hızı (ince)</td><td>2-3x daha hızlı</td><td>Referans</td></tr>
+<tr><td>Metal kesim hızı (kalın)</td><td>Benzer</td><td>Benzer</td></tr>
+<tr><td>Bakım maliyeti</td><td>Çok düşük</td><td>Yüksek</td></tr>
+<tr><td>Lazer gazı tüketimi</td><td>Yok</td><td>Var (CO2, N2, He)</td></tr>
+<tr><td>Optik yol</td><td>Fiber kablo</td><td>Ayna/lens sistemi</td></tr>
+<tr><td>Metal emilim oranı</td><td>Çok yüksek</td><td>Düşük</td></tr>
+<tr><td>Yansıtıcı metal kesimi</td><td>İyi (bakır, pirinç)</td><td>Zor ve riskli</td></tr>
+<tr><td>Organik malzeme kesimi</td><td>Uygun değil</td><td>Mükemmel</td></tr>
+<tr><td>Ömür beklentisi</td><td>100.000+ saat</td><td>20.000-30.000 saat</td></tr>
+<tr><td>İlk yatırım maliyeti</td><td>Orta-yüksek</td><td>Orta</td></tr>
+<tr><td>Toplam sahip olma maliyeti</td><td>Düşük</td><td>Yüksek</td></tr>
+</table>
 
 <h3>Verimlilik ve Enerji Tüketimi</h3>
-<ul>
-<li><strong>Fiber lazer verimi:</strong> %30-40 (elektrikten lazere dönüşüm)</li>
-<li><strong>CO2 lazer verimi:</strong> %8-12</li>
-<li><strong>Sonuç:</strong> Aynı kesim gücü için fiber lazer %60-70 daha az elektrik tüketir.</li>
-</ul>
+<p>Fiber lazer ve CO2 lazer arasındaki en çarpıcı fark enerji verimliliğindedir. Fiber lazer %30-40 elektrik-lazer dönüşüm verimine sahipken, CO2 lazerin verimi yalnızca %8-12'dir. Bu, aynı kesim gücü (örneğin 4 kW lazer çıkışı) için fiber lazerin %60-70 daha az elektrik tüketmesi anlamına gelir. Fiber lazer rezonatörü daha az ısı ürettiğinden, soğutma sistemi de daha küçük ve daha az enerji tüketen boyuttadır. Yıllık enerji tasarrufu, işletme büyüklüğüne göre önemli maliyet avantajı oluşturur.</p>
 
 <h3>Kesim Hızı Karşılaştırması</h3>
-<p>İnce metallerde (0.5-6mm) fiber lazer, CO2 lazere göre 2-3 kat daha hızlıdır. Orta kalınlıklarda (6-12mm) hız farkı azalır. 20mm üzeri kalınlıklarda her iki teknoloji benzer performans gösterir. Fiber lazerin kısa dalga boyu metallerde daha iyi emilir, bu da yüksek hızın temel nedenidir.</p>
+<p>İnce metallerde (0.5-6mm) fiber lazer, CO2 lazere göre 2-3 kat daha hızlı kesim yapar. Bunun temel nedeni, fiber lazerin 1.07μm dalga boyunun metallerde CO2 lazerin 10.6μm dalga boyuna göre çok daha yüksek emilim oranına sahip olmasıdır. Çelikte emilim oranı fiber lazer için yaklaşık %35, CO2 lazer için yaklaşık %5'tir. Orta kalınlıklarda (6-12mm) hız farkı azalmaya başlar. 20mm üzeri kalınlıklarda her iki teknoloji benzer performans gösterir; çünkü kalın malzemede kesim hızı ışın emiliminden çok termal penetrasyon mekanizmasına bağlıdır.</p>
 
-<h3>Bakım Maliyeti</h3>
-<p>CO2 lazerlerde ayna, lens ve türbin bakımı düzenli olarak gerekir; lazer gazı tüketimi vardır. Fiber lazerlerde hareketli optik parça yoktur, lazer gazı kullanılmaz, bakım maliyeti CO2'ye göre %80 daha düşüktür.</p>
+<h3>Bakım Maliyeti ve İşletme Giderleri</h3>
+<p>CO2 lazerlerde optik yol üzerindeki aynalar ve odaklama lensi periyodik temizlik ve değişim gerektirir. Lazer rezonatöründeki türbin (blower) bakımı yapılmalıdır. CO2, N2 ve He lazer gazı sürekli tüketilir. Toplam bakım maliyeti yıllık bazda önemli bir gider kalemidir. Fiber lazerlerde ise lazer ışını optik fiber kablo ile iletildiğinden hareketli ayna veya lens sistemi yoktur. Lazer gazı kullanılmaz. Diyot pompa modüllerinin ömrü 100.000+ saattir (CO2 lazerlerin 3-5 katı). Bakım maliyeti CO2 lazere göre %80'e kadar düşüktür. Sadece koruyucu cam, nozul ve filtre gibi sarf malzemeleri periyodik değişim gerektirir.</p>
 
 <h3>Malzeme Uyumluluğu</h3>
-<p>Fiber lazer tüm metal malzemelerde üstündür. CO2 lazer ise ahşap, akrilik, kumaş ve kağıt gibi organik malzemeleri kesebilir, fiber lazer bu malzemelerde kullanılmaz. Metal kesim odaklı tesislerde fiber lazer tartışmasız tercih olmuştur.</p>
+<p><strong>Metal kesim:</strong> Fiber lazer, tüm metal malzemelerde CO2 lazere göre üstün performans gösterir. Özellikle bakır, pirinç ve alüminyum gibi yansıtıcı metallerde fiber lazer çok daha güvenli ve verimlidir (CO2 lazer geri yansıma nedeniyle rezonatör hasarı riski taşır).</p>
+<p><strong>Organik malzemeler:</strong> CO2 lazerin 10.6μm dalga boyu, ahşap, akrilik (pleksiglas), MDF, kumaş, deri, kağıt ve plastik gibi organik malzemelerde mükemmel emilir. Bu malzemelerin kesimi, gravürü ve markalanması CO2 lazer ile yapılır. Fiber lazerin 1.07μm dalga boyu bu malzemelerde emilmez ve kesim yapılamaz.</p>
 
-<p>Kuzey Şafak Lazer olarak son teknoloji fiber lazer kesim makinemizle hizmet veriyoruz.</p>`,
+<h3>Hangi Durumda Hangi Teknoloji Tercih Edilmeli?</h3>
+<p><strong>Fiber lazer tercih edilmeli:</strong> Metal kesim odaklı tüm uygulamalarda, özellikle ince-orta kalınlıklarda yüksek hız ve verimlilik gerektiğinde, bakır ve pirinç gibi yansıtıcı metallerde, düşük işletme maliyeti ve minimum bakım istendiğinde, 7/24 yüksek kapasite üretim yapılacağında.</p>
+<p><strong>CO2 lazer tercih edilmeli:</strong> Ahşap, akrilik, tekstil, deri, kağıt ve plastik gibi organik malzeme kesiminde, hem metal hem organik malzeme kesen karma tesislerde, gravür ve markalama uygulamalarında.</p>
+
+<h3>Kuzey Şafak Lazer'de Fiber Lazer Teknolojisi</h3>
+<p>Kuzey Şafak Lazer olarak İstanbul İkitelli OSB'deki tesisimizde son teknoloji yüksek güçlü fiber lazer kesim makinemizle hizmet veriyoruz. Metal kesim odaklı üretim yapımız için fiber lazer, üstün hız, hassasiyet, enerji verimliliği ve düşük bakım maliyeti ile en doğru teknoloji tercihidir. 2000x6000mm kesim alanı ve geniş kalınlık kapasitemiz ile çelik, paslanmaz çelik, alüminyum, galvaniz, bakır, pirinç ve Hardox malzemelerde hizmet veriyoruz.</p>`,
     relatedServices: ['lazer-kesim'],
     faq: [
-      { q: 'Fiber lazer neden CO2 lazerden daha hızlı keser?', a: 'Fiber lazerin 1.07μm dalga boyu, metallerde CO2 lazerin 10.6μm dalga boyuna göre çok daha iyi emilir. Bu yüksek emilim, aynı güçte daha hızlı kesim yapılmasını sağlar.' },
-      { q: 'CO2 lazer artık kullanılmıyor mu?', a: 'Metal kesimde fiber lazer büyük oranda CO2 lazerin yerini almıştır. Ancak ahşap, akrilik, tekstil gibi organik malzeme kesiminde CO2 lazer hala vazgeçilmezdir.' },
-      { q: 'Fiber lazer bakımı gerektirir mi?', a: 'Fiber lazerin bakım gereksinimi CO2 lazere göre çok düşüktür. Hareketli optik parça ve lazer gazı olmadığı için bakım maliyeti %80 daha azdır. Koruyucu cam ve nozul gibi sarf malzemeleri periyodik değişim gerektirir.' }
+      { q: 'Fiber lazer neden CO2 lazerden daha hızlı keser?', a: 'Fiber lazerin 1.07μm dalga boyu, metallerde CO2 lazerin 10.6μm dalga boyuna göre çok daha yüksek oranda emilir (çelikte %35 vs %5). Bu yüksek emilim oranı, aynı güçte 2-3 kat daha hızlı kesim yapılmasını sağlar.' },
+      { q: 'CO2 lazer artık kullanılmıyor mu?', a: 'Metal kesimde fiber lazer büyük oranda CO2 lazerin yerini almıştır. Ancak ahşap, akrilik, tekstil, deri ve kağıt gibi organik malzeme kesiminde CO2 lazer hala vazgeçilmezdir ve bu alanda fiber lazerin alternatifi yoktur.' },
+      { q: 'Fiber lazer bakımı gerektirir mi?', a: 'Fiber lazerin bakım gereksinimi CO2 lazere göre çok düşüktür. Hareketli optik parça ve lazer gazı tüketimi yoktur. Diyot ömrü 100.000+ saattir. Sadece koruyucu cam, nozul ve filtre gibi sarf malzemeleri periyodik değişim gerektirir.' },
+      { q: 'Fiber lazer bakır ve pirinç kesebilir mi?', a: 'Evet, fiber lazer bakır ve pirinç gibi yansıtıcı metalleri güvenle kesebilir. CO2 lazerde bu malzemelerde geri yansıma riski bulunurken, fiber lazerin dalga boyu bu metallerde daha iyi emilir ve rezonatör hasarı riski yoktur.' },
+      { q: 'Fiber lazerin ömrü ne kadardır?', a: 'Fiber lazer diyot pompa modüllerinin ortalama ömrü 100.000 saatin üzerindedir. Bu, günde 8 saat çalışma ile yaklaşık 30+ yıla karşılık gelir. CO2 lazer rezonatörlerinin ömrü ise 20.000-30.000 saat aralığındadır.' }
     ]
   },
 
@@ -625,31 +648,49 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Fason Lazer Kesim Hizmeti - İstanbul',
     metaDesc: 'İstanbul İkitelli OSB\'de fason lazer kesim hizmeti. Fiber lazer ile 0.5-25mm çelik, paslanmaz, alüminyum kesim. Aynı gün teslimat. Kuzey Şafak Lazer.',
     category: 'fason',
-    content: `<p><strong>Fason lazer kesim</strong>, kendi üretim tesisinde lazer kesim makinesi bulunmayan firmaların, kesim işlerini dışarıdan temin etmesidir. Kuzey Şafak Lazer olarak İstanbul İkitelli Organize Sanayi Bölgesi'ndeki tesisimizde fason lazer kesim hizmeti sunuyoruz.</p>
+    content: `<p><strong>Fason lazer kesim</strong>, kendi üretim tesisinde lazer kesim makinesi bulunmayan veya mevcut kapasitesi yetersiz kalan firmaların, lazer kesim ihtiyaçlarını uzman bir tedarikçiden temin etmesidir. Fason üretim modeli, firmalara yüksek maliyetli makine yatırımı yapmadan, son teknoloji ekipmanların avantajlarından yararlanma imkanı sunar. Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli Organize Sanayi Bölgesi'ndeki modern tesisimizde yüksek güçlü fiber lazer makinemizle fason lazer kesim hizmeti sunuyoruz.</p>
 
-<h3>Neden Kuzey Şafak Lazer'i Tercih Etmelisiniz?</h3>
+<h3>Fason Lazer Kesimin Avantajları</h3>
+<p>Fason lazer kesim hizmeti almak, birçok stratejik avantaj sağlar. Firmanız milyonlarca TL'lik lazer kesim makinesi yatırımı yapmak zorunda kalmaz. Makine bakım, onarım, operatör istihdamı ve enerji giderlerinden tasarruf edersiniz. İhtiyacınız olduğunda, ihtiyacınız kadar kapasite kullanırsınız; sabit maliyet değişken maliyete dönüşür. Son teknoloji fiber lazer makinelerin sağladığı yüksek hassasiyet ve hızdan faydalanırsınız. Üretim kapasitenizi esnek tutarak talep dalgalanmalarına hızla adapte olabilirsiniz. Ana uzmanlık alanınıza odaklanırken, kesim işini uzman bir partnere bırakırsınız.</p>
+
+<h3>İstanbul İkitelli OSB'de Fason Lazer Kesim Almanın Faydaları</h3>
+<p>İkitelli Organize Sanayi Bölgesi, İstanbul'un ve Türkiye'nin en büyük sanayi bölgelerinden biridir. Binlerce üretim tesisine ev sahipliği yapar ve metal işleme sektörünün İstanbul'daki merkezidir. İkitelli OSB'de konumlanmış olmamız, müşterilerimize önemli avantajlar sağlar: TEM ve E-5 otoyollarına yakınlık sayesinde İstanbul'un her noktasından kolay erişim; bölgedeki yoğun sanayi altyapısı sayesinde hızlı malzeme tedariki; çevre sanayicilerle aynı ekosistemde bulunmanın getirdiği hızlı iletişim ve teslimat; lojistik firmalarıyla yakın ilişkiler sayesinde İstanbul dışı sevkiyatlarda da rekabetçi nakliye imkanı.</p>
+
+<h3>Lazer Kesim Kapasitemiz</h3>
 <ul>
-<li><strong>Merkezi konum:</strong> İkitelli OSB, İstanbul'un en büyük sanayi bölgesidir. Kolay ulaşım ve lojistik avantajı sağlar.</li>
-<li><strong>Fiber lazer teknolojisi:</strong> 2000x6000mm kesim alanına sahip yüksek güçlü fiber lazer makinemiz ile hızlı ve hassas kesim.</li>
-<li><strong>Geniş malzeme yelpazesi:</strong> Çelik, paslanmaz, alüminyum, galvaniz, bakır, pirinç ve hardox kesim.</li>
-<li><strong>Hızlı teslimat:</strong> Acil siparişlerde aynı gün veya ertesi gün teslimat imkanı.</li>
-<li><strong>Malzeme tedariki:</strong> Kendi malzemenizi getirebilir veya sizin adınıza uygun fiyatla tedarik edebiliriz.</li>
+<li><strong>Makine:</strong> Yüksek güçlü fiber lazer kesim makinesi</li>
+<li><strong>Kesim alanı:</strong> 2000 x 6000mm</li>
+<li><strong>Çelik kesim kapasitesi:</strong> 0.5mm - 25mm (St37, St52, S235JR, S355JR)</li>
+<li><strong>Paslanmaz çelik:</strong> 0.5mm - 20mm (304, 316L, 430)</li>
+<li><strong>Alüminyum:</strong> 0.5mm - 12mm</li>
+<li><strong>Galvaniz sac:</strong> 0.5mm - 6mm</li>
+<li><strong>Bakır/Pirinç:</strong> 0.5mm - 6mm</li>
+<li><strong>Hardox:</strong> 3mm - 20mm (Hardox 400, 450)</li>
+<li><strong>Tolerans:</strong> ±0.1mm</li>
 </ul>
 
-<h3>Fason Lazer Kesim Süreci</h3>
-<p>1. DXF/DWG dosyanızı e-posta veya WhatsApp üzerinden gönderin. 2. Malzeme cinsi, kalınlığı ve adet bilgisi verin. 3. Aynı gün içinde fiyat teklifi alın. 4. Onay sonrası en kısa sürede kesim ve teslimat.</p>
+<h3>Hangi Sektörlere Hizmet Veriyoruz?</h3>
+<p>Fason lazer kesim hizmetimizden yararlanan sektörler: makine imalatı ve otomasyon, çelik konstrüksiyon, asansör imalatı, havalandırma (HVAC), elektrik panosu üretimi, mobilya ve metal aksesuarlar, otomotiv yan sanayi, reklam ve tabela sektörü, gıda sanayi ekipmanları, savunma sanayi, medikal cihaz, aydınlatma, enerji sektörü ve mimari dekorasyon. Küçük atölyelerden büyük sanayi kuruluşlarına kadar geniş bir müşteri portföyüne hizmet veriyoruz.</p>
 
-<h3>Kimler Fason Lazer Kesim Yaptırır?</h3>
-<p>Makine imalatçıları, çelik konstrüksiyon firmaları, mobilya üreticileri, asansör firmaları, otomotiv yan sanayi, reklam ve tabela sektörü, HVAC firmaları ve daha birçok sektör fason lazer kesim hizmetimizden yararlanmaktadır.</p>
+<h3>Fason Lazer Kesim Sipariş Süreci</h3>
+<p>Sipariş sürecimiz hızlı ve pratiktir:</p>
+<ul>
+<li><strong>1. Dosya gönderimi:</strong> DXF, DWG, STEP veya PDF formatında kesim dosyanızı WhatsApp (0555 000 83 04) veya e-posta ile gönderin.</li>
+<li><strong>2. Bilgi paylaşımı:</strong> Malzeme cinsi, kalınlığı ve sipariş adedini belirtin.</li>
+<li><strong>3. Teklif:</strong> Aynı gün içinde projenize özel fiyat teklifi alın.</li>
+<li><strong>4. Onay ve üretim:</strong> Teklif onayı sonrası en kısa sürede kesim işlemi gerçekleştirilir.</li>
+<li><strong>5. Teslimat:</strong> Kesilen parçalar kalite kontrol sonrası teslim edilir. İstanbul içi teslimat organize edilebilir.</li>
+</ul>
 
-<h3>Ek Hizmetler</h3>
-<p>Sadece kesim değil; CNC büküm, kaynaklı imalat ve CNC plazma kesim hizmetlerimizle projenizi başından sonuna kadar tek çatı altında tamamlayabiliyoruz.</p>`,
+<h3>Ek Hizmetler: Tek Çatı Altında Komple Çözüm</h3>
+<p>Kuzey Şafak Lazer'de sadece lazer kesim değil, CNC plazma kesim, CNC abkant büküm ve kaynaklı imalat hizmetleri de aynı tesis bünyesinde sunulmaktadır. Projenizi kesimden montaja kadar tek tedarikçiden tamamlayabilir, koordinasyon zorluğunu ortadan kaldırabilir ve toplam maliyeti düşürebilirsiniz. Malzeme tedariki, nesting optimizasyonu ve teknik çizim desteği de standart hizmetlerimiz arasındadır.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-bukum', 'kaynakli-imalat'],
     faq: [
-      { q: 'Fason lazer kesim için minimum sipariş adedi var mı?', a: 'Hayır, tek parçadan binlerce adede kadar her miktarda fason lazer kesim yapıyoruz.' },
-      { q: 'Malzeme sizden temin edilebilir mi?', a: 'Evet, ihtiyacınız olan sacı sizin adınıza piyasa koşullarında tedarik edebiliriz. Alternatif olarak kendi malzemenizi de getirebilirsiniz.' },
-      { q: 'Fason lazer kesim süresi ne kadardır?', a: 'Parça sayısı ve karmaşıklığına göre değişmekle birlikte, standart siparişlerde 1-2 iş günü, acil siparişlerde aynı gün teslimat mümkündür.' },
-      { q: 'Fason lazer kesim yaptırmak için ne göndermem gerekir?', a: 'DXF veya DWG formatında kesim dosyası, malzeme cinsi, kalınlığı ve adet bilgisi yeterlidir. Dosyanız yoksa eskiz veya numune de kabul ediyoruz.' }
+      { q: 'Fason lazer kesim için minimum sipariş adedi var mı?', a: 'Hayır, tek parçadan binlerce adede kadar her miktarda fason lazer kesim yapıyoruz. Minimum sipariş limiti uygulamıyoruz. Prototip, numune veya seri üretim fark etmez.' },
+      { q: 'Malzeme sizden temin edilebilir mi?', a: 'Evet, ihtiyacınız olan sacı sizin adınıza piyasa koşullarında tedarik edebiliriz ve malzeme dahil paket fiyat sunabiliriz. Alternatif olarak kendi malzemenizi de getirebilirsiniz.' },
+      { q: 'Fason lazer kesim süresi ne kadardır?', a: 'Parça sayısı ve karmaşıklığına göre değişmekle birlikte, standart siparişlerde 1-2 iş günü, acil siparişlerde aynı gün teslimat mümkündür. Büyük hacimli siparişlerde termin bilgisi teklif ile birlikte verilir.' },
+      { q: 'Fason lazer kesim yaptırmak için ne göndermem gerekir?', a: 'DXF veya DWG formatında kesim dosyası, malzeme cinsi, kalınlığı ve adet bilgisi yeterlidir. Dosyanız yoksa eskiz, el çizimi, numune parça veya fotoğraf da kabul ediyoruz. Teknik ekibimiz çizim oluşturabilir.' },
+      { q: 'İstanbul dışına teslimat yapıyor musunuz?', a: 'Evet, anlaşmalı kargo ve nakliye firmalarımız aracılığıyla Türkiye geneline teslimat yapıyoruz. Büyük siparişlerde parsiyel veya komple araç organizasyonu da mümkündür.' }
     ]
   },
 
@@ -659,30 +700,48 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Fason CNC Büküm (Abkant) Hizmeti - İstanbul',
     metaDesc: 'İstanbul İkitelli OSB\'de fason CNC büküm hizmeti. 3000mm büküm boyu, 220 ton kapasite. Çelik, paslanmaz, alüminyum sac büküm. Kuzey Şafak Lazer.',
     category: 'fason',
-    content: `<p><strong>Fason CNC büküm</strong>, sac metal parçaların dışarıdan CNC abkant pres ile bükülme hizmeti alınmasıdır. Kuzey Şafak Lazer olarak İstanbul İkitelli OSB'de 220 ton kapasiteli CNC abkant presimizle fason büküm hizmeti veriyoruz.</p>
+    content: `<p><strong>Fason CNC büküm</strong>, sac metal parçaların dışarıdan profesyonel bir CNC abkant pres ile hassas bükülme hizmeti alınmasıdır. Abkant pres yatırımı yapmak istemeyen, mevcut kapasitesi yetersiz kalan veya özel büküm gereksinimleri olan firmalar için fason büküm, esnek ve ekonomik bir çözüm sunar. Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde 220 ton kapasiteli CNC abkant presimizle fason büküm hizmeti veriyoruz.</p>
+
+<h3>Fason CNC Büküm Almanın Avantajları</h3>
+<p>CNC abkant pres yatırımı, makine bedeli, kalıp seti, operatör istihdamı ve bakım giderleri ile önemli bir sermaye gerektirir. Fason büküm hizmeti alarak bu yatırımlardan tasarruf edersiniz. Sadece ihtiyacınız kadar kapasite kullanır, sabit maliyetleri değişken hale getirirsiniz. CNC kontrollü makinemiz her parçada ±0.1° açı hassasiyeti ve ±0.05mm boyutsal hassasiyet garanti eder. Deneyimli operatörlerimiz, karmaşık ve çok adımlı büküm operasyonlarında fark yaratır. İşinizdeki büyüme veya talep dalgalanmalarına hızla uyum sağlayabilirsiniz.</p>
+
+<h3>İstanbul İkitelli OSB'de Fason Büküm Hizmeti</h3>
+<p>İkitelli OSB, İstanbul'un sanayi kalbinde yer alır ve metal işleme sektörünün en yoğun olduğu bölgedir. Bu konumun sağladığı lojistik avantaj sayesinde, İstanbul'un her noktasından kolay ulaşım ve hızlı teslimat mümkündür. Bölgedeki yoğun sanayi altyapısı, malzeme tedarikinde ve yan hizmetlerde (boyama, kaplama vb.) kolaylık sağlar. Fason büküm için kesilmiş parçalarınızı tesisimize getirebilir veya kargo ile gönderebilirsiniz.</p>
 
 <h3>CNC Büküm Kapasitemiz</h3>
 <ul>
+<li><strong>Makine:</strong> CNC kontrollü hidrolik abkant pres</li>
 <li><strong>Büküm uzunluğu:</strong> 3000mm</li>
 <li><strong>Büküm kapasitesi:</strong> 220 ton</li>
 <li><strong>Açı hassasiyeti:</strong> ±0.1°</li>
-<li><strong>Malzeme kalınlığı:</strong> 0.5mm - 12mm (malzeme türüne göre)</li>
-<li><strong>Malzeme türleri:</strong> Çelik, paslanmaz çelik, alüminyum, galvaniz, bakır</li>
+<li><strong>Boyut hassasiyeti:</strong> ±0.05mm</li>
+<li><strong>Malzeme kalınlığı:</strong> Çelikte 0.5-12mm, paslanmazda 0.5-8mm, alüminyumda 0.5-10mm</li>
+<li><strong>Malzeme türleri:</strong> Çelik, paslanmaz çelik, alüminyum, galvaniz, DKP, bakır, pirinç</li>
+<li><strong>Arka dayama:</strong> Programlanabilir çok eksenli backgauge sistemi</li>
+<li><strong>Kalıp seti:</strong> Standart V kalıplar, kaz boynu, Z kalıp ve özel profil kalıpları</li>
 </ul>
 
-<h3>Fason Büküm Avantajlarımız</h3>
-<p>CNC kontrollü makinemiz her parçada aynı hassasiyeti garanti eder. Programlanabilir arka dayama (backgauge) sistemi ile karmaşık çok adımlı büküm operasyonlarını hızla gerçekleştiriyoruz. Deneyimli operatörlerimiz özellikle dar toleranslı ve çok bükümlü parçalarda fark yaratır.</p>
-
-<h3>Lazer Kesim + Büküm Entegrasyonu</h3>
-<p>En büyük avantajımız, aynı tesis içinde lazer kesim ve büküm yapabilmemizdir. Kesim ve büküm arasında taşıma, bekleme ve iletişim kaybı yoktur. Bu entegrasyon hem süreyi kısaltır hem de boyutsal doğruluğu artırır.</p>
-
 <h3>Hangi Sektörlere Hizmet Veriyoruz?</h3>
-<p>Elektrik panosu üreticileri, makine imalatçıları, asansör firmaları, havalandırma (HVAC) şirketleri, mobilya üreticileri ve genel sac metal imalat firmaları düzenli olarak fason CNC büküm hizmetimizden yararlanmaktadır.</p>`,
+<p>Fason CNC büküm hizmetimizden yararlanan başlıca sektörler: elektrik panosu ve kumanda dolabı üreticileri, makine imalatçıları, asansör firmaları, havalandırma (HVAC) şirketleri, mobilya üreticileri, aydınlatma sektörü, otomotiv yan sanayi, reklam ve tabela firmaları, gıda sanayi ekipman üreticileri ve genel sac metal imalat firmaları. Küçük atölyelerden büyük fabrikalara kadar geniş bir müşteri yelpazesine hizmet veriyoruz.</p>
+
+<h3>Lazer Kesim + Büküm Entegrasyonu: Tek Çatı Avantajı</h3>
+<p>Kuzey Şafak Lazer'in en büyük avantajlarından biri, aynı tesis içinde fiber lazer kesim ve CNC büküm hizmeti sunmasıdır. Kesim ve büküm süreçleri arasında taşıma, bekleme ve iletişim kaybı yoktur. Her iki işlem aynı kalite standartlarıyla, aynı teknik ekip tarafından koordineli bir şekilde yürütülür. Bu entegrasyon, teslimat süresini kısaltır, boyutsal doğruluğu artırır ve toplam maliyeti düşürür. Kesim+büküm paket siparişlerinizde ek avantaj sağlıyoruz.</p>
+
+<h3>Fason Büküm Sipariş Süreci</h3>
+<ul>
+<li><strong>1. Teknik çizim gönderimi:</strong> Büküm açıları ve ölçülerinin belirtildiği teknik çizimi WhatsApp (0555 000 83 04) veya e-posta ile gönderin.</li>
+<li><strong>2. Bilgi paylaşımı:</strong> Malzeme cinsi, kalınlığı ve adet bilgisini belirtin. Parçalarınız kesilmişse mevcut durumunu bildirin.</li>
+<li><strong>3. Teklif:</strong> Projenize özel fiyat teklifi alın.</li>
+<li><strong>4. Parça teslimi:</strong> Kesilmiş parçalarınızı tesisimize getirin veya kargo ile gönderin. Kesim de bizden olacaksa sadece dosya gönderin.</li>
+<li><strong>5. Üretim ve teslimat:</strong> CNC büküm işlemi gerçekleştirilir, kalite kontrol sonrası parçalarınız teslim edilir.</li>
+</ul>`,
     relatedServices: ['cnc-bukum', 'lazer-kesim'],
     faq: [
-      { q: 'Fason büküm için kesim de yaptırabilir miyim?', a: 'Evet, lazer kesim + CNC büküm kombinasyonunu tek çatı altında sunuyoruz. Bu sayede hem zaman hem maliyet tasarrufu sağlarsınız.' },
-      { q: 'En kalın kaç mm sac bükebilirsiniz?', a: 'Çelikte 12mm, paslanmazda 8mm, alüminyumda 10mm kalınlığa kadar büküm yapabiliyoruz. Kalınlık büküm uzunluğuyla ters orantılıdır.' },
-      { q: 'Fason büküm için ne göndermem gerekir?', a: 'Teknik çizim (büküm açıları ve ölçüleri belirtilmiş), malzeme cinsi ve kalınlığı bilgisi gereklidir. Kesilmiş parçaları bize iletebilir veya kesimi de bizden yaptırabilirsiniz.' }
+      { q: 'Fason büküm için kesim de yaptırabilir miyim?', a: 'Evet, fiber lazer kesim + CNC büküm kombinasyonunu tek çatı altında sunuyoruz. Kesim ve büküm entegrasyonu hem zaman hem maliyet tasarrufu sağlar ve boyutsal uyumluluğu artırır.' },
+      { q: 'En kalın kaç mm sac bükebilirsiniz?', a: '220 ton kapasitemizle çelikte 12mm, paslanmazda 8mm, alüminyumda 10mm kalınlığa kadar büküm yapabiliyoruz. Kalınlık kapasitesi büküm uzunluğuyla ters orantılıdır; kısa bükümlerde daha kalın malzeme işlenebilir.' },
+      { q: 'Fason büküm için ne göndermem gerekir?', a: 'Büküm açıları ve ölçülerinin belirtildiği teknik çizim, malzeme cinsi ve kalınlığı bilgisi gereklidir. Kesilmiş parçaları bize iletebilir veya kesimi de bizden yaptırabilirsiniz.' },
+      { q: 'Büküm sonrası kaynak da yaptırabilir miyim?', a: 'Evet, CNC büküm sonrası MIG/MAG veya TIG kaynak ile birleştirme ve montaj işlemlerini aynı tesis içinde gerçekleştiriyoruz. Kesim+büküm+kaynak paket hizmeti sunuyoruz.' },
+      { q: 'Çok adımlı karmaşık büküm yapabiliyor musunuz?', a: 'Evet, CNC abkant presimizin programlanabilir arka dayama sistemi sayesinde 6-10 adımlık karmaşık büküm sekanslarını hassas ve tutarlı şekilde gerçekleştiriyoruz. Kutu, kabin ve profil gibi çok bükümlü parçalarda uzmanız.' }
     ]
   },
 
@@ -692,28 +751,39 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Fason Kaynak ve Kaynaklı İmalat - İstanbul',
     metaDesc: 'İstanbul İkitelli OSB\'de fason kaynak hizmeti. MIG, TIG kaynak ile çelik, paslanmaz, alüminyum imalat. Kuzey Şafak Lazer.',
     category: 'fason',
-    content: `<p><strong>Fason kaynak</strong>, metal parçaların birleştirilmesi veya kaynaklı imalat işlerinin dışarıdan profesyonel bir atölye tarafından yapılmasıdır. Kuzey Şafak Lazer olarak İstanbul İkitelli OSB'de deneyimli kaynakçı kadromuzla fason kaynak ve kaynaklı imalat hizmeti veriyoruz.</p>
+    content: `<p><strong>Fason kaynak</strong>, metal parçaların profesyonel kaynak ekipmanları ve deneyimli operatörler tarafından birleştirilmesi veya komple kaynaklı imalat projelerinin dış kaynak olarak gerçekleştirilmesidir. Kaynak işlemi, yüksek beceri, doğru ekipman ve uygun çalışma ortamı gerektiren kritik bir üretim aşamasıdır. Fason kaynak hizmeti alarak, bu kritik süreci uzman bir partnere bırakabilir ve projenizin kalitesinden emin olabilirsiniz. Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde deneyimli kaynakçı kadromuzla fason kaynak ve kaynaklı imalat hizmeti sunuyoruz.</p>
 
-<h3>Kaynak Yöntemlerimiz</h3>
+<h3>Fason Kaynak Hizmeti Almanın Avantajları</h3>
+<p>Kaynaklı imalat, sadece kaynak makinesi yatırımı değil, aynı zamanda deneyimli kaynakçı istihdamı, sertifikasyon, kalite kontrol altyapısı ve uygun çalışma ortamı gerektirir. Fason kaynak hizmeti ile bu yatırımlardan tasarruf edersiniz. Deneyimli kadromuzun becerisi ve tecrübesi sayesinde yüksek kaliteli kaynak dikişi garanti edilir. MIG/MAG ve TIG kaynak yöntemlerinin her ikisine de sahip olduğumuzdan, projenizin malzeme türüne ve kalite gereksinimine en uygun yöntem uygulanır. İhtiyacınız olduğunda, ihtiyacınız kadar kapasite kullanırsınız.</p>
+
+<h3>İstanbul İkitelli OSB'de Fason Kaynak Hizmeti</h3>
+<p>İkitelli OSB, İstanbul'un ve Türkiye'nin en büyük organize sanayi bölgelerinden biridir. Metal işleme sektörünün İstanbul'daki merkezidir ve güçlü bir tedarik zincirine sahiptir. Bu konumun avantajları: TEM ve E-5 otoyollarına yakınlık ile kolay ulaşım, bölgedeki yoğun sanayi ağından dolgu malzemesi, gaz ve yan malzeme tedarikinde hız, çevre sanayicilere yakınlık sayesinde hızlı iletişim ve teslimat, İstanbul'un her iki yakasından erişilebilir merkezi konum.</p>
+
+<h3>Kaynak Yöntemlerimiz ve Kapasitemiz</h3>
 <ul>
-<li><strong>MIG/MAG Kaynak:</strong> Çelik ve paslanmaz çelik seri üretim birleştirmelerinde. CO2 ve karışım gazı ile yüksek verimli kaynak.</li>
-<li><strong>TIG Kaynak:</strong> Paslanmaz çelik ve alüminyumda estetik ve yüksek kaliteli birleştirmeler. Gıda sanayi ve mimari uygulamalarda tercih edilir.</li>
-<li><strong>Elektrot Kaynak:</strong> Ağır konstrüksiyon ve saha montajı gerektiren işlerde.</li>
+<li><strong>MIG/MAG Kaynak (GMAW):</strong> Çelik ve paslanmaz çelik seri üretim birleştirmelerinde yüksek verimli kaynak. CO2, argon+CO2 karışımı ve saf argon gazlarıyla çalışıyoruz. 0.8mm-1.6mm çapında dolgu telleriyle geniş kalınlık aralığında hizmet veriyoruz.</li>
+<li><strong>TIG Kaynak (GTAW):</strong> Paslanmaz çelik ve alüminyumda estetik, gözeneksiz ve yüksek kaliteli birleştirmeler. DC ve AC TIG kapasitesi ile çelik, paslanmaz ve alüminyum malzemelerde hizmet veriyoruz. Gıda sanayi, kimya sanayi ve mimari uygulamalarda standart yöntemimizdir.</li>
+<li><strong>Punta Kaynak:</strong> İnce sac birleştirmelerinde ve montaj puntalamasında kullanılmaktadır.</li>
 </ul>
 
+<h3>Hangi Sektörlere Hizmet Veriyoruz?</h3>
+<p>Fason kaynak ve kaynaklı imalat hizmetimizden yararlanan başlıca sektörler: makine imalatı (şasi, gövde, yatak), çelik konstrüksiyon (kolon, kiriş, bağlantı), asansör (kabin, kapı kasası), havalandırma (HVAC kanal, menfez), elektrik (pano kutusu, kablo kanalı), mobilya (metal aksesuarlar), gıda sanayi (paslanmaz ekipman), otomotiv yan sanayi (braket, tutucu), mimari dekorasyon (korkuluk, küpeşte, dekoratif metal) ve genel sac metal imalat.</p>
+
 <h3>Kaynaklı İmalat Alanlarımız</h3>
-<p>Makine şasileri ve gövdeleri, çelik konstrüksiyon, platform ve merdiven imalatı, tank ve hazneler, taşıma ekipmanları, pano kutuları, korkuluk ve küpeşte, dekoratif metal işleri, özel amaçlı fikstürler ve daha fazlası.</p>
+<p>Makine şasileri ve gövdeleri, çelik konstrüksiyon elemanları, platform ve merdiven imalatı, tank ve hazneler, taşıma ekipmanları (palet, sepet, araba), pano kutuları ve kumanda dolabı gövdeleri, korkuluk ve küpeşte sistemleri, dekoratif metal işleri, özel amaçlı fikstürler ve montaj aparatları, tarım makinesi parçaları, enerji sektörü metal aksamı ve daha fazlası. Basit birleştirmelerden karmaşık çok parçalı montajlara kadar geniş bir yelpazeye hizmet veriyoruz.</p>
 
 <h3>Kalite Güvencesi</h3>
-<p>Tüm kaynak operasyonlarında uygun dolgu malzemesi, gaz ve parametre seçimi yapılır. Kritik uygulamalarda görsel muayene ve boyutsal kontrol standart sürecimize dahildir. İhtiyaç halinde NDT (tahribatsız muayene) testleri organize edilebilir.</p>
+<p>Tüm kaynak operasyonlarında doğru dolgu malzemesi, koruyucu gaz ve kaynak parametresi seçimi titizlikle yapılır. Her proje için uygun birleştirme tasarımı, kaynak sırası ve parametre tablosu belirlenir. Standart sürecimize dahil olan kalite kontrol adımları: kaynak öncesi birleştirme yüzeylerinin temizlik kontrolü, kaynak sırası parametre takibi, kaynak sonrası görsel muayene ve boyutsal kontrol. Kritik uygulamalarda penetrant testi (PT), ultrasonik test (UT) ve basınç testi gibi NDT yöntemleri organize edilebilir.</p>
 
-<h3>Entegre Hizmet Avantajı</h3>
-<p>Lazer kesim, CNC büküm ve kaynak süreçlerinin tamamını tek tesiste gerçekleştiriyoruz. Bu entegrasyon, süreçler arası uyumu artırır, teslimat süresini kısaltır ve toplam maliyeti düşürür.</p>`,
+<h3>Entegre Hizmet: Kesim + Büküm + Kaynak</h3>
+<p>Kuzey Şafak Lazer'in en güçlü avantajlarından biri, fiber lazer kesim, CNC büküm ve kaynaklı imalat süreçlerinin tamamını aynı tesis içinde sunmasıdır. Bu entegrasyon, süreçler arası boyutsal uyumu artırır, koordinasyon zorluğunu ortadan kaldırır, teslimat süresini kısaltır ve toplam maliyeti düşürür. Projenizi tasarımdan bitmiş ürüne kadar tek tedarikçiden tamamlayabilirsiniz.</p>`,
     relatedServices: ['kaynakli-imalat', 'lazer-kesim', 'cnc-bukum'],
     faq: [
-      { q: 'Alüminyum TIG kaynak yapıyor musunuz?', a: 'Evet, AC TIG kaynak ile alüminyum birleştirme yapıyoruz. Alüminyum profil, levha ve sac malzemelerde kaynaklı imalat hizmeti veriyoruz.' },
-      { q: 'Kaynaklı imalat projesi için ne göndermem gerekir?', a: 'Teknik çizim (montaj ve parça resimleri), malzeme listesi ve adet bilgisi gereklidir. Çiziminiz yoksa eskiz veya numune parça ile de çalışabiliriz.' },
-      { q: 'Büyük konstrüksiyon işleri yapabiliyor musunuz?', a: 'Atölye kapasitemiz dahilinde çelik konstrüksiyon, platform ve makine gövdesi imalatı yapıyoruz. Büyük projeler için kapasite ve süre bilgisi teklif aşamasında verilir.' }
+      { q: 'Alüminyum TIG kaynak yapıyor musunuz?', a: 'Evet, AC TIG kaynak ile alüminyum birleştirme yapıyoruz. AC akım alüminyumun oksit tabakasını temizleyerek kaliteli kaynak sağlar. Alüminyum profil, levha ve sac malzemelerde hizmet veriyoruz.' },
+      { q: 'Kaynaklı imalat projesi için ne göndermem gerekir?', a: 'Teknik çizim (montaj resmi ve parça detayları), malzeme listesi (BOM) ve adet bilgisi gereklidir. Çiziminiz yoksa eskiz, numune parça veya fotoğraf ile de çalışabiliriz.' },
+      { q: 'Büyük konstrüksiyon işleri yapabiliyor musunuz?', a: 'Atölye kapasitemiz dahilinde çelik konstrüksiyon, platform, merdiven ve makine gövdesi imalatı yapıyoruz. Büyük ve ağır projeler için kapasite değerlendirmesi teklif aşamasında yapılır.' },
+      { q: 'Paslanmaz çelik kaynak kalitesi nasıl sağlanır?', a: 'Paslanmaz çelik kaynağında uygun dolgu malzemesi (308L, 316L tel), yüksek saflıkta argon koruyucu gaz ve doğru ısı girdisi kontrolü ile kaliteli, gözeneksiz ve korozyona dayanıklı kaynak dikişi elde edilir.' },
+      { q: 'Kaynak sonrası taşlama ve düzeltme yapıyor musunuz?', a: 'Evet, kaynak dikişi taşlama, yüzey düzeltme ve pürüz giderme hizmetleri standart sürecimize dahildir. Estetik uygulamalarda kaynak dikişi görünmez hale getirilebilir.' }
     ]
   },
 
@@ -723,29 +793,50 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Fason CNC Plazma Kesim Hizmeti - İstanbul',
     metaDesc: 'İstanbul İkitelli OSB\'de fason CNC plazma kesim. 6-50mm çelik sac plazma kesim hizmeti. Kalın saclarda ekonomik çözüm. Kuzey Şafak Lazer.',
     category: 'fason',
-    content: `<p><strong>Fason CNC plazma kesim</strong>, özellikle kalın metal sacların ekonomik ve hızlı kesilmesi için tercih edilen dış kaynaklı bir imalat hizmetidir. Kuzey Şafak Lazer olarak İstanbul İkitelli OSB'de CNC plazma kesim makinemizle fason kesim hizmeti veriyoruz.</p>
+    content: `<p><strong>Fason CNC plazma kesim</strong>, özellikle kalın metal sacların ekonomik ve hızlı kesilmesi için tercih edilen dış kaynaklı bir imalat hizmetidir. Lazer kesimin kalınlık ve maliyet açısından sınırlarına ulaştığı noktalarda (15mm+ çelik), CNC plazma kesim en verimli ve ekonomik termal kesim çözümünü sunar. Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde CNC plazma kesim makinemizle fason kesim hizmeti veriyoruz.</p>
+
+<h3>Fason Plazma Kesim Almanın Avantajları</h3>
+<p>CNC plazma kesim makinesi yatırımı, makine bedeli, güç kaynağı, toz toplama sistemi, operatör istihdamı ve sarf malzeme stoku ile önemli bir sermaye gerektirir. Fason plazma kesim hizmeti alarak bu yatırımları yapmadan, kalın sac kesim ihtiyacınızı profesyonel bir tedarikçiden karşılayabilirsiniz. Sadece ihtiyacınız kadar kapasite kullanır, sabit giderleri değişken maliyete dönüştürürsünüz. CNC kontrollü makinemiz tutarlı kesim kalitesi ve ±0.5mm tolerans sağlar.</p>
+
+<h3>İstanbul İkitelli OSB Avantajı</h3>
+<p>İkitelli OSB, İstanbul'un sanayi merkezi konumundadır ve metal işleme sektörünün en yoğun olduğu bölgedir. TEM ve E-5 otoyollarına yakın konumu ile İstanbul'un her noktasından kolay erişim sağlar. Bölgedeki geniş tedarikçi ağı sayesinde kalın sac plakaların hızlı tedariki mümkündür. Çelik konstrüksiyon, makine imalatı ve ağır sanayi firmalarının yoğun olduğu bölgede, fason plazma kesim talebi yüksektir ve bu talebi karşılayacak altyapıya sahibiz.</p>
 
 <h3>CNC Plazma Kesim Kapasitemiz</h3>
 <ul>
+<li><strong>Makine:</strong> CNC kontrollü portal tip plazma kesim makinesi</li>
 <li><strong>Kesim alanı:</strong> 2000 x 6000mm</li>
-<li><strong>Kesim kalınlığı:</strong> 6mm - 50mm çelik</li>
+<li><strong>Çelik kesim kapasitesi:</strong> 6mm - 50mm (St37, St52, S235JR, S355JR)</li>
+<li><strong>Paslanmaz çelik:</strong> 6mm - 40mm</li>
+<li><strong>Alüminyum:</strong> 6mm - 30mm</li>
+<li><strong>Hardox:</strong> 6mm - 40mm (Hardox 400, Hardox 450)</li>
 <li><strong>Kesim toleransı:</strong> ±0.5mm</li>
-<li><strong>Kesilebilen malzemeler:</strong> Çelik, paslanmaz çelik, alüminyum</li>
+<li><strong>Kerf genişliği:</strong> 1.5-3mm (kalınlığa bağlı)</li>
 </ul>
 
+<h3>Hangi Sektörlere Hizmet Veriyoruz?</h3>
+<p>Fason CNC plazma kesim hizmetimizden yararlanan başlıca sektörler: çelik konstrüksiyon (kolon, kiriş, bağlantı plakası, gusset), makine imalatı (şasi, gövde, yatak plakası), gemi inşa (tekne sacları), ağır sanayi (tank, silo, basınçlı kap), madencilik ekipmanları (Hardox kepçe, aşınma plakası), platform ve merdiven imalatı (taban ve korkuluk plakaları), enerji sektörü (rüzgar türbini temeli, çelik direk), köprü ve altyapı projeleri, tarım makineleri ve vinç-kreyn imalatı.</p>
+
 <h3>Plazma Kesim Ne Zaman Tercih Edilir?</h3>
-<p>15mm üzeri kalınlıklarda plazma kesim, lazer kesime göre önemli maliyet avantajı sağlar. Çelik konstrüksiyon sacları, makine gövdeleri, flanş ve bağlantı plakaları gibi kalın parçalarda CNC plazma en verimli seçenektir. Hassasiyet gereksiniminin ±0.5mm civarında olduğu uygulamalarda ideal performans sunar.</p>
+<p>15mm üzeri kalınlıklarda CNC plazma kesim, lazer kesime göre belirgin maliyet avantajı sağlar ve tercih edilir. Çelik konstrüksiyon sacları, makine gövde plakaları, flanş ve bağlantı elemanları, tank ve silo sacları gibi kalın parçalarda plazma kesim en verimli yöntemdir. ±0.5mm toleransın yeterli olduğu yapısal uygulamalarda ideal performans sunar. 6-15mm aralığında ise projenin hassasiyet ve kalite gereksinimine göre plazma veya lazer tercih edilir.</p>
 
-<h3>Plazma + Lazer Kombinasyonu</h3>
-<p>Aynı projede hem ince hem kalın parçalar bulunabilir. Kalın plakaları CNC plazma ile, ince sacları fiber lazer ile kesiyoruz. Bu yaklaşımla her parçanın en uygun yöntemle kesilmesini sağlayarak toplam maliyet optimize edilir.</p>
+<h3>Plazma + Lazer Kombinasyonu: Maliyet Optimizasyonu</h3>
+<p>Birçok projede hem ince hem kalın parçalar bir arada bulunur. Kuzey Şafak Lazer olarak aynı tesis bünyesinde CNC plazma ve fiber lazer makinelerimiz mevcuttur. Kalın plakaları CNC plazma ile, ince ve hassas parçaları fiber lazer ile keserek her parçanın en uygun yöntemle işlenmesini sağlıyoruz. Bu karma yaklaşım, toplam maliyeti optimize eder ve projenizi eksiksiz teslim etmemizi mümkün kılar.</p>
 
-<h3>Hizmet Süreci</h3>
-<p>Kesim dosyanızı (DXF/DWG) gönderin, malzeme ve kalınlık bilgisi verin, aynı gün teklif alın. Malzeme temini bizden veya sizden olabilir. Onay sonrası hızlı kesim ve teslimat.</p>`,
+<h3>Sipariş Süreci</h3>
+<ul>
+<li><strong>1. Dosya gönderimi:</strong> DXF, DWG veya ölçülü çizim dosyanızı WhatsApp (0555 000 83 04) veya e-posta ile gönderin.</li>
+<li><strong>2. Bilgi paylaşımı:</strong> Malzeme cinsi, kalınlığı ve sipariş adedini belirtin.</li>
+<li><strong>3. Teklif:</strong> Aynı gün içinde projenize özel fiyat teklifi alın.</li>
+<li><strong>4. Malzeme:</strong> Kendi malzemenizi getirebilir veya bizden tedarik isteyebilirsiniz.</li>
+<li><strong>5. Üretim ve teslimat:</strong> Onay sonrası hızlı kesim ve kalite kontrol sonrası teslimat.</li>
+</ul>`,
     relatedServices: ['cnc-plazma', 'lazer-kesim'],
     faq: [
-      { q: 'Plazma kesim ile hangi kalınlıklarda çalışıyorsunuz?', a: '6mm ile 50mm arasında çelik ve paslanmaz çelik plazma kesim yapıyoruz. 6-15mm aralığında lazer kesim de alternatif olarak sunuyoruz.' },
-      { q: 'Plazma kesim kenar kalitesi nasıldır?', a: 'CNC plazma kesim ile düzgün kenar kalitesi elde edilir. Gerekirse kesim sonrası taşlama hizmeti de sunabiliriz.' },
-      { q: 'Hardox plazma ile kesilebilir mi?', a: 'Evet, Hardox 400 ve Hardox 450 gibi aşınma çeliklerini CNC plazma ile başarıyla kesiyoruz. Kalınlığa göre lazer kesim de tercih edilebilir.' }
+      { q: 'Plazma kesim ile hangi kalınlıklarda çalışıyorsunuz?', a: '6mm ile 50mm arasında çelik ve paslanmaz çelik plazma kesim yapıyoruz. 6-15mm aralığında lazer kesim de alternatif olarak sunuyoruz; projenizin hassasiyet gereksinimine göre en uygun yöntemi öneriyoruz.' },
+      { q: 'Plazma kesim kenar kalitesi nasıldır?', a: 'CNC plazma kesim ile düzgün ve çoğu yapısal uygulama için yeterli kenar kalitesi elde edilir. Gerekirse kesim sonrası taşlama ve çapak temizleme hizmeti de sunuyoruz.' },
+      { q: 'Hardox plazma ile kesilebilir mi?', a: 'Evet, Hardox 400 ve Hardox 450 gibi aşınma çeliklerini 40mm kalınlığa kadar CNC plazma ile başarıyla kesiyoruz. İnce Hardox saclarda lazer kesim de tercih edilebilir.' },
+      { q: 'Kalın sac malzeme tedariki yapıyor musunuz?', a: 'Evet, projeniz için gerekli kalın çelik plakalarını sizin adınıza tedarik edebiliyoruz. Malzeme dahil paket fiyat teklifi sunabiliyoruz.' },
+      { q: 'Plazma kesim sonrası büküm veya kaynak da yaptırabilir miyim?', a: 'Evet, CNC plazma kesim sonrası CNC büküm ve kaynaklı imalat hizmetlerimizle projenizi komple tamamlayabiliyoruz. Tüm süreçler aynı tesis içinde gerçekleştirilir.' }
     ]
   },
 
@@ -755,29 +846,45 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Fason Sac Metal İmalat Hizmeti - İstanbul',
     metaDesc: 'İstanbul İkitelli OSB\'de fason sac metal imalat. Lazer kesim, CNC büküm ve kaynak bir arada. Komple sac metal çözüm. Kuzey Şafak Lazer.',
     category: 'fason',
-    content: `<p><strong>Fason sac metal imalat</strong>, metal sac parçaların kesim, büküm, kaynak ve montaj süreçlerinin tamamının tek bir üretici tarafından gerçekleştirilmesidir. Kuzey Şafak Lazer olarak İkitelli OSB'deki tesisimizde komple sac metal imalat hizmeti sunuyoruz.</p>
+    content: `<p><strong>Fason sac metal imalat</strong>, metal sac parçaların tasarımdan bitmiş ürüne kadar tüm üretim aşamalarının (kesim, büküm, kaynak, montaj ve yüzey işlemi) tek bir profesyonel imalat partneri tarafından gerçekleştirilmesidir. Bu komple hizmet modeli, projenin tek sorumludan teslim alınmasını sağlayarak koordinasyon yükünü ortadan kaldırır. Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde kesimden kaynağa kadar tüm sac metal imalat süreçlerini tek çatı altında sunuyoruz.</p>
 
-<h3>Tek Çatı Altında Komple Çözüm</h3>
-<p>Birçok firma kesim, büküm ve kaynak işlerini farklı tedarikçilere yaptırır. Bu durum koordinasyon zorluğu, boyutsal uyumsuzluk ve zaman kaybına neden olur. Kuzey Şafak Lazer'de tüm süreçler aynı tesis içinde, aynı kalite standartlarıyla gerçekleştirilir.</p>
+<h3>Fason Sac Metal İmalatın Avantajları</h3>
+<p>Birçok firma, kesim, büküm ve kaynak işlerini farklı tedarikçilere yaptırmak zorunda kalır. Bu durum ciddi dezavantajlar doğurur: her firma arasında taşıma ve bekleme süreleri oluşur, farklı ekipmanlar arasında boyutsal uyumsuzluk riski artar, iletişim kopukluğu ve sorumluluk belirsizliği yaşanabilir, toplam maliyet aracı taşıma ve koordinasyon giderleri ile yükselir. Tek çatı altında komple imalat hizmeti ile tüm bu sorunlar ortadan kalkar. Kuzey Şafak Lazer'de tüm süreçler aynı tesis içinde, aynı kalite standartlarıyla ve aynı teknik ekip tarafından yürütülür.</p>
 
-<h3>Üretim Süreçlerimiz</h3>
+<h3>İstanbul İkitelli OSB'de Komple Sac Metal İmalat</h3>
+<p>İkitelli OSB, Türkiye'nin en büyük organize sanayi bölgelerinden biri olarak güçlü bir sanayi altyapısına ve tedarik ağına sahiptir. Bu konumun sağladığı avantajlar: geniş malzeme tedarikçi ağından hızlı ham madde temini, TEM ve E-5 otoyollarına yakınlık ile kolay lojistik, bölgedeki yan sanayi firmalarına (boyama, kaplama, ısıl işlem) hızlı erişim, İstanbul'un her noktasından erişilebilir merkezi konum. Bu altyapı, fason imalat projelerinizi hızlı ve rekabetçi şekilde tamamlamamızı mümkün kılar.</p>
+
+<h3>Üretim Süreçlerimiz ve Kapasitemiz</h3>
 <ul>
-<li><strong>Lazer Kesim:</strong> 2000x6000mm fiber lazer ile 0.5-25mm çelik, paslanmaz, alüminyum kesim</li>
-<li><strong>CNC Plazma:</strong> 6-50mm kalınlıklarda ekonomik kesim</li>
-<li><strong>CNC Büküm:</strong> 3000mm boy, 220 ton kapasite abkant pres ile hassas büküm</li>
-<li><strong>Kaynaklı İmalat:</strong> MIG/MAG ve TIG kaynak ile birleştirme ve montaj</li>
+<li><strong>Fiber Lazer Kesim:</strong> 2000x6000mm kesim tablası, çelikte 25mm, paslanmazda 20mm, alüminyumda 12mm kapasiteli yüksek güçlü fiber lazer. ±0.1mm tolerans ile hassas kesim.</li>
+<li><strong>CNC Plazma Kesim:</strong> 2000x6000mm kesim tablası, 6-50mm kalınlıklarda çelik ve paslanmaz sac kesimi. Kalın saclarda ekonomik çözüm.</li>
+<li><strong>CNC Abkant Büküm:</strong> 3000mm büküm boyu, 220 ton kapasite. ±0.1° açı hassasiyeti ile çelik, paslanmaz ve alüminyum büküm.</li>
+<li><strong>Kaynaklı İmalat:</strong> MIG/MAG ve TIG kaynak ile çelik, paslanmaz çelik ve alüminyum birleştirme ve montaj.</li>
+<li><strong>Ek Hizmetler:</strong> Nesting optimizasyonu, teknik çizim desteği, malzeme tedariki, kalite kontrol.</li>
+<li><strong>Yüzey İşlemi:</strong> Anlaşmalı tedarikçiler aracılığıyla toz boya, ıslak boya, galvaniz kaplama organizasyonu.</li>
 </ul>
 
-<h3>Hizmet Verdiğimiz Sektörler</h3>
-<p>Makine imalat, otomasyon, gıda sanayi, savunma sanayi, asansör, havalandırma, elektrik panosu, mobilya, otomotiv yan sanayi ve mimari dekorasyon sektörlerinde fason sac metal imalat hizmeti veriyoruz.</p>
+<h3>Hangi Sektörlere Hizmet Veriyoruz?</h3>
+<p>Fason sac metal imalat hizmetimizden yararlanan başlıca sektörler: makine imalatı ve otomasyon, gıda sanayi ekipmanları (paslanmaz çelik), savunma sanayi, asansör imalatı, havalandırma (HVAC), elektrik panosu ve kumanda dolabı, mobilya ve metal aksesuarlar, otomotiv yan sanayi, reklam ve tabela, mimari dekorasyon (korkuluk, küpeşte, cephe), aydınlatma, enerji sektörü, medikal cihaz ve tarım makineleri. Küçük atölyelerden büyük sanayi kuruluşlarına kadar geniş bir müşteri portföyüne hizmet veriyoruz.</p>
 
 <h3>Prototipten Seri Üretime</h3>
-<p>Tek parça prototipten yüzlerce adetlik seri üretime kadar her sipariş büyüklüğünde hizmet veriyoruz. Minimum adet limiti yoktur. Prototip aşamasında destek, seri üretimde tutarlılık garantisi sunuyoruz.</p>`,
+<p>Kuzey Şafak Lazer olarak tek parça prototipten yüzlerce ve binlerce adetlik seri üretime kadar her sipariş büyüklüğünde hizmet veriyoruz. Minimum adet limiti uygulamıyoruz. Prototip aşamasında üretilebilirlik (DFM) danışmanlığı sağlıyor, tasarımınızı üretim süreçlerine uygun hale getirmek için önerilerde bulunuyoruz. Seri üretimde ise CNC otomasyon sayesinde her parçada tutarlı kalite garanti ediyoruz.</p>
+
+<h3>Sipariş Süreci</h3>
+<ul>
+<li><strong>1. Proje paylaşımı:</strong> Teknik çizimlerinizi, malzeme listesini ve adet bilgisini WhatsApp (0555 000 83 04) veya e-posta ile gönderin.</li>
+<li><strong>2. Değerlendirme ve teklif:</strong> Teknik ekibimiz projenizi değerlendirir ve 1-3 iş günü içinde detaylı teklif hazırlar.</li>
+<li><strong>3. Onay ve malzeme:</strong> Teklif onayı sonrası malzeme tedariki ve üretim planlaması yapılır.</li>
+<li><strong>4. Üretim:</strong> Kesim, büküm, kaynak ve kalite kontrol aşamaları sırasıyla gerçekleştirilir.</li>
+<li><strong>5. Teslimat:</strong> Bitmiş ürünler ambalajlanarak teslim edilir veya İstanbul içi teslimat organize edilir.</li>
+</ul>`,
     relatedServices: ['lazer-kesim', 'cnc-bukum', 'kaynakli-imalat', 'cnc-plazma'],
     faq: [
-      { q: 'Tasarım desteği sunuyor musunuz?', a: 'Evet, üretilebilirlik (DFM) konusunda teknik danışmanlık sağlıyoruz. Tasarımınızı üretim süreçlerine uygun hale getirmek için önerilerde bulunuyoruz.' },
-      { q: 'Yüzey işlemi (boyama) yapıyor musunuz?', a: 'Boyama hizmetini anlaşmalı tedarikçilerimiz aracılığıyla organize ediyoruz. Toz boya, ıslak boya ve galvaniz kaplama seçenekleri mevcuttur.' },
-      { q: 'Fason imalat süresi ne kadardır?', a: 'Basit kesim+büküm işlerinde 2-3 iş günü, kaynaklı imalatlarda 5-10 iş günü standart sürelerimizdir. Proje detayına göre kesin süre teklif ile birlikte bildirilir.' }
+      { q: 'Tasarım desteği sunuyor musunuz?', a: 'Evet, üretilebilirlik (DFM - Design for Manufacturing) konusunda teknik danışmanlık sağlıyoruz. Büküm yarıçapları, kaynak erişimi, malzeme seçimi ve tolerans optimizasyonu konularında önerilerde bulunuyoruz.' },
+      { q: 'Yüzey işlemi (boyama) yapıyor musunuz?', a: 'Boyama ve kaplama hizmetini anlaşmalı tedarikçilerimiz aracılığıyla organize ediyoruz. Toz boya, ıslak boya, sıcak daldırma galvaniz ve elektropolisaj seçenekleri mevcuttur. Boyalı bitmiş ürün olarak teslim edebiliyoruz.' },
+      { q: 'Fason imalat süresi ne kadardır?', a: 'Basit kesim+büküm parçalarında 2-3 iş günü, kaynaklı imalatlarda 5-10 iş günü standart sürelerimizdir. Büyük ve karmaşık projelerde termin bilgisi teklif ile birlikte verilir. Acil siparişlerde hızlandırılmış üretim mümkündür.' },
+      { q: 'Minimum sipariş adedi var mı?', a: 'Hayır, tek parça prototipten binlerce adetlik seri üretime kadar her miktarda hizmet veriyoruz. Minimum sipariş limiti uygulamıyoruz.' },
+      { q: 'Teknik çizimim yok, yine de sipariş verebilir miyim?', a: 'Evet, eskiz, el çizimi, numune parça veya fotoğraf ile çalışabiliriz. Teknik ekibimiz ilettiğiniz referanslara göre çizim oluşturabilir ve üretilebilirlik önerisi sunabilir.' }
     ]
   },
 
@@ -790,36 +897,47 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Lazer Kesim Teklif Alın',
     metaDesc: 'Lazer kesim fiyatını etkileyen faktörler nelerdir? Projenize özel lazer kesim teklifi alın. Aynı gün fiyat bilgisi. Kuzey Şafak Lazer İstanbul.',
     category: 'teklif',
-    content: `<p><strong>Lazer kesim fiyatı</strong>; malzeme cinsi, kalınlığı, kesim uzunluğu, parça adedi ve geometri karmaşıklığına göre projeye özel belirlenir. Her iş farklı parametreler içerdiğinden sabit bir fiyat listesi yerine projenize özel teklif sunuyoruz.</p>
+    content: `<p><strong>Lazer kesim fiyatı</strong>, birçok teknik parametrenin birleşimiyle projeye özel olarak belirlenir. Malzeme cinsi, kalınlığı, toplam kesim uzunluğu, parça adedi, geometri karmaşıklığı ve ek işlem talepleri fiyatlandırmanın temel bileşenleridir. Her proje kendine özgü parametreler taşıdığından, Kuzey Şafak Lazer olarak sabit fiyat listesi yerine projenize özel detaylı teklif hazırlıyoruz. Bu yaklaşım, müşterilerimize en doğru ve rekabetçi fiyatı sunmamızı sağlar.</p>
 
-<h3>Lazer Kesim Fiyatını Etkileyen Faktörler</h3>
+<h3>Lazer Kesim Fiyatını Etkileyen Temel Faktörler</h3>
+<p>Lazer kesim fiyatlandırması, aşağıdaki parametrelerin her birinin etkisiyle şekillenir. Bu faktörleri anlamak, projeniz için gerçekçi bir bütçe öngörüsü yapmanıza yardımcı olur.</p>
 <ul>
-<li><strong>Malzeme cinsi:</strong> Çelik, paslanmaz çelik ve alüminyum farklı kesim hızlarına sahiptir. Paslanmaz ve alüminyum kesimde azot gazı kullanımı maliyeti etkiler.</li>
-<li><strong>Malzeme kalınlığı:</strong> Kalınlık arttıkça kesim hızı düşer ve birim kesim maliyeti artar. 1mm çelik ile 20mm çelik arasında ciddi fiyat farkı oluşur.</li>
-<li><strong>Kesim uzunluğu (metre):</strong> Lazer kesim fiyatlandırmasında temel birim genellikle metre başına (TL/m) hesaplanır. Toplam kesim metre miktarı maliyeti doğrudan etkiler.</li>
-<li><strong>Parça adedi:</strong> Yüksek adetlerde nesting (dizilim) optimizasyonu ile fire azalır ve birim maliyet düşer.</li>
-<li><strong>Geometri karmaşıklığı:</strong> Çok sayıda delik, dar kesim aralıkları veya keskin köşeler kesim süresini artırabilir.</li>
-<li><strong>Malzeme temini:</strong> Malzeme sizden mi gelecek, biz mi tedarik edeceğiz? Tedarik dahil paket fiyat sunabiliyoruz.</li>
+<li><strong>Malzeme cinsi:</strong> Çelik, paslanmaz çelik ve alüminyum farklı kesim hızlarına sahiptir. Paslanmaz çelik ve alüminyum kesimde oksidasyonsuz temiz kenar elde etmek için azot gazı kullanılır; bu da gaz tüketim maliyetini artırır. Bakır ve pirinç gibi yansıtıcı metaller, özel kesim parametreleri gerektirir. Malzeme türüne göre birim kesim maliyeti önemli farklılıklar gösterir.</li>
+<li><strong>Malzeme kalınlığı:</strong> Kalınlık arttıkça lazer ışınının malzemeyi penetrasyonu yavaşlar, kesim hızı düşer ve birim metre maliyeti artar. 1mm çelik ile 20mm çelik arasında 8-10 kat maliyet farkı oluşabilir. İnce saclarda (1-3mm) lazer kesim çok hızlı ve ekonomik iken, kalın saclarda (15mm+) maliyet belirgin şekilde yükselir.</li>
+<li><strong>Toplam kesim uzunluğu (metre):</strong> Lazer kesim fiyatlandırmasının temel birimi genellikle metre başına (TL/m) hesaplanır. Parçanın dış konturu, iç kesimler (delikler, pencereler) ve detay kesimlerin toplam metresi, kesim süresini ve dolayısıyla maliyeti doğrudan belirler.</li>
+<li><strong>Parça adedi ve nesting verimliliği:</strong> Yüksek adetlerde nesting (dizilim) optimizasyonu ile sacdan daha fazla parça çıkarılır, fire oranı düşer ve birim maliyet azalır. Tek parçalık sipariş ile 1000 adetlik sipariş arasında birim fiyat farkı oluşabilir.</li>
+<li><strong>Geometri karmaşıklığı:</strong> Çok sayıda küçük delik, dar kesim aralıkları, keskin köşeler, ince dişler ve karmaşık konturlar kesim süresini artırır. Basit dikdörtgen parçalar hızlı kesilirken, çok detaylı dekoratif parçalar daha yavaş işlenir.</li>
+<li><strong>Malzeme temini:</strong> Malzeme sizden mi gelecek, biz mi tedarik edeceğiz? Kuzey Şafak Lazer olarak malzeme tedarik dahil paket fiyat sunabiliyoruz. Kendi malzemenizi getirmeniz durumunda sadece kesim işçiliği fiyatlanır.</li>
+<li><strong>Ek işlem talepleri:</strong> Lazer kesim sonrası CNC büküm, kaynak, taşlama veya delik delme gibi ek işlemler toplam maliyete eklenir. Ancak tüm süreçleri tek tedarikçiden almanız, taşıma ve koordinasyon giderlerini ortadan kaldırarak toplam maliyeti düşürür.</li>
 </ul>
 
-<h3>Hızlı Teklif Nasıl Alınır?</h3>
-<p>En doğru fiyat teklifi için aşağıdaki bilgileri bize iletin:</p>
+<h3>Teklif Almak İçin Gerekli Bilgiler</h3>
+<p>En doğru ve en hızlı fiyat teklifi için aşağıdaki bilgileri bize iletmeniz yeterlidir:</p>
 <ul>
-<li>Kesim dosyası (DXF, DWG, STEP veya PDF)</li>
-<li>Malzeme cinsi ve kalınlığı</li>
-<li>Adet bilgisi</li>
-<li>Varsa ek işlem talebi (büküm, kaynak vb.)</li>
+<li><strong>Kesim dosyası:</strong> DXF formatı idealdir. DWG, STEP, IGES, AI ve PDF formatları da kabul edilir. Dosyanız yoksa eskiz, el çizimi veya numune parça da gönderebilirsiniz.</li>
+<li><strong>Malzeme cinsi:</strong> Çelik (St37), paslanmaz çelik (304, 316L), alüminyum, galvaniz, bakır, pirinç veya Hardox.</li>
+<li><strong>Malzeme kalınlığı:</strong> mm cinsinden.</li>
+<li><strong>Sipariş adedi:</strong> Kaç adet kesilecek?</li>
+<li><strong>Malzeme temini:</strong> Malzeme sizden mi, bizden mi olacak?</li>
+<li><strong>Ek işlem talebi:</strong> Büküm, kaynak, boyama gibi ek hizmet gerekiyor mu?</li>
+<li><strong>Termin beklentisi:</strong> Ne zaman teslim edilmesini istiyorsunuz?</li>
 </ul>
-<p>Teknik çiziminizi <strong>WhatsApp (0555 000 83 04)</strong> veya e-posta yoluyla göndermeniz yeterlidir. İş yoğunluğuna göre genellikle <strong>aynı gün içinde</strong> fiyat teklifi dönüşü yapıyoruz.</p>
+
+<h3>Teklif Alma Süreci</h3>
+<p>Teknik çiziminizi ve yukarıdaki bilgileri <strong>WhatsApp (0555 000 83 04)</strong> veya e-posta yoluyla göndermeniz yeterlidir. Teknik ekibimiz dosyanızı inceleyerek nesting simülasyonu yapar, kesim süresini hesaplar ve projenize özel fiyat teklifi oluşturur. Standart siparişlerde <strong>aynı gün içinde</strong>, karmaşık projelerde en geç ertesi iş günü fiyat teklifi dönüşü yapıyoruz.</p>
 
 <h3>Neden Sabit Fiyat Listesi Yayınlamıyoruz?</h3>
-<p>Her proje kendine özgü parametreler taşır. Genel bir fiyat listesi, müşterilerimize yanıltıcı bilgi verebilir. Projenize özel detaylı teklif hazırlayarak en doğru ve rekabetçi fiyatı sunmayı tercih ediyoruz.</p>`,
+<p>Her proje kendine özgü parametreler (malzeme, kalınlık, geometri, adet) taşıdığından, genel bir fiyat listesi müşterilerimize yanıltıcı bilgi verebilir. Projenize özel detaylı teklif hazırlayarak en doğru, en güncel ve en rekabetçi fiyatı sunmayı tercih ediyoruz. Bu yaklaşım, hem müşterilerimizin bütçe planlamasını kolaylaştırır hem de gereksiz maliyet sürprizlerini önler.</p>
+
+<h3>Projenize Özel Teklif İçin Hemen İletişime Geçin</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde fiber lazer kesim, CNC plazma, CNC büküm ve kaynaklı imalat hizmetleri sunuyoruz. Lazer kesim projeniz için hemen <strong>WhatsApp (0555 000 83 04)</strong> veya e-posta ile iletişime geçin, aynı gün projenize özel teklif alın.</p>`,
     relatedServices: ['lazer-kesim'],
     faq: [
-      { q: 'Lazer kesim fiyatı nasıl hesaplanır?', a: 'Lazer kesim fiyatı genel olarak metre başına (TL/m) hesaplanır. Malzeme cinsi, kalınlığı, kesim uzunluğu ve adet çarpanları ile toplam fiyat oluşturulur. Kesin fiyat için dosyanızı gönderin.' },
-      { q: 'Teklif almak için teknik çizim şart mı?', a: 'Tercihen evet, ancak eskiz, el çizimi veya numune parça ile de çalışabiliriz. DXF dosyası en hızlı ve doğru teklif alma yöntemidir.' },
-      { q: 'Teklif ne kadar sürede gelir?', a: 'Standart siparişlerde aynı gün veya en geç ertesi iş günü içinde fiyat teklifi dönüşü yapıyoruz.' },
-      { q: 'Malzeme dahil fiyat alabilir miyim?', a: 'Evet, malzeme tedariki dahil paket fiyat sunabiliyoruz. Kendi malzemenizi de getirebilirsiniz.' }
+      { q: 'Lazer kesim fiyatı nasıl hesaplanır?', a: 'Lazer kesim fiyatı genel olarak malzeme cinsi ve kalınlığına göre metre başına (TL/m) hesaplanır. Toplam kesim uzunluğu, adet ve geometri karmaşıklığı çarpanları ile projenize özel toplam fiyat oluşturulur. Kesin fiyat için dosyanızı gönderin.' },
+      { q: 'Teklif almak için teknik çizim şart mı?', a: 'DXF dosyası en hızlı ve en doğru teklif alma yöntemidir. Ancak teknik çiziminiz yoksa eskiz, el çizimi, numune parça veya fotoğraf ile de çalışabiliriz. Teknik ekibimiz ihtiyaç halinde çizim oluşturabilir.' },
+      { q: 'Teklif ne kadar sürede gelir?', a: 'Standart lazer kesim siparişlerinde aynı gün veya en geç ertesi iş günü içinde fiyat teklifi dönüşü yapıyoruz. Karmaşık ve çok parçalı projelerde 1-2 iş günü sürebilir.' },
+      { q: 'Malzeme dahil fiyat alabilir miyim?', a: 'Evet, ihtiyacınız olan sacı sizin adınıza piyasa koşullarında tedarik edebilir ve malzeme dahil paket fiyat sunabiliriz. Kendi malzemenizi getirmeniz durumunda sadece kesim işçiliği fiyatlanır.' },
+      { q: 'Büküm ve kaynak dahil komple teklif alabilir miyim?', a: 'Evet, lazer kesim sonrası CNC büküm ve kaynaklı imalat hizmetlerimiz de aynı tesis içindedir. Kesim+büküm+kaynak paket teklifi hazırlayabiliriz; tek tedarikçi avantajı ile hem maliyet hem zaman tasarrufu sağlarsınız.' }
     ]
   },
 
@@ -829,36 +947,45 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'CNC Büküm (Abkant) Teklif Alın',
     metaDesc: 'CNC büküm fiyatını etkileyen faktörler nelerdir? Projenize özel abkant büküm teklifi alın. Kuzey Şafak Lazer İstanbul İkitelli.',
     category: 'teklif',
-    content: `<p><strong>CNC büküm (abkant pres) fiyatı</strong>; malzeme cinsi, kalınlığı, büküm sayısı, büküm boyu ve parça adedine göre projeye özel hesaplanır. Her parçanın büküm karmaşıklığı farklı olduğundan, doğru fiyat ancak teknik çizim incelenerek verilebilir.</p>
+    content: `<p><strong>CNC büküm (abkant pres) fiyatı</strong>, her parçanın büküm karmaşıklığının farklı olması nedeniyle projeye özel olarak hesaplanır. Malzeme cinsi, kalınlığı, büküm sayısı, büküm boyu, tolerans gereksinimleri ve sipariş adedi fiyatlandırmanın temel belirleyicileridir. Kuzey Şafak Lazer olarak projenizin teknik çizimini inceleyerek en doğru ve rekabetçi fiyat teklifini oluşturuyoruz.</p>
 
 <h3>CNC Büküm Fiyatını Etkileyen Faktörler</h3>
+<p>Abkant pres büküm fiyatlandırması, aşağıdaki parametrelerin her birinden etkilenir. Bu faktörleri anlamak, projeniz için doğru bütçe öngörüsü yapmanıza yardımcı olur.</p>
 <ul>
-<li><strong>Büküm sayısı:</strong> Her parçadaki büküm adımı sayısı doğrudan işlem süresini ve maliyeti etkiler. Tek bükümlü bir parça ile 6 bükümlü karmaşık bir kutu farklı fiyatlanır.</li>
-<li><strong>Malzeme kalınlığı ve cinsi:</strong> Kalın ve sert malzemeler (paslanmaz, hardox) daha yüksek tonaj gerektirir ve büküm süresi artar.</li>
-<li><strong>Büküm uzunluğu:</strong> Uzun bükümlerde kalıp boyutu ve makinenin büküm kapasitesi fiyatı etkiler.</li>
-<li><strong>Tolerans gereksinimleri:</strong> Dar toleranslı parçalar daha fazla dikkat ve zaman gerektirir.</li>
-<li><strong>Parça adedi:</strong> Yüksek adetlerde setup maliyeti parça başına düşer, birim fiyat azalır.</li>
-<li><strong>Özel kalıp ihtiyacı:</strong> Standart V kalıp ile yapılamayan özel büküm profilleri ek kalıp maliyeti oluşturabilir.</li>
+<li><strong>Büküm sayısı (adım):</strong> Her parçadaki büküm adımı sayısı, işlem süresini ve maliyeti doğrudan etkileyen en önemli faktördür. Tek bükümlü basit bir L parçası ile 6-8 bükümlü bir kutu gövde arasında ciddi maliyet farkı oluşur. Her büküm adımı, arka dayama pozisyonlama, malzeme yerleştirme ve presleme sürelerini içerir.</li>
+<li><strong>Malzeme kalınlığı ve cinsi:</strong> Kalın ve yüksek akma dayanımlı malzemeler (paslanmaz çelik, Hardox) daha yüksek tonaj gerektirir ve presleme süresi artar. Alüminyum ise düşük akma dayanımı sayesinde daha az tonajla bükülebilir ancak geri yaylanma karakteristiği farklıdır.</li>
+<li><strong>Büküm uzunluğu:</strong> 3000mm'ye kadar büküm yapabiliyoruz. Uzun bükümlerde kalıp boyutu ve toplam tonaj gereksinimi artar. Çok uzun parçalarda sehim (defleksiyon) kompansasyonu gerekebilir.</li>
+<li><strong>Tolerans gereksinimleri:</strong> Standart toleranslarımız (±0.1° açı, ±0.05mm boyut) çoğu uygulama için fazlasıyla yeterlidir. Ancak olağanüstü dar tolerans gerektiren özel uygulamalarda ek kontrol ve ayar süresi maliyete yansıyabilir.</li>
+<li><strong>Parça adedi:</strong> Yüksek adetlerde kalıp ve program setup maliyeti parça başına düşer ve birim fiyat belirgin şekilde azalır. Ayrıca operatör, parça geometrisine alıştıkça üretim hızı artar.</li>
+<li><strong>Özel kalıp ihtiyacı:</strong> Standart V kalıp setimiz çoğu uygulamayı karşılar. Gaz boynu, kaz boynu, Z kalıp ve özel profil kalıpları mevcuttur. Ancak çok özel büküm profilleri gerektiren uygulamalarda ek kalıp yatırımı gerekebilir.</li>
+<li><strong>Ek işlemler:</strong> Büküm öncesi lazer kesim, büküm sonrası kaynak, taşlama veya boyama gibi ek işlemler toplam maliyete eklenir. Tüm süreçleri tek çatı altında yaptırmanız durumunda paket avantajı sağlanır.</li>
 </ul>
 
-<h3>Doğru Teklif İçin Gerekenler</h3>
-<p>En hızlı ve doğru teklif için şu bilgileri iletin:</p>
+<h3>Teklif Almak İçin Gerekli Bilgiler</h3>
+<p>En hızlı ve en doğru CNC büküm fiyat teklifi için aşağıdaki bilgileri bize iletin:</p>
 <ul>
-<li>Teknik çizim (büküm açıları ve ölçüleri belirtilmiş)</li>
-<li>Malzeme cinsi ve kalınlığı</li>
-<li>Adet bilgisi</li>
-<li>Varsa ek işlem talebi (kesim, kaynak, boyama)</li>
+<li><strong>Teknik çizim:</strong> Büküm açıları, iç yarıçapları ve ölçülerin belirtildiği detaylı çizim. DXF, DWG, STEP veya PDF formatı kabul edilir.</li>
+<li><strong>Malzeme cinsi ve kalınlığı:</strong> Çelik, paslanmaz, alüminyum, galvaniz vb. ve mm cinsinden kalınlık.</li>
+<li><strong>Sipariş adedi:</strong> Toplam kaç adet parça bükülecek?</li>
+<li><strong>Parça durumu:</strong> Parçalar kesilmiş mi, yoksa kesim de bizden mi yapılacak?</li>
+<li><strong>Ek işlem talebi:</strong> Kaynak, boyama veya montaj gibi ek hizmet gerekiyor mu?</li>
 </ul>
 
-<h3>Lazer Kesim + Büküm Kombinasyonu</h3>
-<p>Kesim ve büküm işini birlikte yaptırmanız durumunda, tek tedarikçi avantajı ile hem zaman hem maliyet tasarrufu sağlarsınız. Lazer kesim + CNC büküm paket teklifimiz için detayları bizimle paylaşın.</p>
+<h3>Lazer Kesim + CNC Büküm Paket Teklif</h3>
+<p>Kesim ve büküm işini birlikte yaptırmanız durumunda tek tedarikçi avantajıyla hem zaman hem maliyet tasarrufu sağlarsınız. Aynı tesis içinde kesim ve büküm yapılması, süreçler arası taşıma ve bekleme süresini ortadan kaldırır. Boyutsal uyumluluk artar çünkü kesim parametreleri büküm gereksinimleri dikkate alınarak optimize edilir. Lazer kesim + CNC büküm paket teklifimiz için teknik çizimlerinizi bizimle paylaşın.</p>
 
-<p>Teknik çiziminizi <strong>WhatsApp (0555 000 83 04)</strong> veya e-posta ile gönderin, aynı gün fiyat teklifi alın.</p>`,
+<h3>Teklif Süreci</h3>
+<p>Teknik çiziminizi ve yukarıdaki bilgileri <strong>WhatsApp (0555 000 83 04)</strong> veya e-posta ile gönderin. Teknik ekibimiz çiziminizi inceleyerek büküm sırasını (bending sequence), gerekli tonajı ve kalıp seçimini belirler ve projenize özel fiyat teklifi oluşturur. Standart siparişlerde aynı gün, karmaşık projelerde en geç ertesi iş günü teklif dönüşü yapıyoruz.</p>
+
+<h3>Kuzey Şafak Lazer'de CNC Büküm Avantajı</h3>
+<p>2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde 220 ton kapasiteli, 3000mm büküm boyuna sahip CNC abkant presimizle hizmet veriyoruz. CNC kontrol sistemi, programlanabilir çok eksenli arka dayama ve geniş kalıp seti ile basit bükümlerden karmaşık çok adımlı operasyonlara kadar her türlü büküm ihtiyacınızı karşılıyoruz. Hemen iletişime geçin ve projenize özel teklif alın.</p>`,
     relatedServices: ['cnc-bukum', 'lazer-kesim'],
     faq: [
-      { q: 'CNC büküm fiyatı nasıl hesaplanır?', a: 'Büküm fiyatı genellikle parça başına büküm adımı sayısı, malzeme kalınlığı ve adet üzerinden hesaplanır. Kesin fiyat için teknik çizim göndermeniz gerekir.' },
-      { q: 'Kesim yapılmış parçamı sadece büktürebilir miyim?', a: 'Evet, daha önce kesilmiş parçalarınızı bize getirerek sadece büküm hizmeti alabilirsiniz.' },
-      { q: 'Büküm sonrası kaynak da yaptırabilir miyim?', a: 'Evet, büküm sonrası kaynaklı imalat da aynı tesis içinde gerçekleştirilir. Komple imalat paketi sunabiliyoruz.' }
+      { q: 'CNC büküm fiyatı nasıl hesaplanır?', a: 'Büküm fiyatı genellikle parça başına büküm adımı sayısı, malzeme kalınlığı ve adet üzerinden hesaplanır. Toplam setup süresi ve kalıp değişim ihtiyacı da fiyatı etkiler. Kesin fiyat için teknik çizim göndermeniz gerekir.' },
+      { q: 'Kesim yapılmış parçamı sadece büktürebilir miyim?', a: 'Evet, daha önce kesilmiş parçalarınızı tesisimize getirerek veya kargo ile göndererek sadece CNC büküm hizmeti alabilirsiniz. Parçaların düzgün kesilmiş ve boyutsal olarak doğru olması önemlidir.' },
+      { q: 'Büküm sonrası kaynak da yaptırabilir miyim?', a: 'Evet, CNC büküm sonrası MIG/MAG veya TIG kaynak ile birleştirme ve montaj işlemlerini aynı tesis içinde gerçekleştiriyoruz. Kesim+büküm+kaynak komple imalat paketi sunabiliyoruz.' },
+      { q: 'Teklif ne kadar sürede gelir?', a: 'Standart büküm siparişlerinde aynı gün, karmaşık ve çok parçalı projelerde en geç ertesi iş günü fiyat teklifi dönüşü yapıyoruz.' },
+      { q: 'Özel profil büküm yapabiliyor musunuz?', a: 'Evet, standart V büküm dışında gaz boynu, kaz boynu, Z profil ve özel kanal profilleri gibi büküm işlemleri için geniş kalıp setimiz mevcuttur. Standart kalıplarla yapılamayan özel profiller için kalıp imalatı da organize edilebilir.' }
     ]
   },
 
@@ -868,34 +995,48 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Kaynaklı İmalat Teklif Alın',
     metaDesc: 'Kaynaklı imalat fiyatını etkileyen faktörler nelerdir? Projenize özel kaynak ve imalat teklifi alın. Kuzey Şafak Lazer İstanbul.',
     category: 'teklif',
-    content: `<p><strong>Kaynaklı imalat fiyatı</strong>; projenin karmaşıklığı, parça sayısı, kaynak yöntemi, malzeme türü ve işçilik süresine göre belirlenir. Kaynaklı imalat projeleri geniş bir yelpazeye yayıldığından, her proje özel olarak değerlendirilir.</p>
+    content: `<p><strong>Kaynaklı imalat fiyatı</strong>, projenin kapsamı ve karmaşıklığına göre tamamen özel olarak belirlenir. Kaynaklı imalat projeleri, basit iki parça birleştirmesinden yüzlerce bileşenli makine şasisi imalatına kadar çok geniş bir yelpazeye yayılır. Bu nedenle her proje, teknik çizimleri ve gereksinimleri doğrultusunda ayrı ayrı değerlendirilir. Kuzey Şafak Lazer olarak projenizin detaylarını inceleyerek en doğru ve rekabetçi fiyat teklifini hazırlıyoruz.</p>
 
 <h3>Kaynaklı İmalat Fiyatını Etkileyen Faktörler</h3>
+<p>Kaynaklı imalat fiyatlandırması, birden fazla maliyet kaleminin toplamından oluşur. Bu faktörleri anlamak, bütçe planlamanıza yardımcı olur.</p>
 <ul>
-<li><strong>Proje karmaşıklığı:</strong> Basit bir birleştirme ile çok parçalı bir makine şasisi arasında büyük maliyet farkı vardır.</li>
-<li><strong>Kaynak yöntemi:</strong> TIG kaynak, MIG/MAG kaynağa göre daha yavaş ve işçilik yoğundur, bu nedenle daha yüksek maliyetlidir.</li>
-<li><strong>Malzeme türü:</strong> Paslanmaz çelik ve alüminyum kaynağı, karbon çeliğe göre daha özel dolgu malzemesi ve gaz gerektirir.</li>
-<li><strong>Toplam kaynak uzunluğu:</strong> Kaynak dikişi uzunluğu arttıkça işlem süresi ve dolgu malzemesi tüketimi artar.</li>
-<li><strong>Ön hazırlık:</strong> Kesim, büküm, taşlama, punta gibi ön hazırlık aşamaları toplam maliyeti etkiler.</li>
-<li><strong>Kalite gereksinimleri:</strong> X-ray, ultrasonik test veya basınç testi gerektiren uygulamalarda ek maliyetler oluşabilir.</li>
+<li><strong>Proje karmaşıklığı ve parça sayısı:</strong> Toplam parça adedi, montaj karmaşıklığı ve birleştirme noktalarının sayısı fiyatın temel belirleyicisidir. Basit bir L birleştirme ile çok parçalı bir makine gövdesi arasında ciddi maliyet farkı bulunur.</li>
+<li><strong>Kaynak yöntemi:</strong> TIG kaynak, yavaş yığma hızı ve yüksek operatör becerisi gerektirmesi nedeniyle MIG/MAG kaynağa göre 2-3 kat daha yüksek işçilik maliyeti oluşturur. Ancak TIG'in üstün kalitesi, bazı uygulamalarda kaynak sonrası taşlama ihtiyacını ortadan kaldırarak dengelenebilir.</li>
+<li><strong>Malzeme türü:</strong> Paslanmaz çelik ve alüminyum kaynağı, karbon çeliğe göre daha pahalı dolgu malzemesi ve daha yüksek saflıkta koruyucu gaz gerektirir. Ayrıca bu malzemelerde kaynak operasyonu daha yüksek beceri ve dikkat ister.</li>
+<li><strong>Toplam kaynak dikişi uzunluğu:</strong> Kaynak uzunluğu arttıkça işlem süresi, dolgu teli tüketimi ve koruyucu gaz kullanımı da artar. Metre başına kaynak maliyeti, dikiş türüne (alın, köşe, bindirme) ve pozisyona (düz, yatay, dikey) göre değişir.</li>
+<li><strong>Ön hazırlık işlemleri:</strong> Kaynak öncesi kesim, büküm, kaynak ağzı açma, taşlama ve punta operasyonları toplam maliyetin önemli bir kısmını oluşturabilir. Parçaların kesilmiş ve bükülmüş olarak gelmesi, toplam maliyeti düşürür.</li>
+<li><strong>Fikstür ihtiyacı:</strong> Karmaşık montajlarda boyutsal doğruluğu sağlamak için özel fikstür (sabitleme aparatı) gerekebilir. Seri üretimde fikstür maliyeti parçalara dağıtılır, düşük adetlerde birim etkisi daha fazla olur.</li>
+<li><strong>Kalite gereksinimleri:</strong> Standart görsel muayene ve boyutsal kontrol sürecimize dahildir. Penetrant testi (PT), ultrasonik test (UT), radyografik test (RT) veya basınç testi gerektiren kritik uygulamalarda ek test maliyetleri oluşur.</li>
+<li><strong>Yüzey işlemi:</strong> Kaynak sonrası taşlama, düzeltme, kumlama ve boyama gibi işlemler ekstra maliyet kalemi oluşturur.</li>
 </ul>
 
-<h3>Teklif İçin Gerekenler</h3>
-<p>Projeniz hakkında ne kadar detay paylaşırsanız teklif o kadar doğru olur:</p>
+<h3>Teklif Almak İçin Gerekli Bilgiler</h3>
+<p>Kaynaklı imalat projelerinde ne kadar detaylı bilgi paylaşırsanız, teklif o kadar doğru ve hızlı olur:</p>
 <ul>
-<li>Montaj çizimi ve parça resimleri</li>
-<li>Malzeme listesi (BOM)</li>
-<li>Kaynak kalite gereksinimleri</li>
-<li>Adet bilgisi</li>
-<li>Termin (teslim süresi) beklentisi</li>
+<li><strong>Montaj çizimi:</strong> Birleştirme noktalarını, kaynak türlerini ve ölçüleri gösteren montaj resmi. DXF, DWG, STEP veya PDF formatı.</li>
+<li><strong>Parça çizimleri:</strong> Her bir parçanın detay çizimi (kesim ve büküm boyutları).</li>
+<li><strong>Malzeme listesi (BOM):</strong> Her parçanın malzeme cinsi, kalınlığı ve adedi.</li>
+<li><strong>Kaynak kalite gereksinimleri:</strong> Standart mı, kritik mi? NDT gerekiyor mu?</li>
+<li><strong>Sipariş adedi:</strong> Toplam kaç set/ünite üretilecek?</li>
+<li><strong>Termin beklentisi:</strong> Ne zaman teslim edilmesi gerekiyor?</li>
+<li><strong>Yüzey işlemi talebi:</strong> Boyama, kaplama veya özel yüzey işlemi gerekiyor mu?</li>
 </ul>
 
-<p>Projenizin detaylarını <strong>WhatsApp (0555 000 83 04)</strong> veya e-posta ile paylaşın. Mümkün olan en kısa sürede projenizi değerlendirecek ve size özel teklif sunacağız.</p>`,
+<h3>Teklif Süreci</h3>
+<p>Projenizin teknik çizimlerini ve yukarıdaki bilgileri <strong>WhatsApp (0555 000 83 04)</strong> veya e-posta ile paylaşın. Teknik ekibimiz projenizi değerlendirerek kaynak yöntemi, malzeme ve işçilik hesaplamasını yapar. Basit birleştirme işlerinde aynı gün, kapsamlı kaynaklı imalat projelerinde 1-3 iş günü içinde detaylı teklif hazırlanır.</p>
+
+<h3>Neden Komple Hizmet Avantajlıdır?</h3>
+<p>Kesim, büküm ve kaynak işlemlerini farklı firmalara yaptırdığınızda taşıma maliyeti, bekleme süresi, boyutsal uyumsuzluk riski ve iletişim kopukluğu yaşanabilir. Kuzey Şafak Lazer olarak fiber lazer kesim, CNC plazma, CNC büküm ve kaynaklı imalat süreçlerinin tamamını İkitelli OSB'deki tek tesisimizde sunuyoruz. Komple imalat paketi ile toplam maliyet düşer, süre kısalır ve kalite artar.</p>
+
+<h3>Projenize Özel Teklif İçin Hemen İletişime Geçin</h3>
+<p>2010 yılından bu yana deneyimli kaynakçı kadromuz ve modern ekipmanlarımızla endüstriyel standartlarda kaynaklı imalat yapıyoruz. Projenizin detaylarını paylaşın, en kısa sürede size özel teklif sunalım.</p>`,
     relatedServices: ['kaynakli-imalat', 'lazer-kesim', 'cnc-bukum'],
     faq: [
-      { q: 'Kaynaklı imalat fiyatı nasıl hesaplanır?', a: 'Kaynaklı imalat fiyatı; kesim, büküm, kaynak işçiliği, malzeme ve sarf malzeme maliyetlerinin toplamıdır. Her proje ayrı değerlendirilir.' },
-      { q: 'Sadece kaynak yaptırabilir miyim?', a: 'Evet, kesilmiş ve bükülmüş parçalarınızı bize getirerek sadece kaynak ve montaj hizmeti alabilirsiniz.' },
-      { q: 'Teklif ne kadar sürede gelir?', a: 'Proje kapsamına bağlı olarak 1-3 iş günü içinde detaylı teklif hazırlıyoruz. Basit birleştirme işlerinde aynı gün teklif verilebilir.' }
+      { q: 'Kaynaklı imalat fiyatı nasıl hesaplanır?', a: 'Kaynaklı imalat fiyatı; kesim, büküm, kaynak işçiliği, dolgu malzemesi, koruyucu gaz tüketimi ve varsa ek işlem (taşlama, boyama) maliyetlerinin toplamıdır. Her proje teknik çizim incelenerek ayrı değerlendirilir.' },
+      { q: 'Sadece kaynak yaptırabilir miyim?', a: 'Evet, kesilmiş ve bükülmüş parçalarınızı tesisimize getirerek sadece kaynak ve montaj hizmeti alabilirsiniz. Parçaların doğru boyutta ve birleştirmeye uygun durumda olması önemlidir.' },
+      { q: 'Teklif ne kadar sürede gelir?', a: 'Basit birleştirme işlerinde aynı gün, kapsamlı kaynaklı imalat projelerinde 1-3 iş günü içinde detaylı teklif hazırlıyoruz. Proje karmaşıklığı ve parça sayısı süreyi etkiler.' },
+      { q: 'Paslanmaz çelik kaynaklı imalat yapıyor musunuz?', a: 'Evet, TIG kaynak ile paslanmaz çelik (304, 316L) kaynaklı imalat yapıyoruz. Gıda sanayi, kimya sanayi ve mimari uygulamalarda deneyim sahibiyiz. Uygun dolgu malzemesi ve argon gazı ile yüksek kaliteli birleştirmeler sağlıyoruz.' },
+      { q: 'Büyük projeler için kapasiteniz yeterli mi?', a: 'Atölye kapasitemiz dahilinde makine gövdesi, çelik konstrüksiyon, platform ve silo gibi büyük projeleri gerçekleştirebiliyoruz. Çok büyük projeler için kapasite ve termin değerlendirmesi teklif aşamasında yapılır.' }
     ]
   },
 
