@@ -20,28 +20,40 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Lazer Kesim Nedir?',
     metaDesc: 'Lazer kesim nedir, nasıl çalışır, hangi malzemelerde kullanılır? Fiber lazer kesim teknolojisi hakkında kapsamlı rehber. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>Lazer kesim</strong>, yüksek enerjili odaklanmış bir lazer ışını kullanarak metal, plastik ve diğer malzemelerin hassas bir şekilde kesilmesi işlemidir. Endüstriyel üretimde en yaygın kullanılan CNC kontrollü termal kesim yöntemlerinden biridir.</p>
+    content: `<p><strong>Lazer kesim</strong>, yüksek enerjili ve odaklanmış bir lazer ışını kullanılarak metal, plastik ve çeşitli endüstriyel malzemelerin mikron düzeyinde hassasiyetle kesilmesi işlemidir. 1960'larda Theodore Maiman'ın ilk lazer cihazını geliştirmesinin ardından, 1970'lerde endüstriyel kesim uygulamalarına adapte edilen bu teknoloji, günümüzde CNC kontrollü termal kesim yöntemlerinin en gelişmişi olarak kabul edilmektedir. Özellikle sac metal imalat sektöründe lazer kesim, geleneksel mekanik kesim yöntemlerinin yerini büyük ölçüde almış ve üretim süreçlerinde devrim yaratmıştır.</p>
 
-<h3>Lazer Kesim Nasıl Çalışır?</h3>
-<p>Lazer kesim makinesi, bir lazer kaynağından üretilen ışını odaklama lensi aracılığıyla çok küçük bir noktaya yoğunlaştırır. Bu odak noktasında sıcaklık 20.000°C'yi aşabilir. Yoğunlaşan enerji malzemeyi eritir, buharlaştırır veya yakar. Eş zamanlı olarak yardımcı gaz (oksijen, azot veya basınçlı hava) kesim bölgesindeki erimiş malzemeyi uzaklaştırır ve temiz bir kesim yüzeyi oluşturur.</p>
+<h3>Lazer Kesimin Tarihçesi</h3>
+<p>Lazer teknolojisinin endüstriyel kesim alanında kullanımı, 1970'lerin başında Boeing ve British Oxygen gibi firmaların öncü çalışmalarıyla başlamıştır. İlk nesil CO2 lazer makineleri yavaş ve sınırlı kapasiteye sahipti. 1990'larda CNC kontrol sistemlerinin entegrasyonu ile hassasiyet ve hız önemli ölçüde arttı. 2010 sonrasında fiber lazer teknolojisinin yaygınlaşması, metal kesim sektöründe yeni bir dönem başlattı. Bugün fiber lazerler, CO2 lazerlere göre 3-5 kat daha hızlı kesim yapabiliyor ve enerji verimliliği %30-40 seviyesine ulaşıyor.</p>
+
+<h3>Lazer Kesim Nasıl Çalışır? (Teknik Prensip)</h3>
+<p>Lazer kesim makinesi, bir lazer rezonatöründe (fiber veya CO2) üretilen koherant ışık demetini, odaklama lensi aracılığıyla 0.1mm'den küçük bir noktaya yoğunlaştırır. Bu odak noktasında enerji yoğunluğu 10^6 W/cm²'yi aşarak sıcaklık 20.000°C'ye ulaşır. Yoğunlaşan termal enerji, malzemeyi lokalize bir bölgede eritir, buharlaştırır veya oksitleyerek uzaklaştırır. Eş zamanlı olarak CNC kontrollü kesim kafası, programlanan kontura göre hareket eder. Yardımcı gaz sistemi (oksijen, azot veya basınçlı hava) kesim bölgesindeki erimiş malzemeyi üfleyerek temizler ve pürüzsüz bir kesim yüzeyi oluşturur. Oksijen gazı çelikte ekzotermik reaksiyon yaratarak kesim hızını artırırken, azot gazı oksidasyonsuz parlak kesim sağlar.</p>
 
 <h3>Lazer Kesim Türleri</h3>
 <ul>
-<li><strong>Fiber Lazer Kesim:</strong> Günümüzde en yaygın tür. Yüksek verimlilik, düşük bakım maliyeti ve ince-orta kalınlıklarda mükemmel hız sunar. Kuzey Şafak Lazer olarak 2000x6000mm fiber lazer makinemizle hizmet veriyoruz.</li>
-<li><strong>CO2 Lazer Kesim:</strong> Özellikle ahşap, akrilik ve tekstil gibi organik malzemelerde tercih edilir. Metal kesimde fiber lazere göre verimliliği düşüktür.</li>
-<li><strong>Nd:YAG Lazer:</strong> Hassas ve küçük ölçekli işlerde, özellikle medikal ve mücevher sektöründe kullanılır.</li>
+<li><strong>Fiber Lazer Kesim:</strong> Ytterbium katkılı optik fiber içinde 1.07μm dalga boyunda lazer ışını üretir. Metallerde en yüksek emilim oranı, en düşük bakım maliyeti ve en yüksek enerji verimliliğini (%30-40) sunar. Kuzey Şafak Lazer olarak 2000x6000mm kesim tablalı yüksek güçlü fiber lazer makinemizle hizmet veriyoruz.</li>
+<li><strong>CO2 Lazer Kesim:</strong> Karbon dioksit gaz karışımında 10.6μm dalga boyunda lazer üretir. Ahşap, akrilik, tekstil ve kağıt gibi organik malzemelerde hala vazgeçilmezdir. Metal kesimde fiber lazere göre verimliliği düşük olduğundan yerini büyük ölçüde fiber lazere bırakmıştır.</li>
+<li><strong>Nd:YAG Lazer:</strong> Neodimyum katkılı kristal çubukta lazer üretir. Hassas ve küçük ölçekli işlerde, özellikle medikal implant, mücevher ve elektronik sektöründe kullanılır. Düşük güç seviyelerinde nokta kaynak ve markalama işlemlerinde de tercih edilir.</li>
 </ul>
 
-<h3>Lazer Kesimin Avantajları</h3>
-<p>Lazer kesim; ±0.1mm hassasiyet, minimum çapak oluşumu, dar kesim ağzı (kerf), düşük ısı etki alanı ve CNC ile tam otomasyon imkanı sunar. Kalıp gerektirmez, dolayısıyla prototipten seri üretime kadar her aşamada ekonomiktir. Karmaşık geometrileri ve ince detayları sorunsuzca işleyebilir.</p>
+<h3>Lazer Kesimin Avantajları ve Dezavantajları</h3>
+<p><strong>Avantajları:</strong> Lazer kesim ±0.1mm hassasiyet, minimum çapak oluşumu, 0.1-0.3mm dar kesim ağzı (kerf), düşük ısı etki alanı (HAZ) ve CNC ile tam otomasyon imkanı sunar. Kalıp gerektirmediğinden prototipten seri üretime her aşamada ekonomiktir. Karmaşık geometriler, ince detaylar ve küçük delikler sorunsuzca işlenebilir. Temassız kesim olduğundan malzeme üzerinde mekanik stres oluşturmaz.</p>
+<p><strong>Dezavantajları:</strong> Çok kalın malzemelerde (25mm üzeri çelik) plazma veya oksi-yakıt kesime göre daha yavaş ve maliyetli olabilir. Yansıtıcı malzemelerde (bakır, pirinç) özel dikkat gerektirir. İlk yatırım maliyeti yüksektir, ancak düşük işletme maliyeti ile uzun vadede kendini amorti eder.</p>
 
-<h3>Hangi Malzemeler Lazer ile Kesilir?</h3>
-<p>Siyah sac (St37, St52), paslanmaz çelik (304, 316L), alüminyum, galvaniz sac, bakır, pirinç ve hardox gibi aşınmaya dayanıklı çelikler fiber lazer ile kesilebilir. Malzeme kalınlığı, lazer gücüne bağlı olarak değişir; fiber lazerlerde çelikte 25mm'ye, paslanmazda 20mm'ye kadar kesim yapılabilir.</p>`,
+<h3>Kullanım Alanları ve Sektörler</h3>
+<p>Lazer kesim teknolojisi son derece geniş bir sektörel yelpazede kullanılmaktadır. Otomotiv yan sanayinde şasi parçaları, egzoz bileşenleri ve karoseri elemanları; beyaz eşya sektöründe gövde ve panel parçaları; savunma sanayinde zırh plakaları ve hassas mekanik parçalar; inşaat sektöründe dekoratif paneller, korkuluk ve cephe kaplamaları; gıda sanayinde paslanmaz çelik ekipman parçaları; enerji sektöründe rüzgar türbini bileşenleri ve güneş paneli taşıyıcıları lazer kesim ile üretilmektedir. Asansör, havalandırma (HVAC), reklam-tabela, mobilya ve elektronik sektörleri de yoğun lazer kesim kullanan alanlardır.</p>
+
+<h3>Malzeme Uyumluluğu</h3>
+<p>Fiber lazer ile kesilebilen başlıca metaller: siyah sac (St37, St52, S235JR, S355JR), paslanmaz çelik (304, 316L, 430), alüminyum (1050, 5754, 6082), galvaniz sac (DX51D), bakır (Cu-ETP), pirinç (CuZn37) ve aşınma çelikleri (Hardox 400, Hardox 450). Kalınlık limitleri lazer gücüne bağlı olarak değişir: çelikte 25mm, paslanmazda 20mm, alüminyumda 12mm, bakır ve pirinçte 6mm'ye kadar kesim mümkündür.</p>
+
+<h3>Kuzey Şafak Lazer'de Lazer Kesim Hizmeti</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde son teknoloji fiber lazer kesim makinemizle hizmet veriyoruz. 2000x6000mm kesim alanı, yüksek lazer gücü ve profesyonel nesting yazılımı ile her projede maksimum verimlilik ve minimum fire sağlıyoruz. Tek parça prototipten binlerce adetlik seri üretime kadar her ölçekte, aynı gün veya ertesi gün teslimat imkanı sunuyoruz. Kesim sonrası CNC büküm, kaynaklı imalat ve yüzey işlemi süreçleriyle projenizi baştan sona tek çatı altında tamamlıyoruz.</p>`,
     relatedServices: ['lazer-kesim'],
     faq: [
-      { q: 'Lazer kesim hangi metalleri kesebilir?', a: 'Fiber lazer ile çelik, paslanmaz çelik, alüminyum, galvaniz, bakır, pirinç ve hardox gibi metaller kesilebilir. Malzeme kalınlık limitleri lazer gücüne göre değişir.' },
-      { q: 'Lazer kesim ile plazma kesim arasındaki fark nedir?', a: 'Lazer kesim daha yüksek hassasiyet (±0.1mm) ve daha temiz kenar kalitesi sunarken, plazma kesim kalın malzemelerde (25mm+) daha ekonomiktir. İnce ve orta kalınlıklarda lazer kesim tercih edilir.' },
-      { q: 'Lazer kesim tehlikeli midir?', a: 'Modern CNC lazer kesim makineleri tamamen kapalı kabinlerde çalışır. Operatör güvenliği için lazer sınıfına uygun koruma sistemleri, duman emme üniteleri ve acil durdurma mekanizmaları bulunur.' }
+      { q: 'Lazer kesim hangi metalleri kesebilir?', a: 'Fiber lazer ile çelik, paslanmaz çelik, alüminyum, galvaniz, bakır, pirinç ve Hardox gibi aşınma çelikleri kesilebilir. Malzeme kalınlık limitleri lazer gücüne göre değişir; çelikte 25mm, paslanmazda 20mm, alüminyumda 12mm kapasiteye sahibiz.' },
+      { q: 'Lazer kesim ile plazma kesim arasındaki fark nedir?', a: 'Lazer kesim ±0.1mm hassasiyet ve temiz kenar kalitesi sunarken, plazma kesim 15mm üzeri kalın malzemelerde daha ekonomiktir. İnce ve orta kalınlıklarda lazer kesim hem kalite hem hız açısından tercih edilir.' },
+      { q: 'Lazer kesim tehlikeli midir?', a: 'Modern CNC fiber lazer kesim makineleri tamamen kapalı kabinlerde çalışır. Operatör güvenliği için lazer sınıfına uygun koruma sistemleri, duman emme üniteleri ve acil durdurma mekanizmaları bulunur. CE sertifikalı makinelerimizde güvenlik standartları eksiksiz uygulanır.' },
+      { q: 'Lazer kesim ile en ince kaç mm malzeme kesilebilir?', a: 'Fiber lazer ile 0.5mm kalınlıktan başlayarak kesim yapabiliyoruz. İnce saclarda ±0.05mm gibi çok yüksek hassasiyet değerleri elde edilir ve çapak oluşumu neredeyse sıfırdır.' },
+      { q: 'Lazer kesim dosyası hangi formatta olmalıdır?', a: 'En ideal format 1:1 ölçekli DXF dosyasıdır. Bunun yanı sıra DWG, STEP, IGES, AI ve PDF formatlarını da kabul ediyoruz. Dosyanız yoksa eskiz veya numune parçadan teknik ekibimiz çizim oluşturabilir.' }
     ]
   },
 
@@ -51,29 +63,44 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Plazma Kesim Nedir?',
     metaDesc: 'Plazma kesim nedir, nasıl çalışır, hangi kalınlıklarda kullanılır? CNC plazma kesim avantajları ve kullanım alanları. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>Plazma kesim</strong>, elektrik arkı ile iyonize edilmiş gaz (plazma) kullanarak iletken metallerin kesilmesi işlemidir. Plazma gazı 20.000-30.000°C sıcaklığa ulaşarak metali eritir ve yüksek hızlı gaz akışı ile eriyen malzemeyi kesim bölgesinden uzaklaştırır.</p>
+    content: `<p><strong>Plazma kesim</strong>, elektrik arkı ile iyonize edilmiş gaz (plazma) kullanılarak iletken metallerin yüksek hızda kesilmesi işlemidir. Maddenin dördüncü hali olan plazma, gaz moleküllerinin elektrik enerjisiyle iyonize edilerek 20.000-30.000°C sıcaklığa ulaşmasıyla oluşur. Bu süper ısıtılmış iyonize gaz akışı, metali lokalize bir bölgede eritir ve yüksek basınçlı gaz jeti erimiş malzemeyi kesim bölgesinden uzaklaştırarak temiz bir kesim oluşturur. Plazma kesim teknolojisi 1960'larda geliştirilmiş olup, özellikle kalın metal sacların ekonomik ve hızlı kesilmesinde endüstri standardı haline gelmiştir.</p>
 
-<h3>CNC Plazma Kesim Nasıl Çalışır?</h3>
-<p>CNC plazma kesim makinelerinde, bilgisayar kontrollü bir torç taşıyıcı sistem, programlanan geometrilere göre otomatik olarak hareket eder. Plazma torcu ile sac arasında oluşturulan elektrik arkı, basınçlı gazı (hava, oksijen veya azot) plazma haline dönüştürür. Bu süper ısıtılmış gaz akışı metali keser.</p>
+<h3>Plazma Kesimin Tarihçesi ve Gelişimi</h3>
+<p>Plazma kesim, 1950'lerin sonunda TIG kaynak sürecinden türetilmiş bir teknolojidir. İlk plazma kesim torçları, tungsten elektrot ve su soğutmalı nozul kullanıyordu. 1960'larda çift gazlı plazma sistemleri geliştirildi ve kesim kalitesi önemli ölçüde arttı. 1980'lerde CNC kontrol sistemlerinin entegrasyonu ile plazma kesim otomatik hale geldi. 2000'li yıllarda Hi-Definition (yüksek çözünürlüklü) plazma teknolojisi, kesim kalitesini lazer kesime yaklaştırdı. Günümüzde CNC plazma sistemleri, kalın metal kesiminde vazgeçilmez bir yere sahiptir.</p>
+
+<h3>CNC Plazma Kesim Nasıl Çalışır? (Teknik Prensip)</h3>
+<p>CNC plazma kesim sisteminde bilgisayar kontrollü bir portal (gantry) yapısı üzerindeki torç taşıyıcı, programlanan geometrilere göre X-Y eksenlerinde otomatik hareket eder. Plazma torcu ile iş parçası arasında yüksek frekanslı kıvılcım (pilot ark) ile elektrik arkı başlatılır. Torca beslenen basınçlı gaz (hava, oksijen, azot veya argon-hidrojen karışımı), bu elektrik arkı tarafından iyonize edilerek plazma haline dönüşür. Dar nozuldan geçirilen plazma jeti, yüksek sıcaklık ve kinetik enerji ile metali eritir ve kesim bölgesinden uzaklaştırır. CNC kontrol ünitesi, kesim hızı, ark akımı, gaz basıncı ve torç yüksekliğini otomatik olarak optimize eder.</p>
 
 <h3>Plazma Kesimin Avantajları</h3>
 <ul>
-<li><strong>Kalın malzeme kapasitesi:</strong> 50mm ve üzeri kalınlıklarda verimli kesim</li>
-<li><strong>Hızlı kesim:</strong> Özellikle 10-30mm aralığında yüksek kesim hızı</li>
-<li><strong>Düşük yatırım maliyeti:</strong> Lazer kesim makinelerine göre daha uygun fiyatlı</li>
-<li><strong>Çok yönlülük:</strong> Tüm iletken metaller kesilebilir</li>
+<li><strong>Kalın malzeme kapasitesi:</strong> 50mm ve üzeri kalınlıklarda verimli ve ekonomik kesim yapabilme kabiliyeti, plazma kesimin en belirgin avantajıdır.</li>
+<li><strong>Yüksek kesim hızı:</strong> Özellikle 10-30mm kalınlık aralığında lazer kesime yakın veya daha yüksek hızlarda kesim gerçekleştirir.</li>
+<li><strong>Düşük yatırım ve işletme maliyeti:</strong> Lazer kesim makinelerine kıyasla daha uygun ilk yatırım bedeli ve sarf malzeme maliyeti sunar.</li>
+<li><strong>Geniş malzeme yelpazesi:</strong> Tüm iletken metaller (çelik, paslanmaz, alüminyum, bakır, pirinç) plazma ile kesilebilir.</li>
+<li><strong>Pah (bevel) kesim kabiliyeti:</strong> Açılı torç hareketi ile kaynak ağzı açma (bevel kesim) yapılabilir; bu özellik konstrüksiyon işlerinde büyük avantaj sağlar.</li>
 </ul>
 
-<h3>Plazma Kesim Kullanım Alanları</h3>
-<p>Plazma kesim; çelik konstrüksiyon, gemi inşa, ağır sanayi makine parçaları, köprü ve platform imalatı, tank ve silo üretimi gibi kalın saclara ihtiyaç duyulan sektörlerde yaygın olarak kullanılır. Kuzey Şafak Lazer olarak CNC plazma kesim makinemizle 6mm'den 50mm'ye kadar çelik ve paslanmaz saclarda hizmet veriyoruz.</p>
+<h3>Plazma Kesimin Dezavantajları</h3>
+<p>Lazer kesime kıyasla daha geniş kerf genişliği (1.5-3mm) ve daha düşük hassasiyet (±0.5-1mm) plazma kesimin temel dezavantajlarıdır. İnce saclarda (3mm altı) ısı etki alanı geniş olduğundan malzeme deformasyonu oluşabilir. Kesim kenarında çapak (dross) meydana gelebilir ve bazı uygulamalarda taşlama gibi ek işlem gerektirebilir. Ayrıca sadece iletken malzemelerde kullanılabilir; plastik, ahşap gibi malzemeler plazma ile kesilemez.</p>
+
+<h3>Kullanım Alanları ve Sektörler</h3>
+<p>CNC plazma kesim, kalın metal sacların işlendiği hemen her sektörde yoğun olarak kullanılmaktadır. Çelik konstrüksiyon ve yapısal çelik imalatında taşıyıcı profil, bağlantı plakası ve gusset kesimi; gemi inşa sektöründe tekne gövde sacları; ağır sanayi makine imalatında şasi, gövde ve flanş parçaları; köprü, platform ve merdiven üretiminde taban ve korkuluk plakaları; tank, silo ve basınçlı kap imalatında gövde ve kapak sacları; madencilik ekipmanlarında Hardox kepçe ve kova parçaları plazma kesimin yoğun kullanıldığı alanlardır. İnşaat, enerji, petrokimya ve tarım makineleri sektörleri de plazma kesime büyük talep oluşturmaktadır.</p>
+
+<h3>Malzeme Uyumluluğu ve Kalınlık Kapasitesi</h3>
+<p>CNC plazma ile kesilebilen başlıca malzemeler: yapısal karbon çelik (St37, St52, S235JR, S355JR), paslanmaz çelik (304, 316L), alüminyum alaşımları, aşınma çelikleri (Hardox 400, Hardox 450), bakır ve pirinçtir. Kalınlık kapasitesi plazma güç kaynağının amperajına bağlıdır. Standart sistemlerde 6-50mm, yüksek güçlü sistemlerde 80mm ve üzeri kalınlıklarda kesim mümkündür.</p>
 
 <h3>Plazma Kesim Toleransları</h3>
-<p>CNC plazma kesimde tolerans ±0.5-1mm civarındadır. Yüksek çözünürlüklü (Hi-Def) plazma sistemlerinde bu değer ±0.25mm'ye kadar düşebilir. Lazer kesime kıyasla daha geniş kerf genişliğine sahiptir ancak kalın malzemelerde maliyet avantajı belirleyici faktördür.</p>`,
+<p>Standart CNC plazma kesimde genel tolerans ±0.5-1mm aralığındadır. Hi-Definition plazma sistemlerinde bu değer ±0.25mm'ye kadar düşebilir. Kerf genişliği kalınlığa ve amperaja bağlı olarak 1.5-3mm arasında değişir. Lazer kesime kıyasla daha geniş toleranslara sahip olsa da, kalın malzemelerde sunduğu maliyet avantajı genellikle belirleyici faktördür.</p>
+
+<h3>Kuzey Şafak Lazer'de CNC Plazma Kesim Hizmeti</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde CNC plazma kesim hizmeti sunuyoruz. 2000x6000mm kesim tablalı makinemiz ile 6mm'den 50mm'ye kadar çelik ve paslanmaz saclarda yüksek kalitede kesim gerçekleştiriyoruz. Aynı tesis bünyesinde fiber lazer kesim makinemiz de bulunduğundan, projenizin her parçası için en uygun kesim yöntemini seçerek toplam maliyeti optimize edebiliyoruz. Kesim sonrası CNC büküm ve kaynaklı imalat hizmetlerimizle projenizi eksiksiz tamamlıyoruz.</p>`,
     relatedServices: ['cnc-plazma'],
     faq: [
-      { q: 'Plazma kesim en kalın kaç mm kesebilir?', a: 'CNC plazma kesim ile 50mm ve üzeri kalınlıklarda çelik kesilebilir. Kuzey Şafak Lazer olarak 50mm\'e kadar plazma kesim hizmeti sunuyoruz.' },
-      { q: 'Plazma kesim hangi metallerde kullanılır?', a: 'Plazma ile tüm iletken metaller kesilebilir: çelik, paslanmaz çelik, alüminyum, bakır, pirinç ve daha fazlası.' },
-      { q: 'Plazma kesim mi lazer kesim mi tercih etmeliyim?', a: '10mm altı kalınlıklarda lazer kesim daha hassas ve ekonomiktir. 15mm üzeri kalınlıklarda plazma kesim hız ve maliyet avantajı sağlar. Arada kalan kalınlıklarda proje gereksinimlerine göre değerlendirilir.' }
+      { q: 'Plazma kesim en kalın kaç mm kesebilir?', a: 'CNC plazma kesim ile 50mm ve üzeri kalınlıklarda çelik kesilebilir. Kuzey Şafak Lazer olarak 6mm ile 50mm arasında plazma kesim hizmeti sunuyoruz. Daha kalın malzemeler için özel değerlendirme yapıyoruz.' },
+      { q: 'Plazma kesim hangi metallerde kullanılır?', a: 'Plazma ile tüm iletken metaller kesilebilir: yapısal çelik, paslanmaz çelik, alüminyum, bakır, pirinç ve Hardox gibi aşınma çelikleri. Sadece iletken olmayan malzemelerde (plastik, ahşap) kullanılamaz.' },
+      { q: 'Plazma kesim mi lazer kesim mi tercih etmeliyim?', a: '10mm altı kalınlıklarda lazer kesim daha hassas ve ekonomiktir. 15mm üzeri kalınlıklarda plazma kesim hız ve maliyet avantajı sağlar. 10-15mm aralığında proje tolerans ve kalite gereksinimlerine göre en uygun yöntem belirlenir.' },
+      { q: 'Plazma kesim kenar kalitesi nasıldır?', a: 'CNC plazma kesimde kenar kalitesi malzeme kalınlığına ve kesim parametrelerine bağlıdır. Hi-Definition plazma ile düzgün ve dik kenarlar elde edilir. Gerektiğinde kesim sonrası taşlama hizmeti de sunuyoruz.' },
+      { q: 'Plazma ile Hardox kesilebilir mi?', a: 'Evet, Hardox 400 ve Hardox 450 gibi aşınma çelikleri CNC plazma ile başarıyla kesilmektedir. Yüksek sertliğe rağmen plazma kesim, Hardox işlemede yaygın ve verimli bir yöntemdir.' }
     ]
   },
 
@@ -83,28 +110,40 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Abkant Pres Nedir?',
     metaDesc: 'Abkant pres nedir, nasıl çalışır, CNC büküm ile farkı nedir? Sac metal büküm işlemi hakkında detaylı rehber. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>Abkant pres</strong> (bükme presi), sac metal parçalara istenilen açı ve şekli vermek için kullanılan hidrolik veya servo-elektrik tahrikli bir metal şekillendirme makinesidir. Üst kalıp (zımba/punch) ve alt kalıp (V kalıp/die) arasına yerleştirilen sac, kontrollü basınç uygulanarak bükülür.</p>
+    content: `<p><strong>Abkant pres</strong> (bükme presi), sac metal parçalara istenilen açı, profil ve üç boyutlu şekli vermek için kullanılan CNC kontrollü bir metal şekillendirme makinesidir. Sac metal imalat sürecinin en kritik aşamalarından biri olan büküm işlemi, abkant pres üzerinde gerçekleştirilir. Düz sacın kesilmesinden sonra, üst kalıp (zımba/punch) ve alt kalıp (V kalıp/die) arasına yerleştirilen parça, kontrollü hidrolik veya servo-elektrik basınç uygulanarak istenilen geometriye bükülür. Abkant pres, sac metal imalatın vazgeçilmez makinesidir ve hemen her endüstriyel üründe en az bir büküm operasyonu bulunmaktadır.</p>
 
-<h3>CNC Abkant Büküm Nasıl Çalışır?</h3>
-<p>CNC abkant presler, bilgisayar kontrollü arka dayama (back gauge) ve üst kızak (ram) konumlandırma sistemi sayesinde tekrarlanabilir hassas büküm yapar. Operatör, büküm açısı, büküm uzunluğu ve sıra bilgilerini CNC panelden programlar. Makine otomatik olarak her büküm adımını sırasıyla gerçekleştirir.</p>
+<h3>Abkant Presin Tarihçesi</h3>
+<p>Sac metal büküm işlemi, sanayileşmenin başlangıcından beri uygulanan temel bir şekillendirme yöntemidir. İlk abkant presler, mekanik tahrikli ve manuel kumanda ile çalışan basit makinelerdi. 1950'lerde hidrolik sistemlerin entegrasyonu ile büküm kapasitesi ve kontrol hassasiyeti arttı. 1970'lerde NC (sayısal kontrol) teknolojisinin uygulanmasıyla otomatik arka dayama sistemleri geliştirildi. 1990'lardan itibaren CNC kontrollü abkant presler endüstrinin standardı haline geldi. Günümüzde servo-elektrik tahrikli abkant presler, enerji verimliliği ve hız açısından yeni bir standart oluştururken, 6 eksenli CNC arka dayama sistemleri karmaşık parçalarda bile ilk seferde doğru büküm yapılmasını mümkün kılmaktadır.</p>
+
+<h3>CNC Abkant Büküm Nasıl Çalışır? (Teknik Prensip)</h3>
+<p>CNC abkant preste büküm süreci şu adımlardan oluşur: Öncelikle operatör veya programcı, parçanın büküm açıları, boyutları ve sırasını CNC kontrol paneline girer. Modern sistemlerde bu bilgiler doğrudan CAD/CAM yazılımından aktarılabilir. CNC kontrol ünitesi, arka dayama (back gauge) mesafesini, üst kızak (ram) strokunu ve hızını otomatik olarak ayarlar. Operatör sacı alt kalıp üzerine yerleştirip arka dayamaya dayadıktan sonra pedala basar. Üst kızak, programlanan derinliğe iner ve zımba ile V kalıp arasında sac istenen açıya bükülür. Her büküm adımında arka dayama otomatik olarak bir sonraki pozisyona hareket eder. Açı ölçüm sensörleri (varsa) gerçek zamanlı geri bildirim sağlayarak geri yaylanma (springback) kompansasyonunu otomatik yapar.</p>
 
 <h3>Abkant Preste Büküm Yöntemleri</h3>
 <ul>
-<li><strong>Hava Büküm (Air Bending):</strong> En yaygın yöntem. Zımba V kalıbın dibine kadar inmez, malzeme elastik olarak şekillenir. Farklı açılar tek bir V kalıp ile elde edilebilir.</li>
-<li><strong>Alt Büküm (Bottom Bending):</strong> Zımba malzemeyi V kalıbın dibine kadar bastırır. Daha hassas açı kontrolü sağlar.</li>
-<li><strong>Coin Büküm (Coining):</strong> En yüksek hassasiyetli yöntem. Malzeme kalıp arasında tamamen sıkıştırılır. Geri yaylanma (springback) neredeyse sıfırdır.</li>
+<li><strong>Hava Büküm (Air Bending):</strong> En yaygın kullanılan yöntemdir. Zımba, sacı V kalıbın dibine kadar bastırmaz; malzeme boşlukta elastik olarak şekillenir. Tek bir V kalıp ile 30° ile 180° arasında farklı açılar elde edilebilir. Düşük tonaj gereksinimi ve kalıp esnekliği sayesinde ekonomik ve çok yönlüdür. Geri yaylanma kompansasyonu CNC tarafından otomatik hesaplanır.</li>
+<li><strong>Alt Büküm (Bottom Bending):</strong> Zımba malzemeyi V kalıbın tabanına kadar bastırır ancak tam sıkıştırma yapmaz. Hava büküme göre daha dar açı toleransı ve daha iyi tekrarlanabilirlik sağlar. Hava büküme kıyasla 3-5 kat daha fazla tonaj gerektirir.</li>
+<li><strong>Coin Büküm (Coining):</strong> En yüksek hassasiyetli yöntemdir. Malzeme, zımba ve kalıp arasında tamamen sıkıştırılarak plastik deformasyon yapılır. Geri yaylanma neredeyse sıfırdır. Ancak hava büküme göre 5-8 kat fazla tonaj gerektirir ve kalıp aşınması daha hızlıdır.</li>
 </ul>
 
-<h3>Büküm Kapasitemiz</h3>
-<p>Kuzey Şafak Lazer olarak CNC abkant presimiz ile 3000mm büküm uzunluğu ve 220 ton büküm kapasitesine sahibiz. 0.5mm'den 12mm kalınlığa kadar çelik, paslanmaz çelik ve alüminyum saclarda büküm işlemi gerçekleştiriyoruz. CNC kontrol sayesinde ±0.1° açı hassasiyeti ve ±0.05mm boyut hassasiyeti sağlıyoruz.</p>
+<h3>Avantajları ve Dezavantajları</h3>
+<p><strong>Avantajları:</strong> CNC abkant büküm, ±0.1° açı hassasiyeti ve ±0.05mm boyut hassasiyeti ile endüstriyel standartların çok üzerinde bir kalite sunar. Kalıp değişimi hızlıdır, küçük partilerden seri üretime geçiş kolaydır. Karmaşık profiller (kutu, U, Z, kanal) çok adımlı büküm ile elde edilebilir. CNC programlama sayesinde ilk seferde doğru parça üretimi mümkündür.</p>
+<p><strong>Dezavantajları:</strong> Büküm işleminin doğası gereği minimum iç yarıçap sınırlaması vardır (genellikle malzeme kalınlığına eşit). Çok uzun parçalarda sehim (defleksiyon) kompansasyonu gerektirir. Yüksek mukavemetli malzemelerde (Hardox, yay çeliği) büküm zorlaşır ve çatlama riski artabilir. Parça geometrisine göre büküm sırası kritik önem taşır; yanlış sıralama, sonraki bükümlerin yapılmasını engelleyebilir.</p>
 
-<h3>Kullanım Alanları</h3>
-<p>Abkant büküm; elektrik panoları, makine gövdeleri, kabin kapakları, profil üretimi, havalandırma kanalları, mobilya aksesuarları ve endüstriyel kutu imalatında kritik bir süreçtir.</p>`,
+<h3>Kullanım Alanları ve Sektörler</h3>
+<p>Abkant büküm, sac metal imalatın gerçekleştirildiği neredeyse tüm sektörlerde kritik bir süreçtir. Elektrik panosu ve kumanda dolabı imalatında gövde, kapak ve montaj plakaları; makine imalatında şasi, gövde ve kabin parçaları; havalandırma (HVAC) sektöründe kanal, bağlantı ve geçiş parçaları; asansör sektöründe kabin paneli ve kapı kasası; mobilya sektöründe metal aksesuar ve profiller; otomotiv yan sanayinde braket, tutucu ve karoseri elemanları; aydınlatma sektöründe armatür gövdeleri ve reflektörler abkant büküm ile üretilmektedir.</p>
+
+<h3>Malzeme Uyumluluğu</h3>
+<p>CNC abkant preste bükülebilen başlıca malzemeler: karbon çelik (St37, St52), paslanmaz çelik (304, 316L, 430), alüminyum (1050, 5754, 6082), galvaniz sac (DX51D, DX52D), bakır, pirinç ve DKP sac (soğuk haddelenmiş) malzemelerdir. Her malzemenin akma dayanımı ve geri yaylanma karakteristiği farklıdır; CNC kontrol sistemi bu değerleri otomatik olarak hesaba katarak doğru büküm açısını elde eder.</p>
+
+<h3>Kuzey Şafak Lazer'de CNC Büküm Hizmeti</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde 220 ton kapasiteli, 3000mm büküm boyuna sahip CNC abkant presimizle hizmet veriyoruz. 0.5mm'den 12mm kalınlığa kadar çelik, paslanmaz çelik, alüminyum ve galvaniz saclarda büküm işlemi gerçekleştiriyoruz. CNC kontrol sayesinde ±0.1° açı hassasiyeti ve ±0.05mm boyut hassasiyeti sağlıyoruz. Aynı tesis içindeki fiber lazer kesim makinemizle entegre çalışarak, kesim ve büküm süreçlerini koordineli bir şekilde yürütüyor ve projenizi en kısa sürede teslim ediyoruz.</p>`,
     relatedServices: ['cnc-bukum'],
     faq: [
-      { q: 'Abkant pres ile rulo büküm arasındaki fark nedir?', a: 'Abkant pres düz saclara açısal büküm yapar (V, U, Z şekilleri). Rulo büküm ise sacı silindirik veya konik formlara dönüştürür. Farklı amaçlara hizmet eden iki ayrı şekillendirme yöntemidir.' },
-      { q: 'CNC abkant büküm hassasiyeti ne kadardır?', a: 'CNC abkant presler ile ±0.1° açı hassasiyeti ve ±0.05mm boyutsal hassasiyet elde edilir. Bu değerler seri üretimde her parçada tutarlı sonuç verir.' },
-      { q: 'Hangi malzemeler abkant preste bükülebilir?', a: 'Çelik, paslanmaz çelik, alüminyum, galvaniz, bakır ve pirinç saclar abkant preste bükülebilir. Malzemenin akma dayanımına göre büküm parametreleri ayarlanır.' }
+      { q: 'Abkant pres ile rulo büküm arasındaki fark nedir?', a: 'Abkant pres düz saclara açısal büküm yapar (V, U, Z, kutu profilleri). Rulo büküm (silindir büküm) ise sacı silindirik veya konik formlara dönüştürür. Farklı geometri ihtiyaçlarına hizmet eden iki ayrı şekillendirme yöntemidir.' },
+      { q: 'CNC abkant büküm hassasiyeti ne kadardır?', a: 'CNC abkant presler ile ±0.1° açı hassasiyeti ve ±0.05mm boyutsal hassasiyet elde edilir. Açı ölçüm sensörlü sistemlerde bu değerler daha da iyileştirilebilir. Seri üretimde her parçada tutarlı sonuç garanti edilir.' },
+      { q: 'Hangi malzemeler abkant preste bükülebilir?', a: 'Çelik, paslanmaz çelik, alüminyum, galvaniz, bakır, pirinç ve DKP saclar abkant preste bükülebilir. Malzemenin akma dayanımına ve kalınlığına göre büküm parametreleri (tonaj, V açıklığı, hız) otomatik ayarlanır.' },
+      { q: 'Minimum büküm yarıçapı ne kadardır?', a: 'Genel kural olarak minimum iç büküm yarıçapı malzeme kalınlığına eşittir. Örneğin 2mm çelikte minimum R2, 3mm alüminyumda minimum R1.5 uygulanabilir. Bu değerin altındaki yarıçaplarda çatlama riski artar.' },
+      { q: 'Büküm sonrası parça boyutu neden hedeften sapabilir?', a: 'Geri yaylanma (springback), yanlış K-faktörü veya hatalı açınım hesabı boyutsal sapmalara neden olabilir. CNC abkant presimizde otomatik springback kompansasyonu ve doğru K-faktörü hesaplaması ile bu sapmalar minimuma indirilir.' }
     ]
   },
 
@@ -114,26 +153,39 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Hardox Nedir?',
     metaDesc: 'Hardox nedir, hangi sektörlerde kullanılır? Hardox 400, 450, 500 farkları ve lazer kesim ile işlenmesi. Kuzey Şafak Lazer İstanbul İkitelli.',
     category: 'bilgi',
-    content: `<p><strong>Hardox</strong>, İsveçli SSAB firması tarafından üretilen dünyaca ünlü bir aşınmaya dayanıklı çelik markasıdır. Yüksek sertlik değeri (HBW) ile karakterize edilen Hardox, standart yapısal çeliğe göre 4-5 kat daha uzun ömür sunar. İsmi "Hard" (sert) ve "Ox" (öküz gücü) kelimelerinin birleşiminden gelir.</p>
+    content: `<p><strong>Hardox</strong>, İsveç merkezli SSAB firması tarafından üretilen, dünya genelinde aşınmaya dayanıklı çelik kategorisinin en tanınmış markasıdır. Yüksek Brinell sertlik değeri (HBW) ile karakterize edilen Hardox, standart yapısal çeliğe göre 4-5 kat daha uzun kullanım ömrü sunar. Marka adı "Hard" (sert) ve "Ox" (öküz gücü) kelimelerinin birleşiminden gelmektedir. SSAB, Hardox'u ilk kez 1970'lerde piyasaya sürmüş ve o günden bu yana sürekli geliştirerek farklı sertlik ve tokluk kombinasyonlarına sahip geniş bir ürün yelpazesi oluşturmuştur.</p>
+
+<h3>Hardox Nedir? Teknik Tanım</h3>
+<p>Hardox, özel alaşım bileşimi ve kontrollü ısıl işlem (su verme + temperleme) ile üretilen düşük alaşımlı, yüksek sertlikteki bir çelik kalitesidir. Kimyasal bileşiminde düşük karbon oranı (%0.15-0.30), bor, krom, nikel ve molibden gibi alaşım elementleri bulunur. Bu özel bileşim sayesinde Hardox sadece yüksek sertliğe değil, aynı zamanda iyi tokluk, kaynak edilebilirlik ve bükülebilirlik özelliklerine de sahiptir. Bu da onu sadece bir aşınma astarı değil, aynı zamanda yapısal bir eleman olarak kullanılabilir kılar.</p>
 
 <h3>Hardox Çeşitleri ve Özellikleri</h3>
 <ul>
-<li><strong>Hardox 400:</strong> 370-430 HBW sertlik. Genel amaçlı aşınma plakası. Kepçe, damper kasa ve konveyör astarlarında yaygın kullanılır.</li>
-<li><strong>Hardox 450:</strong> 425-475 HBW sertlik. Orta-ağır aşınma koşulları için. İnşaat ve madencilik ekipmanlarında tercih edilir.</li>
-<li><strong>Hardox 500:</strong> 470-540 HBW sertlik. Ağır aşınma koşulları için. Kırıcı astarları, kova dişleri ve maden taşıma sistemlerinde kullanılır.</li>
-<li><strong>Hardox HiTuf:</strong> Düşük sertlikte ancak yüksek toklukta. Darbe ve aşınmanın birlikte olduğu uygulamalarda idealdir.</li>
+<li><strong>Hardox 400:</strong> 370-430 HBW sertlik aralığı. Genel amaçlı aşınma plakası olarak en yaygın kullanılan kalitedir. Kepçe gövdesi, damper kasa, konveyör astarı, silobas iç yüzeyi ve beton mikseri gibi orta aşınma koşullarında tercih edilir. İyi kaynak edilebilirlik ve bükülebilirlik sunar.</li>
+<li><strong>Hardox 450:</strong> 425-475 HBW sertlik aralığı. Hardox 400'e göre daha yüksek aşınma direnci sunarken, bükülebilirlik ve kaynak edilebilirlik özelliklerini büyük ölçüde korur. İnşaat makineleri, madencilik ekipmanları ve geri dönüşüm tesisi bileşenlerinde yoğun olarak kullanılır.</li>
+<li><strong>Hardox 500:</strong> 470-540 HBW sertlik aralığı. Ağır ve aşırı aşınma koşulları için tasarlanmıştır. Kırıcı astarları, kova dişleri, maden taşıma kanalları ve çimento sanayii ekipmanlarında tercih edilir. Bükülebilirliği Hardox 400'e göre sınırlıdır.</li>
+<li><strong>Hardox 550 ve 600:</strong> En yüksek sertlik değerlerine sahip kalitelerdir. Aşırı abrazif aşınma koşullarında kullanılır. İşlenebilirlikleri sınırlıdır ve genellikle astar plakası olarak tercih edilir.</li>
+<li><strong>Hardox HiTuf:</strong> Nispeten düşük sertlikte (350 HBW) ancak çok yüksek toklukta bir kalitedir. Darbe ve aşınmanın birlikte yoğun olduğu uygulamalarda, özellikle kaya kamyonu kasaları ve kırıcı gövdelerinde idealdir.</li>
 </ul>
 
-<h3>Hardox Neden Tercih Edilir?</h3>
-<p>Hardox'un yüksek aşınma direnci sayesinde ekipman ömrü uzar, bakım süreleri azalır ve toplam işletme maliyeti düşer. Aynı zamanda iyi kaynak edilebilirlik ve bükülebilirlik özelliği taşır, bu da onu sadece bir aşınma plakası değil, aynı zamanda yapısal bir eleman olarak kullanılabilir kılar.</p>
+<h3>Avantajları ve Dezavantajları</h3>
+<p><strong>Avantajları:</strong> Hardox'un en belirgin avantajı, standart çeliğe göre 3-5 kat daha uzun kullanım ömrü sağlamasıdır. Bu sayede ekipman bakım süreleri uzar, duruş süresi azalır ve toplam sahip olma maliyeti (TCO) düşer. Aynı aşınma direncini daha ince kalınlıkla sağladığı için ekipman hafifler ve taşıma kapasitesi artar. İyi kaynak edilebilirlik ve bükülebilirlik özelliği, imalat süreçlerinde esneklik sağlar.</p>
+<p><strong>Dezavantajları:</strong> Standart yapısal çeliğe göre daha yüksek ham madde maliyeti Hardox'un temel dezavantajıdır. Yüksek sertlik nedeniyle mekanik işleme (delme, tornalama) zorlaşır ve özel takım gerektirebilir. Çok yüksek sertlikteki kalitelerde (500+) bükülebilirlik sınırlıdır ve kaynak öncesi ön ısıtma gerekebilir.</p>
 
-<h3>Hardox Lazer Kesim</h3>
-<p>Kuzey Şafak Lazer olarak Hardox 400 ve Hardox 450 saclarını fiber lazer ile yüksek hassasiyetle kesiyoruz. Hardox'un yüksek sertliğine rağmen, lazer kesim ısı etki alanını minimize ederek malzemenin mekanik özelliklerini korur. Plazma veya oksi-yakıt kesime göre lazer kesim, Hardox'ta çok daha düzgün kenar kalitesi sağlar.</p>`,
+<h3>Kullanım Alanları ve Sektörler</h3>
+<p>Hardox çelik, aşınmanın yoğun olduğu hemen her endüstriyel alanda kullanılmaktadır. Madencilik sektöründe ekskavatör kepçesi, kırıcı astarı, konveyör tava ve bant sistemi bileşenleri; inşaat sektöründe beko-loder kepçesi, damper kasa ve beton mikseri; geri dönüşüm tesislerinde parçalama makinesi gövde ve bıçakları, konveyör elemanları; çimento sanayinde değirmen astarları, bunker ve silo iç yüzeyleri; tarım makinelerinde pulluk, toprak işleme bıçağı ve hasat makinesi parçaları; taşımacılık sektöründe silobas, tanker ve damper kasa astarları Hardox'un yoğun kullanıldığı uygulama alanlarıdır.</p>
+
+<h3>Malzeme Uyumluluğu ve İşlenebilirlik</h3>
+<p>Hardox çelik, tüm termal kesim yöntemleriyle işlenebilir. Fiber lazer kesim ince ve orta kalınlıklarda (3-20mm) en yüksek kenar kalitesini sunar. CNC plazma kesim, 20mm üzeri kalınlıklarda ekonomik alternatiftir. Oksi-yakıt kesim ise çok kalın plakalarda (50mm+) kullanılır. Hardox kaynak edilebilirliği iyidir; ancak kalınlık ve sertlik değerine göre ön ısıtma (100-200°C) ve düşük hidrojenli dolgu malzemesi kullanımı önerilir. Abkant preste büküm için Hardox 400 ve 450 uygun olup, minimum büküm yarıçapı standart çeliğe göre daha geniş tutulmalıdır.</p>
+
+<h3>Kuzey Şafak Lazer'de Hardox İşleme Hizmeti</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde Hardox 400 ve Hardox 450 saclarını fiber lazer ve CNC plazma ile yüksek hassasiyette kesiyoruz. Lazer kesim, Hardox'un ısı etki alanını minimize ederek malzemenin sertlik ve mekanik özelliklerini korur. Kesim sonrası CNC büküm ve kaynaklı imalat hizmetlerimizle Hardox parçalarınızı komple imalat halinde teslim edebiliyoruz. Madencilik, inşaat, geri dönüşüm ve tarım makineleri sektörlerindeki müşterilerimize düzenli Hardox işleme hizmeti sağlıyoruz.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-plazma'],
     faq: [
-      { q: 'Hardox ile normal çelik arasındaki fark nedir?', a: 'Standard St37 çelik yaklaşık 120 HBW sertliğe sahipken, Hardox 400 ortalama 400 HBW sertliğe sahiptir. Bu, Hardox\'un aşınmaya karşı 3-4 kat daha dayanıklı olması anlamına gelir.' },
-      { q: 'Hardox lazer ile kesilebilir mi?', a: 'Evet, Hardox fiber lazer ile yüksek kalitede kesilebilir. Lazer kesim, Hardox\'un sertlik özelliklerini minimum ısı etkisiyle koruyarak en uygun kesim yöntemidir.' },
-      { q: 'Hardox hangi sektörlerde kullanılır?', a: 'Madencilik, inşaat, geri dönüşüm, çimento, tarım makineleri ve taşımacılık sektörlerinde yoğun aşınmaya maruz kalan ekipman parçalarında kullanılır.' }
+      { q: 'Hardox ile normal çelik arasındaki fark nedir?', a: 'Standard St37 çelik yaklaşık 120 HBW sertliğe sahipken, Hardox 400 ortalama 400 HBW sertliğe sahiptir. Bu, Hardox\'un aşınmaya karşı 3-4 kat daha dayanıklı olması ve ekipman ömrünün çok daha uzun olması anlamına gelir.' },
+      { q: 'Hardox lazer ile kesilebilir mi?', a: 'Evet, Hardox fiber lazer ile yüksek kalitede kesilebilir. Lazer kesim, dar ısı etki alanı sayesinde Hardox\'un sertlik ve mekanik özelliklerini koruyarak en uygun kesim yöntemidir. Plazma ve oksi-yakıt kesime göre çok daha düzgün kenar kalitesi sağlar.' },
+      { q: 'Hardox hangi sektörlerde kullanılır?', a: 'Madencilik, inşaat, geri dönüşüm, çimento, tarım makineleri, taşımacılık ve enerji sektörlerinde yoğun aşınmaya maruz kalan ekipman parçalarında yaygın olarak kullanılır.' },
+      { q: 'Hardox 400 ile Hardox 500 arasındaki fark nedir?', a: 'Hardox 400 (370-430 HBW) genel amaçlı aşınma plakası olup iyi bükülebilirlik ve kaynak edilebilirlik sunar. Hardox 500 (470-540 HBW) çok daha yüksek aşınma direnci sağlar ancak bükülebilirliği ve kaynak edilebilirliği daha sınırlıdır.' },
+      { q: 'Hardox yerine başka aşınma çeliği kullanılabilir mi?', a: 'Piyasada Hardox dışında Raex, Abrazo, Quard gibi alternatif aşınma çelikleri mevcuttur. Ancak Hardox, global düzeyde en geniş teknik destek ağına ve en tutarlı kaliteye sahip marka olarak öne çıkmaktadır.' }
     ]
   },
 
