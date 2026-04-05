@@ -1,144 +1,199 @@
-<!-- Hero -->
-<section class="page-header">
-  <div class="page-header__bg"
-       style="background-image: url('assets/images/about/about-main.webp');"></div>
+<!-- Section 1: Hero -->
+<section class="contact-hero">
+  <div class="contact-hero__bg"
+       style="background-image: url('assets/images/generated/fabrika-panorama.webp');"></div>
+  <div class="contact-hero__overlay"></div>
   <div class="container">
-    <div class="page-header__inner">
-      <h1>{{ 'contact.title' | translate }}</h1>
+    <div class="contact-hero__content">
       <ul class="thm-breadcrumb">
         <li><a routerLink="/">{{ 'home' | translate }}</a></li>
         <li><span class="icon-caret mx-2"></span></li>
         <li>{{ 'contact.title' | translate }}</li>
       </ul>
+      <h1>İletişim</h1>
+      <p class="contact-hero__subtitle">Projeniz hakkında konuşalım</p>
+    </div>
+  </div>
+
+  <!-- Stat Cards overlapping hero bottom -->
+  <div class="container contact-hero__cards-wrap">
+    <div class="row">
+      <div class="col-lg-4 col-md-4">
+        <div class="contact-hero__card">
+          <div class="contact-hero__card-icon">
+            <i class="fa fa-phone-alt"></i>
+          </div>
+          <div class="contact-hero__card-body">
+            <h4>Telefon</h4>
+            <a href="tel:905550008304">0555 000 83 04</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="contact-hero__card">
+          <div class="contact-hero__card-icon">
+            <i class="fa fa-envelope"></i>
+          </div>
+          <div class="contact-hero__card-body">
+            <h4>E-posta</h4>
+            <a href="mailto:info@safaklazer.com.tr">info&#64;safaklazer.com.tr</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="contact-hero__card">
+          <div class="contact-hero__card-icon">
+            <i class="fa fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-hero__card-body">
+            <h4>Konum</h4>
+            <span>İkitelli OSB, Başakşehir / İstanbul</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- Contact Info Cards -->
-<section class="ct-info">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-4 col-lg-4">
-        <div class="ct-info__card">
-          <div class="ct-info__icon"><span class="icon-phone-call-3"></span></div>
-          <h5>{{ 'contact.callUs' | translate }}</h5>
-          <p><a href="tel:905550008304">0555 000 83 04</a></p>
-        </div>
-      </div>
-      <div class="col-xl-4 col-lg-4">
-        <div class="ct-info__card">
-          <div class="ct-info__icon"><span class="icon-pin"></span></div>
-          <h5>{{ 'contact.address' | translate }}</h5>
-          <p>İkitelli OSB, Metal-İş Sanayi Sitesi 8. Blok No:22-24-26 Başakşehir / İstanbul</p>
-        </div>
-      </div>
-      <div class="col-xl-4 col-lg-4">
-        <div class="ct-info__card">
-          <div class="ct-info__icon"><span class="icon-email"></span></div>
-          <h5>{{ 'contact.email' | translate }}</h5>
-          <p><a href="mailto:info@safaklazer.com.tr">info&#64;safaklazer.com.tr</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Form + Info Section -->
-<section class="ct-form-section">
+<!-- Section 2: Main Content -->
+<section class="contact-main">
   <div class="container">
     <div class="row">
 
-      <!-- Form -->
+      <!-- Left: Contact Form (7 col) -->
       <div class="col-xl-7 col-lg-7">
         <div class="ct-form">
-          <h2 class="ct-form__title">Bize Ulaşın</h2>
-          <p class="ct-form__desc">Projeniz hakkında bilgi verin, size en kısa sürede dönüş yapalım.</p>
-
-          <div *ngIf="formSubmitted" class="ct-form__success">
-            <i class="fas fa-check-circle"></i>
-            <span>Mesajınız iletildi! En kısa sürede size dönüş yapacağız.</span>
+          <div class="ct-form__header">
+            <h2 class="ct-form__title">Bize Ulaşın</h2>
+            <p class="ct-form__desc">Projeniz hakkında bilgi verin, size en kısa sürede dönüş yapalım.</p>
           </div>
 
+          <!-- Success State -->
+          <div *ngIf="formSubmitted" class="ct-form__success">
+            <div class="ct-form__success-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Mesajınız İletildi!</h3>
+            <p>WhatsApp üzerinden mesajınız gönderildi. En kısa sürede size dönüş yapacağız.</p>
+          </div>
+
+          <!-- Form -->
           <form *ngIf="!formSubmitted" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
             <div class="row">
               <div class="col-md-6">
                 <div class="ct-form__group">
-                  <label>Ad Soyad *</label>
-                  <input type="text" formControlName="name" placeholder="Adınız Soyadınız">
+                  <label for="ct-name">Ad Soyad <span class="req">*</span></label>
+                  <input id="ct-name" type="text" formControlName="name" placeholder="Adınız Soyadınız">
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="ct-form__group">
-                  <label>E-posta *</label>
-                  <input type="email" formControlName="email" placeholder="ornek@firma.com">
+                  <label for="ct-email">E-posta <span class="req">*</span></label>
+                  <input id="ct-email" type="email" formControlName="email" placeholder="ornek@firma.com">
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col-md-6">
                 <div class="ct-form__group">
-                  <label>Telefon *</label>
-                  <input type="tel" formControlName="phone" placeholder="05XX XXX XX XX">
+                  <label for="ct-phone">Telefon <span class="req">*</span></label>
+                  <input id="ct-phone" type="tel" formControlName="phone" placeholder="05XX XXX XX XX">
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="ct-form__group">
-                  <label>Firma</label>
-                  <input type="text" formControlName="company" placeholder="Firma Adı (opsiyonel)">
+                  <label for="ct-company">Firma</label>
+                  <input id="ct-company" type="text" formControlName="company" placeholder="Firma Adı (opsiyonel)">
                 </div>
               </div>
             </div>
             <div class="ct-form__group">
-              <label>Hizmet</label>
-              <select formControlName="service">
+              <label for="ct-service">Hizmet</label>
+              <select id="ct-service" formControlName="service">
                 <option value="">Hizmet Seçin</option>
                 <option *ngFor="let opt of serviceOptions" [value]="opt">{{ opt }}</option>
               </select>
             </div>
             <div class="ct-form__group">
-              <label>Mesajınız *</label>
-              <textarea formControlName="message" rows="5"
+              <label for="ct-message">Mesajınız <span class="req">*</span></label>
+              <textarea id="ct-message" formControlName="message" rows="5"
                         placeholder="Projeniz hakkında detay verin (malzeme, boyut, adet vb.)"></textarea>
             </div>
-            <button type="submit" class="thm-btn ct-form__submit" [disabled]="contactForm.invalid">
-              <span class="txt">Gönder</span>
-              <i class="icon-double-chevron"></i>
+            <button type="submit" class="ct-form__submit" [disabled]="contactForm.invalid">
+              <i class="fab fa-whatsapp"></i>
+              <span>WhatsApp ile Gönder</span>
             </button>
           </form>
         </div>
       </div>
 
-      <!-- Sidebar Info -->
+      <!-- Right: Info Sidebar (5 col) -->
       <div class="col-xl-5 col-lg-5">
         <div class="ct-sidebar">
 
-          <div class="ct-sidebar__card">
-            <h3>Çalışma Saatleri</h3>
-            <ul>
+          <!-- Working Hours -->
+          <div class="ct-sidebar__card ct-sidebar__card--dark">
+            <div class="ct-sidebar__card-head">
+              <i class="fa fa-clock"></i>
+              <h3>Çalışma Saatleri</h3>
+            </div>
+            <ul class="ct-sidebar__hours">
               <li><span>Pazartesi - Cuma</span><strong>08:00 - 18:00</strong></li>
               <li><span>Cumartesi</span><strong>08:00 - 14:00</strong></li>
               <li class="closed"><span>Pazar</span><strong>Kapalı</strong></li>
             </ul>
           </div>
 
-          <div class="ct-sidebar__card ct-sidebar__card--dark">
-            <h3>Hızlı İletişim</h3>
+          <!-- Quick Contact -->
+          <div class="ct-sidebar__card">
+            <div class="ct-sidebar__card-head">
+              <i class="fa fa-headset"></i>
+              <h3>Hızlı İletişim</h3>
+            </div>
             <p>Acil projeleriniz için doğrudan arayabilir veya WhatsApp üzerinden ulaşabilirsiniz.</p>
-            <a href="tel:905550008304" class="ct-sidebar__phone">
+            <a href="tel:905550008304" class="ct-sidebar__btn ct-sidebar__btn--phone">
               <i class="fa fa-phone-alt"></i> 0555 000 83 04
             </a>
-            <a href="https://wa.me/905550008304?text=Merhaba%2C%20teklif%20almak%20istiyorum." target="_blank" rel="noopener noreferrer"
-               class="ct-sidebar__whatsapp">
+            <a href="https://wa.me/905550008304?text=Merhaba%2C%20teklif%20almak%20istiyorum."
+               target="_blank" rel="noopener noreferrer"
+               class="ct-sidebar__btn ct-sidebar__btn--whatsapp">
               <i class="fab fa-whatsapp"></i> WhatsApp ile Yazın
             </a>
           </div>
 
+          <!-- File Upload Info -->
           <div class="ct-sidebar__card">
-            <h3>Dosya Gönderimi</h3>
-            <p>Teknik çizimlerinizi (DXF, DWG, PDF, STEP) e-posta ile gönderebilirsiniz:</p>
-            <a href="mailto:info@safaklazer.com.tr" class="ct-sidebar__email">
+            <div class="ct-sidebar__card-head">
+              <i class="fa fa-file-upload"></i>
+              <h3>Dosya Gönderimi</h3>
+            </div>
+            <p>Teknik çizimlerinizi aşağıdaki formatlarda e-posta ile gönderebilirsiniz:</p>
+            <div class="ct-sidebar__formats">
+              <span class="ct-sidebar__format-tag">DXF</span>
+              <span class="ct-sidebar__format-tag">DWG</span>
+              <span class="ct-sidebar__format-tag">PDF</span>
+              <span class="ct-sidebar__format-tag">STEP</span>
+              <span class="ct-sidebar__format-tag">IGES</span>
+            </div>
+            <a href="mailto:info@safaklazer.com.tr" class="ct-sidebar__btn ct-sidebar__btn--email">
               <i class="fa fa-envelope"></i> info&#64;safaklazer.com.tr
             </a>
+          </div>
+
+          <!-- Location -->
+          <div class="ct-sidebar__card">
+            <div class="ct-sidebar__card-head">
+              <i class="fa fa-map-marker-alt"></i>
+              <h3>Adresimiz</h3>
+            </div>
+            <p class="ct-sidebar__address">
+              İkitelli OSB, Metal-İş Sanayi Sitesi<br>
+              8. Blok No:22-24-26<br>
+              Başakşehir / İstanbul
+            </p>
+            <p class="ct-sidebar__location-desc">
+              İkitelli Organize Sanayi Bölgesi içerisinde, Metal-İş Sanayi Sitesi'nde kolayca ulaşabileceğiniz konumdayız.
+            </p>
           </div>
 
         </div>
@@ -148,11 +203,41 @@
   </div>
 </section>
 
-<!-- Map -->
-<div class="ct-map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3008.0962360696494!2d28.800185000000003!3d41.066889!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa590b79a3895%3A0x9de7d49cadaedca1!2zxZ5hZmFrIERlbWlyIMOHZWxpaw!5e0!3m2!1str!2str!4v1726760064396!5m2!1str!2str"
-          class="ct-map__iframe"
-          allowfullscreen
-          loading="lazy"
-          title="Kuzey Şafak Lazer Konum"></iframe>
-</div>
+<!-- Section 3: Google Map -->
+<section class="contact-map">
+  <div class="contact-map__header">
+    <div class="container">
+      <h2>Bizi Ziyaret Edin</h2>
+      <p>İkitelli OSB, Metal-İş Sanayi Sitesi 8. Blok No:22-24-26, Başakşehir / İstanbul</p>
+    </div>
+  </div>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3008.0962360696494!2d28.800185000000003!3d41.066889!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa590b79a3895%3A0x9de7d49cadaedca1!2zxZ5hZmFrIERlbWlyIMOHZWxpaw!5e0!3m2!1str!2str!4v1726760064396!5m2!1str!2str"
+    class="contact-map__iframe"
+    allowfullscreen
+    loading="lazy"
+    title="Kuzey Şafak Lazer Konum"></iframe>
+</section>
+
+<!-- Section 4: FAQ -->
+<section class="contact-faq">
+  <div class="container">
+    <div class="contact-faq__header">
+      <h2>Sıkça Sorulan Sorular</h2>
+      <p>İletişim ve sipariş süreciyle ilgili merak edilenler</p>
+    </div>
+    <div class="contact-faq__list">
+      <div class="contact-faq__item"
+           *ngFor="let item of faqItems; let i = index"
+           [class.active]="item.open">
+        <button class="contact-faq__question" (click)="toggleFaq(i)">
+          <span>{{ item.question }}</span>
+          <i class="fa" [ngClass]="item.open ? 'fa-minus' : 'fa-plus'"></i>
+        </button>
+        <div class="contact-faq__answer" *ngIf="item.open">
+          <p>{{ item.answer }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

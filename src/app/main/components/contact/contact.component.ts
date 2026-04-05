@@ -27,6 +27,29 @@ export class ContactComponent implements OnInit {
     'Diğer'
   ];
 
+  faqItems = [
+    {
+      question: 'Teklif almak için ne gerekir?',
+      answer: 'Teknik çiziminizi (DXF, DWG, PDF) veya ölçülerinizi bize iletmeniz yeterlidir. Malzeme cinsi, kalınlık ve adet bilgisi ile birlikte en kısa sürede size fiyat teklifi sunuyoruz.',
+      open: false
+    },
+    {
+      question: 'Teslimat süresi ne kadar?',
+      answer: 'Standart siparişlerde 3-7 iş günü içinde teslimat yapılmaktadır. Acil işler için aynı gün veya ertesi gün teslimat seçeneklerimiz de mevcuttur. Proje büyüklüğüne göre süre değişebilir.',
+      open: false
+    },
+    {
+      question: 'Minimum sipariş miktarı var mı?',
+      answer: 'Minimum sipariş miktarı zorunluluğumuz yoktur. Tek parça prototipten seri üretime kadar her ölçekte hizmet vermekteyiz.',
+      open: false
+    },
+    {
+      question: 'Hangi dosya formatlarını kabul ediyorsunuz?',
+      answer: 'DXF, DWG, PDF, STEP ve IGES formatlarında teknik çizim kabul ediyoruz. Elinizde çizim yoksa ölçüleri bize iletmeniz durumunda çizimi biz de hazırlayabiliriz.',
+      open: false
+    }
+  ];
+
   constructor(
     private seo: SeoService,
     private fb: FormBuilder,
@@ -48,6 +71,10 @@ export class ContactComponent implements OnInit {
       description: 'Kuzey Şafak Lazer iletişim bilgileri. İkitelli OSB, Metal-İş Sanayi Sitesi, Başakşehir/İstanbul. Lazer kesim, CNC büküm ve kaynak hizmetleri için bize ulaşın.',
       canonical: 'https://safaklazer.com.tr/contact'
     });
+  }
+
+  toggleFaq(index: number): void {
+    this.faqItems[index].open = !this.faqItems[index].open;
   }
 
   onSubmit(): void {
