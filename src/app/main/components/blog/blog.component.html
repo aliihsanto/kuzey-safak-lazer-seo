@@ -49,12 +49,9 @@
         <div class="srv-content__text"
              [innerHTML]="service.contentDesc | translate"></div>
 
-        <!-- Spec Image -->
-        <div class="srv-content__spec">
+        <!-- Alt Görsel -->
+        <div class="srv-content__img" style="margin-top: 30px;">
           <img [src]="service.bottomImg" [alt]="(service.label | translate) + ' detay'" />
-          <div class="srv-content__spec-badge">
-            <img [src]="service.iconImg" [alt]="(service.label | translate)" />
-          </div>
         </div>
 
         <!-- Longtail Links -->

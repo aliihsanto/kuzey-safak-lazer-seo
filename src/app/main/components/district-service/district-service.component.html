@@ -83,20 +83,10 @@
             </ul>
           </div>
 
-          <!-- Bottom Image -->
-          <div class="services-details__content-img2" style="margin-top: 30px;">
-            <img [src]="'assets/images/services/' + template.serviceSlug.replace('kaynakli-imalat','kaynak') + '-bottom.webp'"
-                 [alt]="template.serviceName + ' kapasite'" />
-            <div class="icon-box">
-              <img [src]="'assets/images/services/' + template.serviceSlug.replace('kaynakli-imalat','kaynak') + '-icon.webp'"
-                   [alt]="template.serviceName + ' ikon'" />
-            </div>
-          </div>
-
           <!-- Kapasite -->
           <div class="district-service__capacity">
-            <h3>Teknik Kapasite</h3>
-            <div [innerHTML]="template.capacity"></div>
+            <h3><i class="fas fa-cogs"></i> Teknik Kapasite</h3>
+            <div class="district-service__capacity-table" [innerHTML]="template.capacity"></div>
           </div>
 
           <!-- Yakin Ilceler -->
