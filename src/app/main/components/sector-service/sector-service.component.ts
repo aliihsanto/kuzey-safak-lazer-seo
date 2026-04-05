@@ -251,9 +251,10 @@ export class SectorServiceComponent implements OnInit, OnDestroy {
       }));
 
     // Sidebar links
-    this.allServiceLinks = SERVICES.map(s => ({
-      label: SERVICE_NAME_MAP[s.slug] || s.slug,
-      link: '/hizmetler/' + s.slug
+    // Aynı sektördeki hizmet sayfalarına yönlendir
+    this.allServiceLinks = this.sector!.applicableServices.map(sSlug => ({
+      label: SERVICE_NAME_MAP[sSlug] || sSlug,
+      link: '/sektor/' + this.sector!.slug + '-' + sSlug
     }));
 
     // SEO

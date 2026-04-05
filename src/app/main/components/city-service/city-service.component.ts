@@ -155,10 +155,10 @@ export class CityServiceComponent implements OnInit, OnDestroy {
         routerLink: '/' + s.slug + '-' + this.city!.slug
       }));
 
-    // Sidebar links
+    // Sidebar links - aynı şehirdeki diğer hizmetlere yönlendir
     this.allServiceLinks = SERVICES.map(s => ({
       label: SERVICE_NAME_MAP[s.slug] || s.slug,
-      link: '/hizmetler/' + s.slug
+      link: '/' + s.slug + '-' + this.city!.slug
     }));
 
     // SEO

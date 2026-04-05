@@ -119,9 +119,10 @@ export class DistrictServiceComponent implements OnInit, OnDestroy {
       .filter(t => t && t.serviceSlug !== this.template!.serviceSlug);
 
     // Sidebar hizmet linkleri
+    // Aynı ilçedeki diğer hizmetlere yönlendir
     this.allServiceLinks = SERVICES.map(s => ({
       label: s.label,
-      link: '/hizmetler/' + s.slug
+      link: '/' + s.slug + '/' + districtSlug
     }));
 
     // SEO
