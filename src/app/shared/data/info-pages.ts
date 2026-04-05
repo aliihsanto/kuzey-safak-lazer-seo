@@ -1046,33 +1046,45 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'CNC Plazma Kesim Teklif Alın',
     metaDesc: 'CNC plazma kesim fiyatını etkileyen faktörler nelerdir? Kalın sac kesim projenize özel teklif alın. Kuzey Şafak Lazer İstanbul.',
     category: 'teklif',
-    content: `<p><strong>CNC plazma kesim fiyatı</strong>; malzeme cinsi, kalınlığı, kesim uzunluğu ve parça adedine göre projeye özel hesaplanır. Plazma kesim özellikle kalın saclarda (15mm+) lazer kesime göre belirgin maliyet avantajı sunar.</p>
+    content: `<p><strong>CNC plazma kesim fiyatı</strong>, malzeme cinsi, kalınlığı, toplam kesim uzunluğu, parça geometrisi ve sipariş adedine göre projeye özel olarak hesaplanır. Plazma kesim, özellikle 15mm üzeri kalınlıklardaki çelik ve paslanmaz sac kesiminde lazer kesime göre belirgin maliyet avantajı sunar. Kuzey Şafak Lazer olarak projenizin teknik detaylarını inceleyerek en doğru ve rekabetçi CNC plazma kesim fiyat teklifini oluşturuyoruz.</p>
 
-<h3>Plazma Kesim Fiyatını Etkileyen Faktörler</h3>
+<h3>CNC Plazma Kesim Fiyatını Etkileyen Faktörler</h3>
+<p>Plazma kesim fiyatlandırmasını etkileyen temel parametreler aşağıda detaylandırılmıştır. Bu faktörleri anlamak, kalın sac kesim projeleriniz için doğru bütçe planlaması yapmanıza yardımcı olur.</p>
 <ul>
-<li><strong>Malzeme kalınlığı:</strong> 6mm ile 50mm arasında kesim yapıyoruz. Kalınlık arttıkça kesim hızı düşer ve gaz tüketimi artar.</li>
-<li><strong>Malzeme cinsi:</strong> Çelik, paslanmaz çelik ve alüminyum farklı plazma gaz kombinasyonları gerektirir.</li>
-<li><strong>Kesim uzunluğu:</strong> Toplam kesim uzunluğu (metre) fiyatın temel belirleyicisidir.</li>
-<li><strong>Parça geometrisi:</strong> Düz kesim ve basit geometriler hızlı kesilirken, karmaşık konturlar ve çok sayıda iç kesim süreyi artırır.</li>
-<li><strong>Malzeme temini:</strong> Malzeme temin dahil veya hariç fiyat verilebilir.</li>
+<li><strong>Malzeme kalınlığı:</strong> 6mm ile 50mm arasında CNC plazma kesim yapıyoruz. Kalınlık arttıkça kesim hızı düşer, amperaj yükselir ve plazma gazı ile sarf malzeme (nozul, elektrot) tüketimi artar. 10mm çelik ile 40mm çelik arasında önemli maliyet farkı oluşur.</li>
+<li><strong>Malzeme cinsi:</strong> Çelik, paslanmaz çelik, alüminyum ve Hardox gibi aşınma çelikleri farklı plazma gaz kombinasyonları ve kesim parametreleri gerektirir. Paslanmaz çelik ve alüminyum kesimde özel gaz karışımları kullanılması maliyeti etkiler.</li>
+<li><strong>Toplam kesim uzunluğu (metre):</strong> Plazma kesim fiyatlandırmasının temel birimi metre başına (TL/m) hesaplanır. Parçanın dış kontur, iç kesim ve detaylarının toplam metresi, kesim süresini ve dolayısıyla maliyeti belirler.</li>
+<li><strong>Parça geometrisi:</strong> Düz kesim ve basit geometriler yüksek hızda kesilirken, çok sayıda iç kesim (delik, pencere), dar kesim aralıkları ve karmaşık konturlar kesim süresini artırır. Delik delme (piercing) sayısı da toplam süreyi etkiler.</li>
+<li><strong>Parça adedi:</strong> Yüksek adetlerde nesting optimizasyonu ile fire oranı düşer, setup maliyeti parça başına azalır ve birim fiyat düşer.</li>
+<li><strong>Malzeme temini:</strong> Kalın çelik plakalarını sizin adınıza tedarik edebilir ve malzeme dahil paket fiyat sunabiliriz. Kendi malzemenizi getirmeniz durumunda sadece kesim işçiliği fiyatlanır.</li>
+<li><strong>Ek işlem talepleri:</strong> Plazma kesim sonrası taşlama, çapak temizleme, CNC büküm veya kaynak gibi ek işlemler toplam maliyete eklenir.</li>
 </ul>
 
-<h3>Plazma mı Lazer mi Daha Uygun?</h3>
-<p>15mm altı kalınlıklarda genellikle lazer kesim hem daha hassas hem daha ekonomiktir. 15mm üzerinde plazma kesim maliyet avantajı sağlar. Projenizde her iki yönteme uygun parçalar varsa, karma teklif hazırlayarak toplam maliyeti optimize edebiliriz.</p>
+<h3>Plazma mı Lazer mi Daha Uygun? Maliyet Karşılaştırması</h3>
+<p>15mm altı kalınlıklarda genellikle fiber lazer kesim hem daha hassas (±0.1mm) hem de birim maliyette daha ekonomiktir. 15mm üzerinde ise CNC plazma kesim belirgin maliyet avantajı sağlar. 20mm ve üzeri kalınlıklarda plazma, lazer kesime göre 2-4 kat daha uygun fiyatlı olabilir. Projenizde hem ince hem kalın parçalar bulunuyorsa, ince parçaları lazer, kalın parçaları plazma ile keserek karma teklif hazırlıyoruz. Bu yaklaşım, her parçanın en uygun yöntemle işlenmesini sağlayarak toplam maliyeti optimize eder.</p>
 
-<h3>Teklif İçin Gerekenler</h3>
+<h3>Teklif Almak İçin Gerekli Bilgiler</h3>
 <ul>
-<li>Kesim dosyası (DXF, DWG veya ölçülü çizim)</li>
-<li>Malzeme cinsi ve kalınlığı</li>
-<li>Adet bilgisi</li>
+<li><strong>Kesim dosyası:</strong> DXF, DWG veya ölçülü teknik çizim. PDF formatında detaylı çizim de kabul edilir.</li>
+<li><strong>Malzeme cinsi:</strong> Çelik (St37, St52), paslanmaz çelik, alüminyum veya Hardox.</li>
+<li><strong>Malzeme kalınlığı:</strong> mm cinsinden.</li>
+<li><strong>Sipariş adedi:</strong> Kaç adet kesilecek?</li>
+<li><strong>Malzeme temini:</strong> Sizden mi, bizden mi?</li>
+<li><strong>Ek işlem talebi:</strong> Taşlama, büküm, kaynak gerekiyor mu?</li>
 </ul>
 
-<p>Dosyanızı <strong>WhatsApp (0555 000 83 04)</strong> veya e-posta ile gönderin. Aynı gün plazma kesim fiyat teklifinizi oluşturalım.</p>`,
+<h3>Teklif Süreci</h3>
+<p>Kesim dosyanızı ve yukarıdaki bilgileri <strong>WhatsApp (0555 000 83 04)</strong> veya e-posta ile gönderin. Teknik ekibimiz dosyanızı inceleyerek nesting simülasyonu yapar, kesim süresini hesaplar ve projenize özel fiyat teklifi oluşturur. Standart siparişlerde aynı gün fiyat teklifi dönüşü yapıyoruz.</p>
+
+<h3>Kuzey Şafak Lazer'de Plazma Kesim Avantajı</h3>
+<p>2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde 2000x6000mm kesim tablalı CNC plazma makinemizle hizmet veriyoruz. Aynı tesis bünyesinde fiber lazer kesim, CNC büküm ve kaynaklı imalat hizmetlerimiz de bulunduğundan, kalın sac projenizi kesimden montaja kadar tek çatı altında tamamlayabilirsiniz. Hemen iletişime geçin, projenize özel plazma kesim teklifi alın.</p>`,
     relatedServices: ['cnc-plazma', 'lazer-kesim'],
     faq: [
-      { q: 'Plazma kesim lazer kesimden daha mı ucuz?', a: 'Kalın saclarda (15mm+) plazma kesim lazer kesime göre önemli ölçüde daha ekonomiktir. İnce saclarda ise lazer kesim hem kalite hem maliyet olarak avantajlıdır.' },
-      { q: 'Plazma kesim toleransı ne kadardır?', a: 'CNC plazma kesim ile ±0.5mm tolerans sağlıyoruz. Daha dar tolerans gerektiren parçalar için lazer kesim öneririz.' },
-      { q: 'Aynı projede plazma ve lazer kesim birlikte kullanılabilir mi?', a: 'Evet, kalın parçaları plazma, ince parçaları lazer ile keserek en ekonomik kombinasyonu sunuyoruz.' }
+      { q: 'Plazma kesim lazer kesimden daha mı ucuz?', a: '15mm üzeri kalın saclarda plazma kesim, lazer kesime göre 2-4 kat daha ekonomik olabilir. İnce saclarda (10mm altı) ise lazer kesim hem kalite hem maliyet olarak avantajlıdır. Geçiş bölgesinde (10-15mm) projeye özel değerlendirme yapılır.' },
+      { q: 'Plazma kesim toleransı ne kadardır?', a: 'CNC plazma kesim ile ±0.5mm genel tolerans sağlıyoruz. Daha dar tolerans gerektiren parçalar için fiber lazer kesim öneriyoruz. Yapısal çelik uygulamalarında plazma toleransı fazlasıyla yeterlidir.' },
+      { q: 'Aynı projede plazma ve lazer kesim birlikte kullanılabilir mi?', a: 'Evet, aynı projede kalın parçaları CNC plazma, ince ve hassas parçaları fiber lazer ile keserek her parçanın en uygun yöntemle işlenmesini sağlıyoruz. Karma teklif ile toplam maliyet optimize edilir.' },
+      { q: 'Kalın sac malzeme tedariki yapıyor musunuz?', a: 'Evet, 6-50mm kalınlık aralığında çelik, paslanmaz ve Hardox plakalarını sizin adınıza tedarik edebilir ve malzeme dahil paket fiyat sunabiliriz.' },
+      { q: 'Plazma kesim sonrası taşlama gerekir mi?', a: 'CNC plazma kesimde kenar kalitesi çoğu yapısal uygulama için yeterlidir. Gerektiğinde kesim sonrası taşlama ve çapak temizleme hizmeti de sunuyoruz. Lazer kesime kıyasla plazma kesimde ek taşlama ihtiyacı daha sık oluşabilir.' }
     ]
   },
 
@@ -1082,28 +1094,46 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Sac Metal İmalat Teklif Alın',
     metaDesc: 'Komple sac metal imalat teklifi alın. Kesim, büküm, kaynak bir arada. Projenize özel fiyatlandırma. Kuzey Şafak Lazer İstanbul İkitelli.',
     category: 'teklif',
-    content: `<p><strong>Sac metal imalat fiyatı</strong>; projenin kapsamına göre kesim, büküm, kaynak ve yüzey işlemi aşamalarının toplam maliyetinden oluşur. Her aşamanın karmaşıklığı, malzeme türü ve adet bilgisi toplam fiyatı belirler.</p>
+    content: `<p><strong>Sac metal imalat fiyatı</strong>, projenin kapsamına göre kesim, büküm, kaynak, montaj ve yüzey işlemi aşamalarının toplam maliyetinden oluşur. Her bir aşamanın karmaşıklığı, kullanılan malzeme türü ve kalınlığı, parça adedi ve tolerans gereksinimleri toplam fiyatı belirler. Kuzey Şafak Lazer olarak projenizin tüm aşamalarını detaylı şekilde değerlendirerek en doğru ve rekabetçi komple imalat teklifini oluşturuyoruz.</p>
 
-<h3>Fiyatı Etkileyen Temel Faktörler</h3>
+<h3>Sac Metal İmalat Fiyatını Etkileyen Temel Faktörler</h3>
+<p>Komple sac metal imalat fiyatlandırması, birden fazla maliyet kaleminin toplamıdır. Bu faktörleri anlamak, projeniz için gerçekçi bir bütçe planlaması yapmanıza yardımcı olur.</p>
 <ul>
-<li><strong>İşlem sayısı:</strong> Sadece kesim mi, kesim+büküm mü, yoksa kesim+büküm+kaynak mı? Her ek işlem toplam maliyete eklenir.</li>
-<li><strong>Malzeme türü ve kalınlığı:</strong> Farklı malzemeler farklı işleme parametreleri gerektirir. Paslanmaz çelik ve alüminyum, karbon çeliğe göre daha yüksek maliyetlidir.</li>
-<li><strong>Parça karmaşıklığı:</strong> Basit bir L büküm parçası ile çok bükümlü, kaynaklı bir kutu imalatı arasında önemli fark vardır.</li>
-<li><strong>Toplam adet:</strong> Seri üretimde setup maliyetleri dağıtılır ve birim fiyat düşer.</li>
-<li><strong>Yüzey işlemi:</strong> Toz boya, ıslak boya veya kaplama gereksinimi ek maliyet oluşturur.</li>
-<li><strong>Teslimat süresi:</strong> Acil siparişlerde express üretim ücreti uygulanabilir.</li>
+<li><strong>İşlem kapsamı:</strong> Sadece kesim mi, kesim+büküm mü, yoksa kesim+büküm+kaynak+boyama mı? Her ek işlem adımı toplam maliyete eklenir. Ancak tüm işlemleri tek tedarikçiden almanız, ara taşıma ve koordinasyon giderlerini ortadan kaldırarak toplam maliyeti düşürür.</li>
+<li><strong>Malzeme türü ve kalınlığı:</strong> Farklı malzemeler farklı kesim hızları, büküm tonajları ve kaynak yöntemleri gerektirir. Paslanmaz çelik ve alüminyum, karbon çeliğe göre daha yüksek ham madde ve işleme maliyetine sahiptir. Galvaniz sac korozyon koruması sağlarken, DKP sac boyama öncesi yüzey hazırlığı gerektirir.</li>
+<li><strong>Parça karmaşıklığı:</strong> Basit bir L büküm parçası ile çok bükümlü, kaynaklı ve çok parçalı bir kutu imalatı arasında önemli maliyet farkı vardır. Geometri karmaşıklığı, delik ve detay sayısı, büküm adımları ve kaynak uzunluğu parça başına maliyeti belirler.</li>
+<li><strong>Toplam sipariş adedi:</strong> Seri üretimde kesim nesting optimizasyonu, büküm program setup ve kaynak fikstür maliyetleri parçalara dağıtılır ve birim fiyat belirgin şekilde düşer. Tek parça prototip ile 500 adetlik seri arasında birim maliyet önemli farklılık gösterir.</li>
+<li><strong>Yüzey işlemi:</strong> Toz boya, ıslak boya, sıcak daldırma galvaniz veya elektropolisaj gibi yüzey işlemleri ek maliyet oluşturur. Yüzey işlemi gereksinimi, parçanın kullanım ortamına ve estetik beklentisine göre belirlenir.</li>
+<li><strong>Tolerans ve kalite gereksinimleri:</strong> Standart endüstriyel toleranslar (lazer ±0.1mm, büküm ±0.1°) çoğu uygulama için yeterlidir. Özel dar tolerans veya NDT testi gerektiren uygulamalarda ek kontrol ve işlem maliyeti oluşabilir.</li>
+<li><strong>Teslimat süresi:</strong> Standart termin süreleri içinde ek ücret uygulanmaz. Acil siparişlerde hızlandırılmış üretim (express) ücreti uygulanabilir.</li>
 </ul>
 
-<h3>Neden Tek Tedarikci Avantajı?</h3>
-<p>Kesim, büküm ve kaynak işlemlerini farklı firmalara yaptırdığınızda taşıma maliyeti, bekleme süresi ve boyutsal uyumsuzluk riski oluşur. Kuzey Şafak Lazer'de tüm süreçler tek çatı altında gerçekleşir; bu durum hem maliyeti düşürür hem kaliteyi artırır.</p>
+<h3>Teklif Almak İçin Gerekli Bilgiler</h3>
+<p>Komple sac metal imalat projelerinde detaylı bilgi paylaşımı, doğru ve hızlı teklif almanın anahtarıdır:</p>
+<ul>
+<li><strong>Teknik çizimler:</strong> Parça çizimleri ve montaj resmi. DXF, DWG, STEP veya PDF formatı. Büküm açıları, kaynak sembolleri ve toleransların belirtilmiş olması idealdir.</li>
+<li><strong>Malzeme listesi (BOM):</strong> Her parçanın malzeme cinsi, kalınlığı ve adedi.</li>
+<li><strong>İşlem kapsamı:</strong> Hangi işlemler gerekiyor? (Kesim, büküm, kaynak, montaj, boyama)</li>
+<li><strong>Sipariş adedi:</strong> Kaç set/ünite üretilecek?</li>
+<li><strong>Yüzey işlemi:</strong> Toz boya rengi, galvaniz kaplama veya özel işlem talebi.</li>
+<li><strong>Termin beklentisi:</strong> Teslim tarihi.</li>
+</ul>
 
-<h3>Teklif Nasıl Alınır?</h3>
-<p>Projenizin teknik çizimlerini, malzeme listesini ve adet bilgisini <strong>WhatsApp (0555 000 83 04)</strong> veya e-posta ile gönderin. Proje kapsamına göre 1-3 iş günü içinde detaylı teklif hazırlayalım.</p>`,
+<h3>Neden Tek Tedarikçi Avantajı?</h3>
+<p>Kesim, büküm ve kaynak işlemlerini farklı firmalara yaptırdığınızda birçok risk oluşur: firmalar arası taşıma maliyeti ve süresi, boyutsal uyumsuzluk riski (farklı makineler farklı toleranslarda çalışır), iletişim kopukluğu ve sorumluluk belirsizliği, toplam sürenin uzaması. Kuzey Şafak Lazer'de fiber lazer kesim, CNC plazma, CNC büküm ve kaynaklı imalat aynı tesis içinde, aynı kalite standartlarıyla gerçekleşir. Bu entegrasyon toplam maliyeti düşürür, teslimat süresini kısaltır ve kaliteyi artırır.</p>
+
+<h3>Teklif Süreci</h3>
+<p>Projenizin teknik çizimlerini, malzeme listesini ve yukarıdaki bilgileri <strong>WhatsApp (0555 000 83 04)</strong> veya e-posta ile gönderin. Teknik ekibimiz projenizi detaylı değerlendirerek, her işlem adımının maliyetini hesaplar ve projenize özel toplam fiyat teklifi hazırlar. Basit parçalarda 1-2 iş günü, kapsamlı projelerde 2-3 iş günü içinde detaylı teklif sunuyoruz.</p>
+
+<h3>Projenize Özel Teklif İçin Hemen İletişime Geçin</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde tek parça prototipten binlerce adetlik seri üretime kadar komple sac metal imalat hizmeti sunuyoruz. Minimum sipariş limiti yoktur. Tasarım danışmanlığından boyalı bitmiş ürün teslimatına kadar projenizin her aşamasında yanınızdayız. Hemen iletişime geçin, projenize özel detaylı teklif alın.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-bukum', 'kaynakli-imalat', 'cnc-plazma'],
     faq: [
-      { q: 'Tek parça yaptırabilir miyim?', a: 'Evet, tek parçadan seri üretime kadar her adette hizmet veriyoruz. Minimum sipariş limiti uygulamıyoruz.' },
-      { q: 'Tasarımım yok, sadece fikrim var. Yardımcı olabilir misiniz?', a: 'Eskiz, el çizimi veya sözlü tarif ile teknik ekibimiz çizim oluşturabilir ve üretilebilirlik önerisi sunabilir.' },
-      { q: 'Teslim süresi ne kadardır?', a: 'Basit parçalarda 2-3 iş günü, kaynaklı imalatlarda 5-10 iş günü standart sürelerimizdir. Acil siparişlerde hızlandırılmış üretim mümkündür.' }
+      { q: 'Tek parça yaptırabilir miyim?', a: 'Evet, tek parça prototipten binlerce adetlik seri üretime kadar her miktarda hizmet veriyoruz. Minimum sipariş limiti uygulamıyoruz. Prototip aşamasında üretilebilirlik danışmanlığı da sağlıyoruz.' },
+      { q: 'Tasarımım yok, sadece fikrim var. Yardımcı olabilir misiniz?', a: 'Evet, eskiz, el çizimi, numune parça veya sözlü tarif ile teknik ekibimiz çizim oluşturabilir ve üretilebilirlik (DFM) önerisi sunabilir. Fikrinizi ürüne dönüştürmenizde size destek oluyoruz.' },
+      { q: 'Teslim süresi ne kadardır?', a: 'Basit kesim+büküm parçalarında 2-3 iş günü, kaynaklı imalatlarda 5-10 iş günü standart sürelerimizdir. Acil siparişlerde hızlandırılmış üretim mümkündür. Kesin termin bilgisi teklif ile birlikte verilir.' },
+      { q: 'Boyama dahil teslim alabilir miyim?', a: 'Evet, anlaşmalı tedarikçilerimiz aracılığıyla toz boya, ıslak boya ve galvaniz kaplama organizasyonu yapıyoruz. İstediğiniz RAL renk kodunda boyalı veya kaplamalı bitmiş ürün olarak teslim edebiliyoruz.' },
+      { q: 'Farklı malzemelerin bir arada kullanıldığı projeler yapabiliyor musunuz?', a: 'Evet, aynı projede çelik, paslanmaz çelik, alüminyum ve galvaniz gibi farklı malzemeleri bir arada işleyebiliyoruz. Her malzeme için en uygun kesim ve büküm parametrelerini uyguluyoruz.' }
     ]
   },
 
@@ -1116,29 +1146,39 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'CNC Nedir?',
     metaDesc: 'CNC nedir, ne işe yarar, nasıl çalışır? CNC tezgah çeşitleri ve sac metal imalatta CNC kullanımı rehberi. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>CNC</strong> (Computer Numerical Control - Bilgisayarlı Sayısal Kontrol), takım tezgahlarının bilgisayar programları aracılığıyla otomatik olarak kontrol edilmesi teknolojisidir. CNC ile kesim, büküm, tornalama, frezeleme gibi imalat işlemleri yüksek hassasiyet ve tekrarlanabilirlikle gerçekleştirilir.</p>
+    content: `<p><strong>CNC</strong> (Computer Numerical Control - Bilgisayarlı Sayısal Kontrol), takım tezgahlarının ve imalat makinelerinin bilgisayar programları aracılığıyla otomatik olarak kontrol edilmesi teknolojisidir. Modern endüstriyel üretimin temel taşı olan CNC, kesim, büküm, tornalama, frezeleme, delme ve taşlama gibi imalat operasyonlarının yüksek hassasiyet, tekrarlanabilirlik ve otomasyon ile gerçekleştirilmesini sağlar. CNC teknolojisi, 1950'lerde MIT (Massachusetts Institute of Technology) tarafından ABD Hava Kuvvetleri için geliştirilen NC (Numerical Control) teknolojisinin evrimleşmiş halidir.</p>
 
-<h3>CNC Nasıl Çalışır?</h3>
-<p>CNC makinelerde üretim süreci şu adımlardan oluşur: Önce CAD yazılımında parça tasarımı yapılır. Ardından CAM yazılımında takım yolları oluşturularak G-kod (makine dili) üretilir. Bu kod CNC kontrol ünitesine yüklenir ve makine otomatik olarak programı çalıştırır.</p>
+<h3>CNC'nin Tarihçesi</h3>
+<p>Sayısal kontrol (NC) kavramı, 1949 yılında John T. Parsons ve MIT işbirliğiyle helikopter kanat profili üretimi için geliştirilmiştir. İlk NC makineler delikli kart veya kağıt bant ile programlanıyor ve çok sınırlı kapasiteye sahipti. 1960'larda transistör ve entegre devre teknolojisiyle NC kontrol üniteleri küçülüp güçlendi. 1970'lerde mikroişlemcilerin geliştirilmesiyle CNC (Bilgisayarlı Sayısal Kontrol) doğdu ve NC'nin yerini aldı. CNC, programın makine belleğinde saklanması, düzenlenmesi ve tekrar kullanılması imkanını getirdi. 1980'lerde CAD/CAM yazılımlarının entegrasyonu ile tasarımdan üretime dijital bir iş akışı oluştu. Günümüzde CNC teknolojisi, yapay zeka destekli adaptif kontrol, IoT bağlantılı uzaktan izleme ve 5 eksenli eş zamanlı işleme gibi ileri yeteneklere sahiptir.</p>
+
+<h3>CNC Nasıl Çalışır? (Teknik Prensip)</h3>
+<p>CNC makinelerde üretim süreci dijital bir iş akışı izler. İlk adımda CAD (Computer Aided Design) yazılımında parça tasarımı yapılır. Ardından CAM (Computer Aided Manufacturing) yazılımında takım yolları (tool paths) oluşturulur, kesim stratejileri belirlenir ve G-kod (ISO 6983 standardı) ile M-kod (makine fonksiyonları) üretilir. Bu program dosyası CNC kontrol ünitesine yüklenir. Kontrol ünitesi, programdaki koordinat bilgilerine göre servo motorları yönlendirerek makine eksenlerini (X, Y, Z ve varsa A, B, C) hassas biçimde hareket ettirir. Enkoder ve lineer ölçüm sistemleri, pozisyon geri bildirimi sağlayarak kapalı çevrim kontrol ile mikron düzeyinde hassasiyet elde edilir.</p>
 
 <h3>Sac Metal İmalatta CNC Kullanımı</h3>
+<p>CNC teknolojisi, sac metal imalatın tüm temel süreçlerinde kullanılmaktadır:</p>
 <ul>
-<li><strong>CNC Lazer Kesim:</strong> Sac metal parçaların 2D kontur kesimi. DXF dosyasından otomatik nesting ve kesim.</li>
-<li><strong>CNC Plazma Kesim:</strong> Kalın sacların bilgisayar kontrollü plazma ile kesilmesi.</li>
-<li><strong>CNC Abkant Büküm:</strong> Sac parçaların programlanmış açılarda otomatik bükülmesi.</li>
-<li><strong>CNC Pres:</strong> Delme, damgalama ve şekillendirme işlemleri.</li>
+<li><strong>CNC Lazer Kesim:</strong> Sac metal parçaların 2D kontur kesimi. DXF dosyasından otomatik nesting ve kesim yolu oluşturma. Fiber lazer rezonatörü, kesim kafası hareketi ve yardımcı gaz sistemi CNC tarafından koordineli kontrol edilir. ±0.1mm hassasiyet.</li>
+<li><strong>CNC Plazma Kesim:</strong> Kalın sacların bilgisayar kontrollü plazma torcu ile kesilmesi. Torç yüksekliği, kesim hızı ve amperaj otomatik ayarlanır. ±0.5mm hassasiyet.</li>
+<li><strong>CNC Abkant Büküm:</strong> Sac parçaların programlanmış açılarda ve boyutlarda otomatik bükülmesi. CNC kontrol; ram stroğu, hız, arka dayama pozisyonu ve sehim kompansasyonunu otomatik ayarlar. ±0.1° açı hassasiyeti.</li>
+<li><strong>CNC Pres (Turret Punch):</strong> Sac metallerin delinmesi, damgalanması ve şekillendirilmesi. Çoklu takım istasyonu ile hızlı seri üretim.</li>
+<li><strong>CNC Kaynak Robotları:</strong> Programlanmış yörüngede otomatik MIG/MAG veya TIG kaynak. Seri üretimde yüksek tekrarlanabilirlik ve hız sağlar.</li>
 </ul>
 
-<h3>CNC'nin Avantajları</h3>
-<p>CNC teknolojisi; insan hatasını minimuma indirir, her parçada aynı kaliteyi garanti eder, karmaşık geometrileri sorunsuz üretir ve 7/24 çalışma imkanı sunar. Prototipten seri üretime geçiş sadece adet değişikliği ile mümkündür.</p>
+<h3>CNC Teknolojisinin Avantajları</h3>
+<p><strong>Hassasiyet ve tekrarlanabilirlik:</strong> CNC makineler, her parçada aynı boyutsal kaliteyi mikron düzeyinde garanti eder. 1. parça ile 10.000. parça arasında fark yoktur. <strong>Otomasyon:</strong> İnsan hatasını minimuma indirir, 7/24 çalışma imkanı sunar ve operatör bağımlılığını azaltır. <strong>Esneklik:</strong> Program değişikliği ile farklı parçalara dakikalar içinde geçiş yapılabilir. Prototipten seri üretime geçiş sadece adet değişikliğiyle mümkündür. <strong>Karmaşık geometri:</strong> El ile üretimi imkansız olan karmaşık konturlar, eğriler ve 3D formlar CNC ile sorunsuz üretilebilir. <strong>Verimlilik:</strong> Nesting optimizasyonu ile malzeme firesi minimuma iner, üretim hızı artar ve birim maliyet düşer.</p>
+
+<h3>CNC Teknolojisinin Dezavantajları</h3>
+<p>CNC makinelerin yüksek ilk yatırım maliyeti temel dezavantajıdır. Ayrıca kalifiye operatör ve programcı ihtiyacı, düzenli bakım gereksinimleri ve yazılım lisans maliyetleri de dikkate alınmalıdır. Fason imalat hizmeti alarak bu dezavantajları bertaraf edebilir, CNC'nin avantajlarından yatırım yapmadan yararlanabilirsiniz.</p>
 
 <h3>Kuzey Şafak Lazer'de CNC Teknolojisi</h3>
-<p>Tesisimizde CNC fiber lazer kesim, CNC plazma kesim ve CNC abkant pres makineleri ile tam otomasyon kapasitesinde üretim yapıyoruz. CNC kontrollü üretim süreçlerimiz, her parçada tutarlı kalite ve kısa teslimat süresi sağlıyor.</p>`,
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde CNC fiber lazer kesim, CNC plazma kesim ve CNC abkant pres makineleri ile tam otomasyon kapasitesinde üretim yapıyoruz. CNC kontrollü üretim süreçlerimiz, her parçada tutarlı kalite, yüksek hassasiyet ve kısa teslimat süresi sağlar. Profesyonel CAD/CAM yazılımları ile nesting optimizasyonu, büküm simülasyonu ve kalite kontrol yapıyoruz.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-bukum', 'cnc-plazma'],
     faq: [
-      { q: 'CNC ile manuel imalat arasındaki fark nedir?', a: 'CNC imalat bilgisayar kontrollü ve otomatiktir, her parçada aynı hassasiyeti garanti eder. Manuel imalat operatör becerisine bağlıdır ve parçalar arası farklılık olabilir.' },
-      { q: 'CNC makineler hangi dosya formatlarını okur?', a: 'CNC makineler G-kod ile çalışır. Kesim makineleri DXF/DWG, büküm makineleri özel büküm programları kullanır. Bu dosyalar CAD/CAM yazılımlarından oluşturulur.' },
-      { q: 'CNC ile ne kadar hassas üretim yapılır?', a: 'CNC lazer kesimde ±0.1mm, CNC büküm de ±0.1° hassasiyet sağlanır. Bu değerler endüstriyel imalat standartlarının çok üzerindedir.' }
+      { q: 'CNC ile manuel imalat arasındaki fark nedir?', a: 'CNC imalat bilgisayar kontrollü ve otomatiktir; her parçada aynı hassasiyeti garanti eder ve insan hatasını minimuma indirir. Manuel imalat operatör becerisine bağlıdır, parçalar arası boyutsal farklılık olabilir ve üretim hızı düşüktür.' },
+      { q: 'CNC makineler hangi dosya formatlarını okur?', a: 'CNC makineler G-kod (ISO 6983) ile çalışır. Lazer ve plazma kesim makineleri DXF/DWG dosyalarını, abkant presler özel büküm program formatlarını kullanır. Bu dosyalar CAD/CAM yazılımlarından (AutoCAD, SolidWorks, Inventor vb.) oluşturulur.' },
+      { q: 'CNC ile ne kadar hassas üretim yapılır?', a: 'CNC lazer kesimde ±0.1mm boyutsal hassasiyet, CNC abkant bükümde ±0.1° açı hassasiyeti sağlanır. İnce saclarda ±0.05mm tolerans bile elde edilebilir. Bu değerler çoğu endüstriyel uygulama için fazlasıyla yeterlidir.' },
+      { q: 'CNC teknolojisi hangi sektörlerde kullanılır?', a: 'CNC teknolojisi hemen tüm imalat sektörlerinde kullanılır: otomotiv, havacılık, savunma, medikal, elektronik, enerji, makine imalatı, mobilya, beyaz eşya, gıda sanayi ekipmanları ve daha fazlası.' },
+      { q: 'CNC makine yatırımı yapmadan CNC avantajlarından nasıl yararlanabilirim?', a: 'Fason imalat hizmeti alarak CNC makinelerin yüksek hassasiyet ve tekrarlanabilirlik avantajlarından makine yatırımı yapmadan yararlanabilirsiniz. Kuzey Şafak Lazer olarak CNC lazer kesim, plazma ve büküm hizmetleri sunuyoruz.' }
     ]
   },
 
@@ -1148,27 +1188,46 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Paslanmaz Çelik Çeşitleri ve Farkları',
     metaDesc: 'Paslanmaz çelik çeşitleri: 304, 316, 316L, 430, 201 farkları nelerdir? Hangi paslanmaz çelik nerede kullanılır? Kuzey Şafak Lazer rehberi.',
     category: 'bilgi',
-    content: `<p><strong>Paslanmaz çelik</strong>, minimum %10.5 krom içeren, korozyona ve paslanmaya dayanıklı çelik alaşımıdır. Farklı alaşım bileşimleri, farklı kullanım alanlarına uygun paslanmaz çelik çeşitleri oluşturur.</p>
+    content: `<p><strong>Paslanmaz çelik</strong> (stainless steel), minimum %10.5 krom (Cr) içeren, korozyona ve oksidasyona karşı yüksek direnç gösteren demir bazlı bir alaşım ailesidir. Krom elementi, çelik yüzeyinde görünmez ve kendini yenileyen bir krom oksit (Cr2O3) pasif tabakası oluşturarak malzemeyi korozyondan korur. Paslanmaz çelik, 1913 yılında İngiliz metalürjist Harry Brearley tarafından keşfedilmiştir. Günümüzde 150'den fazla paslanmaz çelik kalitesi mevcuttur ve her biri farklı korozyon direnci, mekanik özellikler ve uygulamalara yönelik olarak tasarlanmıştır.</p>
 
-<h3>304 Paslanmaz Çelik (18/8)</h3>
-<p>En yaygın kullanılan paslanmaz çelik kalitesidir. %18 krom ve %8 nikel içerir. Gıda sanayi, mutfak ekipmanları, mimari uygulamalar ve genel amaçlı kullanımlarda tercih edilir. İyi korozyon direnci, mükemmel şekillendirilebilirlik ve kaynak edilebilirlik sunar.</p>
+<h3>Paslanmaz Çelik Ailesi ve Sınıflandırma</h3>
+<p>Paslanmaz çelikler mikroyapılarına göre beş ana grupta sınıflandırılır: <strong>Ostenitik</strong> (300 serisi - en yaygın, nikel katkılı, manyetik değil), <strong>Ferritik</strong> (400 serisi - nikelsiz, manyetik, ekonomik), <strong>Martensitik</strong> (yüksek sertlik, bıçak ve cerrahi alet), <strong>Dupleks</strong> (ostenit+ferrit karışımı, yüksek mukavemet) ve <strong>Çökelme sertleşmeli</strong> (havacılık ve savunma sanayi). Sac metal imalatta en çok kullanılan kaliteler ostenitik 304, 316L ve ferritik 430'dur.</p>
 
-<h3>316 ve 316L Paslanmaz Çelik</h3>
-<p>%16 krom, %10 nikel ve %2 molibden içerir. Molibden katkısı, özellikle klorür ortamlarında (deniz suyu, kimyasallar) korozyon direncini artırır. 316L düşük karbonlu versiyondur ve kaynak sonrası korozyon riskini minimuma indirir. Kimya sanayi, denizcilik ve medikal sektörde tercih edilir.</p>
+<h3>304 Paslanmaz Çelik (1.4301 / 18/8)</h3>
+<p>Dünya genelinde en yaygın kullanılan paslanmaz çelik kalitesidir ve toplam paslanmaz çelik tüketiminin yaklaşık %50'sini oluşturur. %18 krom ve %8 nikel içerir. Ostenitik yapıda olup manyetik değildir (soğuk şekillendirme sonrası hafif manyetik olabilir). Mükemmel korozyon direnci, çok iyi şekillendirilebilirlik, üstün kaynak edilebilirlik ve hijyenik yüzey özellikleri sunar. Gıda sanayi ekipmanları, mutfak donanımları, hastane malzemeleri, mimari cephe ve korkuluk, kimya sanayi tankları, su arıtma sistemleri ve genel amaçlı endüstriyel uygulamalarda standart tercihtir. Çekme dayanımı 500-700 MPa, akma dayanımı min. 190 MPa'dır.</p>
 
-<h3>430 Paslanmaz Çelik</h3>
-<p>Ferritik yapıda, nikel içermeyen paslanmaz çeliktir. %16-18 krom içerir. 304'e göre daha ekonomiktir. İç mekan dekorasyon, beyaz eşya kaplamaları ve düşük korozyon riskli ortamlarda kullanılır. Manyetik özelliğe sahiptir.</p>
+<h3>316 ve 316L Paslanmaz Çelik (1.4401 / 1.4404)</h3>
+<p>304'e ek olarak %2-3 molibden (Mo) içerir. Molibden katkısı, özellikle klorür iyonlarının yoğun olduğu ortamlarda (deniz suyu, tuzlu ortam, kimyasal çözeltiler) oyuklanma (pitting) ve çatlak korozyonuna karşı direnci önemli ölçüde artırır. 316L, düşük karbonlu (%0.03 maks.) versiyondur ve kaynak sırasında oluşan tanelerarası korozyon (intergranular corrosion) riskini minimuma indirir. Kimya ve petrokimya sanayi, denizcilik ve offshore yapılar, ilaç sanayi, medikal implantlar, yüzme havuzu ekipmanları ve yüksek korozyon riskli ortamlar için standart kalitedir.</p>
 
-<h3>201 Paslanmaz Çelik</h3>
-<p>Nikel oranı düşürülüp manganez ile takviye edilmiş ekonomik alternatiftir. 304'e benzer görünüm sunar ancak korozyon direnci daha düşüktür. Dekoratif uygulamalar ve iç mekan kullanımlarında maliyet avantajı sağlar.</p>
+<h3>430 Paslanmaz Çelik (1.4016)</h3>
+<p>Ferritik yapıda, nikel içermeyen paslanmaz çeliktir. %16-18 krom içerir. Ostenitik 304'e göre belirgin şekilde daha ekonomiktir çünkü pahalı nikel elementi bulundurmaz. Manyetik özelliğe sahiptir. İç mekan dekorasyon, beyaz eşya yan panelleri ve kaplamaları, otomotiv egzoz parçaları, bulaşık makinesi iç yüzeyleri ve düşük korozyon riskli ortamlarda kullanılır. Korozyon direnci 304'ten düşüktür, dış mekan ve kimyasal ortamlar için uygun değildir. Şekillendirilebilirliği ostenitik kalitelere göre sınırlıdır.</p>
 
-<h3>Hangi Paslanmaz Çeliği Seçmeliyim?</h3>
-<p>Genel kullanım ve gıda sanayi: 304. Kimyasal ve deniz ortamı: 316/316L. Ekonomik iç mekan: 430 veya 201. Kuzey Şafak Lazer olarak tüm paslanmaz çelik kalitelerinde lazer kesim, büküm ve kaynak hizmeti veriyoruz.</p>`,
+<h3>201 Paslanmaz Çelik (1.4372)</h3>
+<p>Nikel oranı düşürülüp manganez ve azot ile takviye edilmiş ekonomik bir ostenitik alternatiftir. %16-18 krom, %3.5-5.5 nikel ve %5.5-7.5 manganez içerir. 304'e benzer görünüm ve mekanik özellikler sunar ancak korozyon direnci 304'ün altındadır. Dekoratif iç mekan uygulamalarında, kapı ve asansör kaplamaları, mutfak tezgahı ve düşük korozyon riskli ortamlarda maliyet avantajı sağlar.</p>
+
+<h3>Malzeme Seçim Rehberi</h3>
+<table>
+<tr><th>Uygulama</th><th>Önerilen Kalite</th><th>Neden?</th></tr>
+<tr><td>Gıda sanayi ekipmanları</td><td>304 veya 316L</td><td>Hijyen, korozyon direnci, kaynak edilebilirlik</td></tr>
+<tr><td>Denizcilik ve offshore</td><td>316L veya Dupleks</td><td>Klorür direnci, yüksek mukavemet</td></tr>
+<tr><td>Kimya sanayi</td><td>316L</td><td>Kimyasal korozyon direnci</td></tr>
+<tr><td>İç mekan dekorasyon</td><td>430 veya 201</td><td>Ekonomik, estetik yüzey</td></tr>
+<tr><td>Beyaz eşya</td><td>430 veya 304</td><td>Maliyet ve korozyon dengesi</td></tr>
+<tr><td>Mimari cephe/korkuluk</td><td>304 veya 316</td><td>Dış mekan korozyon direnci</td></tr>
+</table>
+
+<h3>Paslanmaz Çelik İşleme</h3>
+<p>Paslanmaz çelik, karbon çeliğe göre daha yüksek akma dayanımı ve iş sertleşme eğilimi nedeniyle işlenmesi daha zordur. Lazer kesimde azot gazı ile oksidasyonsuz parlak kesim yapılır; bu yöntem paslanmaz çeliğin korozyon direncini korur. CNC büküm de paslanmaz çeliğin geri yaylanma karakteristiği dikkate alınarak uygun parametrelerle gerçekleştirilir. TIG kaynak, paslanmaz çelik birleştirmelerinde en yüksek kaliteyi sunar.</p>
+
+<h3>Kuzey Şafak Lazer'de Paslanmaz Çelik İşleme</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde 304, 316L, 430 ve 201 dahil tüm paslanmaz çelik kalitelerinde fiber lazer kesim (0.5-20mm), CNC büküm ve TIG/MIG kaynak hizmeti veriyoruz. Azot gazı ile oksidasyonsuz parlak kesim, CNC kontrollü hassas büküm ve deneyimli kaynakçılarımızla estetik kaynak dikişi sunuyoruz.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-bukum', 'kaynakli-imalat'],
     faq: [
-      { q: '304 ile 316 paslanmaz arasındaki fark nedir?', a: '316, molibden katkısı sayesinde 304\'ten daha yüksek korozyon direncine sahiptir. Özellikle klorürlü ortamlarda (deniz suyu, tuz) 316 tercih edilir.' },
-      { q: 'Paslanmaz çelik gerçekten paslanmaz mı?', a: 'Paslanmaz çelik normal koşullarda paslanmaz. Ancak uygun olmayan ortam (yüksek klorür, yüksek sıcaklık) veya yanlış kalite seçiminde lokal korozyon oluşabilir.' },
-      { q: '304 mü 430 mu daha ucuz?', a: '430 paslanmaz çelik, nikel içermediği için 304\'e göre önemli ölçüde daha ekonomiktir. Korozyon direnci yeterliyse 430 maliyet avantajı sağlar.' }
+      { q: '304 ile 316 paslanmaz arasındaki fark nedir?', a: '316, molibden katkısı (%2-3 Mo) sayesinde 304\'ten daha yüksek korozyon direncine sahiptir. Özellikle klorürlü ortamlarda (deniz suyu, tuz, kimyasal çözeltiler) 316 tercih edilir. 304 genel amaçlı kullanımda yeterlidir.' },
+      { q: 'Paslanmaz çelik gerçekten paslanmaz mı?', a: 'Paslanmaz çelik normal atmosferik koşullarda paslanmaz. Ancak uygun olmayan kalite seçimi (örn: 430\'u deniz ortamında kullanmak), yüksek klorür konsantrasyonu, kontaminasyon veya yanlış kaynak tekniği lokal korozyona neden olabilir.' },
+      { q: '304 mü 430 mu daha ucuz?', a: '430 paslanmaz çelik, nikel içermediği için 304\'e göre %30-50 daha ekonomiktir. Korozyon direnci yeterliyse ve manyetik özellik sorun oluşturmuyorsa 430 maliyet avantajı sağlar.' },
+      { q: 'Paslanmaz çelik lazer kesim yapıyor musunuz?', a: 'Evet, 0.5mm ile 20mm arasında tüm paslanmaz çelik kalitelerinde (304, 316L, 430, 201) fiber lazer kesim yapıyoruz. Azot gazı ile oksidasyonsuz parlak kesim sağlıyoruz.' },
+      { q: 'Gıda sanayi için hangi paslanmaz çelik kullanılmalı?', a: 'Gıda sanayi ekipmanlarında genellikle 304 paslanmaz çelik kullanılır. Tuzlu gıdalar veya asidik ortamlarda 316L tercih edilir. Yüzey pürüzlülüğü Ra 0.8μm altında olmalı ve kaynak dikişleri taşlanıp pasive edilmelidir.' }
     ]
   },
 
@@ -1178,40 +1237,74 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Sac Kalınlık Tablosu ve Ağırlık Hesaplama',
     metaDesc: 'Çelik, paslanmaz ve alüminyum sac kalınlık tablosu. Sac ağırlık hesaplama formülü. Lazer kesim kalınlık limitleri. Kuzey Şafak Lazer.',
     category: 'bilgi',
-    content: `<p><strong>Sac kalınlık tablosu</strong>, metal imalat projelerinde doğru malzeme seçimi ve ağırlık hesaplaması için kullanılan temel bir referans kaynağıdır. Projenizin ağırlığını, maliyetini ve üretilebilirliğini doğru hesaplamak için aşağıdaki bilgileri kullanabilirsiniz.</p>
+    content: `<p><strong>Sac kalınlık tablosu</strong>, metal imalat projelerinde doğru malzeme seçimi, ağırlık hesaplaması ve maliyet öngörüsü için kullanılan temel bir referans kaynağıdır. Sac metal imalatında malzeme seçimi, parçanın mekanik gereksinimleri, kullanım ortamı, bükülebilirlik ihtiyaçları ve bütçe kısıtlamalarına göre yapılır. Kalınlık, bu parametrelerin tamamını doğrudan etkileyen en kritik değişkendir. Bu rehberde, yaygın sac kalınlıkları, ağırlık hesaplama formülleri, malzeme yoğunluk tabloları ve lazer/plazma kesim kalınlık limitlerini detaylı olarak bulabilirsiniz.</p>
 
-<h3>Yaygın Sac Kalınlıkları</h3>
-<p>Sac metal imalatta en sık kullanılan standart kalınlıklar: 0.5mm, 0.8mm, 1mm, 1.2mm, 1.5mm, 2mm, 2.5mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm, 12mm, 15mm, 20mm ve 25mm'dir. Her kalınlık farklı uygulama alanlarına hitap eder.</p>
+<h3>Yaygın Sac Kalınlıkları ve Kullanım Alanları</h3>
+<p>Sac metal imalatta standart kalınlıklar belirli aralıklarla üretilir. Her kalınlık grubunun tipik kullanım alanları farklıdır:</p>
+<ul>
+<li><strong>0.5-0.8mm:</strong> Elektronik cihaz kasaları, aydınlatma armatürleri, ince kabin parçaları. Hafif ve kolay şekillendirilebilir.</li>
+<li><strong>1-1.5mm:</strong> Elektrik panoları, beyaz eşya gövdeleri, havalandırma kanalları, dekoratif paneller. En yaygın kullanılan kalınlık aralığıdır.</li>
+<li><strong>2-3mm:</strong> Makine kabin ve kapakları, mobilya metal aksesuarları, orta yük taşıyan yapısal parçalar, taşıma ekipmanları.</li>
+<li><strong>4-6mm:</strong> Makine şasileri, platform tabanları, tarım makinesi parçaları, orta ağırlıktaki yapısal elemanlar.</li>
+<li><strong>8-12mm:</strong> Ağır makine gövdeleri, çelik konstrüksiyon bağlantı plakaları, flanş, tank ve silo parçaları.</li>
+<li><strong>15-25mm:</strong> Ağır konstrüksiyon, köprü elemanları, basınçlı kap ve gemi sacları, madencilik ekipmanları.</li>
+<li><strong>25-50mm:</strong> Çok ağır yapısal elemanlar, basınçlı kaplar, kırıcı astarları (Hardox). Plazma veya oksi-yakıt kesim gerektirir.</li>
+</ul>
 
 <h3>Sac Ağırlık Hesaplama Formülü</h3>
-<p>Sac ağırlığı basit bir formülle hesaplanır:</p>
+<p>Sac metal ağırlığı, malzeme yoğunluğu kullanılarak basit bir formülle hesaplanır:</p>
 <p><strong>Ağırlık (kg) = Uzunluk (m) x Genişlik (m) x Kalınlık (mm) x Yoğunluk (kg/dm³)</strong></p>
+<p>Bu formül, dikdörtgen sac plakaları için doğrudan uygulanır. Kesim sonrası parça ağırlığı, toplam sac ağırlığından fire payı düşülerek veya CAD yazılımında hesaplanarak elde edilir.</p>
+
+<h3>Malzeme Yoğunluk Tablosu</h3>
+<table>
+<tr><th>Malzeme</th><th>Yoğunluk (kg/dm³)</th><th>1mm, 1m² Ağırlık</th></tr>
+<tr><td>Çelik (St37, St52)</td><td>7.85</td><td>7.85 kg</td></tr>
+<tr><td>Paslanmaz Çelik (304)</td><td>7.93</td><td>7.93 kg</td></tr>
+<tr><td>Paslanmaz Çelik (316)</td><td>7.98</td><td>7.98 kg</td></tr>
+<tr><td>Alüminyum (genel)</td><td>2.71</td><td>2.71 kg</td></tr>
+<tr><td>Galvaniz Sac</td><td>7.85</td><td>7.85 kg + kaplama</td></tr>
+<tr><td>Bakır</td><td>8.96</td><td>8.96 kg</td></tr>
+<tr><td>Pirinç</td><td>8.50</td><td>8.50 kg</td></tr>
+<tr><td>Hardox</td><td>7.85</td><td>7.85 kg</td></tr>
+</table>
+
+<h3>Örnek Ağırlık Hesaplamaları</h3>
 <ul>
-<li><strong>Çelik yoğunluğu:</strong> 7.85 kg/dm³</li>
-<li><strong>Paslanmaz çelik yoğunluğu:</strong> 7.93-8.00 kg/dm³</li>
-<li><strong>Alüminyum yoğunluğu:</strong> 2.71 kg/dm³</li>
-<li><strong>Bakır yoğunluğu:</strong> 8.96 kg/dm³</li>
+<li>1000x2000mm, 2mm çelik sac: 1.0 x 2.0 x 2 x 7.85 = <strong>31.4 kg</strong></li>
+<li>1000x2000mm, 3mm çelik sac: 1.0 x 2.0 x 3 x 7.85 = <strong>47.1 kg</strong></li>
+<li>1250x2500mm, 1.5mm paslanmaz sac: 1.25 x 2.5 x 1.5 x 7.93 = <strong>37.2 kg</strong></li>
+<li>1000x2000mm, 3mm alüminyum sac: 1.0 x 2.0 x 3 x 2.71 = <strong>16.3 kg</strong></li>
+<li>1500x3000mm, 10mm çelik plaka: 1.5 x 3.0 x 10 x 7.85 = <strong>353.3 kg</strong></li>
 </ul>
 
-<h3>Örnek Hesaplama</h3>
-<p>1000mm x 2000mm boyutlarında 3mm çelik sac ağırlığı: 1.0 x 2.0 x 3 x 7.85 = 47.1 kg</p>
+<h3>Fiber Lazer Kesim Kalınlık Limitleri</h3>
+<table>
+<tr><th>Malzeme</th><th>Min. Kalınlık</th><th>Maks. Kalınlık</th></tr>
+<tr><td>Çelik (St37/St52)</td><td>0.5mm</td><td>25mm</td></tr>
+<tr><td>Paslanmaz Çelik</td><td>0.5mm</td><td>20mm</td></tr>
+<tr><td>Alüminyum</td><td>0.5mm</td><td>12mm</td></tr>
+<tr><td>Galvaniz Sac</td><td>0.5mm</td><td>6mm</td></tr>
+<tr><td>Bakır</td><td>0.5mm</td><td>6mm</td></tr>
+<tr><td>Pirinç</td><td>0.5mm</td><td>6mm</td></tr>
+<tr><td>Hardox 400/450</td><td>3mm</td><td>20mm</td></tr>
+</table>
 
-<h3>Lazer Kesim Kalınlık Limitleri</h3>
-<ul>
-<li><strong>Çelik (St37/St52):</strong> 0.5mm - 25mm</li>
-<li><strong>Paslanmaz Çelik:</strong> 0.5mm - 20mm</li>
-<li><strong>Alüminyum:</strong> 0.5mm - 12mm</li>
-<li><strong>Galvaniz:</strong> 0.5mm - 6mm</li>
-<li><strong>Bakır/Pirinç:</strong> 0.5mm - 6mm</li>
-</ul>
+<h3>CNC Plazma Kesim Kalınlık Limitleri</h3>
+<p>CNC plazma ile çelikte 6-50mm, paslanmazda 6-40mm, alüminyumda 6-30mm kalınlık aralığında kesim yapılabilir. 15mm üzeri kalınlıklarda plazma kesim, lazer kesime göre daha ekonomiktir.</p>
 
 <h3>Kalınlık Seçimi Nasıl Yapılır?</h3>
-<p>Kalınlık seçiminde parçanın taşıyacağı yük, büküm gereksinimleri, estetik beklentiler ve maliyet birlikte değerlendirilir. Projenize uygun kalınlık konusunda teknik ekibimizden destek alabilirsiniz.</p>`,
+<p>Doğru kalınlık seçimi birçok faktörün dengelenmesini gerektirir: parçanın taşıyacağı mekanik yük ve gerilme analizi, büküm gereksinimleri (kalın malzeme daha büyük büküm yarıçapı gerektirir), estetik beklentiler (ince saclar daha zarif görünüm sunar), ağırlık kısıtlamaları (taşınabilirlik, montaj kolaylığı), korozyon koruması (kalın malzeme aşınma payı bırakır) ve maliyet (kalınlık arttıkça hem malzeme hem işleme maliyeti artar). Projenize uygun optimal kalınlık konusunda Kuzey Şafak Lazer teknik ekibimizden destek alabilirsiniz.</p>
+
+<h3>Standart Sac Boyutları</h3>
+<p>Türkiye piyasasında en yaygın sac tabaka boyutları: 1000x2000mm, 1250x2500mm ve 1500x3000mm'dir. Kalın plakalar genellikle 2000x6000mm veya 2500x6000mm boyutlarında üretilir. Kuzey Şafak Lazer olarak fiber lazer ve CNC plazma makinelerimizin 2000x6000mm kesim tablası, standart tabaka boyutlarının tamamını karşılar.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-bukum', 'cnc-plazma'],
     faq: [
-      { q: '1mm çelik sac metrekare ağırlığı kaçtır?', a: '1mm kalınlığında çelik sacın metrekare ağırlığı yaklaşık 7.85 kg\'dır (1.0 x 1.0 x 1 x 7.85).' },
-      { q: 'En ince kaç mm lazer kesim yapılır?', a: 'Fiber lazer ile 0.5mm kalınlıktan başlayarak kesim yapabiliyoruz. İnce saclar çok yüksek hassasiyetle kesilir.' },
-      { q: 'Standart sac boyutları nelerdir?', a: 'Piyasada en yaygın sac boyutları 1000x2000mm, 1250x2500mm ve 1500x3000mm\'dir. Kuzey Şafak Lazer olarak 2000x6000mm\'ye kadar kesim yapabiliyoruz.' }
+      { q: '1mm çelik sac metrekare ağırlığı kaçtır?', a: '1mm kalınlığında çelik sacın metrekare ağırlığı yaklaşık 7.85 kg\'dır. Formül: 1.0 x 1.0 x 1 x 7.85 = 7.85 kg. Paslanmazda 7.93 kg, alüminyumda 2.71 kg olur.' },
+      { q: 'En ince kaç mm lazer kesim yapılır?', a: 'Fiber lazer ile 0.5mm kalınlıktan başlayarak kesim yapabiliyoruz. İnce saclarda ±0.05mm gibi çok yüksek hassasiyet değerleri elde edilir ve çapak oluşumu neredeyse sıfırdır.' },
+      { q: 'Standart sac boyutları nelerdir?', a: 'Piyasada en yaygın sac boyutları 1000x2000mm, 1250x2500mm ve 1500x3000mm\'dir. Kalın plakalar 2000x6000mm boyutlarında bulunur. Kesim tablalarımız 2000x6000mm olup tüm standart boyutları karşılar.' },
+      { q: 'Alüminyum sac çelik sactan ne kadar hafiftir?', a: 'Alüminyumun yoğunluğu (2.71 kg/dm³) çeliğin yoğunluğunun (7.85 kg/dm³) yaklaşık üçte biri kadardır. Aynı boyut ve kalınlıkta alüminyum sac, çelik sacın yaklaşık %35\'i ağırlığındadır.' },
+      { q: 'Sac ağırlığını otomatik hesaplayan bir araç var mı?', a: 'CAD yazılımları (SolidWorks, Inventor, Fusion 360) malzeme yoğunluğunu atayarak otomatik ağırlık hesaplar. Basit hesaplamalar için formülümüzü kullanabilirsiniz: Ağırlık = Uzunluk(m) x Genişlik(m) x Kalınlık(mm) x Yoğunluk(kg/dm³).' }
     ]
   },
 
@@ -1221,36 +1314,56 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Metal İşleme Yöntemleri',
     metaDesc: 'Metal işleme yöntemleri nelerdir? Kesme, bükme, kaynak, döküm ve talaşlı imalat. Endüstriyel metal işleme rehberi. Kuzey Şafak Lazer.',
     category: 'bilgi',
-    content: `<p><strong>Metal işleme</strong>, ham metal malzemelerin çeşitli yöntemlerle şekillendirilmesi, kesilmesi, birleştirilmesi ve yüzey işlemi uygulanarak kullanılabilir parça veya ürün haline dönüştürülmesi sürecidir. Endüstriyel üretimde onlarca farklı metal işleme yöntemi kullanılır.</p>
+    content: `<p><strong>Metal işleme</strong>, ham metal malzemelerin endüstriyel yöntemlerle şekillendirilmesi, kesilmesi, birleştirilmesi ve yüzey işlemi uygulanarak kullanılabilir parça, bileşen veya ürün haline dönüştürülmesi sürecidir. İnsanlık tarihinin en eski üretim faaliyetlerinden biri olan metal işleme, Tunç Çağı'ndan günümüze kadar sürekli gelişerek endüstriyel üretimin temelini oluşturmuştur. Modern metal işleme, CNC otomasyon, lazer teknolojisi ve robotik sistemlerle yüksek hassasiyet ve verimlilik düzeyine ulaşmıştır.</p>
+
+<h3>Metal İşleme Yöntemlerinin Sınıflandırması</h3>
+<p>Metal işleme yöntemleri temel olarak dört ana kategoriye ayrılır: kesme (malzeme ayırma), şekillendirme (plastik deformasyon), birleştirme (kaynak, perçin, vida) ve yüzey işleme (kaplama, boyama). Her kategori kendi içinde onlarca alt yöntem barındırır ve doğru yöntem seçimi projenin malzeme türü, geometrisi, tolerans gereksinimi, adet ve maliyet hedeflerine göre belirlenir.</p>
 
 <h3>Termal Kesim Yöntemleri</h3>
 <ul>
-<li><strong>Lazer Kesim:</strong> Yüksek hassasiyet, dar kerf, minimum ısı etkisi. İnce-orta kalınlıklarda en çok tercih edilen yöntem.</li>
-<li><strong>Plazma Kesim:</strong> Kalın metallerde ekonomik kesim. İletken tüm metallerle uyumlu.</li>
-<li><strong>Oksi-Yakıt Kesim:</strong> Çok kalın çelikte (100mm+) kullanılır. Sadece karbon çelikte etkili.</li>
-<li><strong>Su Jeti Kesim:</strong> Isı etkisi sıfır, her malzemede kullanılabilir ancak yavaş.</li>
+<li><strong>Fiber Lazer Kesim:</strong> 1.07μm dalga boyunda lazer ışını ile metal kesim. ±0.1mm hassasiyet, 0.1-0.3mm kerf genişliği. İnce ve orta kalınlıklarda (0.5-25mm çelik) en yüksek hız, hassasiyet ve kenar kalitesi. Sac metal imalatın dominant kesim yöntemidir.</li>
+<li><strong>CNC Plazma Kesim:</strong> İyonize gaz (plazma) jeti ile iletken metal kesimi. 6-50mm+ kalınlıklarda ekonomik ve hızlı. ±0.5mm tolerans. Çelik konstrüksiyon ve ağır sanayide yaygın.</li>
+<li><strong>Oksi-Yakıt (Oksijen) Kesim:</strong> Oksijen-asetilen veya oksijen-propan alevi ile çelik kesimi. Çok kalın saclarda (50-300mm) kullanılır. Sadece karbon çelikte etkili, paslanmaz ve alüminyumda kullanılamaz.</li>
+<li><strong>Su Jeti Kesim (Waterjet):</strong> Yüksek basınçlı su (4000-6000 bar) veya abrazif su jeti ile kesim. Isı etkisi sıfır, her malzemede (metal, taş, cam, seramik) kullanılabilir. Ancak kesim hızı düşük ve işletme maliyeti yüksektir.</li>
+</ul>
+
+<h3>Mekanik Kesim Yöntemleri</h3>
+<ul>
+<li><strong>Giyotin Makas:</strong> Düz sac parçaların şerit halinde kesilmesi. Hızlı ancak sadece düz kesim yapabilir. İnce saclarda (0.5-6mm) yaygın.</li>
+<li><strong>CNC Revolver Pres (Turret Punch):</strong> Sac metallerin delinmesi, damgalanması ve şekillendirilmesi. Çoklu takım istasyonu ile hızlı seri üretim. Basit geometrilerde lazer kesime alternatif.</li>
+<li><strong>Testere Kesim (Şerit/Daire):</strong> Profil, boru ve dolu malzeme kesiminde kullanılır.</li>
 </ul>
 
 <h3>Şekillendirme Yöntemleri</h3>
 <ul>
-<li><strong>Abkant Büküm:</strong> Sac metalin açısal olarak şekillendirilmesi.</li>
-<li><strong>Rulo Büküm:</strong> Silindirik formların elde edilmesi.</li>
-<li><strong>Derin Çekme:</strong> Sacın kalıp içinde üç boyutlu forma çekilmesi.</li>
-<li><strong>Damgalama (Stamping):</strong> Seri üretimde hızlı şekillendirme.</li>
+<li><strong>Abkant Büküm:</strong> CNC abkant preste sac metalin açısal olarak şekillendirilmesi. V, U, Z, kutu ve özel profiller elde edilir. Sac metal imalatın en kritik şekillendirme aşamasıdır.</li>
+<li><strong>Rulo Büküm (Silindir Büküm):</strong> Üç veya dört silindirli makinelerde sacın silindirik veya konik formlara dönüştürülmesi. Tank, silo ve boru imalatında kullanılır.</li>
+<li><strong>Derin Çekme (Deep Drawing):</strong> Düz sacın kalıp içinde üç boyutlu kap, kutu veya gövde formuna çekilmesi. Otomotiv karoseri, mutfak eşyası ve ambalaj sanayinde yaygın.</li>
+<li><strong>Damgalama (Stamping):</strong> Seri üretimde kalıp ile hızlı şekillendirme, delme ve kesme. Yüksek adetli uygulamalarda ekonomik, düşük adetlerde kalıp maliyeti dezavantaj.</li>
+<li><strong>Haddeleme:</strong> Metal malzemenin silindirler arasından geçirilerek inceltilmesi ve şekillendirilmesi. Sac, profil ve ray üretiminde temel yöntem.</li>
 </ul>
 
 <h3>Birleştirme Yöntemleri</h3>
-<p>Kaynak (MIG, TIG, elektrot), perçinleme, vidalı birleştirme, yapıştırma ve lehimleme metal parçaların birleştirilmesinde kullanılan temel yöntemlerdir. Uygulama gereksinimlerine göre en uygun yöntem seçilir.</p>
+<p>Metal parçaların birleştirilmesi kalıcı ve sökülebilir yöntemlerle gerçekleştirilir:</p>
+<ul>
+<li><strong>Kaynak:</strong> MIG/MAG, TIG, elektrot, punta ve tozaltı kaynak. Ana malzeme dayanımına eşit kalıcı birleştirme. Sızdırmazlık ve yapısal uygulamalarda vazgeçilmez.</li>
+<li><strong>Perçinleme:</strong> Pop perçin ve kör perçin ile mekanik birleştirme. Hafif yapılarda ve tek taraflı erişimde kullanılır.</li>
+<li><strong>Vidalı Birleştirme:</strong> Cıvata-somun veya sac vida ile sökülebilir birleştirme. Montaj, bakım ve demontaj gerektiren uygulamalarda tercih edilir.</li>
+<li><strong>Lehimleme:</strong> Düşük sıcaklıkta (yumuşak lehim) veya yüksek sıcaklıkta (sert lehim) dolgu malzemesi ile birleştirme. Elektrik bağlantıları ve ince parçalarda kullanılır.</li>
+</ul>
 
-<h3>Yüzey İşleme</h3>
-<p>Kumlama, boyama (toz boya, ıslak boya), galvaniz kaplama, anotlama (alüminyum), nikelaj, kromlama ve elektropolisaj gibi yüzey işlemleri metal parçalara korozyon direnci ve estetik görünüm kazandırır.</p>
+<h3>Yüzey İşleme Yöntemleri</h3>
+<p>Metal parçalara korozyon direnci, estetik görünüm ve aşınma direnci kazandırmak için uygulanan başlıca yüzey işlemleri: kumlama ve raspalama (yüzey hazırlığı), fosfatlama (boya altı koruma), toz boya (en yaygın endüstriyel boyama), ıslak boya (özel renk ve efektler), sıcak daldırma galvaniz (dış mekan korozyon koruması), elektrolitik kaplama (nikelaj, kromlama, çinko kaplama), anotlama (alüminyum yüzey sertleştirme) ve elektropolisaj (paslanmaz çelik yüzey parlatma).</p>
 
-<p>Kuzey Şafak Lazer olarak lazer kesim, plazma kesim, CNC büküm ve kaynaklı imalat hizmetlerimizle metal işleme sürecinizin tamamında yanınızdayız.</p>`,
+<h3>Kuzey Şafak Lazer'de Metal İşleme</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde fiber lazer kesim, CNC plazma kesim, CNC abkant büküm ve MIG/TIG kaynaklı imalat hizmetleri sunuyoruz. Metal işleme sürecinizin tasarımdan bitmiş ürüne kadar tüm aşamalarında yanınızdayız. Yüzey işlemleri (boyama, galvaniz) anlaşmalı tedarikçilerimiz aracılığıyla organize edilmektedir.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-plazma', 'cnc-bukum', 'kaynakli-imalat'],
     faq: [
-      { q: 'Hangi metal işleme yöntemi en hassastır?', a: 'Kesim yöntemleri arasında lazer kesim (±0.1mm), talaşlı imalat yöntemleri arasında CNC frezeleme en yüksek hassasiyeti sağlar.' },
-      { q: 'Sac metal ile blok metal işleme arasındaki fark nedir?', a: 'Sac metal imalat düz sacların kesilip bükülmesiyle 3D formlar oluşturur. Blok metal işleme (talaşlı imalat) ise dolu malzemeden talaş kaldırarak parça üretir.' },
-      { q: 'Projem için hangi yöntem uygun?', a: 'Doğru yöntem seçimi; parça geometrisi, malzeme türü, kalınlık, tolerans ve adet gereksinimine bağlıdır. Projenizi paylaşın, en uygun yöntemi birlikte belirleyelim.' }
+      { q: 'Hangi metal işleme yöntemi en hassastır?', a: 'Termal kesim yöntemleri arasında fiber lazer kesim (±0.1mm) en yüksek hassasiyeti sağlar. Talaşlı imalat yöntemleri arasında CNC frezeleme ±0.01mm toleransa ulaşabilir. Uygulama gereksinimlerine göre doğru yöntem seçilir.' },
+      { q: 'Sac metal ile blok metal işleme arasındaki fark nedir?', a: 'Sac metal imalat, düz sacların kesilip bükülmesiyle hafif ve 3D formlu parçalar üretir. Blok metal işleme (talaşlı imalat), dolu malzemeden talaş kaldırarak masif parçalar üretir. Sac metal daha hafif ve ekonomik, talaşlı imalat daha masif ve hassas parçalar için uygundur.' },
+      { q: 'Projem için hangi yöntem uygun?', a: 'Doğru yöntem seçimi; parça geometrisi, malzeme türü, kalınlık, tolerans gereksinimi, sipariş adedi ve bütçeye bağlıdır. Projenizin detaylarını paylaşın, en uygun yöntemi ve kombineyi birlikte belirleyelim.' },
+      { q: 'Lazer kesim mi su jeti kesim mi tercih etmeliyim?', a: 'Metal kesimde fiber lazer çok daha hızlı ve ekonomiktir. Su jeti, ısı etkisinin kesinlikle kabul edilmediği hassas uygulamalarda veya metal olmayan malzemelerde tercih edilir. Genel sac metal imalatta lazer kesim standarttır.' },
+      { q: 'Hangi yüzey işlemi en dayanıklıdır?', a: 'Dış mekan korozyon korumasında sıcak daldırma galvaniz en uzun ömürlüdür (25+ yıl). Toz boya yüksek mekanik dayanıklılık sunar. Uygulamanın ortam koşullarına göre en uygun yüzey işlemi belirlenir.' }
     ]
   },
 
@@ -1260,33 +1373,61 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Lazer Kesim Toleransları ve Hassasiyet Değerleri',
     metaDesc: 'Lazer kesim hassasiyeti ve toleransları: kalınlığa göre tolerans tablosu, kerf genişliği, tekrarlanabilirlik. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>Lazer kesim toleransı</strong>, kesim işleminde gerçekleşen boyutsal sapmanın kabul edilebilir aralığını ifade eder. Fiber lazer kesim, termal kesim yöntemleri içinde en yüksek hassasiyeti sunar. Doğru tolerans bilgisi, tasarım aşamasında kritik öneme sahiptir.</p>
+    content: `<p><strong>Lazer kesim toleransı</strong>, CNC lazer kesim işleminde gerçekleşen boyutsal sapmanın kabul edilebilir sınır aralığını ifade eder. Tolerans, bir parçanın tasarım boyutundan ne kadar sapabileceğini belirleyen mühendislik parametresidir. Fiber lazer kesim, tüm termal kesim yöntemleri içinde en yüksek hassasiyeti sunar ve bu özelliğiyle hassas sac metal imalatın temel yöntemidir. Doğru tolerans bilgisi, parça tasarımı, montaj planlaması ve kalite kontrolün her aşamasında kritik öneme sahiptir.</p>
 
-<h3>Fiber Lazer Kesim Tolerans Değerleri</h3>
-<ul>
-<li><strong>0.5-3mm kalınlık:</strong> ±0.05-0.1mm</li>
-<li><strong>3-6mm kalınlık:</strong> ±0.1mm</li>
-<li><strong>6-12mm kalınlık:</strong> ±0.1-0.15mm</li>
-<li><strong>12-20mm kalınlık:</strong> ±0.15-0.2mm</li>
-<li><strong>20-25mm kalınlık:</strong> ±0.2-0.3mm</li>
-</ul>
+<h3>Tolerans Nedir? Teknik Tanım</h3>
+<p>Tolerans, bir ölçünün ideal (nominal) değerinden izin verilen maksimum sapma miktarıdır. Örneğin, 100mm nominal boyutta ±0.1mm tolerans, parçanın 99.9mm ile 100.1mm arasında kabul edilebilir olduğu anlamına gelir. Lazer kesimde tolerans; makine hassasiyeti, malzeme özellikleri, kesim parametreleri ve çevresel koşulların bileşkesidir. ISO 9013 standardı, termal kesim toleranslarının sınıflandırılmasında referans olarak kullanılır.</p>
 
-<h3>Kerf Genişliği (Kesim Ağzı)</h3>
-<p>Lazer ışınının malzemede açtığı kesim boşluğuna kerf denir. Fiber lazer kesimde kerf genişliği genellikle 0.1-0.3mm arasındadır. CNC yazılımı kerf değerini otomatik olarak kompanse eder, böylece parça boyutları doğru kalır.</p>
+<h3>Fiber Lazer Kesim Tolerans Tablosu</h3>
+<p>Aşağıdaki tolerans değerleri, standart üretim koşullarında elde edilen tipik değerlerdir. Optimum koşullarda daha dar toleranslar mümkün olabilir.</p>
+<table>
+<tr><th>Malzeme Kalınlığı</th><th>Boyutsal Tolerans</th><th>Kerf Genişliği</th></tr>
+<tr><td>0.5-1mm</td><td>±0.05mm</td><td>0.08-0.15mm</td></tr>
+<tr><td>1-3mm</td><td>±0.05-0.1mm</td><td>0.1-0.2mm</td></tr>
+<tr><td>3-6mm</td><td>±0.1mm</td><td>0.15-0.25mm</td></tr>
+<tr><td>6-12mm</td><td>±0.1-0.15mm</td><td>0.2-0.3mm</td></tr>
+<tr><td>12-20mm</td><td>±0.15-0.2mm</td><td>0.25-0.4mm</td></tr>
+<tr><td>20-25mm</td><td>±0.2-0.3mm</td><td>0.3-0.5mm</td></tr>
+</table>
 
-<h3>Tekrarlanabilirlik</h3>
-<p>CNC lazer kesimin en büyük avantajlarından biri yüksek tekrarlanabilirliktir. Aynı program ile kesilen parçalar arasında boyutsal fark ±0.05mm'den azdır. Bu özellik, seri üretimde parça değiştirilebilirliğini garanti eder.</p>
+<h3>Kerf Genişliği (Kesim Ağzı) ve Kompansasyonu</h3>
+<p>Kerf, lazer ışınının malzemede açtığı kesim boşluğunun genişliğidir. Fiber lazer kesimde kerf genişliği tipik olarak 0.1-0.3mm aralığındadır ve malzeme kalınlığı ile orantılı olarak artar. CNC kesim yazılımı (nesting/CAM), kerf genişliğini otomatik olarak hesaplar ve kesim yolunu buna göre ofsetler (kerf kompansasyonu). Bu sayede, parça boyutları nominal değerlerinde kalır. Tasarımcının kerf ile ilgili ayrıca bir düzeltme yapmasına gerek yoktur; bu işlem tamamen CNC tarafında otomatik gerçekleştirilir.</p>
+
+<h3>Tekrarlanabilirlik (Repeatability)</h3>
+<p>CNC fiber lazer kesimin en değerli avantajlarından biri olağanüstü yüksek tekrarlanabilirliktir. Aynı CNC program ile ardışık kesilen parçalar arasındaki boyutsal fark ±0.05mm'den azdır. Bu, seri üretimde parça değiştirilebilirliğini (interchangeability) garanti eder. İlk parça ile 10.000. parça arasında boyutsal fark ihmal edilebilir düzeydedir. Bu özellik, montaj hattı üretimi, birbirine geçmeli bileşenler ve modüler sistemler için kritik öneme sahiptir.</p>
 
 <h3>Toleransı Etkileyen Faktörler</h3>
-<p>Malzeme kalınlığı arttıkça tolerans genişler. Malzeme düzlüğü (sac eğriliği), ısıl genleşme, makine kalibrasyonu ve kesim parametreleri toleransı etkileyen ana faktörlerdir. Çok dar tolerans gerektiren parçalarda tasarım aşamasında danışmanlık almanızı öneriyoruz.</p>
+<ul>
+<li><strong>Malzeme kalınlığı:</strong> Kalınlık arttıkça lazer ışınının malzeme içindeki dağılımı artar ve tolerans genişler. Bu, tüm termal kesim yöntemlerinin ortak karakteristiğidir.</li>
+<li><strong>Malzeme düzlüğü:</strong> Sac eğriliği (flatness), kesim tablasından yükseklik farklılığı yaratarak odaklama mesafesini etkiler. Düzgün saclar daha dar tolerans sağlar.</li>
+<li><strong>Isıl genleşme:</strong> Uzun süreli kesim operasyonlarında malzemenin ısınması boyutsal genleşmeye neden olabilir. İyi bir CNC program bu etkiyi kesim stratejisi ile minimize eder.</li>
+<li><strong>Makine kalibrasyonu:</strong> CNC lazer kesim makinesinin düzenli kalibrasyon ve bakımı, tolerans tutarlılığının temel koşuludur.</li>
+<li><strong>Kesim parametreleri:</strong> Lazer gücü, kesim hızı, gaz basıncı ve odak pozisyonu doğru seçilmelidir. Optimum parametreler, malzeme türü ve kalınlığına göre belirlenir.</li>
+<li><strong>Parça boyutu:</strong> Çok büyük parçalarda (1m+) kümülatif tolerans etkisi oluşabilir.</li>
+</ul>
 
-<h3>Plazma Kesim ile Tolerans Karşılaştırması</h3>
-<p>Lazer kesim: ±0.1mm genel tolerans. Plazma kesim: ±0.5-1mm. Bu nedenle tolerans kritik parçalarda lazer kesim tercih edilmelidir.</p>`,
+<h3>Plazma ve Oksi-Yakıt Kesim ile Tolerans Karşılaştırması</h3>
+<table>
+<tr><th>Kesim Yöntemi</th><th>Tipik Tolerans</th><th>Kerf Genişliği</th></tr>
+<tr><td>Fiber Lazer</td><td>±0.1mm</td><td>0.1-0.3mm</td></tr>
+<tr><td>CNC Plazma</td><td>±0.5-1mm</td><td>1.5-3mm</td></tr>
+<tr><td>Hi-Def Plazma</td><td>±0.25mm</td><td>1-2mm</td></tr>
+<tr><td>Oksi-Yakıt</td><td>±1-2mm</td><td>2-5mm</td></tr>
+</table>
+<p>Tolerans kritik parçalar, birbirine geçmeli bileşenler ve hassas uygulamalar için lazer kesim açık ara en uygun yöntemdir.</p>
+
+<h3>Çok Dar Tolerans Gerektiren Uygulamalar</h3>
+<p>±0.05mm altı tolerans gerektiren uygulamalarda lazer kesim tek başına yeterli olmayabilir. Bu durumda lazer kesim kaba işlem olarak uygulanır ve ardından CNC frezeleme veya taşlama ile son hassas boyut elde edilir. Bu ikili yaklaşım, hem üretim hızını hem de hassasiyeti optimize eder.</p>
+
+<h3>Kuzey Şafak Lazer'de Tolerans Güvencesi</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde düzenli kalibrasyon ve bakım uygulanan fiber lazer makinemizle yukarıdaki tolerans değerlerini tutarlı şekilde sağlıyoruz. Projenizin tolerans gereksinimlerini tasarım aşamasında bizimle paylaşmanızı öneriyoruz; böylece en uygun kesim stratejisini birlikte belirleyebiliriz.</p>`,
     relatedServices: ['lazer-kesim'],
     faq: [
-      { q: 'Lazer kesim ile ±0.05mm tolerans mümkün müdür?', a: 'İnce saclarda (0.5-3mm) ±0.05mm tolerans elde edilebilir. Kalınlık arttıkça tolerans değeri genişler. Projenizin tolerans gereksinimini önceden paylaşın.' },
-      { q: 'Kerf genişliği parça boyutunu etkiler mi?', a: 'CNC yazılımı kerf kompansasyonu uygulayarak parça boyutlarının doğru kalmasını sağlar. Tasarım aşamasında kerf ile ilgili bir düzeltme yapmanız gerekmez.' },
-      { q: 'Çok hassas parçalar için ne önerirsiniz?', a: '±0.05mm altı tolerans gereken parçalarda lazer kesim sonrası CNC frezeleme ile son işlem yapılması önerilir. Lazer kesim kaba işlem, CNC frezeleme hassas işlem olarak uygulanabilir.' }
+      { q: 'Lazer kesim ile ±0.05mm tolerans mümkün müdür?', a: 'İnce saclarda (0.5-3mm) ±0.05mm tolerans standart koşullarda elde edilebilir. Kalınlık arttıkça tolerans değeri genişler. Projenizin tolerans gereksinimini önceden paylaşmanız, en uygun kesim stratejisinin belirlenmesini sağlar.' },
+      { q: 'Kerf genişliği parça boyutunu etkiler mi?', a: 'CNC yazılımı otomatik kerf kompansasyonu uygulayarak parça boyutlarının nominal değerde kalmasını sağlar. Tasarımcının kerf düzeltmesi yapmasına gerek yoktur; bu işlem tamamen makine tarafında otomatik gerçekleştirilir.' },
+      { q: 'Çok hassas parçalar için ne önerirsiniz?', a: '±0.05mm altı tolerans gereken parçalarda lazer kesim sonrası CNC frezeleme ile son işlem önerilir. Lazer kesim kaba boyutu hızla oluşturur, CNC frezeleme ise kritik yüzeyleri hassas boyuta getirir.' },
+      { q: 'Seri üretimde tolerans tutarlılığı nasıl sağlanır?', a: 'CNC lazer kesimin tekrarlanabilirliği ±0.05mm\'den azdır. Düzenli makine kalibrasyonu, doğru kesim parametreleri ve kontrollü ortam koşulları ile seri üretimde her parçada tutarlı tolerans garanti edilir.' },
+      { q: 'Lazer kesim toleransı plazma kesimden ne kadar daha iyidir?', a: 'Fiber lazer kesim ±0.1mm, CNC plazma kesim ±0.5-1mm tolerans sağlar. Lazer kesim, plazma kesime göre 5-10 kat daha dar tolerans sunarak hassas parçalar için vazgeçilmez bir yöntemdir.' }
     ]
   },
 
@@ -1296,29 +1437,48 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'İkitelli OSB Metal İşleme ve Sac İmalat',
     metaDesc: 'İkitelli Organize Sanayi Bölgesi\'nde metal işleme ve sac imalat. Lazer kesim, plazma, büküm, kaynak hizmetleri. Kuzey Şafak Lazer İkitelli.',
     category: 'bilgi',
-    content: `<p><strong>İkitelli Organize Sanayi Bölgesi</strong> (İkitelli OSB), İstanbul'un Başakşehir ilçesinde yer alan Türkiye'nin en büyük organize sanayi bölgelerinden biridir. Binlerce üretim tesisine ev sahipliği yapan İkitelli OSB, metal işleme sektörünün de İstanbul'daki en önemli merkezidir.</p>
+    content: `<p><strong>İkitelli Organize Sanayi Bölgesi</strong> (İkitelli OSB), İstanbul'un Başakşehir ilçesinde yer alan, Türkiye'nin ve İstanbul'un en büyük organize sanayi bölgelerinden biridir. 3.000'den fazla üretim tesisine ve 100.000'i aşkın çalışana ev sahipliği yapan İkitelli OSB, metal işleme, makine imalatı, otomotiv yan sanayi, tekstil, plastik ve birçok farklı sanayi kolunun İstanbul'daki en önemli üretim merkezidir. Bölge, 1990'ların başında İstanbul'un merkezindeki sanayi tesislerinin organize sanayi bölgelerine taşınması projesi kapsamında kurulmuş ve kısa sürede Türkiye'nin sanayi üretim üslerinden biri haline gelmiştir.</p>
 
-<h3>Kuzey Şafak Lazer - İkitelli OSB</h3>
-<p>Kuzey Şafak Lazer olarak İkitelli OSB'deki modern tesisimizde kapsamlı metal işleme hizmetleri sunuyoruz. Merkezi konumumuz, İstanbul'un her noktasından kolay erişim ve hızlı teslimat avantajı sağlar.</p>
+<h3>İkitelli OSB'nin Sanayi Altyapısı</h3>
+<p>İkitelli OSB, metal işleme sektörü için son derece elverişli bir ekosistem sunar. Bölgede çelik ve metal malzeme tedarikçileri, sarf malzeme bayileri, yüzey işleme tesisleri (boyama, galvaniz), ısıl işlem firmaları, CNC talaşlı imalat atölyeleri ve lojistik firmaları yoğun olarak bulunmaktadır. Bu ekosistem, ham maddeden bitmiş ürüne kadar tüm üretim süreçlerinin aynı bölge içinde tamamlanabilmesini mümkün kılar. Tedarik zincirinin kısa olması, hem maliyet hem süre avantajı sağlar.</p>
 
-<h3>Sunduğumuz Hizmetler</h3>
+<h3>Kuzey Şafak Lazer - İkitelli OSB Tesisimiz</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İkitelli OSB'deki modern tesisimizde kapsamlı metal işleme ve sac metal imalat hizmetleri sunuyoruz. Tesisimiz, fiber lazer kesim, CNC plazma kesim, CNC abkant büküm ve kaynaklı imalat makinelerini bir arada barındıran, tam entegre bir üretim tesisidir. Bu entegrasyon, projelerin kesimden montaja kadar tek çatı altında, koordineli ve hızlı bir şekilde tamamlanmasını sağlar.</p>
+
+<h3>Sunduğumuz Hizmetler ve Kapasiteler</h3>
 <ul>
-<li><strong>Fiber Lazer Kesim:</strong> 2000x6000mm, çelik 25mm, paslanmaz 20mm, alüminyum 12mm kapasiteli.</li>
-<li><strong>CNC Plazma Kesim:</strong> 6-50mm kalınlıklarda çelik ve paslanmaz kesim.</li>
-<li><strong>CNC Abkant Büküm:</strong> 3000mm boy, 220 ton kapasite.</li>
-<li><strong>Kaynaklı İmalat:</strong> MIG/MAG ve TIG kaynak ile endüstriyel imalat.</li>
+<li><strong>Fiber Lazer Kesim:</strong> 2000x6000mm kesim tablası. Çelikte 0.5-25mm, paslanmazda 0.5-20mm, alüminyumda 0.5-12mm, galvanizde 0.5-6mm, bakır/pirinçte 0.5-6mm kapasiteli. ±0.1mm tolerans.</li>
+<li><strong>CNC Plazma Kesim:</strong> 2000x6000mm kesim tablası. 6-50mm kalınlıklarda çelik, paslanmaz ve alüminyum kesim. Kalın sac projelerinde ekonomik çözüm.</li>
+<li><strong>CNC Abkant Büküm:</strong> 3000mm büküm boyu, 220 ton kapasite. ±0.1° açı hassasiyeti. Çelik, paslanmaz, alüminyum ve galvaniz büküm.</li>
+<li><strong>Kaynaklı İmalat:</strong> MIG/MAG ve TIG kaynak ile çelik, paslanmaz çelik ve alüminyum birleştirme. Deneyimli kaynakçı kadrosu.</li>
+<li><strong>Ek Hizmetler:</strong> Malzeme tedariki, teknik çizim desteği, nesting optimizasyonu, yüzey işlemi organizasyonu.</li>
 </ul>
 
-<h3>İkitelli OSB'nin Avantajları</h3>
-<p>İkitelli OSB'de bulunmamız; çevre sanayicilere hızlı hizmet, malzeme tedarikinde lojistik avantaj, yan sanayi erişimi ve rekabetçi fiyatlandırma sunmamızı mümkün kılar. Bölgedeki yoğun sanayi ağı, her türlü metal imalat projesinin hızla gerçekleştirilmesini sağlar.</p>
+<h3>İkitelli OSB'de Konumlanmanın Müşterilerimize Sağladığı Avantajlar</h3>
+<p>İkitelli OSB'de bulunmamız, müşterilerimize birçok somut avantaj sağlar:</p>
+<ul>
+<li><strong>Kolay ulaşım:</strong> TEM ve E-5 otoyollarına doğrudan bağlantı. İstanbul'un Avrupa ve Anadolu yakasından kolay erişim. Metro (M3 hattı), metrobüs ve otobüs ile toplu taşıma bağlantısı.</li>
+<li><strong>Hızlı malzeme tedariki:</strong> Bölgedeki çelik depoları ve metal tedarikçilerinden aynı gün malzeme temini mümkündür.</li>
+<li><strong>Yan sanayi erişimi:</strong> Boyama, galvaniz, ısıl işlem, talaşlı imalat ve kaplama firmaları bölge içinde veya yakın çevresinde bulunmaktadır.</li>
+<li><strong>Lojistik avantaj:</strong> İstanbul içi nakliye firmaları ve kargo şirketleri bölgede yoğun olarak faaliyet göstermektedir. İstanbul dışı sevkiyat için parsiyel ve komple araç organizasyonu kolaylıkla yapılabilir.</li>
+<li><strong>Rekabetçi fiyatlandırma:</strong> Yoğun sanayi altyapısı ve tedarikçi çeşitliliği, rekabetçi ham madde ve hizmet fiyatları oluşmasını sağlar.</li>
+</ul>
 
-<h3>Ulaşım</h3>
-<p>İkitelli OSB; TEM ve E-5 otoyollarına, Atatürk Havalimanı'na ve İstanbul'un ana lojistik hatlarına yakın konumdadır. İstanbul'un Avrupa ve Anadolu yakasından kolay ulaşılabilir konumuyla müşterilerimize zaman tasarrufu sağlıyoruz.</p>`,
+<h3>Hizmet Verdiğimiz Sektörler</h3>
+<p>İkitelli OSB'deki tesisimizden İstanbul başta olmak üzere Türkiye genelindeki müşterilerimize hizmet veriyoruz. Başlıca sektörler: makine imalatı, otomasyon, çelik konstrüksiyon, asansör, havalandırma (HVAC), elektrik-elektronik, gıda sanayi, savunma, otomotiv yan sanayi, mobilya, reklam-tabela, mimari dekorasyon, enerji ve tarım makineleri.</p>
+
+<h3>Ulaşım Bilgileri</h3>
+<p>İkitelli OSB, İstanbul Başakşehir ilçesinde TEM otoyolunun hemen yanında konumlanmıştır. Özel araçla TEM otoyolu İkitelli / Başakşehir çıkışından ulaşılır. Toplu taşıma ile M3 Metro hattı (Olimpiyat-Başakşehir) İkitelli Sanayi istasyonu ve metrobüs hatlarından transfer ile erişilebilir. İstanbul Havalimanı'na yaklaşık 25 km, Sabiha Gökçen Havalimanı'na yaklaşık 50 km mesafededir.</p>
+
+<h3>Tesisimizi Ziyaret Edin</h3>
+<p>İkitelli OSB'deki tesisimizi mesai saatleri içinde ziyaret edebilir, makinelerimizi yerinde görebilir ve projenizi teknik ekibimizle yüz yüze değerlendirebilirsiniz. Ziyaret randevusu için 0555 000 83 04 numarasını arayabilir veya WhatsApp ile iletişime geçebilirsiniz.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-plazma', 'cnc-bukum', 'kaynakli-imalat'],
     faq: [
-      { q: 'İkitelli OSB\'ye nasıl ulaşılır?', a: 'İkitelli OSB, İstanbul Başakşehir\'de TEM otoyolu çıkışında yer alır. Toplu taşıma ile metro (M3 hattı) ve metrobüs ile ulaşılabilir.' },
-      { q: 'Teslimat yapıyor musunuz?', a: 'İstanbul içi teslimat organize ediyoruz. Büyük siparişlerde ücretsiz, küçük siparişlerde uygun fiyatlı teslimat hizmeti mevcuttur.' },
-      { q: 'Tesisi ziyaret edebilir miyim?', a: 'Evet, mesai saatleri içinde tesisimizi ziyaret edebilir, makinelerimizi görebilir ve projenizi yerinde değerlendirebilirsiniz. Randevu için 0555 000 83 04 numarasını arayabilirsiniz.' }
+      { q: 'İkitelli OSB\'ye nasıl ulaşılır?', a: 'İkitelli OSB, İstanbul Başakşehir\'de TEM otoyolu çıkışında yer alır. Özel araçla TEM İkitelli çıkışından, toplu taşıma ile M3 Metro hattı İkitelli Sanayi istasyonundan ve metrobüs transferi ile ulaşılabilir.' },
+      { q: 'Teslimat yapıyor musunuz?', a: 'Evet, İstanbul içi teslimat organize ediyoruz. Büyük siparişlerde teslimat hizmeti sunuyoruz. İstanbul dışına kargo ve nakliye organizasyonu da yapıyoruz.' },
+      { q: 'Tesisi ziyaret edebilir miyim?', a: 'Evet, mesai saatleri içinde (Pazartesi-Cumartesi 08:30-18:00) tesisimizi ziyaret edebilirsiniz. Makinelerimizi görebilir ve projenizi yerinde değerlendirebilirsiniz. Randevu için 0555 000 83 04 numarasını arayabilirsiniz.' },
+      { q: 'İstanbul dışından sipariş verebilir miyim?', a: 'Evet, Türkiye genelinden sipariş kabul ediyoruz. Teknik çizimlerinizi WhatsApp veya e-posta ile gönderebilirsiniz. Bitmiş ürünler kargo veya nakliye ile adresinize teslim edilir.' },
+      { q: 'Acil siparişlerde ne kadar hızlı teslim edebilirsiniz?', a: 'Basit lazer kesim siparişlerinde aynı gün teslimat mümkündür. Kesim+büküm işlerinde 1-2 iş günü, kaynaklı imalatlarda proje kapsamına göre değişen sürelerde acil üretim yapabiliyoruz.' }
     ]
   },
 
@@ -1328,29 +1488,60 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Sac Büküm Teknikleri ve Tasarım Kuralları',
     metaDesc: 'Sac büküm teknikleri, minimum büküm yarıçapı, büküm payı hesaplama ve tasarım kuralları. CNC büküm rehberi. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>Sac büküm</strong>, düz metal sacların CNC abkant preste veya elle işletilen bükme makinelerinde açısal olarak şekillendirilmesi işlemidir. Doğru büküm sonuçları için tasarım aşamasında bazı temel kuralların bilinmesi gerekir.</p>
+    content: `<p><strong>Sac büküm</strong>, düz metal sacların CNC abkant preste kontrollü basınç uygulanarak açısal olarak şekillendirilmesi işlemidir. Sac metal imalatın en kritik aşamalarından biri olan büküm, düz bir sacı üç boyutlu fonksiyonel bir parçaya dönüştürür. Doğru büküm sonuçları elde etmek için tasarım aşamasında malzeme özellikleri, büküm yarıçapları, büküm payı hesaplamaları ve geometrik kısıtlamalar gibi temel mühendislik kurallarının bilinmesi gerekir. Bu rehberde, sac büküm tasarım kurallarını, hesaplama yöntemlerini ve pratik ipuçlarını detaylı olarak açıklıyoruz.</p>
+
+<h3>Sac Büküm Temelleri</h3>
+<p>Sac metal bükülürken, büküm çizgisinin dış yüzeyindeki malzeme gerilmeye, iç yüzeyindeki malzeme ise basınca maruz kalır. Bu gerilme-basınç dengesi nedeniyle malzeme kalınlığı büküm bölgesinde hafifçe değişir ve sacın toplam uzunluğu artar. Bu fiziksel gerçek, açınım (flat pattern) hesaplamalarında dikkate alınmalıdır. Büküm işleminin başarısı, doğru malzeme seçimi, uygun kalıp kombinasyonu, hassas CNC parametreleri ve deneyimli operatör birleşimiyle sağlanır.</p>
 
 <h3>Minimum Büküm Yarıçapı</h3>
-<p>Her malzemenin minimum iç büküm yarıçapı vardır. Bu değerin altında büküm yapılırsa malzeme çatlar. Genel kural olarak: çelik ve paslanmaz çelikte minimum iç yarıçap = malzeme kalınlığı (t), alüminyumda minimum iç yarıçap = 0.5 x t olarak kabul edilir. Örneğin 2mm çeliğin minimum iç büküm yarıçapı 2mm'dir.</p>
+<p>Her malzemenin, çatlamadan bükülebileceği bir minimum iç büküm yarıçapı vardır. Bu değerin altında yapılan bükümlerde malzemenin dış yüzeyinde çatlak oluşma riski artar. Minimum yarıçapı belirleyen faktörler: malzeme türü, kalınlık, hadde yönü ve ısıl işlem durumudur.</p>
+<table>
+<tr><th>Malzeme</th><th>Minimum İç Yarıçap (genel kural)</th></tr>
+<tr><td>Çelik (St37)</td><td>1.0 x t (malzeme kalınlığı)</td></tr>
+<tr><td>Paslanmaz Çelik (304)</td><td>1.0 x t</td></tr>
+<tr><td>Alüminyum (5754)</td><td>0.5-1.0 x t</td></tr>
+<tr><td>Galvaniz Sac</td><td>1.0 x t</td></tr>
+<tr><td>Bakır</td><td>0.5 x t</td></tr>
+<tr><td>DKP Sac</td><td>0.8 x t</td></tr>
+</table>
+<p>Örneğin, 2mm çelik sacın minimum iç büküm yarıçapı R2, 3mm alüminyumun minimum iç yarıçapı R1.5-R3'tür. Hadde yönüne paralel bükümlerde çatlama riski artar; mümkünse büküm çizgisi hadde yönüne dik olacak şekilde tasarlanmalıdır.</p>
 
-<h3>Büküm Payı (Bend Allowance)</h3>
-<p>Sac bükülürken dış yüzey gerilir, iç yüzey sıkışır. Bu nedenle açınım hesabında büküm payı dikkate alınmalıdır. K-faktörü (genellikle 0.33-0.50 arası) ile hesaplanan büküm payı, doğru açınım boyutunu verir. CAD yazılımları bu hesabı otomatik yapar.</p>
+<h3>Büküm Payı (Bend Allowance) ve K-Faktörü</h3>
+<p>Sac bükülürken, malzemenin nötr ekseni (ne gerilme ne basınç gören hat) iç yüzeye doğru kayar. Bu kayma nedeniyle büküm bölgesindeki malzeme uzunluğu değişir. Doğru açınım boyutu hesaplamak için büküm payı (bend allowance) veya büküm düşümü (bend deduction) kullanılır.</p>
+<p><strong>Büküm Payı Formülü:</strong> BA = π/180 x (R + K x T) x A</p>
+<p>Burada: BA = Büküm payı (mm), R = İç büküm yarıçapı (mm), K = K-faktörü, T = Malzeme kalınlığı (mm), A = Büküm açısı (derece).</p>
+<p><strong>K-Faktörü:</strong> Nötr eksenin malzeme kalınlığı içindeki konumunu ifade eder. Değeri 0 ile 0.5 arasındadır (0 = iç yüzey, 0.5 = tam orta). Tipik değerler: hava bükümde 0.33-0.42, alt bükümde 0.40-0.50 arasındadır. Malzeme türü, kalınlık, yarıçap ve büküm yöntemi K-faktörünü etkiler. SolidWorks, Inventor ve Fusion 360 gibi CAD yazılımları bu hesaplamayı otomatik yapar.</p>
 
-<h3>Tasarım Kuralları</h3>
+<h3>Tasarım Kuralları ve Geometrik Kısıtlamalar</h3>
 <ul>
-<li><strong>Kenar-büküm mesafesi:</strong> Büküm çizgisi ile sac kenarı arasında en az 2 x malzeme kalınlığı mesafe bırakın.</li>
-<li><strong>Delik-büküm mesafesi:</strong> Delik kenarı ile büküm çizgisi arasında en az 2.5 x t + büküm yarıçapı mesafe bırakın.</li>
-<li><strong>Geri yaylanma (Springback):</strong> Malzeme bükümden sonra hafifçe geri açılır. CNC abkant preslerde bu otomatik kompanse edilir.</li>
-<li><strong>Büküm yönü:</strong> Hadde yönüne dik büküm, çatlama riskini azaltır.</li>
+<li><strong>Kenar-büküm mesafesi:</strong> Büküm çizgisi ile sacın en yakın kenarı arasında minimum 2 x malzeme kalınlığı + büküm yarıçapı mesafe bırakılmalıdır. Yetersiz kenar mesafesi, bükümün tutmamasına ve malzeme deformasyonuna neden olur.</li>
+<li><strong>Delik-büküm mesafesi:</strong> Delik kenarı ile büküm çizgisi arasında minimum 2.5 x t + R (büküm yarıçapı) mesafe bırakılmalıdır. Yetersiz mesafede delik büküm sırasında oval deformasyona uğrar. Bu kuralın uygulanamadığı durumlarda, büküm öncesi delik yerine pilot delik açılıp büküm sonrası genişletme yapılabilir.</li>
+<li><strong>Büküm yönü ve hadde:</strong> Büküm çizgisi mümkünse hadde yönüne (rolling direction) dik olmalıdır. Hadde yönüne paralel bükümde çatlama riski artar, özellikle sert malzemelerde ve dar yarıçaplarda.</li>
+<li><strong>Minimum flanş yüksekliği:</strong> Büküm sonrası oluşan flanş (kanat) yüksekliği, en az V kalıp açıklığının yarısından fazla olmalıdır. Aksi halde parça kalıptan kayar.</li>
+<li><strong>Büküm sırası (Bending Sequence):</strong> Çok bükümlü parçalarda büküm sırası kritik önem taşır. Yanlış sıralama, sonraki bükümlerin makineye veya kalıba çarpmasına neden olabilir. CNC büküm programlama yazılımları otomatik sıralama önerir.</li>
 </ul>
 
+<h3>Geri Yaylanma (Springback)</h3>
+<p>Sac metal bükümden sonra elastik geri dönme (springback) yaparak büküm açısını hafifçe açar. Geri yaylanma miktarı malzeme türüne, kalınlığa, büküm yarıçapına ve büküm yöntemine bağlıdır. Yüksek akma dayanımlı malzemelerde (paslanmaz çelik, yüksek mukavemetli çelik) geri yaylanma daha fazladır. CNC abkant preslerde geri yaylanma, overbending (fazla büküm) tekniği ile kompanse edilir. Açı ölçüm sensörlü sistemlerde gerçek zamanlı kompansasyon otomatik uygulanır.</p>
+
 <h3>Yaygın Büküm Profilleri</h3>
-<p>V büküm (en yaygın), U büküm, Z büküm, kutu büküm ve silindirik büküm en çok kullanılan büküm profilleridir. CNC abkant preste çok adımlı büküm ile karmaşık 3D formlar elde edilebilir.</p>`,
+<ul>
+<li><strong>V büküm:</strong> Tek açılı büküm. En basit ve en yaygın profil. Herhangi bir açıda (30°-180°) uygulanabilir.</li>
+<li><strong>U büküm:</strong> İki paralel büküm ile U kanal profili oluşturulur. İki büküm adımı gerektirir.</li>
+<li><strong>Z büküm:</strong> İki zıt yönde büküm ile Z profili. İki büküm adımı veya özel Z kalıp ile tek adımda yapılabilir.</li>
+<li><strong>Kutu büküm:</strong> Dört büküm ile kutu formlu kapalı profil. Genellikle 4 büküm adımı gerektirir. Pano, kabin ve kutu imalatında standart.</li>
+<li><strong>Hem (katlama):</strong> Sacın kenarının 180° bükülmesi. Kenar güçlendirme ve keskin kenardan koruma amacıyla uygulanır.</li>
+</ul>
+
+<h3>Kuzey Şafak Lazer'de CNC Büküm Hizmeti</h3>
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana İstanbul İkitelli OSB'deki tesisimizde 220 ton kapasiteli, 3000mm büküm boyuna sahip CNC abkant presimizle bu rehberde açıklanan tüm büküm tekniklerini uyguluyoruz. Geniş kalıp setimiz (standart V, gaz boynu, kaz boynu, Z kalıp) ile çoğu büküm profilini karşılıyoruz. Projenizin büküm gereksinimleri konusunda teknik danışmanlık için iletişime geçin.</p>`,
     relatedServices: ['cnc-bukum'],
     faq: [
-      { q: 'Minimum büküm yarıçapı nedir?', a: 'Genel kural olarak minimum iç büküm yarıçapı, malzeme kalınlığına eşittir. 2mm çelikte minimum R2, 3mm çelikte minimum R3. Alüminyumda daha dar yarıçaplar mümkündür.' },
-      { q: 'Büküm payı nedir, neden önemlidir?', a: 'Büküm payı, sacın bükülürken uzaması nedeniyle açınım hesabına eklenen değerdir. Doğru büküm payı hesaplanmazsa bitmiş parça boyutları hatalı olur.' },
-      { q: 'Büküm sonrası parça boyutu neden farklı çıkıyor?', a: 'Yanlış K-faktörü, geri yaylanma kompansasyonu eksikliği veya hatalı açınım hesabı boyutsal sapmalara neden olur. Profesyonel CNC büküm ile bu sorunlar minimuma indirilir.' }
+      { q: 'Minimum büküm yarıçapı nedir?', a: 'Genel kural olarak minimum iç büküm yarıçapı, malzeme kalınlığına eşittir. 2mm çelikte minimum R2, 3mm çelikte minimum R3. Alüminyumda daha dar yarıçaplar (0.5xt) mümkündür. Hadde yönüne dik büküm çatlama riskini azaltır.' },
+      { q: 'Büküm payı nedir, neden önemlidir?', a: 'Büküm payı (bend allowance), sacın bükülürken uzaması nedeniyle açınım hesabına eklenen değerdir. K-faktörü ile hesaplanır. Doğru büküm payı hesaplanmazsa bitmiş parça boyutları tasarımdan sapacaktır. CAD yazılımları bu hesabı otomatik yapar.' },
+      { q: 'Büküm sonrası parça boyutu neden hedeften sapabilir?', a: 'Yanlış K-faktörü seçimi, geri yaylanma kompansasyonu eksikliği, hatalı açınım hesabı veya yanlış kalıp-malzeme kombinasyonu boyutsal sapmalara neden olur. CNC abkant presimizde otomatik springback kompansasyonu ve doğru K-faktörü ile bu sapmalar minimuma indirilir.' },
+      { q: 'Hadde yönü büküm kalitesini etkiler mi?', a: 'Evet, hadde yönüne paralel bükümlerde malzemenin dış yüzeyinde çatlama riski artar. Mümkünse büküm çizgisi hadde yönüne dik olacak şekilde tasarlanmalıdır. Özellikle kalın ve sert malzemelerde bu kural kritik önem taşır.' },
+      { q: 'Kutu büküm yapabiliyor musunuz?', a: 'Evet, CNC abkant presimizle 4 adımlık kutu büküm dahil karmaşık çok adımlı büküm operasyonlarını gerçekleştiriyoruz. Pano, kabin, kutu ve profil bükümlerinde uzmanız.' }
     ]
   },
 
@@ -1360,28 +1551,41 @@ export const INFO_PAGES: InfoPage[] = [
     h1: 'Nesting Nedir? Malzeme Optimizasyonu',
     metaDesc: 'Nesting nedir, lazer kesimde malzeme firesi nasıl azaltılır? Otomatik nesting yazılımları ve faydaları. Kuzey Şafak Lazer İstanbul.',
     category: 'bilgi',
-    content: `<p><strong>Nesting</strong> (yerleşim optimizasyonu), lazer kesim ve plazma kesimde parçaların sac üzerine en verimli şekilde dizilmesi işlemidir. Amaç, malzeme firesini (atık) minimuma indirerek ham madde maliyetini düşürmektir.</p>
+    content: `<p><strong>Nesting</strong> (yerleşim optimizasyonu), lazer kesim ve plazma kesim operasyonlarında parçaların sac tabaka üzerine en verimli şekilde dizilerek malzeme kullanım oranının maksimize edilmesi işlemidir. Nesting, sac metal imalatın maliyet optimizasyonunda kritik bir rol oynar çünkü ham malzeme bedeli, toplam imalat maliyetinin %40-60'ını oluşturabilir. İyi bir nesting stratejisi ile fire (atık) oranı %5-15'e düşürülebilirken, kötü veya yapılmamış bir yerleşimde bu oran %30-40'lara çıkabilir. Özellikle paslanmaz çelik, alüminyum ve Hardox gibi pahalı malzemelerde nesting optimizasyonu, proje maliyetinde önemli farklılık yaratır.</p>
 
-<h3>Nesting Neden Önemlidir?</h3>
-<p>Metal sac maliyeti, toplam imalat bedelinin önemli bir kısmını oluşturur. İyi bir nesting ile fire oranı %5-15 aralığına düşürülebilirken, kötü yerleşimde bu oran %30-40'lara çıkabilir. Özellikle pahalı malzemelerde (paslanmaz çelik, alüminyum) nesting optimizasyonu ciddi maliyet tasarrufu sağlar.</p>
+<h3>Nesting Neden Kritik Önem Taşır?</h3>
+<p>Metal sac maliyeti, son yıllardaki global ham madde fiyat artışları nedeniyle toplam imalat bedelinin giderek artan bir payını oluşturmaktadır. Aynı parça geometrisi, aynı malzeme ve aynı kalınlıkta bile farklı nesting stratejileri %10-25 oranında maliyet farkı yaratabilir. Bu nedenle profesyonel nesting yazılımı kullanımı, fason kesim hizmeti veren firmalar için standart bir gereklilik haline gelmiştir. Nesting ayrıca kesim süresini de optimize eder: parçalar arası geçiş yollarını minimize eder, boş hareketleri azaltır ve toplam kesim süresini kısaltır.</p>
 
 <h3>Nesting Yöntemleri</h3>
 <ul>
-<li><strong>Manuel nesting:</strong> Operatör parçaları elle yerleştirir. Basit ve az parçalı işlerde kullanılır ancak optimize değildir.</li>
-<li><strong>Otomatik nesting:</strong> Yazılım algoritmaları parçaları otomatik olarak en verimli şekilde diziler. Genetik algoritma ve yapay zeka tabanlı nesting motorları ile %90+ malzeme kullanım oranı sağlanabilir.</li>
-<li><strong>True shape nesting:</strong> Parçaların gerçek geometrisi dikkate alınarak dikdörtgen sınırları dışında iç içe yerleşim yapılır. En yüksek verimlilik bu yöntemle elde edilir.</li>
+<li><strong>Manuel (Elle) Nesting:</strong> Operatör, parçaları CAD ortamında veya doğrudan nesting yazılımında elle konumlandırır. Az sayıda ve basit geometrili parçalarda hızlı bir çözüm sunar. Ancak optimize değildir ve deneyimli operatöre bile %5-15 daha fazla fire bırakabilir. Zaman alıcıdır ve parça sayısı arttıkça verimsizleşir.</li>
+<li><strong>Otomatik (Algoritmik) Nesting:</strong> Yazılım, matematiksel algoritmalar (genetik algoritma, simülatif tavlama, bin packing) kullanarak parçaları otomatik olarak en verimli konuma yerleştirir. İnsan müdahalesi minimum düzeydedir ve tutarlı, optimize sonuçlar üretir. Binlerce farklı parçayı saniyeler içinde dizebilir. Profesyonel nesting yazılımları ile %85-95 malzeme kullanım oranı sağlanabilir.</li>
+<li><strong>True Shape (Gerçek Geometri) Nesting:</strong> Dikdörtgen sınırlama kutusu (bounding box) yerine parçaların gerçek geometrik konturu dikkate alınarak yerleşim yapılır. Parçalar birbirinin boşluklarına iç içe geçecek şekilde dizilir. En yüksek malzeme kullanım oranını sağlayan yöntemdir. Özellikle düzensiz geometrili parçalarda belirgin avantaj sunar.</li>
+<li><strong>Çok Tabakalı (Multi-Sheet) Nesting:</strong> Farklı kalınlık veya malzemelerdeki siparişlerin birden fazla sac tabakaya optimum dağıtılması. Stok yönetimi ve malzeme kullanımını bütünsel olarak optimize eder.</li>
 </ul>
 
-<h3>Nesting'i Etkileyen Faktörler</h3>
-<p>Parça geometrisi (düzensiz şekiller daha zor dizilir), parça sayısı ve çeşitliliği, minimum parçalar arası mesafe (web width), sac boyutu ve malzemenin hadde yönü nesting verimliliğini etkileyen ana faktörlerdir.</p>
+<h3>Nesting Verimliliğini Etkileyen Faktörler</h3>
+<ul>
+<li><strong>Parça geometrisi:</strong> Düzenli geometrili parçalar (dikdörtgen, daire, düzgün çokgen) daha sıkı dizilir. Düzensiz ve asimetrik şekiller daha fazla boşluk bırakır. İç boşluklu parçaların (çerçeve, panel) içine küçük parçalar yerleştirmek fire oranını düşürür.</li>
+<li><strong>Parça sayısı ve çeşitliliği:</strong> Farklı boyut ve geometride çok sayıda parça bulunması, nesting algoritmasına daha fazla kombinasyon seçeneği sunar ve verimlilik artar. Tek tip parça ile karışık parça nestingi farklı sonuçlar verir.</li>
+<li><strong>Minimum parçalar arası mesafe (Web Width):</strong> Parçalar arasında bırakılması gereken minimum mesafe, malzeme kalınlığına ve kesim yöntemine bağlıdır. Lazer kesimde tipik olarak 2-5mm, plazma kesimde 5-10mm web genişliği bırakılır. Yetersiz mesafe ısı birikimine ve deformasyona neden olabilir.</li>
+<li><strong>Sac boyutu:</strong> Standart sac tabaka boyutu (1000x2000mm, 1250x2500mm, 1500x3000mm) parça boyutlarıyla uyumlu olmalıdır. Büyük parçalar için 1500x3000mm veya 2000x6000mm tablalar kullanılabilir.</li>
+<li><strong>Hadde yönü:</strong> Bazı uygulamalarda (büküm gerektiren parçalarda) hadde yönünün dikkate alınması gerekir. Bu kısıtlama nesting esnekliğini azaltabilir.</li>
+<li><strong>Malzeme kalınlığı ve cinsi:</strong> Kalın ve pahalı malzemelerde nesting optimizasyonunun ekonomik etkisi çok daha büyüktür.</li>
+</ul>
+
+<h3>Nesting ve Kesim Süresi Optimizasyonu</h3>
+<p>İyi bir nesting yalnızca malzeme firesini değil, kesim süresini de optimize eder. Akıllı nesting yazılımları, kesim kafasının boş hareket (rapid traverse) mesafesini minimize eden kesim sırası ve yönü belirler. Ortak kesim hatları (common line cutting) kullanarak iki bitişik parçanın ortak kenarını tek bir kesim geçişiyle keser. Bu teknik, kesim süresini %10-20 azaltabilir ve gaz tüketimini düşürür.</p>
 
 <h3>Kuzey Şafak Lazer'de Nesting Uygulaması</h3>
-<p>Profesyonel nesting yazılımı kullanarak her kesim işinde malzeme verimliliğini maksimize ediyoruz. Müşterilerimize fire oranı bilgisi ile birlikte şeffaf fiyatlandırma sunuyoruz. Yüksek adetli siparişlerde nesting optimizasyonu ile önemli maliyet tasarrufu sağlıyoruz.</p>`,
+<p>Kuzey Şafak Lazer olarak 2010 yılından bu yana profesyonel true shape nesting yazılımı kullanarak her kesim işinde malzeme verimliliğini maksimize ediyoruz. Otomatik nesting optimizasyonu standart hizmetimize dahildir ve ek ücret uygulanmaz. Müşterilerimize nesting düzeni ve fire oranı bilgisi ile birlikte şeffaf fiyatlandırma sunuyoruz. Yüksek adetli siparişlerde nesting optimizasyonu, önemli maliyet tasarrufu sağlar ve bu tasarruf tekliflerimize doğrudan yansır.</p>`,
     relatedServices: ['lazer-kesim', 'cnc-plazma'],
     faq: [
-      { q: 'Nesting maliyeti ayrı hesaplanır mı?', a: 'Hayır, nesting optimizasyonu standart hizmetimize dahildir. Her kesim işinde otomatik nesting uygulayarak müşterilerimize en düşük fire oranını sunuyoruz.' },
-      { q: 'Fire oranı ne kadar olur?', a: 'Parça geometrisine ve adetine bağlı olarak %5-20 arasında fire oluşur. Yüksek adetlerde ve düzenli geometrilerde fire oranı minimuma iner.' },
-      { q: 'Firem olan malzemeyi kullanabilir misiniz?', a: 'Evet, elinizde kalan artık sacları değerlendirebiliriz. Parça boyutlarınız artık saca sığıyorsa, fire malzemenizi kullanarak maliyetinizi düşürebiliriz.' }
+      { q: 'Nesting maliyeti ayrı hesaplanır mı?', a: 'Hayır, nesting optimizasyonu standart hizmetimize dahildir ve ek ücret uygulanmaz. Her kesim işinde profesyonel true shape nesting yazılımı kullanarak müşterilerimize en düşük fire oranını ve en ekonomik fiyatı sunuyoruz.' },
+      { q: 'Fire oranı ne kadar olur?', a: 'Parça geometrisine, adetine ve sac boyutuna bağlı olarak %5-20 arasında fire oluşur. Düzenli geometrili parçalarda ve yüksek adetlerde fire oranı %5-10 seviyesine düşer. Düzensiz geometrilerde %15-20 olabilir.' },
+      { q: 'Firem olan malzemeyi kullanabilir misiniz?', a: 'Evet, elinizde kalan artık (fire) sacları değerlendirebiliriz. Parça boyutlarınız artık saca sığıyorsa, fire malzemenizi kullanarak maliyetinizi düşürebiliriz. Artık sacın boyutunu ve malzeme bilgisini paylaşmanız yeterlidir.' },
+      { q: 'Nesting raporunu görebilir miyim?', a: 'Evet, istek üzerine nesting düzeni görselini, malzeme kullanım oranını ve fire miktarı bilgisini müşterilerimizle paylaşıyoruz. Şeffaf fiyatlandırma politikamızın bir parçası olarak bu bilgiler teklif ile birlikte sunulabilir.' },
+      { q: 'Ortak kesim hattı (common line) nedir?', a: 'Ortak kesim hattı, iki bitişik parçanın ortak kenarının tek bir kesim geçişiyle kesilmesidir. Bu teknik, toplam kesim uzunluğunu ve süresini azaltarak maliyet tasarrufu sağlar. Nesting yazılımımız uygun geometrilerde otomatik olarak ortak kesim hattı uygular.' }
     ]
   }
 
