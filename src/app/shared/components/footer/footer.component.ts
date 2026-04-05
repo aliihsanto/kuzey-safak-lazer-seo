@@ -37,7 +37,7 @@ export class FooterComponent implements OnInit, OnDestroy {
     { label: 'Otomotiv', link: '/sektor/otomotiv-lazer-kesim' },
     { label: 'Enerji Sektörü', link: '/sektor/enerji-lazer-kesim' },
     { label: 'Makine İmalat', link: '/sektor/makine-imalat-lazer-kesim' },
-    { label: 'Gıda Makineleri', link: '/sektor/gida-makinalari-lazer-kesim' },
+    { label: 'Gıda Makineleri', link: '/sektor/gida-makineleri-lazer-kesim' },
     { label: 'Savunma Sanayi', link: '/sektor/savunma-sanayi-lazer-kesim' },
     { label: 'Çelik Konstrüksiyon', link: '/sektor/celik-konstruksiyon-lazer-kesim' }
   ];
@@ -68,12 +68,12 @@ export class FooterComponent implements OnInit, OnDestroy {
 
   // Bilgi Sayfaları
   bilgiLinks: FooterLink[] = [
-    { label: 'Lazer Kesim Nedir?', link: '/bilgi/cnc-lazer-kesim-nedir' },
+    { label: 'Lazer Kesim Nedir?', link: '/bilgi/lazer-kesim-nedir' },
     { label: 'Plazma Kesim Nedir?', link: '/bilgi/plazma-kesim-nedir' },
     { label: 'Lazer vs Plazma Farkı', link: '/bilgi/lazer-kesim-plazma-kesim-farki' },
-    { label: 'Sac Büküm Hesaplama', link: '/bilgi/sac-bukum-hesaplama' },
+    { label: 'Sac Büküm Hesaplama', link: '/bilgi/sac-bukum-teknikleri' },
     { label: 'Fason Lazer Kesim', link: '/bilgi/fason-lazer-kesim-istanbul' },
-    { label: 'Teklif Al', link: '/bilgi/lazer-kesim-teklif-al' }
+    { label: 'Teklif Al', link: '/bilgi/lazer-kesim-teklif' }
   ];
 
   constructor(

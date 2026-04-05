@@ -65,7 +65,7 @@ export class HeaderComponent implements OnInit {
         { label: 'Otomotiv', link: '/sektor/otomotiv-lazer-kesim' },
         { label: 'Enerji', link: '/sektor/enerji-lazer-kesim' },
         { label: 'Savunma Sanayi', link: '/sektor/savunma-sanayi-lazer-kesim' },
-        { label: 'Gıda Makineleri', link: '/sektor/gida-makinalari-lazer-kesim' },
+        { label: 'Gıda Makineleri', link: '/sektor/gida-makineleri-lazer-kesim' },
         { label: 'Makine İmalat', link: '/sektor/makine-imalat-lazer-kesim' },
         { label: 'HVAC/İklimlendirme', link: '/sektor/hvac-iklimlendirme-lazer-kesim' },
         { label: 'Dekorasyon', link: '/sektor/dekorasyon-lazer-kesim' }

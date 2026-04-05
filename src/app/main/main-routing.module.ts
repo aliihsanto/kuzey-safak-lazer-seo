@@ -65,7 +65,7 @@ const routes: Routes = [
       },
       {
         path: 'bilgi',
-        redirectTo: '/bilgi/cnc-lazer-kesim-nedir',
+        redirectTo: '/bilgi/lazer-kesim-nedir',
         pathMatch: 'full'
       },
       {

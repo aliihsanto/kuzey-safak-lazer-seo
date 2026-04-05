@@ -126,11 +126,11 @@ export class HomeComponent implements OnInit {
     { name: 'Enerji Sektörü', slug: 'enerji-lazer-kesim', icon: 'fas fa-bolt' },
     { name: 'Savunma Sanayi', slug: 'savunma-sanayi-lazer-kesim', icon: 'fas fa-shield-alt' },
     { name: 'Otomotiv', slug: 'otomotiv-lazer-kesim', icon: 'fas fa-car' },
-    { name: 'Gıda Makineleri', slug: 'gida-makinalari-lazer-kesim', icon: 'fas fa-utensils' },
+    { name: 'Gıda Makineleri', slug: 'gida-makineleri-lazer-kesim', icon: 'fas fa-utensils' },
     { name: 'Makine İmalat', slug: 'makine-imalat-lazer-kesim', icon: 'fas fa-cogs' },
     { name: 'Mobilya Sektörü', slug: 'mobilya-lazer-kesim', icon: 'fas fa-couch' },
     { name: 'Dekorasyon', slug: 'dekorasyon-lazer-kesim', icon: 'fas fa-palette' },
-    { name: 'Tarım Makineleri', slug: 'tarim-makinalari-lazer-kesim', icon: 'fas fa-tractor' },
+    { name: 'Tarım Makineleri', slug: 'tarim-makineleri-lazer-kesim', icon: 'fas fa-tractor' },
     { name: 'HVAC / İklimlendirme', slug: 'hvac-iklimlendirme-lazer-kesim', icon: 'fas fa-wind' },
     { name: 'Denizcilik', slug: 'denizcilik-lazer-kesim', icon: 'fas fa-ship' },
     { name: 'Medikal', slug: 'medikal-lazer-kesim', icon: 'fas fa-heartbeat' }
