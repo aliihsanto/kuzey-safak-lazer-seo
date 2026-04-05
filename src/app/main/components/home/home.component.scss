@@ -336,6 +336,112 @@
   }
 }
 
+// Alt grid (ek hizmetler)
+.ks-services__grid-alt {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  @media (max-width: 991px) { grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 575px) { grid-template-columns: 1fr; }
+}
+
+.ks-alt-card {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 28px 24px;
+  background: #fff;
+  border-radius: 14px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #eee;
+  position: relative;
+  transition: all 0.35s ease;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--thm-base) 0%, #ff6b6b 100%);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+  }
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.08);
+    border-color: transparent;
+
+    &::before { transform: scaleX(1); }
+  }
+
+  &__num {
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 2.2rem;
+    color: rgba(var(--thm-base-rgb), 0.08);
+    line-height: 1;
+    margin-bottom: 16px;
+    font-weight: 900;
+  }
+
+  &__title {
+    font-family: "Conthrax Sb", sans-serif;
+    font-size: 0.95rem;
+    color: var(--thm-black);
+    margin: 0 0 10px;
+    line-height: 1.3;
+  }
+
+  &__desc {
+    font-size: 0.84rem;
+    color: #888;
+    line-height: 1.6;
+    flex: 1;
+    margin: 0 0 20px;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__link {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--thm-base);
+    letter-spacing: 0.3px;
+    transition: color 0.2s;
+  }
+
+  &__arrow {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(var(--thm-base-rgb), 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--thm-base);
+    transition: all 0.3s;
+
+    svg { transition: transform 0.3s; }
+  }
+
+  &:hover &__arrow {
+    background: var(--thm-base);
+    color: #fff;
+    svg { transform: translateX(3px); }
+  }
+
+  &:hover &__link { color: var(--thm-black); }
+}
+
 // -------------------------------------------------------
 // SECTION 3: ABOUT
 // -------------------------------------------------------
