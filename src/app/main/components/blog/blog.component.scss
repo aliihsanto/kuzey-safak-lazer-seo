@@ -148,8 +148,10 @@
     line-height: 1.85;
     color: #555;
 
-    p { margin-bottom: 16px; }
-    b, strong { color: var(--thm-black); }
+    ::ng-deep {
+      p { margin-bottom: 16px; }
+      b, strong { color: var(--thm-black); }
+    }
   }
 
   &__spec {
