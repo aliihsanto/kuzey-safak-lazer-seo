@@ -328,37 +328,41 @@ export class SectorServiceComponent implements OnInit, OnDestroy {
 
   private generateSectorContent(): string {
     if (!this.sector || !this.service) return '';
-    const sectorName = this.sector.name;
-    const serviceName = this.serviceName;
+    const s = this.sector.name;
+    const sLow = s.toLowerCase();
+    const h = this.serviceName;
+    const hLow = h.toLowerCase();
+    const loc = this.isLocationPage ? this.locationName : 'İstanbul';
+    const locSuffix = this.isLocationPage ? ` ${this.locationName} bölgesinde` : '';
 
-    return `<p><strong>${sectorName} sektöründe ${serviceName.toLowerCase()}</strong> hizmeti, modern endüstriyel üretimin vazgeçilmez süreçlerinden biridir. Kuzey Şafak Lazer olarak ${sectorName.toLowerCase()} alanında faaliyet gösteren firmalara İkitelli OSB'deki tesislerimizden profesyonel ${serviceName.toLowerCase()} çözümleri sunuyoruz.</p>
+    return `<p><strong>${s} sektöründe${locSuffix} ${hLow}</strong> hizmeti, modern endüstriyel üretimin kritik süreçlerinden biridir. Kuzey Şafak Lazer olarak ${sLow} alanında faaliyet gösteren ${loc} firmalara İkitelli OSB'deki tesislerimizden profesyonel ${hLow} çözümleri sunuyoruz. ${s} sektörünün ihtiyaç duyduğu hassasiyet, dayanıklılık ve kalite standartlarını ${hLow} hizmetimizle karşılıyoruz.</p>
 
-<h3>${sectorName} Sektöründe ${serviceName} Neden Önemli?</h3>
-<p>${this.sector.description} Bu süreçte hassas metal işleme, kalite kontrolü ve zamanında teslimat kritik başarı faktörleridir. 2010 yılından bu yana edindiğimiz deneyim ile ${sectorName.toLowerCase()} projelerinizde güvenilir çözüm ortağınız olmaya devam ediyoruz.</p>
+<h3>${s} Sektöründe ${h} Neden Kritik?</h3>
+<p>${this.sector.description} ${s} projelerinde ${hLow} kalitesi, nihai ürünün performansını ve ömrünü doğrudan etkiler. Kuzey Şafak Lazer olarak 2010 yılından bu yana ${sLow} projelerinde edindiğimiz deneyim ile${locSuffix} güvenilir çözüm ortağınız olmaya devam ediyoruz.</p>
 
-<h3>Sunduğumuz Çözümler</h3>
+<h3>${s} İçin ${h} Çözümlerimiz</h3>
 <ul>
-<li><strong>Proje bazlı üretim:</strong> Teknik çiziminize göre birebir üretim</li>
-<li><strong>Seri üretim:</strong> Yüksek adetli siparişlerde tutarlı kalite</li>
-<li><strong>Prototip üretim:</strong> Yeni ürün geliştirme sürecinde hızlı numune</li>
-<li><strong>Entegre hizmet:</strong> Kesim + büküm + kaynak tek elden çözüm</li>
-<li><strong>Malzeme tedariki:</strong> İhtiyaç halinde malzeme temin desteği</li>
-<li><strong>Teknik danışmanlık:</strong> Malzeme seçimi ve üretim yöntemi önerileri</li>
+<li><strong>Proje bazlı ${hLow}:</strong> ${s} projelerinize özel teknik çizimden üretime</li>
+<li><strong>Seri üretim ${hLow}:</strong> ${s} sektörü için yüksek adetli siparişlerde tutarlı kalite</li>
+<li><strong>Prototip ${hLow}:</strong> ${s} ürün geliştirme sürecinde hızlı numune üretimi</li>
+<li><strong>Entegre imalat:</strong> ${s} projelerinizde kesim + büküm + kaynak tek elden</li>
+<li><strong>${s} malzeme tedariki:</strong> Sektöre uygun malzeme seçimi ve temin desteği</li>
+<li><strong>Teknik danışmanlık:</strong> ${s} projelerine özel malzeme ve üretim yöntemi önerileri</li>
 </ul>
 
-<h3>${sectorName} Projelerinde Kalite Standartlarımız</h3>
-<p>Her ${sectorName.toLowerCase()} projesinde endüstri standartlarına uygun üretim yapıyoruz. Kalite kontrol süreçlerimiz, malzeme girişinden sevkiyata kadar her aşamada titizlikle uygulanmaktadır. Müşterilerimizin teknik şartnamelerine tam uyum sağlayarak, ilk seferde doğru üretim prensibini benimsiyoruz.</p>
+<h3>${s} Projelerinde Kalite Güvencemiz</h3>
+<p>${loc} ve çevresindeki ${sLow} firmalarına sunduğumuz ${hLow} hizmetinde endüstri standartlarına tam uyum sağlıyoruz. Kalite kontrol süreçlerimiz malzeme girişinden sevkiyata kadar titizlikle uygulanır. ${s} sektörünün gerektirdiği tolerans değerlerine ve yüzey kalitesine ulaşmak için son teknoloji makine parkurumuzu kullanıyoruz.</p>
 
-<h3>Neden Kuzey Şafak Lazer'i Tercih Etmelisiniz?</h3>
+<h3>${loc} ${s} ${h} İçin Neden Biz?</h3>
 <ul>
-<li>15 yılı aşkın ${sectorName.toLowerCase()} sektör deneyimi</li>
-<li>İkitelli OSB'de merkezi konum - kolay ulaşım ve hızlı teslimat</li>
-<li>Geniş makine parkuru ile tek elden çözüm</li>
-<li>Rekabetçi fiyatlandırma ve esnek ödeme koşulları</li>
-<li>7/24 teknik destek ve proje takibi</li>
-<li>ISO kalite standartlarına uygun üretim</li>
+<li>15 yılı aşkın ${sLow} sektörü ${hLow} deneyimi</li>
+<li>${loc} merkezli hızlı teslimat ve lojistik avantajı</li>
+<li>İkitelli OSB'de geniş makine parkuru - tek elden ${hLow} çözümü</li>
+<li>${s} projelerine özel rekabetçi fiyatlandırma</li>
+<li>7/24 teknik destek ve ${sLow} proje takibi</li>
+<li>ISO kalite standartlarında ${hLow} üretimi</li>
 </ul>
 
-<p>Projeniz hakkında detaylı bilgi almak ve ${sectorName.toLowerCase()} sektörüne özel ${serviceName.toLowerCase()} teklifi için bizimle iletişime geçin. Teknik ekibimiz en kısa sürede size dönüş yapacaktır.</p>`;
+<p><strong>${s} sektöründe${locSuffix} ${hLow} teklifi</strong> almak için hemen bizimle iletişime geçin. Teknik ekibimiz ${sLow} projenizi değerlendirip en kısa sürede size dönüş yapacaktır.</p>`;
   }
 }

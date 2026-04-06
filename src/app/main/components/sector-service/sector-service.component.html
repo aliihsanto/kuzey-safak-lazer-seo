@@ -16,9 +16,9 @@
       <div class="sector-hero__icon">
         <i [class]="sector.icon"></i>
       </div>
-      <h1 class="sector-hero__title">{{ sector.name }} Sektörü<br>{{ serviceName }} Hizmeti</h1>
+      <h1 class="sector-hero__title">{{ locationName ? locationName + ' ' : '' }}{{ sector.name }} Sektörü<br>{{ serviceName }} Hizmeti</h1>
       <p class="sector-hero__desc">
-        {{ sector.name }} sektöründe uzman {{ serviceName.toLowerCase() }}
+        {{ locationName ? locationName + ' bölgesinde ' : '' }}{{ sector.name }} sektöründe uzman {{ serviceName.toLowerCase() }}
         hizmetiyle projelerinize endüstriyel kalite ve hassasiyet katıyoruz.
       </p>
       <a routerLink="/contact" class="sector-hero__btn">
