@@ -1,15 +1,4 @@
 User-agent: *
 Allow: /
-
-Disallow: /assets/inc/
 Disallow: /assets/vendors/
-
 Sitemap: https://safaklazer.com.tr/sitemap.xml
-Sitemap: https://safaklazer.com.tr/sitemap-main.xml
-Sitemap: https://safaklazer.com.tr/sitemap-hizmet.xml
-Sitemap: https://safaklazer.com.tr/sitemap-urun.xml
-Sitemap: https://safaklazer.com.tr/sitemap-sektor.xml
-Sitemap: https://safaklazer.com.tr/sitemap-istanbul.xml
-Sitemap: https://safaklazer.com.tr/sitemap-marmara-sehir.xml
-Sitemap: https://safaklazer.com.tr/sitemap-marmara-ilce.xml
-Sitemap: https://safaklazer.com.tr/sitemap-sektor-bolge.xml

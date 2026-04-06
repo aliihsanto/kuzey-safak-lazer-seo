@@ -5,6 +5,7 @@ import { takeUntil } from 'rxjs/operators';
 import { SeoService } from 'src/app/shared/services/seo.service';
 import { Sector, SECTORS } from 'src/app/shared/data/sectors';
 import { SERVICES, ServiceItem } from 'src/app/shared/mock.data';
+import { ADDITIONAL_SERVICES } from 'src/app/shared/data/additional-services';
 import { District, DISTRICT_MAP, DISTRICTS } from 'src/app/shared/data/districts';
 import { MARMARA_DISTRICT_MAP, MarmaraDistrict, MARMARA_DISTRICTS } from 'src/app/shared/data/marmara-districts';
 import { CITY_MAP, City } from 'src/app/shared/data/cities';
@@ -251,11 +252,14 @@ export class SectorServiceComponent implements OnInit, OnDestroy {
       }));
 
     // Sidebar links
-    // Aynı sektördeki hizmet sayfalarına yönlendir
-    this.allServiceLinks = this.sector!.applicableServices.map(sSlug => ({
-      label: SERVICE_NAME_MAP[sSlug] || sSlug,
-      link: '/sektor/' + this.sector!.slug + '-' + sSlug
-    }));
+    // Aynı sektördeki hizmet sayfalarına yönlendir + ek hizmetler
+    this.allServiceLinks = [
+      ...this.sector!.applicableServices.map(sSlug => ({
+        label: SERVICE_NAME_MAP[sSlug] || sSlug,
+        link: '/sektor/' + this.sector!.slug + '-' + sSlug
+      })),
+      ...ADDITIONAL_SERVICES.slice(0, 6).map(s => ({ label: s.name, link: '/hizmet/' + s.slug }))
+    ];
 
     // SEO
     const locSuffix = this.isLocationPage ? ` ${this.locationName}` : '';

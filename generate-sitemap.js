@@ -1,5 +1,5 @@
 /**
- * MEGA Sitemap Index + Sub-Sitemaps
+ * Single Sitemap Generator
  * Kullanım: node generate-sitemap.js
  */
 
@@ -41,9 +41,9 @@ Object.entries(mDistricts).forEach(([city, ds]) => ds.forEach(d => allMD.push(d)
 
 // 20 sektör
 const sectors = [
-  'insaat','asansor','mobilya','beyaz-esya','otomotiv','gida-makinalari',
-  'tarim-makinalari','savunma-sanayi','enerji','hvac-iklimlendirme',
-  'aydinlatma','reklam-tabela','dekorasyon','denizcilik','medikal',
+  'insaat','asansor','mobilya','beyaz-esya','otomotiv','gida-makineleri',
+  'savunma-sanayi','enerji','dekorasyon','tarim-makineleri',
+  'hvac-iklimlendirme','aydinlatma','reklam-tabela','medikal','denizcilik',
   'elektronik','makine-imalat','dis-cephe-kaplama','celik-konstruksiyon','pano-imalat'
 ];
 
@@ -54,15 +54,15 @@ const sectorServices = {
   'mobilya': ['lazer-kesim','kaynakli-imalat','cnc-bukum'],
   'beyaz-esya': ['lazer-kesim','cnc-bukum'],
   'otomotiv': ['lazer-kesim','kaynakli-imalat','cnc-bukum'],
-  'gida-makinalari': ['lazer-kesim','kaynakli-imalat'],
-  'tarim-makinalari': ['lazer-kesim','kaynakli-imalat','cnc-plazma'],
+  'gida-makineleri': ['lazer-kesim','kaynakli-imalat'],
   'savunma-sanayi': ['lazer-kesim','kaynakli-imalat'],
   'enerji': ['lazer-kesim','kaynakli-imalat'],
+  'dekorasyon': ['lazer-kesim','cnc-bukum'],
+  'tarim-makineleri': ['lazer-kesim','kaynakli-imalat','cnc-plazma'],
   'hvac-iklimlendirme': ['lazer-kesim','cnc-bukum'],
+  'denizcilik': ['lazer-kesim','kaynakli-imalat'],
   'aydinlatma': ['lazer-kesim','cnc-bukum'],
   'reklam-tabela': ['lazer-kesim','cnc-bukum'],
-  'dekorasyon': ['lazer-kesim','cnc-bukum'],
-  'denizcilik': ['lazer-kesim','kaynakli-imalat'],
   'medikal': ['lazer-kesim'],
   'elektronik': ['lazer-kesim','cnc-bukum'],
   'makine-imalat': ['lazer-kesim','kaynakli-imalat','cnc-plazma'],
@@ -118,90 +118,63 @@ const infoPages = [
 ];
 
 // ═══════════════════════════════════════
-// HELPER: XML generation
-// ═══════════════════════════════════════
-
-function urlEntry(route) {
-  return `  <url>\n    <loc>${baseUrl}${route}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>\n`;
-}
-
-function wrapUrlset(entries) {
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join('')}</urlset>\n`;
-}
-
-// ═══════════════════════════════════════
-// ROUTE GENERATION PER SUB-SITEMAP
+// COLLECT ALL ROUTES
 // ═══════════════════════════════════════
 
 const allRoutes = new Set();
 const counts = {};
 function count(label, n) { counts[label] = (counts[label] || 0) + n; }
 
-// --- sitemap-main.xml: static pages + 4 hizmet pages ---
-const mainRoutes = [];
-['/', '/about', '/contact'].forEach(p => mainRoutes.push(p));
+// Static pages + 4 hizmet pages
+['/', '/about', '/contact'].forEach(p => allRoutes.add(p));
 count('Statik', 3);
-services.forEach(s => mainRoutes.push(`/hizmetler/${s}`));
+services.forEach(s => allRoutes.add(`/hizmetler/${s}`));
 count('Hizmet sayfaları', services.length);
-mainRoutes.forEach(r => allRoutes.add(r));
 
-// --- sitemap-hizmet.xml: long-tail + additional services + bilgi pages ---
-const hizmetRoutes = [];
-longtails.forEach(lt => hizmetRoutes.push(`/hizmet/${lt}`));
+// Long-tail + additional services + bilgi pages
+longtails.forEach(lt => allRoutes.add(`/hizmet/${lt}`));
 count('Long-tail + Malzeme', longtails.length);
-additionalServices.forEach(s => hizmetRoutes.push(`/hizmet/${s}`));
+additionalServices.forEach(s => allRoutes.add(`/hizmet/${s}`));
 count('Ek hizmetler', additionalServices.length);
-infoPages.forEach(ip => hizmetRoutes.push(`/bilgi/${ip}`));
+infoPages.forEach(ip => allRoutes.add(`/bilgi/${ip}`));
 count('Bilgi/Teklif/Fason', infoPages.length);
-hizmetRoutes.forEach(r => allRoutes.add(r));
 
-// --- sitemap-urun.xml: product pages ---
-const urunRoutes = [];
-products.forEach(p => urunRoutes.push(`/urun/${p}`));
+// Product pages
+products.forEach(p => allRoutes.add(`/urun/${p}`));
 count('Ürün', products.length);
-urunRoutes.forEach(r => allRoutes.add(r));
 
-// --- sitemap-sektor.xml: sector x service pages ---
-const sektorRoutes = [];
+// Sector x service pages
 let sxh = 0;
 sectors.forEach(sector => {
   (sectorServices[sector] || services).forEach(srv => {
-    sektorRoutes.push(`/sektor/${sector}-${srv}`);
+    allRoutes.add(`/sektor/${sector}-${srv}`);
     sxh++;
   });
 });
 count('Sektör x Hizmet', sxh);
-sektorRoutes.forEach(r => allRoutes.add(r));
 
-// --- sitemap-istanbul.xml: Istanbul district x service pages ---
-const istanbulRoutes = [];
-services.forEach(s => istDistricts.forEach(d => istanbulRoutes.push(`/${s}/${d}`)));
+// Istanbul district x service pages
+services.forEach(s => istDistricts.forEach(d => allRoutes.add(`/${s}/${d}`)));
 count('Hizmet x İstanbul İlçe', services.length * istDistricts.length);
-istanbulRoutes.forEach(r => allRoutes.add(r));
 
-// --- sitemap-marmara-sehir.xml: Marmara city x service pages ---
-const marmaraSehirRoutes = [];
-services.forEach(s => cities.forEach(c => marmaraSehirRoutes.push(`/${s}-${c}`)));
+// Marmara city x service pages
+services.forEach(s => cities.forEach(c => allRoutes.add(`/${s}-${c}`)));
 count('Hizmet x Marmara Şehir', services.length * cities.length);
-marmaraSehirRoutes.forEach(r => allRoutes.add(r));
 
-// --- sitemap-marmara-ilce.xml: Marmara district x service pages ---
-const marmaraIlceRoutes = [];
+// Marmara district x service pages
 services.forEach(s => {
   Object.entries(mDistricts).forEach(([city, districts]) => {
-    districts.forEach(d => marmaraIlceRoutes.push(`/${s}/${city}/${d}`));
+    districts.forEach(d => allRoutes.add(`/${s}/${city}/${d}`));
   });
 });
 count('Hizmet x Marmara İlçe', services.length * allMD.length);
-marmaraIlceRoutes.forEach(r => allRoutes.add(r));
 
-// --- sitemap-sektor-bolge.xml: sector x location pages ---
-const sektorBolgeRoutes = [];
+// Sector x location pages
 // Sektör x İstanbul İlçe
 let sxi = 0;
 sectors.forEach(sector => {
   istDistricts.forEach(d => {
-    sektorBolgeRoutes.push(`/sektor/${sector}/${d}`);
+    allRoutes.add(`/sektor/${sector}/${d}`);
     sxi++;
   });
 });
@@ -211,7 +184,7 @@ count('Sektör x İstanbul İlçe', sxi);
 let sxc = 0;
 sectors.forEach(sector => {
   cities.forEach(c => {
-    sektorBolgeRoutes.push(`/sektor/${sector}-${c}`);
+    allRoutes.add(`/sektor/${sector}-${c}`);
     sxc++;
   });
 });
@@ -221,50 +194,29 @@ count('Sektör x Marmara Şehir', sxc);
 let sxmd = 0;
 sectors.forEach(sector => {
   allMD.forEach(d => {
-    sektorBolgeRoutes.push(`/sektor/${sector}/${d}`);
+    allRoutes.add(`/sektor/${sector}/${d}`);
     sxmd++;
   });
 });
 count('Sektör x Marmara İlçe', sxmd);
-sektorBolgeRoutes.forEach(r => allRoutes.add(r));
 
 // ═══════════════════════════════════════
-// WRITE SUB-SITEMAPS
+// WRITE SINGLE SITEMAP.XML
 // ═══════════════════════════════════════
 
-const subSitemaps = [
-  { name: 'sitemap-main.xml', routes: mainRoutes },
-  { name: 'sitemap-hizmet.xml', routes: hizmetRoutes },
-  { name: 'sitemap-urun.xml', routes: urunRoutes },
-  { name: 'sitemap-sektor.xml', routes: sektorRoutes },
-  { name: 'sitemap-istanbul.xml', routes: istanbulRoutes },
-  { name: 'sitemap-marmara-sehir.xml', routes: marmaraSehirRoutes },
-  { name: 'sitemap-marmara-ilce.xml', routes: marmaraIlceRoutes },
-  { name: 'sitemap-sektor-bolge.xml', routes: sektorBolgeRoutes },
-];
+const allRoutesArr = [...allRoutes];
 
-subSitemaps.forEach(sm => {
-  const entries = sm.routes.map(r => urlEntry(r));
-  fs.writeFileSync(`src/${sm.name}`, wrapUrlset(entries));
-  console.log(`  ${sm.name.padEnd(30)} ${String(sm.routes.length).padStart(6)} URLs`);
+let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+allRoutesArr.forEach(route => {
+  xml += `  <url>\n    <loc>${baseUrl}${route}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>\n`;
 });
-
-// ═══════════════════════════════════════
-// WRITE SITEMAP INDEX
-// ═══════════════════════════════════════
-
-let indexXml = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-subSitemaps.forEach(sm => {
-  indexXml += `  <sitemap>\n    <loc>${baseUrl}/${sm.name}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </sitemap>\n`;
-});
-indexXml += '</sitemapindex>\n';
-fs.writeFileSync('src/sitemap.xml', indexXml);
+xml += '</urlset>\n';
+fs.writeFileSync('src/sitemap.xml', xml);
 
 // ═══════════════════════════════════════
 // WRITE PRERENDER FILES
 // ═══════════════════════════════════════
 
-const allRoutesArr = [...allRoutes];
 fs.writeFileSync('prerender-routes.txt', allRoutesArr.join('\n'));
 fs.writeFileSync('prerender-routes.json', JSON.stringify(allRoutesArr, null, 2));
 
@@ -273,7 +225,7 @@ fs.writeFileSync('prerender-routes.json', JSON.stringify(allRoutesArr, null, 2))
 // ═══════════════════════════════════════
 
 console.log(`\n${'='.repeat(55)}`);
-console.log(`  KUZEY SAFAK LAZER - MEGA PROGRAMMATIC SEO`);
+console.log(`  KUZEY SAFAK LAZER - SINGLE SITEMAP`);
 console.log(`${'='.repeat(55)}\n`);
 
 let total = 0;
@@ -284,5 +236,5 @@ Object.entries(counts).forEach(([key, val]) => {
 console.log(`  ${'-'.repeat(41)}`);
 console.log(`  ${'TOPLAM (hesaplanan)'.padEnd(35)} ${String(total).padStart(6)}`);
 console.log(`  ${'TOPLAM (dedupe sonrasi)'.padEnd(35)} ${String(allRoutesArr.length).padStart(6)}`);
-console.log(`\n  Sitemap index: ${subSitemaps.length} sub-sitemaps`);
+console.log(`\n  Single sitemap.xml: ${allRoutesArr.length} URLs`);
 console.log(`  Prerender route: ${allRoutesArr.length}\n`);

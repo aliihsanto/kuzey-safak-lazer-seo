@@ -57,14 +57,6 @@ export const SECTORS: Sector[] = [
     icon: 'fas fa-seedling'
   },
   {
-    name: 'Tarım Makineleri',
-    slug: 'tarim-makineleri',
-    applicableServices: ['lazer-kesim', 'kaynakli-imalat', 'cnc-plazma'],
-    description: 'Tarım makineleri sektöründe pulluk, tırmık, römork şasi ve ekipman parçalarının dayanıklı metal işleme ile imalatı gerçekleştirilmektedir.',
-    keywords: ['tarım makinesi imalatı', 'tarım ekipmanı metal parça', 'pulluk imalatı', 'römork şasi kesim', 'tarım makinesi kaynak', 'tarım aleti üretimi'],
-    icon: 'fas fa-tractor'
-  },
-  {
     name: 'Savunma Sanayi',
     slug: 'savunma-sanayi',
     applicableServices: ['lazer-kesim', 'kaynakli-imalat'],
@@ -81,14 +73,6 @@ export const SECTORS: Sector[] = [
     icon: 'fas fa-bolt'
   },
   {
-    name: 'HVAC/İklimlendirme',
-    slug: 'hvac-iklimlendirme',
-    applicableServices: ['lazer-kesim', 'cnc-bukum'],
-    description: 'HVAC ve iklimlendirme sektöründe havalandırma kanalları, klima gövdeleri ve fan kanatlarının sac kesim ve bükme ile seri üretimi yapılmaktadır.',
-    keywords: ['havalandırma kanalı imalatı', 'HVAC metal işleme', 'klima gövde üretimi', 'iklimlendirme sac işleme', 'havalandırma lazer kesim', 'kanal sac bükme'],
-    icon: 'fas fa-wind'
-  },
-  {
     name: 'Aydınlatma',
     slug: 'aydinlatma',
     applicableServices: ['lazer-kesim', 'cnc-bukum'],
@@ -103,22 +87,6 @@ export const SECTORS: Sector[] = [
     description: 'Reklam ve tabela sektöründe kutu harf, totem, yönlendirme tabelası ve dekoratif pano gibi ürünlerin metal kesim ve bükme ile üretimi yapılmaktadır.',
     keywords: ['tabela metal kesim', 'kutu harf imalatı', 'reklam tabelası lazer kesim', 'totem tabela üretimi', 'metal harf kesim', 'yönlendirme tabelası imalatı'],
     icon: 'fas fa-ad'
-  },
-  {
-    name: 'Dekorasyon',
-    slug: 'dekorasyon',
-    applicableServices: ['lazer-kesim', 'cnc-bukum'],
-    description: 'İç ve dış mekan dekorasyon projelerinde metal paravan, lazer kesim pano, dekoratif separatör ve duvar aksesuarlarının üretimi yapılmaktadır.',
-    keywords: ['dekoratif metal kesim', 'lazer kesim dekorasyon', 'metal paravan imalatı', 'dekoratif pano üretimi', 'metal duvar aksesuarı', 'dekoratif separatör'],
-    icon: 'fas fa-palette'
-  },
-  {
-    name: 'Denizcilik',
-    slug: 'denizcilik',
-    applicableServices: ['lazer-kesim', 'kaynakli-imalat'],
-    description: 'Denizcilik sektöründe gemi gövde parçaları, güverte ekipmanları ve deniz araçları bileşenlerinin korozyona dayanıklı metal işleme ile imalatı yapılmaktadır.',
-    keywords: ['gemi metal parça imalatı', 'denizcilik lazer kesim', 'gemi gövde kaynak', 'deniz araçları metal işleme', 'gemi ekipman üretimi', 'denizcilik çelik imalat'],
-    icon: 'fas fa-ship'
   },
   {
     name: 'Medikal',
@@ -167,6 +135,38 @@ export const SECTORS: Sector[] = [
     description: 'Elektrik pano imalat sektöründe otomasyon panoları, dağıtım kutuları ve kumanda panellerinin sac kesim, bükme ve kaynak ile üretimi yapılmaktadır.',
     keywords: ['elektrik pano imalatı', 'otomasyon panosu üretimi', 'pano sac kesim', 'dağıtım panosu imalatı', 'kumanda panosu metal işleme', 'pano kutusu lazer kesim'],
     icon: 'fas fa-plug'
+  },
+  {
+    name: 'Dekorasyon',
+    slug: 'dekorasyon',
+    applicableServices: ['lazer-kesim', 'cnc-bukum'],
+    description: 'Dekorasyon sektöründe metal paravan, seperatör, duvar paneli ve dekoratif metal aksesuarların lazer kesim ve bükme ile üretimi yapılmaktadır.',
+    keywords: ['dekoratif metal kesim', 'metal paravan imalatı', 'dekoratif panel üretimi', 'metal seperatör', 'dekorasyon lazer kesim', 'dekoratif duvar paneli'],
+    icon: 'fas fa-palette'
+  },
+  {
+    name: 'Tarım Makineleri',
+    slug: 'tarim-makineleri',
+    applicableServices: ['lazer-kesim', 'kaynakli-imalat', 'cnc-plazma'],
+    description: 'Tarım makineleri sektöründe pulluk, diskaro, ekim makinesi ve hasat ekipmanı parçalarının dayanıklı metal işleme ile üretimi sağlanmaktadır.',
+    keywords: ['tarım makinesi parça imalatı', 'tarım ekipmanı metal işleme', 'pulluk imalatı', 'tarım makinesi lazer kesim', 'tarım makinesi kaynak', 'tarım ekipmanı üretimi'],
+    icon: 'fas fa-tractor'
+  },
+  {
+    name: 'HVAC / İklimlendirme',
+    slug: 'hvac-iklimlendirme',
+    applicableServices: ['lazer-kesim', 'cnc-bukum'],
+    description: 'HVAC ve iklimlendirme sektöründe havalandırma kanalları, klima montaj parçaları ve ısıtma sistemi bileşenlerinin sac işleme ile üretimi gerçekleştirilmektedir.',
+    keywords: ['havalandırma kanalı imalatı', 'HVAC metal işleme', 'klima parça üretimi', 'iklimlendirme sac işleme', 'havalandırma lazer kesim', 'kanal büküm imalatı'],
+    icon: 'fas fa-wind'
+  },
+  {
+    name: 'Denizcilik',
+    slug: 'denizcilik',
+    applicableServices: ['lazer-kesim', 'kaynakli-imalat'],
+    description: 'Denizcilik sektöründe gemi gövde parçaları, deniz platformu bileşenleri ve liman ekipmanlarının ağır metal işleme ile imalatı yapılmaktadır.',
+    keywords: ['denizcilik metal işleme', 'gemi parça imalatı', 'deniz platformu üretimi', 'denizcilik lazer kesim', 'gemi gövde kaynak', 'liman ekipmanı imalatı'],
+    icon: 'fas fa-ship'
   }
 ];
 

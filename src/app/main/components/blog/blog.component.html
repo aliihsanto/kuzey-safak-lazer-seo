@@ -43,7 +43,8 @@
       <div class="col-lg-8" *ngIf="service">
 
         <div class="srv-content__img">
-          <img [src]="service.topImg" [alt]="(service.contentTitle | translate)" />
+          <img [src]="'assets/images/generated/' + (service.slug === 'kaynakli-imalat' ? 'kaynakli-imalat-hero' : service.slug + '-hero') + '.webp'"
+               [alt]="(service.contentTitle | translate)" />
         </div>
 
         <div class="srv-content__text"

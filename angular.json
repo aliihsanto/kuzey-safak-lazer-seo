@@ -30,15 +30,7 @@
               "src/favicon.png",
               "src/assets",
               "src/robots.txt",
-              "src/sitemap.xml",
-              "src/sitemap-main.xml",
-              "src/sitemap-hizmet.xml",
-              "src/sitemap-urun.xml",
-              "src/sitemap-sektor.xml",
-              "src/sitemap-istanbul.xml",
-              "src/sitemap-marmara-sehir.xml",
-              "src/sitemap-marmara-ilce.xml",
-              "src/sitemap-sektor-bolge.xml"
+              "src/sitemap.xml"
             ],
             "styles": [
               "src/styles.scss"

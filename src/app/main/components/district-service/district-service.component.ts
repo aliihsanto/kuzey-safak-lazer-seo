@@ -13,6 +13,7 @@ import {
   getServiceFaq
 } from 'src/app/shared/data/district-content';
 import { SERVICES } from 'src/app/shared/mock.data';
+import { ADDITIONAL_SERVICES } from 'src/app/shared/data/additional-services';
 
 @Component({
   selector: 'app-district-service',
@@ -121,11 +122,11 @@ export class DistrictServiceComponent implements OnInit, OnDestroy {
       .filter(t => t && t.serviceSlug !== this.template!.serviceSlug);
 
     // Sidebar hizmet linkleri
-    // Aynı ilçedeki diğer hizmetlere yönlendir
-    this.allServiceLinks = SERVICES.map(s => ({
-      label: s.label,
-      link: '/' + s.slug + '/' + districtSlug
-    }));
+    // Aynı ilçedeki diğer hizmetlere yönlendir + ek hizmetler
+    this.allServiceLinks = [
+      ...SERVICES.map(s => ({ label: s.label, link: '/' + s.slug + '/' + districtSlug })),
+      ...ADDITIONAL_SERVICES.slice(0, 6).map(s => ({ label: s.name, link: '/hizmet/' + s.slug }))
+    ];
 
     // FAQ
     this.faqItems = getServiceFaq(serviceSlug);
