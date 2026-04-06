@@ -1,273 +1,488 @@
 // ──────────────────────────────────
-// Product Detail Page Styles
+// Product Page — Full-Width Redesign
 // ──────────────────────────────────
 
-.product-detail {
-  padding: 80px 0 60px;
+// ──────────────────────────────────
+// Hero
+// ──────────────────────────────────
+.product-hero {
+  position: relative;
+  min-height: 340px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(26, 26, 26, 0.7) 0%,
+      rgba(26, 26, 26, 0.92) 100%
+    );
+    z-index: 1;
+  }
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__inner {
+    padding: 80px 0 48px;
+  }
+
+  &__breadcrumb {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0;
+
+    li {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.5);
+
+      a {
+        color: rgba(255, 255, 255, 0.65);
+        text-decoration: none;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+
+      &.current {
+        color: var(--thm-base);
+        font-weight: 600;
+      }
+    }
+
+    .sep {
+      margin: 0 10px;
+      color: rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  &__title {
+    font-family: "Conthrax Sb";
+    font-size: 2.6rem;
+    color: #fff;
+    margin: 0 0 12px;
+    line-height: 1.2;
+  }
+
+  &__subtitle {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+    font-weight: 400;
+  }
 }
 
 // ──────────────────────────────────
-// Section Title
+// Category Navigation Tabs
+// ──────────────────────────────────
+.product-cat-nav {
+  background: #fff;
+  border-bottom: 1px solid #e9ecef;
+  position: sticky;
+  top: 0;
+  z-index: 90;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+
+  &__inner {
+    padding: 16px 0 12px;
+  }
+
+  &__tabs {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 14px;
+  }
+
+  &__tab {
+    font-family: "Conthrax Sb";
+    font-size: 0.82rem;
+    padding: 8px 24px;
+    border: 2px solid #e0e0e0;
+    border-radius: 50px;
+    background: transparent;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+
+    &:hover {
+      border-color: var(--thm-base);
+      color: var(--thm-base);
+    }
+
+    &.active {
+      background: var(--thm-base);
+      border-color: var(--thm-base);
+      color: #fff;
+    }
+  }
+
+  &__products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  &__pill {
+    display: inline-block;
+    padding: 6px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+    background: #f5f5f5;
+    border: 1px solid #e9ecef;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+
+    &:hover {
+      background: rgba(221, 3, 41, 0.06);
+      border-color: rgba(221, 3, 41, 0.2);
+      color: var(--thm-base);
+    }
+
+    &.active {
+      background: var(--thm-black);
+      border-color: var(--thm-black);
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+}
+
+// ──────────────────────────────────
+// Product Page Sections
+// ──────────────────────────────────
+.product-page {
+  padding-bottom: 0;
+}
+
+// ──────────────────────────────────
+// Section Title (shared)
 // ──────────────────────────────────
 .product-section-title {
   font-family: "Conthrax Sb";
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   color: var(--thm-black);
-  margin-bottom: 24px;
-  padding-bottom: 12px;
-  border-bottom: 2px solid #eee;
-  position: relative;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 60px;
-    height: 2px;
+  &__accent {
+    width: 4px;
+    height: 28px;
     background: var(--thm-base);
+    border-radius: 2px;
+    flex-shrink: 0;
   }
 }
 
 // ──────────────────────────────────
-// Spec Table
+// Specs Grid (dark)
 // ──────────────────────────────────
-.product-specs {
-  margin-bottom: 40px;
+.product-specs-section {
+  background: var(--thm-black);
+  padding: 60px 0;
 
-  &__table-wrapper {
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+  .product-section-title {
+    color: #fff;
+
+    &__accent {
+      background: var(--thm-base);
+    }
   }
+}
 
-  &__table {
-    width: 100%;
-    border-collapse: collapse;
-  }
+.product-specs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
 
-  &__label,
-  &__value {
-    padding: 14px 20px;
-    font-size: 15px;
-    line-height: 1.5;
-    border: none;
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 24px;
+    background: #222;
+    transition: background 0.2s ease;
+
+    &:hover {
+      background: #282828;
+    }
+
+    &--alt {
+      background: #1e1e1e;
+
+      &:hover {
+        background: #252525;
+      }
+    }
   }
 
   &__label {
     font-weight: 700;
-    color: var(--thm-black);
-    width: 40%;
-    background: #f8f9fa;
-    border-right: 1px solid #eee;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    flex-shrink: 0;
+    margin-right: 16px;
   }
 
   &__value {
-    color: #444;
-    background: #fff;
-  }
-
-  &__row--alt {
-    .product-specs__label {
-      background: #f0f1f3;
-    }
-
-    .product-specs__value {
-      background: #fafafa;
-    }
-  }
-
-  tr:not(:last-child) {
-    .product-specs__label,
-    .product-specs__value {
-      border-bottom: 1px solid #eee;
-    }
+    font-size: 14px;
+    color: #fff;
+    text-align: right;
+    font-weight: 500;
   }
 }
 
 // ──────────────────────────────────
-// Description
+// About / Nedir
 // ──────────────────────────────────
-.product-description {
-  margin-bottom: 40px;
-
-  &__text {
-    font-size: 15px;
-    line-height: 1.85;
-    color: #555;
-
-    strong {
-      color: var(--thm-black);
-    }
-  }
-}
-
-// ──────────────────────────────────
-// Applicable Services Cards
-// ──────────────────────────────────
-.product-services {
-  margin-bottom: 40px;
-}
-
-.product-service-card {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding: 24px;
+.product-about-section {
+  padding: 64px 0;
   background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+}
+
+.product-about__body {
+  max-width: 860px;
+}
+
+.product-about__text {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #555;
+
+  strong {
+    color: var(--thm-black);
+  }
+}
+
+// ──────────────────────────────────
+// Services — Horizontal Cards
+// ──────────────────────────────────
+.product-services-section {
+  padding: 64px 0;
+  background: #f8f9fa;
+}
+
+.product-services-row {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+
+  // hide scrollbar nicely
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.1) transparent;
+
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+  }
+}
+
+.product-svc-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: 320px;
+  flex: 1 0 auto;
+  padding: 24px 28px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
   text-decoration: none;
-  transition: all 0.25s ease;
   border: 1px solid transparent;
+  transition: all 0.25s ease;
 
   &:hover {
     border-color: var(--thm-base);
-    box-shadow: 0 8px 24px rgba(221, 3, 41, 0.1);
+    box-shadow: 0 8px 32px rgba(221, 3, 41, 0.1);
     transform: translateY(-3px);
 
-    .product-service-card__icon {
+    .product-svc-card__icon {
       background: var(--thm-base);
       color: #fff;
     }
 
-    .product-service-card__link {
+    .product-svc-card__arrow {
       color: var(--thm-base);
+      transform: translateX(4px);
     }
   }
 
   &__icon {
-    width: 48px;
-    height: 48px;
-    border-radius: 10px;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
     background: rgba(221, 3, 41, 0.08);
     color: var(--thm-base);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 20px;
-    margin-bottom: 16px;
+    flex-shrink: 0;
     transition: all 0.25s ease;
+  }
+
+  &__body {
+    flex: 1;
+    min-width: 0;
   }
 
   &__title {
     font-family: "Conthrax Sb";
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: var(--thm-black);
-    margin-bottom: 8px;
+    margin: 0 0 6px;
   }
 
   &__desc {
-    font-size: 13.5px;
-    line-height: 1.6;
-    color: #666;
-    margin-bottom: 12px;
-    flex-grow: 1;
-  }
-
-  &__link {
     font-size: 13px;
-    font-weight: 600;
-    color: var(--thm-black);
-    transition: color 0.25s ease;
-
-    i {
-      margin-left: 4px;
-      font-size: 11px;
-    }
-  }
-}
-
-// ──────────────────────────────────
-// Usage Areas Chips
-// ──────────────────────────────────
-.product-usage {
-  margin-bottom: 40px;
-
-  &__chips {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    line-height: 1.55;
+    color: #777;
+    margin: 0;
   }
 
-  &__chip {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 18px;
-    background: #f8f9fa;
-    border: 1px solid #e9ecef;
-    border-radius: 50px;
+  &__arrow {
+    flex-shrink: 0;
+    color: #ccc;
     font-size: 14px;
-    color: var(--thm-black);
     transition: all 0.25s ease;
-
-    i {
-      color: var(--thm-base);
-      font-size: 13px;
-    }
-
-    &:hover {
-      background: rgba(221, 3, 41, 0.06);
-      border-color: rgba(221, 3, 41, 0.15);
-    }
   }
 }
 
 // ──────────────────────────────────
-// Related Products Grid
+// Usage Area Pills
 // ──────────────────────────────────
-.product-related {
-  margin-bottom: 40px;
+.product-usage-section {
+  padding: 64px 0;
+  background: #fff;
+}
 
-  &__card {
-    display: block;
-    height: 100%;
-    padding: 20px 16px;
-    background: #fff;
-    border: 1px solid #e9ecef;
-    border-radius: 10px;
-    text-decoration: none;
-    transition: all 0.25s ease;
-    text-align: center;
+.product-usage-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
 
-    &:hover {
-      border-color: var(--thm-base);
-      box-shadow: 0 4px 16px rgba(221, 3, 41, 0.08);
-      transform: translateY(-2px);
+.product-usage-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--thm-black);
+  transition: all 0.25s ease;
 
-      .product-related__card-link {
-        color: var(--thm-base);
-      }
+  i {
+    color: var(--thm-base);
+    font-size: 13px;
+  }
+
+  &:hover {
+    background: rgba(221, 3, 41, 0.05);
+    border-color: rgba(221, 3, 41, 0.15);
+    transform: translateY(-1px);
+  }
+}
+
+// ──────────────────────────────────
+// Related Products — 4 column grid
+// ──────────────────────────────────
+.product-related-section {
+  padding: 64px 0;
+  background: #f8f9fa;
+}
+
+.product-related-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.product-related-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  padding: 28px 16px;
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 14px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+
+  &:hover {
+    border-color: var(--thm-base);
+    box-shadow: 0 6px 24px rgba(221, 3, 41, 0.08);
+    transform: translateY(-3px);
+
+    .product-related-card__link {
+      color: var(--thm-base);
     }
   }
 
-  &__card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-  }
-
-  &__card-title {
+  &__title {
     font-family: "Conthrax Sb";
     font-size: 0.85rem;
     color: var(--thm-black);
-    margin-bottom: 4px;
+    margin: 0;
     line-height: 1.4;
   }
 
-  &__card-specs {
+  &__spec {
     font-size: 12px;
-    color: #888;
+    color: #999;
     line-height: 1.4;
   }
 
-  &__card-link {
+  &__link {
     font-size: 12px;
     font-weight: 600;
-    color: #999;
-    margin-top: 6px;
+    color: #bbb;
+    margin-top: 4px;
     transition: color 0.25s ease;
 
     i {
@@ -278,42 +493,56 @@
 }
 
 // ──────────────────────────────────
-// CTA Section
+// CTA Banner (red gradient)
 // ──────────────────────────────────
-.product-cta {
-  margin-top: 10px;
-  margin-bottom: 20px;
+.product-cta-banner {
+  padding: 0;
 
   &__inner {
-    background: var(--thm-black);
-    border-radius: 12px;
-    padding: 40px 36px;
+    background: linear-gradient(135deg, var(--thm-base) 0%, #a30220 60%, var(--thm-black) 100%);
+    border-radius: 0;
+    padding: 56px 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 40px;
     position: relative;
     overflow: hidden;
 
     &::before {
       content: '';
       position: absolute;
-      top: 0;
-      right: 0;
+      top: -60px;
+      right: -60px;
+      width: 260px;
+      height: 260px;
+      background: rgba(255, 255, 255, 0.04);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -80px;
+      left: 20%;
       width: 200px;
-      height: 100%;
-      background: linear-gradient(135deg, transparent 40%, rgba(221, 3, 41, 0.15));
+      height: 200px;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 50%;
       pointer-events: none;
     }
   }
 
   &__content {
     flex: 1;
+    position: relative;
+    z-index: 1;
   }
 
   &__title {
     font-family: "Conthrax Sb";
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     color: #fff;
     margin-bottom: 10px;
     line-height: 1.4;
@@ -321,126 +550,40 @@
 
   &__text {
     font-size: 14px;
-    color: #aaa;
+    color: rgba(255, 255, 255, 0.75);
     line-height: 1.65;
     margin: 0;
+    max-width: 560px;
   }
 
-  &__btn {
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
     flex-shrink: 0;
     position: relative;
     z-index: 1;
   }
-}
 
-// ──────────────────────────────────
-// Sidebar
-// ──────────────────────────────────
-.product-sidebar {
-  position: sticky;
-  top: 120px;
-}
-
-.sidebar-cta {
-  background: var(--thm-black);
-  padding: 30px;
-  border-radius: 8px;
-  margin-top: 20px;
-
-  &__title {
-    font-family: "Conthrax Sb";
-    color: #fff;
-    font-size: 1.1rem;
-    margin-bottom: 12px;
-  }
-
-  &__text {
-    color: #aaa;
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+  &__btn {
+    white-space: nowrap;
   }
 
   &__phone {
-    color: #aaa;
-    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
     font-size: 14px;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    white-space: nowrap;
 
-    a {
+    i {
+      margin-right: 6px;
+    }
+
+    &:hover {
       color: #fff;
-      text-decoration: none;
-      font-weight: 600;
-
-      &:hover {
-        color: var(--thm-base);
-      }
-    }
-  }
-}
-
-.sidebar__single {
-  margin-bottom: 20px;
-}
-
-.sidebar__title {
-  font-family: "Conthrax Sb";
-  font-size: 1rem;
-  color: var(--thm-black);
-  padding: 14px 20px;
-  background: #f8f9fa;
-  border-radius: 8px 8px 0 0;
-  margin-bottom: 0;
-  border-bottom: 2px solid var(--thm-base);
-}
-
-.sidebar__category-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background: #fff;
-  border: 1px solid #e9ecef;
-  border-top: none;
-  border-radius: 0 0 8px 8px;
-  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
-
-  li {
-    border-bottom: 1px solid #f0f0f0;
-
-    &:last-child {
-      border-bottom: none;
-    }
-
-    &.active a {
-      color: var(--thm-base);
-      background: rgba(221, 3, 41, 0.04);
-      font-weight: 600;
-
-      .icon-caret {
-        color: var(--thm-base);
-      }
-    }
-
-    a {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 11px 20px;
-      font-size: 14px;
-      color: #444;
-      text-decoration: none;
-      transition: all 0.2s ease;
-
-      &:hover {
-        color: var(--thm-base);
-        background: rgba(221, 3, 41, 0.02);
-        padding-left: 24px;
-      }
-
-      .icon-caret {
-        font-size: 10px;
-        color: #bbb;
-        transition: color 0.2s ease;
-      }
     }
   }
 }
@@ -448,74 +591,163 @@
 // ──────────────────────────────────
 // Responsive
 // ──────────────────────────────────
+@media (max-width: 1199px) {
+  .product-specs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-related-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media (max-width: 991px) {
-  .product-detail {
-    padding: 50px 0 40px;
+  .product-hero__title {
+    font-size: 2rem;
   }
 
-  .product-sidebar {
-    position: static;
-    margin-top: 40px;
+  .product-hero__inner {
+    padding: 60px 0 36px;
   }
 
-  .product-cta__inner {
+  .product-specs-section,
+  .product-about-section,
+  .product-services-section,
+  .product-usage-section,
+  .product-related-section {
+    padding: 48px 0;
+  }
+
+  .product-cta-banner__inner {
     flex-direction: column;
     text-align: center;
-    padding: 30px 24px;
+    padding: 40px 28px;
   }
 
-  .product-cta__title {
-    font-size: 1.1rem;
+  .product-cta-banner__text {
+    max-width: none;
+  }
+
+  .product-related-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product-svc-card {
+    min-width: 280px;
   }
 }
 
 @media (max-width: 767px) {
+  .product-hero {
+    min-height: 260px;
+  }
+
+  .product-hero__title {
+    font-size: 1.6rem;
+  }
+
+  .product-hero__subtitle {
+    font-size: 0.9rem;
+  }
+
+  .product-hero__inner {
+    padding: 48px 0 28px;
+  }
+
   .product-section-title {
     font-size: 1.15rem;
   }
 
-  .product-specs {
-    &__label,
-    &__value {
-      padding: 10px 14px;
-      font-size: 13.5px;
+  .product-specs-section,
+  .product-about-section,
+  .product-services-section,
+  .product-usage-section,
+  .product-related-section {
+    padding: 36px 0;
+  }
+
+  .product-cat-nav__tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+      display: none;
     }
+  }
 
-    &__label {
-      width: 45%;
+  .product-cat-nav__products {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 4px;
+
+    &::-webkit-scrollbar {
+      display: none;
     }
   }
 
-  .product-service-card {
-    padding: 18px;
+  .product-specs-grid__item {
+    padding: 14px 18px;
   }
 
-  .product-related__card {
-    padding: 14px 10px;
-  }
-
-  .product-related__card-title {
-    font-size: 0.78rem;
-  }
-
-  .product-usage__chip {
-    padding: 8px 14px;
+  .product-specs-grid__label,
+  .product-specs-grid__value {
     font-size: 13px;
   }
 
-  .product-cta__inner {
-    padding: 24px 18px;
+  .product-about__text {
+    font-size: 0.95rem;
   }
 
-  .product-cta__title {
-    font-size: 1rem;
+  .product-svc-card {
+    min-width: 260px;
+    padding: 18px 20px;
+    gap: 14px;
+  }
+
+  .product-usage-pill {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+
+  .product-related-card {
+    padding: 20px 12px;
+  }
+
+  .product-cta-banner__inner {
+    padding: 32px 20px;
+  }
+
+  .product-cta-banner__title {
+    font-size: 1.1rem;
   }
 }
 
 @media (max-width: 575px) {
-  .product-specs {
-    &__label {
-      width: 50%;
-    }
+  .product-hero__title {
+    font-size: 1.35rem;
+  }
+
+  .product-related-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .product-related-card {
+    padding: 16px 10px;
+  }
+
+  .product-related-card__title {
+    font-size: 0.78rem;
+  }
+
+  .product-cat-nav__tab {
+    font-size: 0.75rem;
+    padding: 6px 18px;
+  }
+
+  .product-cat-nav__pill {
+    font-size: 12px;
+    padding: 5px 12px;
   }
 }

@@ -63,8 +63,9 @@ export class ProductComponent implements OnInit, OnDestroy {
   applicableServiceInfos: ServiceInfo[] = [];
   categoryLabel = '';
   categoryDisplay = '';
+  activeCategory = '';
 
-  categoryNav: { label: string; category: string; products: Product[] }[] = [];
+  categoryNav: { label: string; display: string; category: string; products: Product[] }[] = [];
 
   constructor(
     private route: ActivatedRoute,
@@ -95,6 +96,7 @@ export class ProductComponent implements OnInit, OnDestroy {
     // Kategori bilgileri
     this.categoryLabel = CATEGORY_LABELS[this.product.category] || '';
     this.categoryDisplay = CATEGORY_DISPLAY[this.product.category] || '';
+    this.activeCategory = this.product.category;
 
     // Uygulanabilir hizmetler
     this.applicableServiceInfos = this.product.applicableServices
@@ -105,11 +107,11 @@ export class ProductComponent implements OnInit, OnDestroy {
     this.relatedProducts = PRODUCTS
       .filter(p => p.category === this.product!.category && p.slug !== this.product!.slug);
 
-    // Sidebar kategori navigasyonu
+    // Kategori navigasyonu (horizontal tabs)
     this.categoryNav = [
-      { label: 'Sac \u00C7e\u015Fitleri', category: 'sac', products: PRODUCTS_BY_CATEGORY.sac },
-      { label: 'Profil \u00C7e\u015Fitleri', category: 'profil', products: PRODUCTS_BY_CATEGORY.profil },
-      { label: 'Boru \u00C7e\u015Fitleri', category: 'boru', products: PRODUCTS_BY_CATEGORY.boru }
+      { label: 'Sac \u00C7e\u015Fitleri', display: 'Sac', category: 'sac', products: PRODUCTS_BY_CATEGORY.sac },
+      { label: 'Profil \u00C7e\u015Fitleri', display: 'Profil', category: 'profil', products: PRODUCTS_BY_CATEGORY.profil },
+      { label: 'Boru \u00C7e\u015Fitleri', display: 'Boru', category: 'boru', products: PRODUCTS_BY_CATEGORY.boru }
     ];
 
     // SEO

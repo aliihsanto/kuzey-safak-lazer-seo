@@ -105,6 +105,9 @@
             </div>
           </div>
 
+          <!-- Rich Content -->
+          <div class="sector-main__content" *ngIf="sectorContent" [innerHTML]="sectorContent"></div>
+
           <!-- Service Image -->
           <div class="sector-main__image">
             <img [src]="heroImage"
