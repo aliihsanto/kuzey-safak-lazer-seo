@@ -108,6 +108,21 @@
           <!-- Rich Content -->
           <div class="sector-main__content" *ngIf="sectorContent" [innerHTML]="sectorContent"></div>
 
+          <!-- Sektör × İlçe Bağlantıları -->
+          <div class="sector-main__districts" *ngIf="sector && service">
+            <h3 class="sector-main__section-title">{{ sector.name }} Sektöründe İlçe Bazlı Hizmetler</h3>
+            <div class="sector-main__district-chips">
+              <a [routerLink]="'/sektor/' + sector.slug + '/basaksehir'" class="sector-main__chip">Başakşehir</a>
+              <a [routerLink]="'/sektor/' + sector.slug + '/kadikoy'" class="sector-main__chip">Kadıköy</a>
+              <a [routerLink]="'/sektor/' + sector.slug + '/esenyurt'" class="sector-main__chip">Esenyurt</a>
+              <a [routerLink]="'/sektor/' + sector.slug + '/bagcilar'" class="sector-main__chip">Bağcılar</a>
+              <a [routerLink]="'/sektor/' + sector.slug + '/avcilar'" class="sector-main__chip">Avcılar</a>
+              <a [routerLink]="'/sektor/' + sector.slug + '/umraniye'" class="sector-main__chip">Ümraniye</a>
+              <a [routerLink]="'/sektor/' + sector.slug + '/pendik'" class="sector-main__chip">Pendik</a>
+              <a [routerLink]="'/sektor/' + sector.slug + '/kartal'" class="sector-main__chip">Kartal</a>
+            </div>
+          </div>
+
           <!-- Service Image -->
           <div class="sector-main__image">
             <img [src]="heroImage"

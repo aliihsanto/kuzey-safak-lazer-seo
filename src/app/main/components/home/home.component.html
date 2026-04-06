@@ -379,20 +379,88 @@
       </p>
     </div>
 
-    <div class="ks-locations__chips">
-      <a *ngFor="let city of cities"
-         [routerLink]="'/' + city.slug"
-         class="ks-locations__chip">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-          <circle cx="12" cy="10" r="3"></circle>
-        </svg>
-        {{ city.name }}
-      </a>
+    <!-- Cities with districts -->
+    <div class="ks-locations__grid">
+      <!-- İstanbul -->
+      <div class="ks-locations__city-card">
+        <h3 class="ks-locations__city-name">
+          <i class="fas fa-map-marker-alt"></i> İstanbul
+        </h3>
+        <div class="ks-locations__district-links">
+          <a routerLink="/lazer-kesim/basaksehir">Başakşehir</a>
+          <a routerLink="/lazer-kesim/kadikoy">Kadıköy</a>
+          <a routerLink="/lazer-kesim/esenyurt">Esenyurt</a>
+          <a routerLink="/lazer-kesim/bagcilar">Bağcılar</a>
+          <a routerLink="/lazer-kesim/avcilar">Avcılar</a>
+          <a routerLink="/lazer-kesim/umraniye">Ümraniye</a>
+        </div>
+      </div>
+
+      <!-- Kocaeli -->
+      <div class="ks-locations__city-card">
+        <h3 class="ks-locations__city-name">
+          <i class="fas fa-map-marker-alt"></i> Kocaeli
+        </h3>
+        <div class="ks-locations__district-links">
+          <a routerLink="/lazer-kesim-kocaeli">Tümü</a>
+          <a routerLink="/lazer-kesim/kocaeli/gebze">Gebze</a>
+          <a routerLink="/lazer-kesim/kocaeli/izmit">İzmit</a>
+          <a routerLink="/lazer-kesim/kocaeli/darica">Darıca</a>
+        </div>
+      </div>
+
+      <!-- Bursa -->
+      <div class="ks-locations__city-card">
+        <h3 class="ks-locations__city-name">
+          <i class="fas fa-map-marker-alt"></i> Bursa
+        </h3>
+        <div class="ks-locations__district-links">
+          <a routerLink="/lazer-kesim-bursa">Tümü</a>
+          <a routerLink="/lazer-kesim/bursa/nilufer">Nilüfer</a>
+          <a routerLink="/lazer-kesim/bursa/osmangazi">Osmangazi</a>
+          <a routerLink="/lazer-kesim/bursa/inegol">İnegöl</a>
+        </div>
+      </div>
+
+      <!-- Tekirdağ -->
+      <div class="ks-locations__city-card">
+        <h3 class="ks-locations__city-name">
+          <i class="fas fa-map-marker-alt"></i> Tekirdağ
+        </h3>
+        <div class="ks-locations__district-links">
+          <a routerLink="/lazer-kesim-tekirdag">Tümü</a>
+          <a routerLink="/lazer-kesim/tekirdag/corlu">Çorlu</a>
+          <a routerLink="/lazer-kesim/tekirdag/cerkezkoy">Çerkezköy</a>
+        </div>
+      </div>
+
+      <!-- Sakarya -->
+      <div class="ks-locations__city-card">
+        <h3 class="ks-locations__city-name">
+          <i class="fas fa-map-marker-alt"></i> Sakarya
+        </h3>
+        <div class="ks-locations__district-links">
+          <a routerLink="/lazer-kesim-sakarya">Tümü</a>
+          <a routerLink="/lazer-kesim/sakarya/adapazari">Adapazarı</a>
+          <a routerLink="/lazer-kesim/sakarya/serdivan">Serdivan</a>
+        </div>
+      </div>
+
+      <!-- Edirne -->
+      <div class="ks-locations__city-card">
+        <h3 class="ks-locations__city-name">
+          <i class="fas fa-map-marker-alt"></i> Edirne
+        </h3>
+        <div class="ks-locations__district-links">
+          <a routerLink="/lazer-kesim-edirne">Tümü</a>
+          <a routerLink="/lazer-kesim/edirne/kesan">Keşan</a>
+          <a routerLink="/lazer-kesim/edirne/uzunkopru">Uzunköprü</a>
+        </div>
+      </div>
     </div>
-    <p style="text-align: center; margin-top: 1.5rem; color: rgba(255,255,255,0.7); font-size: 0.95rem;">
-      Yurt dışı projeler için de hizmet vermekteyiz. Detaylı bilgi için iletişime geçin.
+
+    <p style="text-align: center; margin-top: 2rem; color: #888; font-size: 0.9rem;">
+      Yukarıdaki bölgeler başlıca hizmet noktalarımızdır. Türkiye'nin her noktasına ve yurt dışı projelere de hizmet vermekteyiz.
     </p>
   </div>
 </section>
