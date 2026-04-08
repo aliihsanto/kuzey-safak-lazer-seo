@@ -11,7 +11,7 @@ export const ANALYTICS_CONFIG = {
   searchConsoleVerification: '', // meta tag content değeri
 
   // Site bilgileri
-  siteUrl: 'https://safaklazer.com.tr',
+  siteUrl: 'https://hemenlazerkesim.com',
   siteName: 'Kuzey Şafak Lazer',
 };
 

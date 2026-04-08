@@ -130,7 +130,7 @@ export class BlogComponent implements OnInit, OnDestroy {
         this.seo.update({
           title: seoData.title,
           description: seoData.description,
-          canonical: 'https://safaklazer.com.tr/hizmetler/' + slug,
+          canonical: 'https://hemenlazerkesim.com/hizmetler/' + slug,
           ogImage: related?.topImg
         });
 
@@ -141,7 +141,7 @@ export class BlogComponent implements OnInit, OnDestroy {
             '@type': 'Service',
             'name': serviceName,
             'description': seoData.description,
-            'url': 'https://safaklazer.com.tr/hizmetler/' + slug,
+            'url': 'https://hemenlazerkesim.com/hizmetler/' + slug,
             'provider': {
               '@type': 'LocalBusiness',
               'name': 'Kuzey Şafak Lazer',
@@ -160,9 +160,9 @@ export class BlogComponent implements OnInit, OnDestroy {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             'itemListElement': [
-              { '@type': 'ListItem', 'position': 1, 'name': 'Ana Sayfa', 'item': 'https://safaklazer.com.tr/' },
-              { '@type': 'ListItem', 'position': 2, 'name': 'Hizmetlerimiz', 'item': 'https://safaklazer.com.tr/hizmetler/lazer-kesim' },
-              { '@type': 'ListItem', 'position': 3, 'name': serviceName, 'item': 'https://safaklazer.com.tr/hizmetler/' + slug }
+              { '@type': 'ListItem', 'position': 1, 'name': 'Ana Sayfa', 'item': 'https://hemenlazerkesim.com/' },
+              { '@type': 'ListItem', 'position': 2, 'name': 'Hizmetlerimiz', 'item': 'https://hemenlazerkesim.com/hizmetler/lazer-kesim' },
+              { '@type': 'ListItem', 'position': 3, 'name': serviceName, 'item': 'https://hemenlazerkesim.com/hizmetler/' + slug }
             ]
           }
         ]);

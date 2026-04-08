@@ -165,7 +165,7 @@ export class CityServiceComponent implements OnInit, OnDestroy {
     // SEO
     const title = `${this.city.name} ${this.serviceName} Hizmeti | Kuzey Şafak Lazer`;
     const description = `${this.city.name} ve çevresine profesyonel ${this.serviceName.toLowerCase()} hizmeti. İkitelli OSB'den ${this.city.distanceKm} km mesafede, ${this.city.industrialZones.length} sanayi bölgesine hizmet. Kuzey Şafak Lazer.`;
-    const canonical = `https://safaklazer.com.tr/${this.combinedSlug}`;
+    const canonical = `https://hemenlazerkesim.com/${this.combinedSlug}`;
 
     this.seo.update({ title, description, canonical });
 
@@ -202,13 +202,13 @@ export class CityServiceComponent implements OnInit, OnDestroy {
             '@type': 'ListItem',
             'position': 1,
             'name': 'Ana Sayfa',
-            'item': 'https://safaklazer.com.tr/'
+            'item': 'https://hemenlazerkesim.com/'
           },
           {
             '@type': 'ListItem',
             'position': 2,
             'name': this.serviceName,
-            'item': `https://safaklazer.com.tr/hizmetler/${this.service.slug}`
+            'item': `https://hemenlazerkesim.com/hizmetler/${this.service.slug}`
           },
           {
             '@type': 'ListItem',

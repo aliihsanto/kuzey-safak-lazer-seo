@@ -269,7 +269,7 @@ export class SectorServiceComponent implements OnInit, OnDestroy {
     const locSuffix = this.isLocationPage ? ` ${this.locationName}` : '';
     const title = `${this.sector.name}${locSuffix} ${this.serviceName} Hizmeti | Kuzey Şafak Lazer`;
     const description = `${this.sector.name} sektörüne özel${locSuffix} ${this.serviceName.toLowerCase()} hizmeti. ${this.sector.description} Kuzey Şafak Lazer - İkitelli OSB.`;
-    const canonical = `https://safaklazer.com.tr/sektor/${this.combinedSlug}`;
+    const canonical = `https://hemenlazerkesim.com/sektor/${this.combinedSlug}`;
 
     this.seo.update({ title, description, canonical });
 
@@ -307,13 +307,13 @@ export class SectorServiceComponent implements OnInit, OnDestroy {
             '@type': 'ListItem',
             'position': 1,
             'name': 'Ana Sayfa',
-            'item': 'https://safaklazer.com.tr/'
+            'item': 'https://hemenlazerkesim.com/'
           },
           {
             '@type': 'ListItem',
             'position': 2,
             'name': this.serviceName,
-            'item': `https://safaklazer.com.tr/hizmetler/${this.service.slug}`
+            'item': `https://hemenlazerkesim.com/hizmetler/${this.service.slug}`
           },
           {
             '@type': 'ListItem',

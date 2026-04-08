@@ -139,7 +139,7 @@ export class DistrictServiceComponent implements OnInit, OnDestroy {
     this.seo.update({
       title: meta.title,
       description: meta.description,
-      canonical: `https://safaklazer.com.tr/${canonicalPath}`
+      canonical: `https://hemenlazerkesim.com/${canonicalPath}`
     });
 
     this.seo.setJsonLd([
@@ -148,7 +148,7 @@ export class DistrictServiceComponent implements OnInit, OnDestroy {
         '@type': 'Service',
         'name': `${this.district.name} ${this.template.serviceName}`,
         'description': meta.description,
-        'url': `https://safaklazer.com.tr/${canonicalPath}`,
+        'url': `https://hemenlazerkesim.com/${canonicalPath}`,
         'provider': {
           '@type': 'LocalBusiness',
           'name': 'Kuzey Şafak Lazer',
@@ -170,9 +170,9 @@ export class DistrictServiceComponent implements OnInit, OnDestroy {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         'itemListElement': [
-          { '@type': 'ListItem', 'position': 1, 'name': 'Ana Sayfa', 'item': 'https://safaklazer.com.tr/' },
-          { '@type': 'ListItem', 'position': 2, 'name': this.template.serviceName, 'item': `https://safaklazer.com.tr/hizmetler/${serviceSlug}` },
-          { '@type': 'ListItem', 'position': 3, 'name': `${this.district.name} ${this.template.serviceName}`, 'item': `https://safaklazer.com.tr/${canonicalPath}` }
+          { '@type': 'ListItem', 'position': 1, 'name': 'Ana Sayfa', 'item': 'https://hemenlazerkesim.com/' },
+          { '@type': 'ListItem', 'position': 2, 'name': this.template.serviceName, 'item': `https://hemenlazerkesim.com/hizmetler/${serviceSlug}` },
+          { '@type': 'ListItem', 'position': 3, 'name': `${this.district.name} ${this.template.serviceName}`, 'item': `https://hemenlazerkesim.com/${canonicalPath}` }
         ]
       }
     ]);

@@ -13,7 +13,7 @@ export interface SeoData {
   providedIn: 'root'
 })
 export class SeoService {
-  private baseUrl = 'https://safaklazer.com.tr';
+  private baseUrl = 'https://hemenlazerkesim.com';
   private defaultImage = '/assets/images/resources/kuzey-safak-logo.webp';
 
   constructor(

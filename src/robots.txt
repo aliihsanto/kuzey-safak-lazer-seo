@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /assets/vendors/
-Sitemap: https://safaklazer.com.tr/sitemap.xml
+Sitemap: https://hemenlazerkesim.com/sitemap.xml

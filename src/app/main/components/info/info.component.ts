@@ -69,7 +69,7 @@ export class InfoComponent implements OnInit, OnDestroy {
     this.seo.update({
       title: this.page.title,
       description: this.page.metaDesc,
-      canonical: `https://safaklazer.com.tr/bilgi/${slug}`
+      canonical: `https://hemenlazerkesim.com/bilgi/${slug}`
     });
 
     // JSON-LD structured data
@@ -79,23 +79,23 @@ export class InfoComponent implements OnInit, OnDestroy {
         '@type': 'Article',
         'headline': this.page.h1,
         'description': this.page.metaDesc,
-        'url': `https://safaklazer.com.tr/bilgi/${slug}`,
+        'url': `https://hemenlazerkesim.com/bilgi/${slug}`,
         'author': {
           '@type': 'Organization',
           'name': 'Kuzey Şafak Lazer',
-          'url': 'https://safaklazer.com.tr'
+          'url': 'https://hemenlazerkesim.com'
         },
         'publisher': {
           '@type': 'Organization',
           'name': 'Kuzey Şafak Lazer',
           'logo': {
             '@type': 'ImageObject',
-            'url': 'https://safaklazer.com.tr/assets/images/resources/kuzey-safak-logo.webp'
+            'url': 'https://hemenlazerkesim.com/assets/images/resources/kuzey-safak-logo.webp'
           }
         },
         'mainEntityOfPage': {
           '@type': 'WebPage',
-          '@id': `https://safaklazer.com.tr/bilgi/${slug}`
+          '@id': `https://hemenlazerkesim.com/bilgi/${slug}`
         }
       },
       ...(this.page.faq.length ? [{
@@ -114,9 +114,9 @@ export class InfoComponent implements OnInit, OnDestroy {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         'itemListElement': [
-          { '@type': 'ListItem', 'position': 1, 'name': 'Ana Sayfa', 'item': 'https://safaklazer.com.tr/' },
-          { '@type': 'ListItem', 'position': 2, 'name': this.getCategoryLabel(), 'item': 'https://safaklazer.com.tr/bilgi' },
-          { '@type': 'ListItem', 'position': 3, 'name': this.page.h1, 'item': `https://safaklazer.com.tr/bilgi/${slug}` }
+          { '@type': 'ListItem', 'position': 1, 'name': 'Ana Sayfa', 'item': 'https://hemenlazerkesim.com/' },
+          { '@type': 'ListItem', 'position': 2, 'name': this.getCategoryLabel(), 'item': 'https://hemenlazerkesim.com/bilgi' },
+          { '@type': 'ListItem', 'position': 3, 'name': this.page.h1, 'item': `https://hemenlazerkesim.com/bilgi/${slug}` }
         ]
       }
     ]);

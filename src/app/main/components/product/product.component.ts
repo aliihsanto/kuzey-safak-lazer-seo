@@ -122,7 +122,7 @@ export class ProductComponent implements OnInit, OnDestroy {
     this.seo.update({
       title: `${this.product.name} | \u00D6zellikleri ve \u0130\u015Fleme Hizmetleri - Kuzey \u015Eafak Lazer`,
       description: desc,
-      canonical: `https://safaklazer.com.tr/urun/${slug}`
+      canonical: `https://hemenlazerkesim.com/urun/${slug}`
     });
 
     this.seo.setJsonLd([
@@ -131,7 +131,7 @@ export class ProductComponent implements OnInit, OnDestroy {
         '@type': 'Product',
         'name': this.product.name,
         'description': this.product.description,
-        'url': `https://safaklazer.com.tr/urun/${slug}`,
+        'url': `https://hemenlazerkesim.com/urun/${slug}`,
         'brand': {
           '@type': 'Organization',
           'name': 'Kuzey \u015Eafak Lazer'
@@ -163,25 +163,25 @@ export class ProductComponent implements OnInit, OnDestroy {
             '@type': 'ListItem',
             'position': 1,
             'name': 'Ana Sayfa',
-            'item': 'https://safaklazer.com.tr/'
+            'item': 'https://hemenlazerkesim.com/'
           },
           {
             '@type': 'ListItem',
             'position': 2,
             'name': '\u00DCr\u00FCnler',
-            'item': 'https://safaklazer.com.tr/urunler'
+            'item': 'https://hemenlazerkesim.com/urunler'
           },
           {
             '@type': 'ListItem',
             'position': 3,
             'name': this.categoryLabel,
-            'item': `https://safaklazer.com.tr/urunler/${this.product.category}`
+            'item': `https://hemenlazerkesim.com/urunler/${this.product.category}`
           },
           {
             '@type': 'ListItem',
             'position': 4,
             'name': this.product.name,
-            'item': `https://safaklazer.com.tr/urun/${slug}`
+            'item': `https://hemenlazerkesim.com/urun/${slug}`
           }
         ]
       }

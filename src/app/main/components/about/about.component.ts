@@ -14,7 +14,7 @@ export class AboutComponent implements OnInit {
     this.seo.update({
       title: 'Hakkımızda | Kuzey Şafak Lazer - Metal İşleme & Lazer Kesim',
       description: 'Kuzey Şafak Lazer, 2010\'dan beri İkitelli OSB\'de ağır sanayi, inşaat ve endüstriyel mutfak ekipmanları imalatına yönelik metal işleme çözümleri sunmaktadır.',
-      canonical: 'https://safaklazer.com.tr/about'
+      canonical: 'https://hemenlazerkesim.com/about'
     });
   }
 

@@ -4,7 +4,7 @@
  */
 
 const fs = require('fs');
-const baseUrl = 'https://safaklazer.com.tr';
+const baseUrl = 'https://hemenlazerkesim.com';
 const lastmod = new Date().toISOString().split('T')[0] + 'T00:00:00Z';
 
 const services = ['lazer-kesim', 'kaynakli-imalat', 'cnc-bukum', 'cnc-plazma'];

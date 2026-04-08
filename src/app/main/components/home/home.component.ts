@@ -189,7 +189,7 @@ export class HomeComponent implements OnInit {
     this.seo.update({
       title: 'Kuzey Şafak Lazer | CNC Lazer Kesim, Büküm, Plazma & Kaynak - İstanbul',
       description: 'Kuzey Şafak Lazer - İkitelli OSB\'de CNC lazer kesim, CNC büküm, CNC plazma kesim ve kaynaklı imalat hizmetleri. 2010\'dan beri kaliteli metal işleme çözümleri.',
-      canonical: 'https://safaklazer.com.tr/'
+      canonical: 'https://hemenlazerkesim.com/'
     });
 
     this.seo.setJsonLd({
@@ -197,9 +197,9 @@ export class HomeComponent implements OnInit {
       '@type': 'LocalBusiness',
       'name': 'Kuzey Safak Lazer',
       'description': 'CNC lazer kesim, CNC bukum, CNC plazma kesim ve kaynakli imalat hizmetleri.',
-      'url': 'https://safaklazer.com.tr',
+      'url': 'https://hemenlazerkesim.com',
       'telephone': '+905550008304',
-      'email': 'info@safaklazer.com.tr',
+      'email': 'info@hemenlazerkesim.com',
       'address': {
         '@type': 'PostalAddress',
         'streetAddress': 'Ikitelli OSB, Metal-Is Sanayi Sitesi 8. Blok No:22-24-26',

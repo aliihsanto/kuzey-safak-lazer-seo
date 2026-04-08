@@ -69,7 +69,7 @@ export class ContactComponent implements OnInit {
     this.seo.update({
       title: 'İletişim | Kuzey Şafak Lazer - İkitelli OSB İstanbul',
       description: 'Kuzey Şafak Lazer iletişim bilgileri. İkitelli OSB, Metal-İş Sanayi Sitesi, Başakşehir/İstanbul. Lazer kesim, CNC büküm ve kaynak hizmetleri için bize ulaşın.',
-      canonical: 'https://safaklazer.com.tr/contact'
+      canonical: 'https://hemenlazerkesim.com/contact'
     });
   }
 
