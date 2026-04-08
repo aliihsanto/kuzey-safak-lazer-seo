@@ -55,35 +55,30 @@
       <!-- Preload hero görseli -->
       <link rel="preload" as="image" href="assets/images/slider/home1-bg.webp">
 
-      <!-- GA4 - TODO: Müşteriden ID alınacak -->
-      <!--
-      <script async src="https://www.googletagmanager.com/gtag/js?id=GA4_MEASUREMENT_ID"></script>
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TR4G4MH3');</script>
+      <!-- End Google Tag Manager -->
+
+      <!-- Google Analytics 4 -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8G0QX6PHR"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'GA4_MEASUREMENT_ID', {
-          'send_page_view': true,
-          'cookie_flags': 'SameSite=None;Secure'
-        });
-
-        document.addEventListener('click', function(e) {
-          var el = e.target.closest('a[href^="tel:"]');
-          if (el) { gtag('event', 'click_phone', { 'event_category': 'contact', 'event_label': el.getAttribute('href') }); }
-        });
-        document.addEventListener('click', function(e) {
-          var el = e.target.closest('a[href^="mailto:"]');
-          if (el) { gtag('event', 'click_email', { 'event_category': 'contact', 'event_label': el.getAttribute('href') }); }
-        });
-        document.addEventListener('click', function(e) {
-          var el = e.target.closest('a[href*="wa.me"], a[href*="whatsapp"]');
-          if (el) { gtag('event', 'click_whatsapp', { 'event_category': 'contact', 'event_label': el.getAttribute('href') }); }
-        });
+        gtag('config', 'G-K8G0QX6PHR');
       </script>
-      -->
 </head>
 
 <body>
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TR4G4MH3"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
 
       <app-root></app-root>
 
