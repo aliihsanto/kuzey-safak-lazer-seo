@@ -1,5 +1,5 @@
 {
-  "buildCommand": "ng build --configuration production",
+  "buildCommand": "npm run generate:sitemap && ng run safak-lazer:prerender",
   "outputDirectory": "dist/safak-lazer/browser",
   "installCommand": "npm install --legacy-peer-deps",
   "rewrites": [
